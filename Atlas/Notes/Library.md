@@ -25,13 +25,13 @@ date: 2025-12-22
 
 
 > [!NOTE]+ 000 - Knowledge Management
-> [[Note-Taking]]
+
 
 > [!Milestone]+ 100 - Personal Management
-> [[🍂Life Map]]
+
 
 > [!Puzzle]+ 200 - Philosophy, Psychology ; Spirituality, Religion
-> [[Philosophy]] | [[Psychology]] 
+
 
 > [!User]+ 300 - Social Sciences
 > 
