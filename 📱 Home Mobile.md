@@ -26,7 +26,6 @@ id: home-mobile-main
 
 [[Obsidian 常用快捷键]]
 
-[[LLM]]
 
 ===
 ## 🧭 导航
