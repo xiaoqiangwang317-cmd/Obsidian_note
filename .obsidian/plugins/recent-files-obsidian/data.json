@@ -5,6 +5,18 @@
       "path": "🏠 Home.md"
     },
     {
+      "basename": "📱 Home Mobile",
+      "path": "📱 Home Mobile.md"
+    },
+    {
+      "basename": "草稿本 ex",
+      "path": "Atlas/Notes/草稿本 ex.md"
+    },
+    {
+      "basename": "草稿本 Draft",
+      "path": "Atlas/Notes/草稿本 Draft.md"
+    },
+    {
       "basename": "Courses",
       "path": "Atlas/Bases/Courses.base"
     },
@@ -117,10 +129,6 @@
       "path": "Atlas/Notes/⚛️ Habits Tracker.md"
     },
     {
-      "basename": "📱 Home Mobile",
-      "path": "📱 Home Mobile.md"
-    },
-    {
       "basename": "banner",
       "path": "x/Attachments/banner.png"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "TEMPLATE-Excalidraw",
       "path": "x/Hidden Templates/TEMPLATE-Excalidraw.md"
-    },
-    {
-      "basename": "📖 关于这个文件夹",
-      "path": "x/Excalidraw/📖 关于这个文件夹.md"
     }
   ],
   "omittedPaths": [],
