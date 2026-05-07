@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
+    },
+    {
       "basename": "TCP连接与断开",
       "path": "Atlas/Notes/TCP连接与断开.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "Projects",
       "path": "Atlas/Bases/Projects.base"
-    },
-    {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
     },
     {
       "basename": "Areas",
@@ -195,10 +195,6 @@
     {
       "basename": "Books in progress",
       "path": "Atlas/Bases/Books in progress.base"
-    },
-    {
-      "basename": "📖 关于这个文件夹",
-      "path": "Atlas/Sources/Books/📖 关于这个文件夹.md"
     }
   ],
   "omittedPaths": [],
