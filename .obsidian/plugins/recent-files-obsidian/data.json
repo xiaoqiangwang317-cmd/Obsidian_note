@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "学习编程",
-      "path": "Efforts/Areas/学习编程.md"
+      "basename": "TCP连接与断开",
+      "path": "Atlas/Notes/TCP连接与断开.md"
     },
     {
-      "basename": "Areas",
-      "path": "Atlas/Bases/Areas.base"
+      "basename": "TCP",
+      "path": "Atlas/Notes/TCP.md"
     },
     {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
+      "basename": "RDMA",
+      "path": "Atlas/Notes/RDMA.md"
     },
     {
-      "basename": "📱 Home Mobile",
-      "path": "📱 Home Mobile.md"
+      "basename": "PCIE",
+      "path": "Atlas/Notes/PCIE.md"
+    },
+    {
+      "basename": "NVLink",
+      "path": "Atlas/Notes/NVLink.md"
+    },
+    {
+      "basename": "NCCL",
+      "path": "Atlas/Notes/NCCL.md"
+    },
+    {
+      "basename": "LLM",
+      "path": "Atlas/Notes/LLM.md"
+    },
+    {
+      "basename": "AI Agent",
+      "path": "Atlas/Notes/AI Agent.md"
+    },
+    {
+      "basename": "Books",
+      "path": "Atlas/Notes/Books.md"
+    },
+    {
+      "basename": "大语言模型",
+      "path": "Atlas/Notes/大语言模型.md"
     },
     {
       "basename": "草稿本 ex",
@@ -25,12 +49,44 @@
       "path": "Atlas/Notes/草稿本 Draft.md"
     },
     {
-      "basename": "Courses",
-      "path": "Atlas/Bases/Courses.base"
+      "basename": "Untitled",
+      "path": "Efforts/Projects/Untitled.md"
+    },
+    {
+      "basename": "Projects",
+      "path": "Atlas/Bases/Projects.base"
+    },
+    {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
+    },
+    {
+      "basename": "Areas",
+      "path": "Atlas/Bases/Areas.base"
+    },
+    {
+      "basename": "🎸吉他",
+      "path": "Efforts/Areas/🎸吉他.md"
+    },
+    {
+      "basename": "⚛️ Habits Tracker",
+      "path": "Atlas/Notes/⚛️ Habits Tracker.md"
+    },
+    {
+      "basename": "💻编程",
+      "path": "Efforts/Areas/💻编程.md"
     },
     {
       "basename": "Efforts",
       "path": "Atlas/Bases/Efforts.base"
+    },
+    {
+      "basename": "📱 Home Mobile",
+      "path": "📱 Home Mobile.md"
+    },
+    {
+      "basename": "Courses",
+      "path": "Atlas/Bases/Courses.base"
     },
     {
       "basename": "Maps",
@@ -49,10 +105,6 @@
       "path": "Atlas/Bases/PDF.base"
     },
     {
-      "basename": "Projects",
-      "path": "Atlas/Bases/Projects.base"
-    },
-    {
       "basename": "RECENTS",
       "path": "Atlas/Bases/RECENTS.base"
     },
@@ -67,14 +119,6 @@
     {
       "basename": "入侵检测系统",
       "path": "Atlas/Notes/入侵检测系统.md"
-    },
-    {
-      "basename": "大语言模型",
-      "path": "Atlas/Notes/大语言模型.md"
-    },
-    {
-      "basename": "NCCL",
-      "path": "Atlas/Notes/NCCL.md"
     },
     {
       "basename": "对抗网络",
@@ -117,20 +161,8 @@
       "path": "Atlas/Bases/Today's Notes.base"
     },
     {
-      "basename": "TCP连接与断开",
-      "path": "Atlas/Notes/TCP连接与断开.md"
-    },
-    {
       "basename": "2026-05-07",
       "path": "Calendar/Daily/2026-05-07.md"
-    },
-    {
-      "basename": "Books",
-      "path": "Atlas/Notes/Books.md"
-    },
-    {
-      "basename": "⚛️ Habits Tracker",
-      "path": "Atlas/Notes/⚛️ Habits Tracker.md"
     },
     {
       "basename": "banner",
@@ -167,38 +199,6 @@
     {
       "basename": "📖 关于这个文件夹",
       "path": "Atlas/Sources/Books/📖 关于这个文件夹.md"
-    },
-    {
-      "basename": "Obsidian 常用快捷键",
-      "path": "Atlas/Notes/Obsidian 常用快捷键.md"
-    },
-    {
-      "basename": "TEMPLATE-Daily",
-      "path": "x/Templates/TEMPLATE-Daily.md"
-    },
-    {
-      "basename": "TEMPLATE-Daily 1",
-      "path": "x/Templates/TEMPLATE-Daily 1.md"
-    },
-    {
-      "basename": "📖 关于这个文件夹",
-      "path": "Calendar/Daily/📖 关于这个文件夹.md"
-    },
-    {
-      "basename": "2026-05-09",
-      "path": "Calendar/Daily/2026-05-09.md"
-    },
-    {
-      "basename": "2026-05-06",
-      "path": "Calendar/Daily/2026-05-06.md"
-    },
-    {
-      "basename": "TEMPLATE-Maps",
-      "path": "x/Hidden Templates/TEMPLATE-Maps.md"
-    },
-    {
-      "basename": "TEMPLATE-Goals",
-      "path": "x/Hidden Templates/TEMPLATE-Goals.md"
     }
   ],
   "omittedPaths": [],
