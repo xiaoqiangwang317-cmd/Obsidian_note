@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
+    },
+    {
+      "basename": "Courses",
+      "path": "Atlas/Bases/Courses.base"
+    },
+    {
+      "basename": "Efforts",
+      "path": "Atlas/Bases/Efforts.base"
+    },
+    {
+      "basename": "Maps",
+      "path": "Atlas/Bases/Maps.base"
+    },
+    {
+      "basename": "Notes",
+      "path": "Atlas/Bases/Notes.base"
+    },
+    {
+      "basename": "On This Day",
+      "path": "Atlas/Bases/On This Day.base"
+    },
+    {
+      "basename": "PDF",
+      "path": "Atlas/Bases/PDF.base"
+    },
+    {
+      "basename": "Projects",
+      "path": "Atlas/Bases/Projects.base"
+    },
+    {
+      "basename": "RECENTS",
+      "path": "Atlas/Bases/RECENTS.base"
+    },
+    {
+      "basename": "Simmering",
+      "path": "Atlas/Bases/Simmering.base"
+    },
+    {
       "basename": "Sleeping",
       "path": "Atlas/Bases/Sleeping.base"
     },
@@ -19,10 +59,6 @@
     {
       "basename": "对抗网络",
       "path": "Atlas/Notes/对抗网络.md"
-    },
-    {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
     },
     {
       "basename": "+",
@@ -53,32 +89,8 @@
       "path": "Atlas/Bases/Clippings.base"
     },
     {
-      "basename": "Courses",
-      "path": "Atlas/Bases/Courses.base"
-    },
-    {
-      "basename": "Efforts",
-      "path": "Atlas/Bases/Efforts.base"
-    },
-    {
       "basename": "IMAGES",
       "path": "Atlas/Bases/IMAGES.base"
-    },
-    {
-      "basename": "Maps",
-      "path": "Atlas/Bases/Maps.base"
-    },
-    {
-      "basename": "Notes",
-      "path": "Atlas/Bases/Notes.base"
-    },
-    {
-      "basename": "PDF",
-      "path": "Atlas/Bases/PDF.base"
-    },
-    {
-      "basename": "Simmering",
-      "path": "Atlas/Bases/Simmering.base"
     },
     {
       "basename": "TEMPLATES",
@@ -95,10 +107,6 @@
     {
       "basename": "2026-05-07",
       "path": "Calendar/Daily/2026-05-07.md"
-    },
-    {
-      "basename": "Projects",
-      "path": "Atlas/Bases/Projects.base"
     },
     {
       "basename": "Books",
@@ -191,14 +199,6 @@
     {
       "basename": "image-1768714728186",
       "path": "x/Attachments/image-1768714728186.webp"
-    },
-    {
-      "basename": "image-1768751979302",
-      "path": "x/Attachments/image-1768751979302.webp"
-    },
-    {
-      "basename": "image-1768885249811",
-      "path": "x/Attachments/image-1768885249811.webp"
     }
   ],
   "omittedPaths": [],
