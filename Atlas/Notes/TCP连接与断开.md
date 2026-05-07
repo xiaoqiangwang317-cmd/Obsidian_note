@@ -1,5 +1,5 @@
 ---
-up: "[TCP](TCP.md)"
+up: "[[TCP]]"
 aliases:
 tags:
   - 计算机网络

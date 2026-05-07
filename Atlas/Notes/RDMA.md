@@ -1,5 +1,5 @@
 ---
-up:
+up: "[[计算机网络]]"
 aliases:
 tags:
   - 深度学习
@@ -14,3 +14,7 @@ date_create: 2026-04-16 10:14
 	- **RoCEv1**：更接近二层以太网内使用
 	- **RoCEv2**：在 **UDP/IP/Ethernet** 上跑，能跨三层网络路由
 3. iWARP：把 RDMA 建在 TCP/IP 上
+
+## 相关笔记
+
+- [[TCP]]
