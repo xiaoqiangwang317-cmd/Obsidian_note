@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "📱 Home Mobile",
-      "path": "📱 Home Mobile.md"
+      "basename": "学习编程",
+      "path": "Efforts/Areas/学习编程.md"
+    },
+    {
+      "basename": "Areas",
+      "path": "Atlas/Bases/Areas.base"
     },
     {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
+    },
+    {
+      "basename": "📱 Home Mobile",
+      "path": "📱 Home Mobile.md"
     },
     {
       "basename": "草稿本 ex",
@@ -83,10 +91,6 @@
     {
       "basename": "Active",
       "path": "Atlas/Bases/Active.base"
-    },
-    {
-      "basename": "Areas",
-      "path": "Atlas/Bases/Areas.base"
     },
     {
       "basename": "ALL",
@@ -195,10 +199,6 @@
     {
       "basename": "TEMPLATE-Goals",
       "path": "x/Hidden Templates/TEMPLATE-Goals.md"
-    },
-    {
-      "basename": "TEMPLATE-Excalidraw",
-      "path": "x/Hidden Templates/TEMPLATE-Excalidraw.md"
     }
   ],
   "omittedPaths": [],
