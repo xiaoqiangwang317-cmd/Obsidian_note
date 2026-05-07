@@ -1,8 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "Areas",
+      "path": "Atlas/Bases/Areas.base"
+    },
+    {
+      "basename": "Books Database",
+      "path": "Atlas/Bases/Books Database.base"
+    },
+    {
+      "basename": "Clippings",
+      "path": "Atlas/Bases/Clippings.base"
+    },
+    {
+      "basename": "Courses",
+      "path": "Atlas/Bases/Courses.base"
+    },
+    {
+      "basename": "Efforts",
+      "path": "Atlas/Bases/Efforts.base"
+    },
+    {
+      "basename": "IMAGES",
+      "path": "Atlas/Bases/IMAGES.base"
+    },
+    {
+      "basename": "Maps",
+      "path": "Atlas/Bases/Maps.base"
+    },
+    {
+      "basename": "Notes",
+      "path": "Atlas/Bases/Notes.base"
+    },
+    {
+      "basename": "PDF",
+      "path": "Atlas/Bases/PDF.base"
+    },
+    {
+      "basename": "Simmering",
+      "path": "Atlas/Bases/Simmering.base"
+    },
+    {
+      "basename": "TEMPLATES",
+      "path": "Atlas/Bases/TEMPLATES.base"
+    },
+    {
+      "basename": "Today's Notes",
+      "path": "Atlas/Bases/Today's Notes.base"
+    },
+    {
+      "basename": "TCP连接与断开",
+      "path": "Atlas/Notes/计算机/TCP连接与断开.md"
+    },
+    {
+      "basename": "2026-05-07",
+      "path": "Calendar/Daily/2026-05-07.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
+    },
+    {
+      "basename": "Projects",
+      "path": "Atlas/Bases/Projects.base"
+    },
+    {
+      "basename": "Books",
+      "path": "Atlas/Notes/Books.md"
     },
     {
       "basename": "⚛️ Habits Tracker",
@@ -33,24 +97,8 @@
       "path": "x/Attachments/长尾效应/file-20260304104523483.png"
     },
     {
-      "basename": "2026-05-07",
-      "path": "Calendar/Daily/2026-05-07.md"
-    },
-    {
       "basename": "2026-W19",
       "path": "Calendar/Weekly/2026-W19.md"
-    },
-    {
-      "basename": "Courses",
-      "path": "Atlas/Bases/Courses.base"
-    },
-    {
-      "basename": "Clippings",
-      "path": "Atlas/Bases/Clippings.base"
-    },
-    {
-      "basename": "Books",
-      "path": "Atlas/Notes/Books.md"
     },
     {
       "basename": "我的团长我的团（上）",
@@ -79,14 +127,6 @@
     {
       "basename": "📖 关于这个文件夹",
       "path": "Calendar/Daily/📖 关于这个文件夹.md"
-    },
-    {
-      "basename": "Efforts",
-      "path": "Atlas/Bases/Efforts.base"
-    },
-    {
-      "basename": "PDF",
-      "path": "Atlas/Bases/PDF.base"
     },
     {
       "basename": "🏝️Islands",
@@ -159,30 +199,6 @@
     {
       "basename": "📄简历与面试",
       "path": "Efforts/Areas/📄简历与面试.md"
-    },
-    {
-      "basename": "🧮算法刷题",
-      "path": "Efforts/Areas/🧮算法刷题.md"
-    },
-    {
-      "basename": "💻八股文",
-      "path": "Efforts/Areas/💻八股文.md"
-    },
-    {
-      "basename": "2026-05-07 1125",
-      "path": "Calendar/Fleeting/2026-05-07 1125.md"
-    },
-    {
-      "basename": "Books Database",
-      "path": "Atlas/Bases/Books Database.base"
-    },
-    {
-      "basename": "Areas",
-      "path": "Atlas/Bases/Areas.base"
-    },
-    {
-      "basename": "Active",
-      "path": "Atlas/Bases/Active.base"
     }
   ],
   "omittedPaths": [],
