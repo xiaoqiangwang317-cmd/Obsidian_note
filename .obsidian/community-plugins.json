@@ -1,6 +1,5 @@
 [
   "buttons",
-  "calendar",
   "obsidian-custom-attachment-location",
   "dataview",
   "obsidian-excalidraw-plugin",
@@ -19,5 +18,6 @@
   "simple-banner",
   "simple-columns",
   "obsidian-style-settings",
-  "templater-obsidian"
+  "templater-obsidian",
+  "calendar"
 ]
