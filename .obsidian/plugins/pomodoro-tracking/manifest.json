@@ -1,0 +1,9 @@
+{
+  "id": "pomodoro-tracking",
+  "name": "Pomodoro Tracking",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Auto-sync pomodoro tracking symbols from estimating and record outcomes in daily notes.",
+  "author": "OpenAI Codex",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - date
+    sort:
+      - property: date
+        direction: DESC

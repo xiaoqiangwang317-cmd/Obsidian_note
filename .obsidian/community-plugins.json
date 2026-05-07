@@ -1,5 +1,14 @@
 [
-  "templater-obsidian",
+  "buttons",
+  "calendar",
+  "obsidian-custom-attachment-location",
+  "dataview",
+  "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "obsidian-custom-attachment-location"
+  "heatmap-tracker",
+  "homepage",
+  "image-converter",
+  "obsidian-latex-suite",
+  "local-backup",
+  "obsidian-mind-map"
 ]

@@ -1,0 +1,41 @@
+.callout[data-callout^="red"] {
+    --callout-color: 184, 33, 50;
+    --callout-icon: lucide-pencil;
+    background-color: rgba(184, 33, 50, 0.2);
+}
+
+.callout[data-callout^="yellow"] {
+    --callout-color: 255, 178, 0;
+    --callout-icon: lucide-pencil;
+    background-color: rgba(255, 178, 0, 0.2);
+}
+
+.callout[data-callout^="blue"] {
+    --callout-color: 121, 215, 190;
+    --callout-icon: lucide-pencil;
+    background-color: rgb(36, 87, 169, 0.2);
+}
+
+.callout[data-callout^="green"] {
+    --callout-color: 128, 157, 60;
+    --callout-icon: lucide-pencil;
+    background-color: rgb(82, 162, 64, 0.2);
+}
+
+.callout[data-callout^="purple"] {
+    --callout-color: 169, 22, 236;
+    --callout-icon: lucide-pencil;
+    background-color: rgba(172, 42, 233, 0.2);
+}
+
+.callout[data-callout^="pink"] {
+    --callout-color: 254, 122, 199;
+    --callout-icon: lucide-pencil;
+    background-color: rgba(254, 122, 199, 0.2);
+}
+
+.callout[data-callout^="grey"] {
+    --callout-color: 136, 136, 136;
+    --callout-icon: lucide-pencil;
+    background-color: rgba(136, 136, 136, 0.2);
+}

@@ -1,0 +1,27 @@
+/* Let table columns grow with content length, including Chinese text. */
+.markdown-rendered table,
+.markdown-source-view.mod-cm6 table,
+.table-view-table,
+.base-view table,
+.base-view-table {
+  min-width: 100%;
+  width: max-content;
+  table-layout: auto !important;
+}
+
+.markdown-rendered th,
+.markdown-rendered td,
+.markdown-source-view.mod-cm6 th,
+.markdown-source-view.mod-cm6 td,
+.table-view-table > thead > tr > th,
+.table-view-table > tbody > tr > td,
+.base-view th,
+.base-view td,
+.base-view-table th,
+.base-view-table td {
+  padding: 6px 10px !important;
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+  overflow-wrap: normal !important;
+  max-width: none !important;
+}

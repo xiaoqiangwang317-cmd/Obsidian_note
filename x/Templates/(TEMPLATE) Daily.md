@@ -1,0 +1,19 @@
+---
+date: <%tp.date.now("YYYY-MM-DD")%>
+cssclasses:
+  - hide-properties
+  - daily
+  <% "- " + tp.date.now("dddd", 0, tp.file.title, "YYYYMMDD").toLowerCase() %>
+---
+# DAILY NOTE
+## <% tp.date.now("dddd, MMMM Do, YYYY", 0, tp.file.title, "YYYYMMDD") %>
+***
+### Journal
+#### TIME
+Customize this template to your liking!
+...
+***
+### Tasks
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Task 3

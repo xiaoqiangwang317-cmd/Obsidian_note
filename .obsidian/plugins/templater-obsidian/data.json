@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "模版",
+  "templates_folder": "x/Templates",
   "templates_pairs": [
     [
       "",
@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "计算机",
-      "template": "模版/基础模版.md"
+      "folder": "/",
+      "template": "x/Templates/TEMPLATE-Notes.md"
     }
   ],
   "enable_file_templates": false,
@@ -28,11 +28,7 @@
   ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
-  "enabled_templates_hotkeys": [
-    ""
-  ],
-  "startup_templates": [
-    ""
-  ],
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [],
   "intellisense_render": 1
 }

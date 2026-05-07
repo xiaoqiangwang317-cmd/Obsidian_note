@@ -1,0 +1,36 @@
+views:
+  - type: cards
+    name: Gallery
+    filters:
+      and:
+        - file.inFolder("Atlas/Sources/Books")
+        - status == "complete"
+    order:
+      - file.basename
+    sort:
+      - property: status
+        direction: DESC
+      - property: date
+        direction: DESC
+    image: note.cover
+    cardSize: 100
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Atlas/Sources/Books")
+        - file.name != "📖 关于这个文件夹"
+    order:
+      - file.name
+      - date
+      - up
+      - rating
+      - status
+    sort:
+      - property: status
+        direction: DESC
+      - property: date
+        direction: DESC
+    columnSize:
+      file.name: 195
+      note.up: 117

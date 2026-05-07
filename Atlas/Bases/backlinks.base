@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: backlinks
+    filters:
+      and:
+        - note["up"].contains(link(this.file.name))
+    sort: []
+  - type: cards
+    name: Card Map
+    filters:
+      and:
+        - note["up"].contains(link(this.file.name))

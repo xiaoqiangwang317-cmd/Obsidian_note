@@ -1,0 +1,36 @@
+filters:
+  or:
+    - file.name.contains(this.file.name)
+    - date.toString().contains(this.file.name)
+    - file.links.contains(this.file)
+properties:
+  file.name:
+    displayName: Entry
+  note.categories:
+    displayName: Categories
+  note.created:
+    displayName: Created
+  note.tags:
+    displayName: Tags
+views:
+  - type: table
+    name: On This Day
+    filters:
+      and:
+        - '!file.inFolder("Calendar/Daily")'
+    order:
+      - file.name
+      - up
+    sort:
+      - property: tags
+        direction: ASC
+      - property: created
+        direction: DESC
+      - property: file.name
+        direction: ASC
+      - property: categories
+        direction: ASC
+    columnSize:
+      file.name: 287
+      note.created: 128
+      note.categories: 119

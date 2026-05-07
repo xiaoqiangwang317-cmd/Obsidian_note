@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Atlas/Notes")
+    order:
+      - file.name
+      - date
+    sort:
+      - property: date
+        direction: DESC

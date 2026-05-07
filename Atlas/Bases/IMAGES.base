@@ -1,0 +1,18 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("x/Attachments")
+        - or:
+            - file.ext == "webp"
+            - file.ext == "png"
+    order:
+      - file.name
+      - file.backlinks
+      - file.ctime
+      - file.size
+    image: file.file
+    imageAspectRatio: 1
+    imageFit: contain
+    cardSize: 80

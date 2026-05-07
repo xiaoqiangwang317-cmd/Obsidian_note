@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Efforts/Areas")
+    order:
+      - file.name
+      - rank
+    sort:
+      - property: rank
+        direction: DESC
+    columnSize:
+      file.name: 296

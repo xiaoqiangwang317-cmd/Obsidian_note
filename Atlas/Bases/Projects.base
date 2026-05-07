@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Efforts/Projects")
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - rank
+    sort:
+      - property: status
+        direction: ASC
+    columnSize:
+      file.name: 220
+      note.status: 150
+      note.rank: 95

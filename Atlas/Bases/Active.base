@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Efforts/Active")
+    order:
+      - file.name
+      - rank
+    sort:
+      - property: rank
+        direction: DESC

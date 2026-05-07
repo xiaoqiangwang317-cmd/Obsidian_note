@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Atlas/Sources/Courses")
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - date
+    sort:
+      - property: date
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 345
+      note.status: 121
