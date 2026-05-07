@@ -1,4 +1,4 @@
-﻿---
+---
 cssclasses:
   - hide-properties
 banner: "[[banner.png]]"
