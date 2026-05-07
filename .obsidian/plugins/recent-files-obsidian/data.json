@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Maps",
-      "path": "Atlas/Notes/Maps.md"
+      "basename": "Library",
+      "path": "Atlas/Notes/Library.md"
     },
     {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
+    },
+    {
+      "basename": "Maps",
+      "path": "Atlas/Notes/Maps.md"
     },
     {
       "basename": "TCP连接与断开",
@@ -195,10 +199,6 @@
     {
       "basename": "我的团长我的团（上）",
       "path": "Atlas/Sources/Books/我的团长我的团（上）.md"
-    },
-    {
-      "basename": "Books in progress",
-      "path": "Atlas/Bases/Books in progress.base"
     }
   ],
   "omittedPaths": [],
