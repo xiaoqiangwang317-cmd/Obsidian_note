@@ -66,3 +66,7 @@ id: home-nav
 
 > [!tip] 习惯追踪
 > [[⚛️ Habits Tracker]]
+
+> [!info] 内容入口
+[[Obsidian 常用快捷键]]
+[[LLM]]

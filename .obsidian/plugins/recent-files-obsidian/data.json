@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "Sleeping",
+      "path": "Atlas/Bases/Sleeping.base"
+    },
+    {
+      "basename": "入侵检测系统",
+      "path": "Atlas/Notes/入侵检测系统.md"
+    },
+    {
+      "basename": "大语言模型",
+      "path": "Atlas/Notes/大语言模型.md"
+    },
+    {
+      "basename": "NCCL",
+      "path": "Atlas/Notes/NCCL.md"
+    },
+    {
+      "basename": "对抗网络",
+      "path": "Atlas/Notes/对抗网络.md"
+    },
+    {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
+    },
+    {
+      "basename": "+",
+      "path": "Atlas/Bases/+.base"
+    },
+    {
+      "basename": "🏝️Islands",
+      "path": "Atlas/Bases/🏝️Islands.base"
+    },
+    {
+      "basename": "Active",
+      "path": "Atlas/Bases/Active.base"
+    },
+    {
       "basename": "Areas",
       "path": "Atlas/Bases/Areas.base"
+    },
+    {
+      "basename": "ALL",
+      "path": "Atlas/Bases/ALL.base"
     },
     {
       "basename": "Books Database",
@@ -50,15 +90,11 @@
     },
     {
       "basename": "TCP连接与断开",
-      "path": "Atlas/Notes/计算机/TCP连接与断开.md"
+      "path": "Atlas/Notes/TCP连接与断开.md"
     },
     {
       "basename": "2026-05-07",
       "path": "Calendar/Daily/2026-05-07.md"
-    },
-    {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
     },
     {
       "basename": "Projects",
@@ -90,7 +126,7 @@
     },
     {
       "basename": "长尾效应",
-      "path": "Atlas/Notes/计算机/长尾效应.md"
+      "path": "Atlas/Notes/长尾效应.md"
     },
     {
       "basename": "file-20260304104523483",
@@ -129,10 +165,6 @@
       "path": "Calendar/Daily/📖 关于这个文件夹.md"
     },
     {
-      "basename": "🏝️Islands",
-      "path": "Atlas/Bases/🏝️Islands.base"
-    },
-    {
       "basename": "2026-05-09",
       "path": "Calendar/Daily/2026-05-09.md"
     },
@@ -167,38 +199,6 @@
     {
       "basename": "image-1768885249811",
       "path": "x/Attachments/image-1768885249811.webp"
-    },
-    {
-      "basename": "image-1769135420061",
-      "path": "x/Attachments/image-1769135420061.webp"
-    },
-    {
-      "basename": "Pasted Image 20260124190456_091",
-      "path": "x/Attachments/Pasted Image 20260124190456_091.png"
-    },
-    {
-      "basename": "image-1766931320971",
-      "path": "x/Attachments/image-1766931320971.webp"
-    },
-    {
-      "basename": "image-1766931373528",
-      "path": "x/Attachments/image-1766931373528.webp"
-    },
-    {
-      "basename": "image-1766933369430",
-      "path": "x/Attachments/image-1766933369430.webp"
-    },
-    {
-      "basename": "image-1769414071585",
-      "path": "x/Attachments/image-1769414071585.webp"
-    },
-    {
-      "basename": "📖 关于这个文件夹",
-      "path": "Efforts/Areas/📖 关于这个文件夹.md"
-    },
-    {
-      "basename": "📄简历与面试",
-      "path": "Efforts/Areas/📄简历与面试.md"
     }
   ],
   "omittedPaths": [],
