@@ -7,7 +7,7 @@ banner_position: "22"
 
 ～
 > [!info]
-> 这个页面是手机上的 Home，保留了桌面版 Home 的主要入口，只是改成了更适合窄屏的排布。
+> 这个页面是手机上的 Home，内容和普通的 Home 没区别，只是改成了更适合窄屏查看的块状排布。
 
 ```columns
 id: home-mobile-buttons
@@ -16,25 +16,45 @@ id: home-mobile-buttons
 ```
 
 ```columns
-id: home-mobile-main
+id: home-mobile-top
 ===
-## ⚡ 快速入口
+## 💪[[Efforts.base|项目]]
 
-[[Books]]
+[[Active.base|Active]]
 
-[[⚛️ Habits Tracker]]
+[[Simmering.base|Simmering]]
 
-[[Obsidian 常用快捷键]]
-
+[[Sleeping.base|Sleeping]]
 
 ===
-## 🧭 导航
-
-[[Areas.base|Areas]]
-
-[[Projects.base|Projects]]
+## 📅[[Calendar.base|日历]]
 
 [[2026]]
 
 [[2026-W19|Journaling]]
 ```
+
+```columns
+id: home-mobile-bottom
+===
+## 📝[[Notes.base|笔记]]
+
+[[Maps]]
+
+[[Library]]
+
+===
+## 📖[[Sources|资源]]
+
+[[Books]]
+
+[[Clippings.base|Clippings]]
+
+[[Games]]
+
+[[Courses.base|Courses]]
+```
+
+> [!grey] [[+.base]] | [[🏝️Islands.base]]
+
+> [!blue] FILES > [[PDF.base]] | [[IMAGES.base]]
