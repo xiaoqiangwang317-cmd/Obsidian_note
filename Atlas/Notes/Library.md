@@ -36,13 +36,13 @@ date: 2025-12-22
 > [!User]+ 300 - Social Sciences
 > 
 > *The study of human society and of individual relationships in and to society.*
-> [[People Map]] |  [[People Map#Prominent People 🌋|Prominent People 🌋]] | Politics | Society | Law | Relationships
+
 
 > [!Keaton]+ 400 - Communications, Language, & Linguistics
-> [[German]]
+
 
 > [!Trees]+ 500 - Natural Sciences
-> [[Math]]
+
 
 > [!Sailboat]+ 600 - Applied Sciences
 >  [[Coding]] | [[Engineering MOC]] | Technology | Medical | [[AI MOC]] | 
