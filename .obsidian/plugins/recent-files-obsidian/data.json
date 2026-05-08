@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "发布订阅模式",
-      "path": "+/发布订阅模式.md"
-    },
-    {
       "basename": "Redis哨兵模式",
       "path": "+/Redis哨兵模式.md"
+    },
+    {
+      "basename": "发布订阅模式",
+      "path": "+/发布订阅模式.md"
     },
     {
       "basename": "Redis-Cluster集群模式",
