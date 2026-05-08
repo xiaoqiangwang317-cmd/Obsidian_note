@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis",
+      "path": "Atlas/Notes/Redis.md"
+    },
+    {
+      "basename": "计算机科学与技术",
+      "path": "Atlas/Notes/计算机科学与技术.md"
+    },
+    {
       "basename": "📚八股文",
       "path": "Efforts/Projects/📚八股文.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "Efforts",
       "path": "Atlas/Bases/Efforts.base"
-    },
-    {
-      "basename": "计算机科学与技术",
-      "path": "Atlas/Notes/计算机科学与技术.md"
     },
     {
       "basename": "计算机网络",
@@ -195,10 +199,6 @@
     {
       "basename": "Today's Notes",
       "path": "Atlas/Bases/Today's Notes.base"
-    },
-    {
-      "basename": "2026-05-07",
-      "path": "Calendar/Daily/2026-05-07.md"
     }
   ],
   "omittedPaths": [],
