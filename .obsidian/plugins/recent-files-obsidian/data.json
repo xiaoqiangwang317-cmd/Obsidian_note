@@ -5,6 +5,10 @@
       "path": "+/Redies主从复制模式.md"
     },
     {
+      "basename": "RDB快照",
+      "path": "+/RDB快照.md"
+    },
+    {
       "basename": "Redis-单个实例模式",
       "path": "+/Redis-单个实例模式.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "AOF",
       "path": "+/AOF.md"
-    },
-    {
-      "basename": "RDB快照",
-      "path": "+/RDB快照.md"
     },
     {
       "basename": "fork()",
