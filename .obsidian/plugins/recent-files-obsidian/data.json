@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "fork()",
-      "path": "+/fork().md"
+      "basename": "AOF",
+      "path": "+/AOF.md"
     },
     {
       "basename": "Redis的架构",
       "path": "Atlas/Notes/Redis的架构.md"
+    },
+    {
+      "basename": "RDB快照",
+      "path": "+/RDB快照.md"
+    },
+    {
+      "basename": "fork()",
+      "path": "+/fork().md"
     },
     {
       "basename": "🏠 Home",
@@ -191,14 +199,6 @@
     {
       "basename": "Sleeping",
       "path": "Atlas/Bases/Sleeping.base"
-    },
-    {
-      "basename": "+",
-      "path": "Atlas/Bases/+.base"
-    },
-    {
-      "basename": "🏝️Islands",
-      "path": "Atlas/Bases/🏝️Islands.base"
     }
   ],
   "omittedPaths": [],
