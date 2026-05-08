@@ -5,6 +5,10 @@
       "path": "Atlas/Notes/Redis的架构.md"
     },
     {
+      "basename": "Redies主从复制模式",
+      "path": "+/Redies主从复制模式.md"
+    },
+    {
       "basename": "AOF重写",
       "path": "+/AOF重写.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "Redis-单个实例模式",
       "path": "+/Redis-单个实例模式.md"
-    },
-    {
-      "basename": "Redies主从复制模式",
-      "path": "+/Redies主从复制模式.md"
     },
     {
       "basename": "Redis哨兵模式",
