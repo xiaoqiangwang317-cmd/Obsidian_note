@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Redis的架构",
-      "path": "Atlas/Notes/Redis的架构.md"
-    },
-    {
       "basename": "Redies主从复制模式",
       "path": "+/Redies主从复制模式.md"
+    },
+    {
+      "basename": "Redis的架构",
+      "path": "Atlas/Notes/Redis的架构.md"
     },
     {
       "basename": "AOF重写",
