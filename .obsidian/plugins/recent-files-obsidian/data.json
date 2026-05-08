@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "英语六级",
-      "path": "Efforts/Projects/英语六级.md"
+      "basename": "🎧英语六级",
+      "path": "Efforts/Projects/🎧英语六级.md"
     },
     {
       "basename": "🔥hot100刷题",
@@ -11,6 +11,10 @@
     {
       "basename": "📚八股文",
       "path": "Efforts/Projects/📚八股文.md"
+    },
+    {
+      "basename": "🤝实习投递",
+      "path": "Efforts/Projects/🤝实习投递.md"
     },
     {
       "basename": "Projects",
@@ -195,10 +199,6 @@
     {
       "basename": "2026-05-07",
       "path": "Calendar/Daily/2026-05-07.md"
-    },
-    {
-      "basename": "banner",
-      "path": "x/Attachments/banner.png"
     }
   ],
   "omittedPaths": [],
