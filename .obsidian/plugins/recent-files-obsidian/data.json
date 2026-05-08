@@ -1,28 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Library",
-      "path": "Atlas/Notes/Library.md"
+      "basename": "计算机网络",
+      "path": "Atlas/Notes/计算机网络.md"
+    },
+    {
+      "basename": "对抗网络",
+      "path": "Atlas/Notes/对抗网络.md"
+    },
+    {
+      "basename": "NCCL",
+      "path": "Atlas/Notes/NCCL.md"
+    },
+    {
+      "basename": "系统与硬件",
+      "path": "Atlas/Notes/系统与硬件.md"
+    },
+    {
+      "basename": "入侵检测系统",
+      "path": "Atlas/Notes/入侵检测系统.md"
     },
     {
       "basename": "人工智能",
       "path": "Atlas/Notes/人工智能.md"
     },
     {
-      "basename": "LLM",
-      "path": "Atlas/Notes/LLM.md"
+      "basename": "Books",
+      "path": "Atlas/Notes/Books.md"
     },
     {
-      "basename": "AI Agent",
-      "path": "Atlas/Notes/AI Agent.md"
+      "basename": "Library",
+      "path": "Atlas/Notes/Library.md"
+    },
+    {
+      "basename": "LLM",
+      "path": "Atlas/Notes/LLM.md"
     },
     {
       "basename": "大语言模型",
       "path": "Atlas/Notes/大语言模型.md"
     },
     {
+      "basename": "计算机科学与技术",
+      "path": "Atlas/Notes/计算机科学与技术.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
+    },
+    {
+      "basename": "Efforts",
+      "path": "Atlas/Bases/Efforts.base"
+    },
+    {
+      "basename": "AI Agent",
+      "path": "Atlas/Notes/AI Agent.md"
     },
     {
       "basename": "📱 Home Mobile",
@@ -69,14 +101,6 @@
       "path": "Atlas/Notes/NVLink.md"
     },
     {
-      "basename": "NCCL",
-      "path": "Atlas/Notes/NCCL.md"
-    },
-    {
-      "basename": "Books",
-      "path": "Atlas/Notes/Books.md"
-    },
-    {
       "basename": "草稿本 ex",
       "path": "Atlas/Notes/草稿本 ex.md"
     },
@@ -91,10 +115,6 @@
     {
       "basename": "Areas",
       "path": "Atlas/Bases/Areas.base"
-    },
-    {
-      "basename": "Efforts",
-      "path": "Atlas/Bases/Efforts.base"
     },
     {
       "basename": "Courses",
@@ -127,14 +147,6 @@
     {
       "basename": "Sleeping",
       "path": "Atlas/Bases/Sleeping.base"
-    },
-    {
-      "basename": "入侵检测系统",
-      "path": "Atlas/Notes/入侵检测系统.md"
-    },
-    {
-      "basename": "对抗网络",
-      "path": "Atlas/Notes/对抗网络.md"
     },
     {
       "basename": "+",
@@ -187,14 +199,6 @@
     {
       "basename": "file-20260416102530912",
       "path": "x/Attachments/TCP连接与断开/file-20260416102530912.png"
-    },
-    {
-      "basename": "长尾效应",
-      "path": "Atlas/Notes/长尾效应.md"
-    },
-    {
-      "basename": "file-20260304104523483",
-      "path": "x/Attachments/长尾效应/file-20260304104523483.png"
     }
   ],
   "omittedPaths": [],
