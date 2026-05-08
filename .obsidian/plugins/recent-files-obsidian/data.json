@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "⚛️ Habits Tracker",
-      "path": "Atlas/Notes/⚛️ Habits Tracker.md"
+      "basename": "Library",
+      "path": "Atlas/Notes/Library.md"
+    },
+    {
+      "basename": "人工智能",
+      "path": "Atlas/Notes/人工智能.md"
+    },
+    {
+      "basename": "LLM",
+      "path": "Atlas/Notes/LLM.md"
+    },
+    {
+      "basename": "AI Agent",
+      "path": "Atlas/Notes/AI Agent.md"
+    },
+    {
+      "basename": "大语言模型",
+      "path": "Atlas/Notes/大语言模型.md"
     },
     {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
     {
-      "basename": "Library",
-      "path": "Atlas/Notes/Library.md"
+      "basename": "📱 Home Mobile",
+      "path": "📱 Home Mobile.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Efforts/Projects/Untitled.md"
+    },
+    {
+      "basename": "💻编程",
+      "path": "Efforts/Areas/💻编程.md"
+    },
+    {
+      "basename": "🎸吉他",
+      "path": "Efforts/Areas/🎸吉他.md"
+    },
+    {
+      "basename": "⚛️ Habits Tracker",
+      "path": "Atlas/Notes/⚛️ Habits Tracker.md"
     },
     {
       "basename": "Maps",
@@ -41,20 +73,8 @@
       "path": "Atlas/Notes/NCCL.md"
     },
     {
-      "basename": "LLM",
-      "path": "Atlas/Notes/LLM.md"
-    },
-    {
-      "basename": "AI Agent",
-      "path": "Atlas/Notes/AI Agent.md"
-    },
-    {
       "basename": "Books",
       "path": "Atlas/Notes/Books.md"
-    },
-    {
-      "basename": "大语言模型",
-      "path": "Atlas/Notes/大语言模型.md"
     },
     {
       "basename": "草稿本 ex",
@@ -65,10 +85,6 @@
       "path": "Atlas/Notes/草稿本 Draft.md"
     },
     {
-      "basename": "Untitled",
-      "path": "Efforts/Projects/Untitled.md"
-    },
-    {
       "basename": "Projects",
       "path": "Atlas/Bases/Projects.base"
     },
@@ -77,20 +93,8 @@
       "path": "Atlas/Bases/Areas.base"
     },
     {
-      "basename": "🎸吉他",
-      "path": "Efforts/Areas/🎸吉他.md"
-    },
-    {
-      "basename": "💻编程",
-      "path": "Efforts/Areas/💻编程.md"
-    },
-    {
       "basename": "Efforts",
       "path": "Atlas/Bases/Efforts.base"
-    },
-    {
-      "basename": "📱 Home Mobile",
-      "path": "📱 Home Mobile.md"
     },
     {
       "basename": "Courses",
@@ -191,14 +195,6 @@
     {
       "basename": "file-20260304104523483",
       "path": "x/Attachments/长尾效应/file-20260304104523483.png"
-    },
-    {
-      "basename": "2026-W19",
-      "path": "Calendar/Weekly/2026-W19.md"
-    },
-    {
-      "basename": "我的团长我的团（上）",
-      "path": "Atlas/Sources/Books/我的团长我的团（上）.md"
     }
   ],
   "omittedPaths": [],

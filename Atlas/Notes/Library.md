@@ -6,24 +6,11 @@ date: 2025-12-22
 ---
 
 > [!red]
-> 这里是知识图书馆的总入口。
-> 不再直接罗列具体笔记，而是先进入领域，再进入子领域，最后进入每一条具体笔记。
-
-```columns
-id: library-entry
-===
-## 💻 [[编程]]
-
-人工智能、计算机网络、系统与硬件等技术主题。
-
-===
-## 🧠 [[知识管理]]
-
-Obsidian、笔记方法与知识库工作流。
-```
+> 这里是知识图书馆
+> 通过一个类似图书馆的分类法，分类自己的知识。
 
 > [!yellow]- The LYT Classification System
-> 这套分类依然可以作为以后继续扩展知识库时的参考。
+> The **LYT Classification System** is lightly modified from the Cutter, Dewey, and Universal Decimal classification systems used in libraries around the world. It will provide you a time-tested foundation as you structure the interests of your digital library.
 > - 000 - *Knowledge Management*
 > - 100 - *Personal Management*
 > - 200 - *Philosophy & Psychology; Spirituality & Religion*
@@ -34,3 +21,35 @@ Obsidian、笔记方法与知识库工作流。
 > - 700 - *Art & Recreation*
 > - 800 - *Literature*
 > - 900 - *History & Biography & Geography*
+
+> [!NOTE]+ 000 - Knowledge Management
+> [[知识管理]]
+
+> [!Milestone]+ 100 - Personal Management
+> [[🍂Life Map]]
+
+> [!Puzzle]+ 200 - Philosophy, Psychology ; Spirituality, Religion
+> [[Philosophy]] | [[Psychology]]
+
+> [!User]+ 300 - Social Sciences
+>
+> *The study of human society and of individual relationships in and to society.*
+> [[People Map]] | [[People Map#Prominent People 🌋|Prominent People 🌋]] | Politics | Society | Law | Relationships
+
+> [!Keaton]+ 400 - Communications, Language, & Linguistics
+> [[German]]
+
+> [!Trees]+ 500 - Natural Sciences
+> [[Math]]
+
+> [!Sailboat]+ 600 - Applied Sciences
+> [[计算机科学与技术]] | [[Engineering MOC]] | Technology | Medical | [[AI MOC]]
+
+> [!Play]+ 700 - Art & Recreation
+> [[Movies]] | [[📹摄影]]
+
+> [!Venetian]+ 800 - Literature
+> [[Literature MOC]]
+
+> [!Fingerprint]+ 900 - History & Biography & Geography
+> [[History MOC]] | [[Places MOC]]
