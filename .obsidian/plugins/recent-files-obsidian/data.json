@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "AOF重写",
-      "path": "+/AOF重写.md"
-    },
-    {
       "basename": "Redis的架构",
       "path": "Atlas/Notes/Redis的架构.md"
+    },
+    {
+      "basename": "AOF重写",
+      "path": "+/AOF重写.md"
     },
     {
       "basename": "AOF",
