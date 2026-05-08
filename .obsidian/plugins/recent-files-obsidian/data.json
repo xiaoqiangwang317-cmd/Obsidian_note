@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "内存数据库",
+      "path": "Atlas/Notes/内存数据库.md"
+    },
+    {
       "basename": "Redis",
       "path": "Atlas/Notes/Redis.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "TEMPLATES",
       "path": "Atlas/Bases/TEMPLATES.base"
-    },
-    {
-      "basename": "Today's Notes",
-      "path": "Atlas/Bases/Today's Notes.base"
     }
   ],
   "omittedPaths": [],
