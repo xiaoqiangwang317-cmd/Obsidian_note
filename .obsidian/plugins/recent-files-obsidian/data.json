@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Redis-单个实例模式",
-      "path": "+/Redis-单个实例模式.md"
-    },
-    {
       "basename": "Redis的架构",
       "path": "Atlas/Notes/Redis的架构.md"
+    },
+    {
+      "basename": "Redis-单个实例模式",
+      "path": "+/Redis-单个实例模式.md"
     },
     {
       "basename": "Redies主从复制模式",
