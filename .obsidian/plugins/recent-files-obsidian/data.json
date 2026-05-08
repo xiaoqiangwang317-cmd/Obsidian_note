@@ -5,12 +5,12 @@
       "path": "Atlas/Notes/Redis.md"
     },
     {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
-    },
-    {
       "basename": "内存数据库",
       "path": "Atlas/Notes/内存数据库.md"
+    },
+    {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
     },
     {
       "basename": "计算机科学与技术",
