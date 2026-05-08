@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "发布订阅模式",
+      "path": "+/发布订阅模式.md"
+    },
+    {
       "basename": "Redis哨兵模式",
       "path": "+/Redis哨兵模式.md"
+    },
+    {
+      "basename": "Redis-Cluster集群模式",
+      "path": "+/Redis-Cluster集群模式.md"
     },
     {
       "basename": "callout example",
@@ -47,10 +55,6 @@
     {
       "basename": "Library",
       "path": "Atlas/Notes/Library.md"
-    },
-    {
-      "basename": "Redis-Cluster集群模式",
-      "path": "+/Redis-Cluster集群模式.md"
     },
     {
       "basename": "Redis",
@@ -195,10 +199,6 @@
     {
       "basename": "On This Day",
       "path": "Atlas/Bases/On This Day.base"
-    },
-    {
-      "basename": "PDF",
-      "path": "Atlas/Bases/PDF.base"
     }
   ],
   "omittedPaths": [],
