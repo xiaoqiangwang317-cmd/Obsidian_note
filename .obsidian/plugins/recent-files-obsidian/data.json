@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "AOF",
-      "path": "+/AOF.md"
+      "basename": "AOF重写",
+      "path": "+/AOF重写.md"
     },
     {
       "basename": "Redis的架构",
       "path": "Atlas/Notes/Redis的架构.md"
+    },
+    {
+      "basename": "AOF",
+      "path": "+/AOF.md"
     },
     {
       "basename": "RDB快照",
@@ -195,10 +199,6 @@
     {
       "basename": "Simmering",
       "path": "Atlas/Bases/Simmering.base"
-    },
-    {
-      "basename": "Sleeping",
-      "path": "Atlas/Bases/Sleeping.base"
     }
   ],
   "omittedPaths": [],
