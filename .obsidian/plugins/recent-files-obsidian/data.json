@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis哨兵模式",
+      "path": "+/Redis哨兵模式.md"
+    },
+    {
       "basename": "Redies主从复制模式",
       "path": "+/Redies主从复制模式.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "Library",
       "path": "Atlas/Notes/Library.md"
-    },
-    {
-      "basename": "Redis哨兵模式",
-      "path": "+/Redis哨兵模式.md"
     },
     {
       "basename": "Redis-Cluster集群模式",
