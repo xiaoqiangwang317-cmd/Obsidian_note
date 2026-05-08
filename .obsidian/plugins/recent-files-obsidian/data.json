@@ -5,12 +5,20 @@
       "path": "+/Redies主从复制模式.md"
     },
     {
-      "basename": "Redis的架构",
-      "path": "Atlas/Notes/Redis的架构.md"
+      "basename": "Redis-单个实例模式",
+      "path": "+/Redis-单个实例模式.md"
     },
     {
       "basename": "AOF重写",
       "path": "+/AOF重写.md"
+    },
+    {
+      "basename": "callout example",
+      "path": "x/callout example.md"
+    },
+    {
+      "basename": "Redis的架构",
+      "path": "Atlas/Notes/Redis的架构.md"
     },
     {
       "basename": "AOF",
@@ -31,10 +39,6 @@
     {
       "basename": "Library",
       "path": "Atlas/Notes/Library.md"
-    },
-    {
-      "basename": "Redis-单个实例模式",
-      "path": "+/Redis-单个实例模式.md"
     },
     {
       "basename": "Redis哨兵模式",
@@ -195,10 +199,6 @@
     {
       "basename": "RECENTS",
       "path": "Atlas/Bases/RECENTS.base"
-    },
-    {
-      "basename": "Simmering",
-      "path": "Atlas/Bases/Simmering.base"
     }
   ],
   "omittedPaths": [],
