@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "英语六级",
+      "path": "Efforts/Projects/英语六级.md"
+    },
+    {
+      "basename": "🔥hot100刷题",
+      "path": "Efforts/Projects/🔥hot100刷题.md"
+    },
+    {
+      "basename": "📚八股文",
+      "path": "Efforts/Projects/📚八股文.md"
+    },
+    {
+      "basename": "Projects",
+      "path": "Atlas/Bases/Projects.base"
+    },
+    {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
+    },
+    {
+      "basename": "Efforts",
+      "path": "Atlas/Bases/Efforts.base"
+    },
+    {
+      "basename": "计算机科学与技术",
+      "path": "Atlas/Notes/计算机科学与技术.md"
+    },
+    {
       "basename": "计算机网络",
       "path": "Atlas/Notes/计算机网络.md"
     },
@@ -41,28 +69,12 @@
       "path": "Atlas/Notes/大语言模型.md"
     },
     {
-      "basename": "计算机科学与技术",
-      "path": "Atlas/Notes/计算机科学与技术.md"
-    },
-    {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
-    },
-    {
-      "basename": "Efforts",
-      "path": "Atlas/Bases/Efforts.base"
-    },
-    {
       "basename": "AI Agent",
       "path": "Atlas/Notes/AI Agent.md"
     },
     {
       "basename": "📱 Home Mobile",
       "path": "📱 Home Mobile.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Efforts/Projects/Untitled.md"
     },
     {
       "basename": "💻编程",
@@ -107,10 +119,6 @@
     {
       "basename": "草稿本 Draft",
       "path": "Atlas/Notes/草稿本 Draft.md"
-    },
-    {
-      "basename": "Projects",
-      "path": "Atlas/Bases/Projects.base"
     },
     {
       "basename": "Areas",
@@ -191,14 +199,6 @@
     {
       "basename": "banner",
       "path": "x/Attachments/banner.png"
-    },
-    {
-      "basename": "file-20260416102523293",
-      "path": "x/Attachments/TCP连接与断开/file-20260416102523293.png"
-    },
-    {
-      "basename": "file-20260416102530912",
-      "path": "x/Attachments/TCP连接与断开/file-20260416102530912.png"
     }
   ],
   "omittedPaths": [],
