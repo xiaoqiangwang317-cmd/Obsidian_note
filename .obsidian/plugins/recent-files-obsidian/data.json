@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "fork()",
-      "path": "+/fork().md"
-    },
-    {
       "basename": "Redis",
       "path": "Atlas/Notes/Redis.md"
+    },
+    {
+      "basename": "fork()",
+      "path": "+/fork().md"
     },
     {
       "basename": "Redis的架构",
