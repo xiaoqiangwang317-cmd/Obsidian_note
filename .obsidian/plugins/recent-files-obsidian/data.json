@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "🎧英语六级",
+      "path": "Efforts/Projects/🎧英语六级.md"
+    },
+    {
+      "basename": "Redis-Cluster集群模式",
+      "path": "+/Redis-Cluster集群模式.md"
+    },
+    {
+      "basename": "Redis哨兵模式",
+      "path": "+/Redis哨兵模式.md"
+    },
+    {
+      "basename": "Redis的架构",
+      "path": "Atlas/Notes/Redis的架构.md"
+    },
+    {
       "basename": "2026-05-11",
       "path": "Calendar/Daily/2026-05-11.md"
     },
     {
       "basename": "TEMPLATE-Daily",
       "path": "x/Templates/TEMPLATE-Daily.md"
-    },
-    {
-      "basename": "🎧英语六级",
-      "path": "Efforts/Projects/🎧英语六级.md"
     },
     {
       "basename": "⚛️ Habits Tracker",
@@ -45,14 +57,6 @@
       "path": "Calendar/Monthly/2026-05.md"
     },
     {
-      "basename": "Redis-Cluster集群模式",
-      "path": "+/Redis-Cluster集群模式.md"
-    },
-    {
-      "basename": "Redis哨兵模式",
-      "path": "+/Redis哨兵模式.md"
-    },
-    {
       "basename": "发布订阅模式",
       "path": "+/发布订阅模式.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "AOF重写",
       "path": "+/AOF重写.md"
-    },
-    {
-      "basename": "Redis的架构",
-      "path": "Atlas/Notes/Redis的架构.md"
     },
     {
       "basename": "AOF",
