@@ -5,6 +5,10 @@
       "path": "Atlas/Notes/Redis.md"
     },
     {
+      "basename": "内存数据库",
+      "path": "Atlas/Notes/内存数据库.md"
+    },
+    {
       "basename": "fork()",
       "path": "+/fork().md"
     },
@@ -105,10 +109,6 @@
       "path": "Atlas/Notes/Library.md"
     },
     {
-      "basename": "内存数据库",
-      "path": "Atlas/Notes/内存数据库.md"
-    },
-    {
       "basename": "计算机科学与技术",
       "path": "Atlas/Notes/计算机科学与技术.md"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "PCIE",
       "path": "Atlas/Notes/PCIE.md"
-    },
-    {
-      "basename": "NVLink",
-      "path": "Atlas/Notes/NVLink.md"
     }
   ],
   "omittedPaths": [],
