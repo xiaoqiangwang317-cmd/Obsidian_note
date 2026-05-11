@@ -50,7 +50,7 @@ const habits = [
     label: "六级-听力",
     field: "pomodoro",
     colors: ["#ffe08a", "#ffbf69", "#ff8c42", "#d62828"]
-  },
+  }
 ];
 
 function toIntensity(value) {
