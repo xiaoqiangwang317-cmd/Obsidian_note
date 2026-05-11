@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Gossiping 协议",
-      "path": "+/Gossiping 协议.md"
-    },
-    {
       "basename": "Redis-Cluster集群模式",
       "path": "+/Redis-Cluster集群模式.md"
+    },
+    {
+      "basename": "callout example",
+      "path": "x/callout example.md"
+    },
+    {
+      "basename": "Gossiping 协议",
+      "path": "+/Gossiping 协议.md"
     },
     {
       "basename": "Redis哨兵模式",
@@ -19,10 +23,6 @@
     {
       "basename": "checkbox example",
       "path": "x/checkbox example.md"
-    },
-    {
-      "basename": "callout example",
-      "path": "x/callout example.md"
     },
     {
       "basename": "Hashslot（哈希槽）",
