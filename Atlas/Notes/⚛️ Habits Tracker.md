@@ -35,7 +35,22 @@ const habits = [
     label: "🌙 早睡",
     field: "early_sleep",
     colors: ["#bfdbfe", "#93c5fd", "#60a5fa", "#2563eb"]
-  }
+  },
+  {
+    label: "六级-单词",
+    field: "pomodoro",
+    colors: ["#ffe08a", "#ffbf69", "#ff8c42", "#d62828"]
+  },
+  {
+    label: "六级-阅读",
+    field: "pomodoro",
+    colors: ["#ffe08a", "#ffbf69", "#ff8c42", "#d62828"]
+  },
+  {
+    label: "六级-听力",
+    field: "pomodoro",
+    colors: ["#ffe08a", "#ffbf69", "#ff8c42", "#d62828"]
+  },
 ];
 
 function toIntensity(value) {
