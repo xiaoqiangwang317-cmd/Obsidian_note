@@ -5,6 +5,14 @@
       "path": "Atlas/Notes/Redis.md"
     },
     {
+      "basename": "Redis-Hash",
+      "path": "+/Redis-Hash.md"
+    },
+    {
+      "basename": "Redis-List(列表)",
+      "path": "+/Redis-List(列表).md"
+    },
+    {
       "basename": "分布式锁",
       "path": "+/分布式锁.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "TCP",
       "path": "Atlas/Notes/TCP.md"
-    },
-    {
-      "basename": "RDMA",
-      "path": "Atlas/Notes/RDMA.md"
-    },
-    {
-      "basename": "PCIE",
-      "path": "Atlas/Notes/PCIE.md"
     }
   ],
   "omittedPaths": [],
