@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Redis高并发",
-      "path": "+/Redis高并发.md"
+      "basename": "Redis",
+      "path": "Atlas/Notes/Redis.md"
     },
     {
       "basename": "Redis常常作为MySQL的缓存",
       "path": "+/Redis常常作为MySQL的缓存.md"
     },
     {
-      "basename": "Redis高性能",
-      "path": "+/Redis高性能.md"
+      "basename": "Redis高并发",
+      "path": "+/Redis高并发.md"
     },
     {
-      "basename": "Redis",
-      "path": "Atlas/Notes/Redis.md"
+      "basename": "Redis高性能",
+      "path": "+/Redis高性能.md"
     },
     {
       "basename": "Redis-Set",
