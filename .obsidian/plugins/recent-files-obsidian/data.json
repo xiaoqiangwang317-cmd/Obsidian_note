@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis-String",
+      "path": "+/Redis-String.md"
+    },
+    {
       "basename": "Redis数据结构",
       "path": "+/Redis数据结构.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Redis-Zset",
       "path": "+/Redis-Zset.md"
-    },
-    {
-      "basename": "Redis-String",
-      "path": "+/Redis-String.md"
     },
     {
       "basename": "内存数据库",
