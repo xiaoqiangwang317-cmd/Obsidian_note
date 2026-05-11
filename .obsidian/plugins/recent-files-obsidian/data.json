@@ -5,12 +5,16 @@
       "path": "Calendar/Daily/2026-05-11.md"
     },
     {
+      "basename": "2026-W20",
+      "path": "Calendar/Weekly/2026-W20.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
     {
-      "basename": "2026-W20",
-      "path": "Calendar/Weekly/2026-W20.md"
+      "basename": "🎧英语六级",
+      "path": "Efforts/Projects/🎧英语六级.md"
     },
     {
       "basename": "🔥hot100刷题",
@@ -95,10 +99,6 @@
     {
       "basename": "📚八股文",
       "path": "Efforts/Projects/📚八股文.md"
-    },
-    {
-      "basename": "🎧英语六级",
-      "path": "Efforts/Projects/🎧英语六级.md"
     },
     {
       "basename": "🎸吉他",
