@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Redis-String",
-      "path": "+/Redis-String.md"
+      "basename": "2026-05-11",
+      "path": "Calendar/Daily/2026-05-11.md"
+    },
+    {
+      "basename": "🎧英语六级",
+      "path": "Efforts/Projects/🎧英语六级.md"
+    },
+    {
+      "basename": "Redis-List(列表)",
+      "path": "+/Redis-List(列表).md"
     },
     {
       "basename": "Redis数据结构",
       "path": "+/Redis数据结构.md"
+    },
+    {
+      "basename": "Redis-String",
+      "path": "+/Redis-String.md"
     },
     {
       "basename": "TCP",
@@ -53,10 +65,6 @@
       "path": "+/Redis-Hash.md"
     },
     {
-      "basename": "Redis-List(列表)",
-      "path": "+/Redis-List(列表).md"
-    },
-    {
       "basename": "分布式锁",
       "path": "+/分布式锁.md"
     },
@@ -91,14 +99,6 @@
     {
       "basename": "Hashslot（哈希槽）",
       "path": "+/Hashslot（哈希槽）.md"
-    },
-    {
-      "basename": "🎧英语六级",
-      "path": "Efforts/Projects/🎧英语六级.md"
-    },
-    {
-      "basename": "2026-05-11",
-      "path": "Calendar/Daily/2026-05-11.md"
     },
     {
       "basename": "TEMPLATE-Daily",
