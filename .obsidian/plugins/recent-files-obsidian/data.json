@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Redis高性能",
-      "path": "+/Redis高性能.md"
+      "basename": "Redis高并发",
+      "path": "+/Redis高并发.md"
     },
     {
       "basename": "Redis常常作为MySQL的缓存",
       "path": "+/Redis常常作为MySQL的缓存.md"
+    },
+    {
+      "basename": "Redis高性能",
+      "path": "+/Redis高性能.md"
     },
     {
       "basename": "Redis",
@@ -195,10 +199,6 @@
     {
       "basename": "大语言模型",
       "path": "Atlas/Notes/大语言模型.md"
-    },
-    {
-      "basename": "💻编程",
-      "path": "Efforts/Areas/💻编程.md"
     }
   ],
   "omittedPaths": [],
