@@ -5,6 +5,14 @@
       "path": "Efforts/Projects/🎧英语六级.md"
     },
     {
+      "basename": "checkbox example",
+      "path": "x/checkbox example.md"
+    },
+    {
+      "basename": "callout example",
+      "path": "x/callout example.md"
+    },
+    {
       "basename": "2026-05-11",
       "path": "Calendar/Daily/2026-05-11.md"
     },
@@ -43,14 +51,6 @@
     {
       "basename": "发布订阅模式",
       "path": "+/发布订阅模式.md"
-    },
-    {
-      "basename": "callout example",
-      "path": "x/callout example.md"
-    },
-    {
-      "basename": "checkbox example",
-      "path": "x/checkbox example.md"
     },
     {
       "basename": "Redies主从复制模式",
