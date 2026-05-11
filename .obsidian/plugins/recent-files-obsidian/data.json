@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "fork()",
+      "path": "+/fork().md"
+    },
+    {
       "basename": "Redis",
       "path": "Atlas/Notes/Redis.md"
     },
@@ -95,10 +99,6 @@
     {
       "basename": "AOF",
       "path": "+/AOF.md"
-    },
-    {
-      "basename": "fork()",
-      "path": "+/fork().md"
     },
     {
       "basename": "Library",

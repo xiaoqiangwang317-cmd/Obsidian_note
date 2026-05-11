@@ -2,6 +2,8 @@
 up:
   - Linux
 related:
+aliases:
+  - Forking
 date: 2026-05-08
 ---
 是Linux的一个系统调用，作用是复制当前进程创建一个子进程
