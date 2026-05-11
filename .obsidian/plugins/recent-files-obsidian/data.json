@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis数据结构",
+      "path": "+/Redis数据结构.md"
+    },
+    {
       "basename": "Redis",
       "path": "Atlas/Notes/Redis.md"
     },
     {
       "basename": "Redis-Cluster集群模式",
       "path": "+/Redis-Cluster集群模式.md"
-    },
-    {
-      "basename": "Redis数据结构",
-      "path": "+/Redis数据结构.md"
     },
     {
       "basename": "Redis-Zset",
