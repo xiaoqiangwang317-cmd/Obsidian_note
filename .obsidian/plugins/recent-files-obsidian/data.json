@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis高性能",
+      "path": "+/Redis高性能.md"
+    },
+    {
       "basename": "Redis常常作为MySQL的缓存",
       "path": "+/Redis常常作为MySQL的缓存.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "💻编程",
       "path": "Efforts/Areas/💻编程.md"
-    },
-    {
-      "basename": "Maps",
-      "path": "Atlas/Notes/Maps.md"
     }
   ],
   "omittedPaths": [],
