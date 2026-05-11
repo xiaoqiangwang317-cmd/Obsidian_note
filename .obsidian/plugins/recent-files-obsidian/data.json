@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "分布式锁",
+      "path": "+/分布式锁.md"
+    },
+    {
       "basename": "Redis",
       "path": "Atlas/Notes/Redis.md"
     },
