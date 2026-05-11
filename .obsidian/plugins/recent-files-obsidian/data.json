@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis常常作为MySQL的缓存",
+      "path": "+/Redis常常作为MySQL的缓存.md"
+    },
+    {
       "basename": "Redis",
       "path": "Atlas/Notes/Redis.md"
+    },
+    {
+      "basename": "Redis-Set",
+      "path": "+/Redis-Set.md"
     },
     {
       "basename": "Redis-Hash",
@@ -191,14 +199,6 @@
     {
       "basename": "Maps",
       "path": "Atlas/Notes/Maps.md"
-    },
-    {
-      "basename": "TCP连接与断开",
-      "path": "Atlas/Notes/TCP连接与断开.md"
-    },
-    {
-      "basename": "TCP",
-      "path": "Atlas/Notes/TCP.md"
     }
   ],
   "omittedPaths": [],
