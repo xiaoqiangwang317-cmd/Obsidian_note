@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-W20",
+      "path": "Calendar/Weekly/2026-W20.md"
+    },
+    {
       "basename": "2026-05-11",
       "path": "Calendar/Daily/2026-05-11.md"
     },
     {
-      "basename": "🎧英语六级",
-      "path": "Efforts/Projects/🎧英语六级.md"
+      "basename": "AOF重写",
+      "path": "+/AOF重写.md"
+    },
+    {
+      "basename": "AOF",
+      "path": "+/AOF.md"
     },
     {
       "basename": "Redis-List(列表)",
       "path": "+/Redis-List(列表).md"
+    },
+    {
+      "basename": "🎧英语六级",
+      "path": "Efforts/Projects/🎧英语六级.md"
     },
     {
       "basename": "Redis数据结构",
@@ -113,10 +125,6 @@
       "path": "🏠 Home.md"
     },
     {
-      "basename": "2026-W20",
-      "path": "Calendar/Weekly/2026-W20.md"
-    },
-    {
       "basename": "🔥hot100刷题",
       "path": "Efforts/Projects/🔥hot100刷题.md"
     },
@@ -143,14 +151,6 @@
     {
       "basename": "Redis-单个实例模式",
       "path": "+/Redis-单个实例模式.md"
-    },
-    {
-      "basename": "AOF重写",
-      "path": "+/AOF重写.md"
-    },
-    {
-      "basename": "AOF",
-      "path": "+/AOF.md"
     },
     {
       "basename": "Library",
