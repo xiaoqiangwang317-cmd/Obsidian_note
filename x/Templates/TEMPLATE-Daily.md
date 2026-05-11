@@ -44,17 +44,17 @@ cssclasses:
 
 操作：`button-pomodoro-sync` `button-pomodoro-done` `button-pomodoro-internal` `button-pomodoro-external` `button-pomodoro-early` `button-pomodoro-mark`
 
-| TaskId | Start time | TO DO | Status | Estimating | Tracking |
-|---|---|---|---|---|---|
+| TaskId | Start time | TO DO       | Status | Estimating | Tracking |
+| ------ | ---------- | ----------- | ------ | ---------- | -------- |
 | 00 | xx:xx | 长期任务-梳理每日任务 | TD | 1 | ① |
 | 00 | xx:xx | 长期任务-复盘每日任务 | TD | 1 | ① |
-| 01 | | | | | |
-| 02 | | | | | |
-| 03 | | | | | |
-| 04 | | | | | |
-| 05 | | | | | |
-| 06 | | | | | |
-| 07 | | | | | |
+| 01     |            |             |        |            |          |
+| 02     |            |             |        |            |          |
+| 03     |            |             |        |            |          |
+| 04     |            |             |        |            |          |
+| 05     |            |             |        |            |          |
+| 06     |            |             |        |            |          |
+| 07     |            |             |        |            |          |
 
 > Status：TD 待开始 ｜ W 进行中 ｜ D 已完成 ｜ C 已取消
 >

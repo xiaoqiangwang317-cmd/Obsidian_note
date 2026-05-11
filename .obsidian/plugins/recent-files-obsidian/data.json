@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "TEMPLATE-Daily",
+      "path": "x/Templates/TEMPLATE-Daily.md"
+    },
+    {
       "basename": "2026-05-11",
       "path": "Calendar/Daily/2026-05-11.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "草稿本 Draft",
       "path": "Atlas/Notes/草稿本 Draft.md"
-    },
-    {
-      "basename": "Areas",
-      "path": "Atlas/Bases/Areas.base"
     }
   ],
   "omittedPaths": [],
