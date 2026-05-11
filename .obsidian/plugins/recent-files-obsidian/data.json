@@ -5,6 +5,10 @@
       "path": "+/Redis-Cluster集群模式.md"
     },
     {
+      "basename": "Hashslot（哈希槽）",
+      "path": "+/Hashslot（哈希槽）.md"
+    },
+    {
       "basename": "🎧英语六级",
       "path": "Efforts/Projects/🎧英语六级.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "草稿本 ex",
       "path": "Atlas/Notes/草稿本 ex.md"
-    },
-    {
-      "basename": "草稿本 Draft",
-      "path": "Atlas/Notes/草稿本 Draft.md"
     }
   ],
   "omittedPaths": [],
