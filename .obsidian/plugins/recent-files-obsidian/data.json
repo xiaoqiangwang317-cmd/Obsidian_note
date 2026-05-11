@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-05-11",
+      "path": "Calendar/Daily/2026-05-11.md"
+    },
+    {
       "basename": "2026-W20",
       "path": "Calendar/Weekly/2026-W20.md"
+    },
+    {
+      "basename": "TEMPLATE-Weekly",
+      "path": "x/Templates/TEMPLATE-Weekly.md"
     },
     {
       "basename": "🏠 Home",
@@ -11,10 +19,6 @@
     {
       "basename": "2026-05",
       "path": "Calendar/Monthly/2026-05.md"
-    },
-    {
-      "basename": "2026-05-11",
-      "path": "Calendar/Daily/2026-05-11.md"
     },
     {
       "basename": "Redis-Cluster集群模式",
@@ -195,10 +199,6 @@
     {
       "basename": "Areas",
       "path": "Atlas/Bases/Areas.base"
-    },
-    {
-      "basename": "Courses",
-      "path": "Atlas/Bases/Courses.base"
     }
   ],
   "omittedPaths": [],
