@@ -5,6 +5,18 @@
       "path": "+/Redis-Cluster集群模式.md"
     },
     {
+      "basename": "📱 Home Mobile",
+      "path": "📱 Home Mobile.md"
+    },
+    {
+      "basename": "checkbox example",
+      "path": "x/checkbox example.md"
+    },
+    {
+      "basename": "callout example",
+      "path": "x/callout example.md"
+    },
+    {
       "basename": "Hashslot（哈希槽）",
       "path": "+/Hashslot（哈希槽）.md"
     },
@@ -35,14 +47,6 @@
     {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
-    },
-    {
-      "basename": "checkbox example",
-      "path": "x/checkbox example.md"
-    },
-    {
-      "basename": "callout example",
-      "path": "x/callout example.md"
     },
     {
       "basename": "2026-W20",
@@ -163,10 +167,6 @@
     {
       "basename": "大语言模型",
       "path": "Atlas/Notes/大语言模型.md"
-    },
-    {
-      "basename": "📱 Home Mobile",
-      "path": "📱 Home Mobile.md"
     },
     {
       "basename": "💻编程",
