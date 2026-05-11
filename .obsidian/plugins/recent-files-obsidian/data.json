@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "TCP连接与断开",
+      "path": "Atlas/Notes/TCP连接与断开.md"
+    },
+    {
+      "basename": "TCP",
+      "path": "Atlas/Notes/TCP.md"
+    },
+    {
       "basename": "Redis-String",
       "path": "+/Redis-String.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "系统与硬件",
       "path": "Atlas/Notes/系统与硬件.md"
-    },
-    {
-      "basename": "入侵检测系统",
-      "path": "Atlas/Notes/入侵检测系统.md"
-    },
-    {
-      "basename": "人工智能",
-      "path": "Atlas/Notes/人工智能.md"
     }
   ],
   "omittedPaths": [],
