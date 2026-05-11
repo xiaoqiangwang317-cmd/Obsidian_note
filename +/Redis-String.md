@@ -18,5 +18,8 @@ date: 2026-05-11
 > 对于java来说先把对象序列化为JSON，再用Set存入Redis
 > - 常规计数、
 > - 分布式锁、
+> SET lock:order uuid123 NX EX 30
+> NX：仅当key不存在时才设置成功
+> EX 30: 30s后过期 
 > - 共享 session 信息
 
