@@ -37,17 +37,17 @@ const habits = [
     colors: ["#bfdbfe", "#93c5fd", "#60a5fa", "#2563eb"]
   },
   {
-    label: "六级-单词",
+    label: "📝 六级-单词",
     field: "cet6_word",
     colors: ["#ffe08a", "#ffbf69", "#ff8c42", "#d62828"]
   },
   {
-    label: "六级-阅读",
+    label: "📖 六级-阅读",
     field: "cet6_reading",
     colors: ["#ffe08a", "#ffbf69", "#ff8c42", "#d62828"]
   },
   {
-    label: "六级-听力",
+    label: "👂六级-听力",
     field: "cet6_listening",
     colors: ["#ffe08a", "#ffbf69", "#ff8c42", "#d62828"]
   }

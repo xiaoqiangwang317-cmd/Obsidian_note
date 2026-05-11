@@ -78,11 +78,12 @@ await dv.view("x/Views/daily-review");
 #### 当日纪要
 - 
 
----
 ### ⚛️ Habits
 #### 学习
 - 🍅 [pomodoro::]
--  [pomodoro::]
+- 📝 六级-单词 [cet6_word::]
+- 📖 六级-阅读 [cet6_reading::]
+- 📝 👂六级-听力[cet6_listening::]
 #### 🥦 Health
 - 💪 [exercise::]
 - 💊 [supplements::]
