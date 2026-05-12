@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "2026-05-11",
-      "path": "Calendar/Daily/2026-05-11.md"
+      "basename": "2026-05-12",
+      "path": "Calendar/Daily/2026-05-12.md"
     },
     {
       "basename": "2026-W20",
       "path": "Calendar/Weekly/2026-W20.md"
+    },
+    {
+      "basename": "2026-05-11",
+      "path": "Calendar/Daily/2026-05-11.md"
+    },
+    {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
     },
     {
       "basename": "AOF重写",
@@ -121,10 +129,6 @@
       "path": "Atlas/Notes/⚛️ Habits Tracker.md"
     },
     {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
-    },
-    {
       "basename": "🔥hot100刷题",
       "path": "Efforts/Projects/🔥hot100刷题.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "NCCL",
       "path": "Atlas/Notes/NCCL.md"
-    },
-    {
-      "basename": "系统与硬件",
-      "path": "Atlas/Notes/系统与硬件.md"
     }
   ],
   "omittedPaths": [],
