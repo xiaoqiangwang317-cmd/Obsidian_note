@@ -5,6 +5,10 @@
       "path": "Calendar/Daily/2026-05-12.md"
     },
     {
+      "basename": "Redis",
+      "path": "Atlas/Notes/Redis.md"
+    },
+    {
       "basename": "2026-W20",
       "path": "Calendar/Weekly/2026-W20.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "TCP连接与断开",
       "path": "Atlas/Notes/TCP连接与断开.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Atlas/Notes/Redis.md"
     },
     {
       "basename": "Redis-Cluster集群模式",
