@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis-Set",
+      "path": "+/Redis-Set.md"
+    },
+    {
+      "basename": "Redis数据结构",
+      "path": "+/Redis数据结构.md"
+    },
+    {
       "basename": "Redis-Hash",
       "path": "+/Redis-Hash.md"
     },
     {
       "basename": "listpack",
       "path": "+/listpack.md"
-    },
-    {
-      "basename": "Redis数据结构",
-      "path": "+/Redis数据结构.md"
     },
     {
       "basename": "Redis-List(列表)",
@@ -127,10 +131,6 @@
     {
       "basename": "Redis高性能",
       "path": "+/Redis高性能.md"
-    },
-    {
-      "basename": "Redis-Set",
-      "path": "+/Redis-Set.md"
     },
     {
       "basename": "分布式锁",
