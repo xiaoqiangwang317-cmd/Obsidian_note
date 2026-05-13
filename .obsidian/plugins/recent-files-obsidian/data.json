@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis-List(列表)",
+      "path": "+/Redis-List(列表).md"
+    },
+    {
+      "basename": "Redis数据结构",
+      "path": "+/Redis数据结构.md"
+    },
+    {
       "basename": "Redis-String",
       "path": "+/Redis-String.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "大语言模型",
       "path": "Atlas/Notes/大语言模型.md"
-    },
-    {
-      "basename": "Redis数据结构",
-      "path": "+/Redis数据结构.md"
     },
     {
       "basename": "Redis",
@@ -55,10 +59,6 @@
     {
       "basename": "AOF",
       "path": "+/AOF.md"
-    },
-    {
-      "basename": "Redis-List(列表)",
-      "path": "+/Redis-List(列表).md"
     },
     {
       "basename": "TCP",

@@ -40,6 +40,6 @@ date: 2026-05-11
 > SET lock:order uuid123 NX EX 30
 > NX：仅当key不存在时才设置成功
 > EX 30: 30s后过期 
-> 在解锁时有两个操作，先判断unique_value
+> 在解锁时有两个操作，先判断unique_value再删除
 > - **共享 session 信息**
 
