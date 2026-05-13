@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "2026-05-12",
-      "path": "Calendar/Daily/2026-05-12.md"
+      "basename": "2026-W20",
+      "path": "Calendar/Weekly/2026-W20.md"
+    },
+    {
+      "basename": "2026-05-13",
+      "path": "Calendar/Daily/2026-05-13.md"
     },
     {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
+    },
+    {
+      "basename": "2026-05-12",
+      "path": "Calendar/Daily/2026-05-12.md"
     },
     {
       "basename": "🎧英语六级",
@@ -19,10 +27,6 @@
     {
       "basename": "Redis",
       "path": "Atlas/Notes/Redis.md"
-    },
-    {
-      "basename": "2026-W20",
-      "path": "Calendar/Weekly/2026-W20.md"
     },
     {
       "basename": "2026-05-11",
@@ -195,10 +199,6 @@
     {
       "basename": "对抗网络",
       "path": "Atlas/Notes/对抗网络.md"
-    },
-    {
-      "basename": "NCCL",
-      "path": "Atlas/Notes/NCCL.md"
     }
   ],
   "omittedPaths": [],
