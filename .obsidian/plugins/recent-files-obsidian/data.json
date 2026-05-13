@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "消费组",
+      "path": "+/消费组.md"
+    },
+    {
       "basename": "Redis-List(列表)",
       "path": "+/Redis-List(列表).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "RDB快照",
       "path": "+/RDB快照.md"
-    },
-    {
-      "basename": "Redis-单个实例模式",
-      "path": "+/Redis-单个实例模式.md"
     }
   ],
   "omittedPaths": [],
