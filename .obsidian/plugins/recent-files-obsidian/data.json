@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Redis-String",
+      "path": "+/Redis-String.md"
+    },
+    {
       "basename": "SDS",
       "path": "+/SDS.md"
     },
     {
-      "basename": "Redis-String",
-      "path": "+/Redis-String.md"
+      "basename": "大语言模型",
+      "path": "Atlas/Notes/大语言模型.md"
     },
     {
       "basename": "Redis数据结构",
@@ -195,10 +199,6 @@
     {
       "basename": "Projects",
       "path": "Atlas/Bases/Projects.base"
-    },
-    {
-      "basename": "Efforts",
-      "path": "Atlas/Bases/Efforts.base"
     }
   ],
   "omittedPaths": [],
