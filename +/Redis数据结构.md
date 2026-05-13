@@ -5,6 +5,7 @@ related:
 date: 2026-05-11
 ---
 Redis 提供了丰富的数据类型，常见的有五种数据类型：[[Redis-String|String（字符串）]]，[[Redis-List(列表)|List(列表)]]，[[Redis-Hash|Hash（哈希）]]，[[Redis-Set|Set（集合）]]，[[Redis-Zset|Zset（有序集合）]]等。
+在以后的版本又更新了BitMap、HuperLogLog、GEO、Stream。
 
 
 > [!tips] 
@@ -17,3 +18,4 @@ Redis 提供了丰富的数据类型，常见的有五种数据类型：[[Redis-
 
 
 ![[image-1778508291164.webp|697]]
+![[image-1778641705927.webp|663]]

@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
+      "basename": "Redis-String",
+      "path": "+/Redis-String.md"
+    },
+    {
+      "basename": "Redis数据结构",
+      "path": "+/Redis数据结构.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "Atlas/Notes/Redis.md"
     },
     {
       "basename": "2026-05-13",
       "path": "Calendar/Daily/2026-05-13.md"
+    },
+    {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
+    },
+    {
+      "basename": "image-1778509838204",
+      "path": "x/Attachments/Redis数据结构/image-1778509838204.webp"
     },
     {
       "basename": "2026-W20",
@@ -19,14 +35,6 @@
     {
       "basename": "🎧英语六级",
       "path": "Efforts/Projects/🎧英语六级.md"
-    },
-    {
-      "basename": "Redis数据结构",
-      "path": "+/Redis数据结构.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Atlas/Notes/Redis.md"
     },
     {
       "basename": "2026-05-11",
@@ -43,10 +51,6 @@
     {
       "basename": "Redis-List(列表)",
       "path": "+/Redis-List(列表).md"
-    },
-    {
-      "basename": "Redis-String",
-      "path": "+/Redis-String.md"
     },
     {
       "basename": "TCP",
@@ -195,10 +199,6 @@
     {
       "basename": "计算机网络",
       "path": "Atlas/Notes/计算机网络.md"
-    },
-    {
-      "basename": "对抗网络",
-      "path": "Atlas/Notes/对抗网络.md"
     }
   ],
   "omittedPaths": [],
