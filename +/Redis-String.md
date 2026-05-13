@@ -12,8 +12,24 @@ date: 2026-05-11
 
 
 - String 类型的底层的数据结构实现主要是 int 和 [[SDS]]（简单动态字符串）
-- 针对String有三种内部编码方式：int、raw和embstr
+- 针对String有三种内部编码方式：int（值本身为整数）、raw（长字符串和需要修改的字符串）和embstr（用于短字符串）
 ![[image-1778644097071.webp|666x264]]
+
+> [!tips] 
+> raw和embstr都是通过使用SDS，但是两者的区别是embstr会通过**一次内存分配**函数来分配一块连续的内存空间来保存redisObject和SDS，而raw编码会通过调用**两次内存分配函数**来分别分配两块空间来保存redisObject和SDS。
+> ![[image-1778644419981.webp|646x93]]
+> 
+> ![[image-1778644453289.webp|655x161]]
+> 这样做精简了短字符的处理工序和时间，但是在长度增加重新分配embstr需要对整个redisObject和SDS都重新分配，实际上**embstr是只读的**
+
+
+
+
+
+
+
+
+> 
 
 
 
