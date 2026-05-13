@@ -5,6 +5,10 @@
       "path": "+/压缩列表.md"
     },
     {
+      "basename": "大语言模型",
+      "path": "Atlas/Notes/大语言模型.md"
+    },
+    {
       "basename": "Redis-List(列表)",
       "path": "+/Redis-List(列表).md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "SDS",
       "path": "+/SDS.md"
-    },
-    {
-      "basename": "大语言模型",
-      "path": "Atlas/Notes/大语言模型.md"
     },
     {
       "basename": "Redis",
