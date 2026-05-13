@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "listpack",
-      "path": "+/listpack.md"
-    },
-    {
       "basename": "Redis-List(列表)",
       "path": "+/Redis-List(列表).md"
     },
     {
-      "basename": "quicklist",
-      "path": "+/quicklist.md"
+      "basename": "listpack",
+      "path": "+/listpack.md"
     },
     {
       "basename": "压缩列表",
       "path": "+/压缩列表.md"
+    },
+    {
+      "basename": "quicklist",
+      "path": "+/quicklist.md"
     },
     {
       "basename": "连锁更新",
