@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "压缩列表",
-      "path": "+/压缩列表.md"
-    },
-    {
-      "basename": "大语言模型",
-      "path": "Atlas/Notes/大语言模型.md"
+      "basename": "quicklist",
+      "path": "+/quicklist.md"
     },
     {
       "basename": "Redis-List(列表)",
       "path": "+/Redis-List(列表).md"
+    },
+    {
+      "basename": "压缩列表",
+      "path": "+/压缩列表.md"
+    },
+    {
+      "basename": "连锁更新",
+      "path": "+/连锁更新.md"
+    },
+    {
+      "basename": "大语言模型",
+      "path": "Atlas/Notes/大语言模型.md"
     },
     {
       "basename": "双向链表",
@@ -191,14 +199,6 @@
     {
       "basename": "📚八股文",
       "path": "Efforts/Projects/📚八股文.md"
-    },
-    {
-      "basename": "🎸吉他",
-      "path": "Efforts/Areas/🎸吉他.md"
-    },
-    {
-      "basename": "🤝暑期实习",
-      "path": "Efforts/Projects/🤝暑期实习.md"
     }
   ],
   "omittedPaths": [],
