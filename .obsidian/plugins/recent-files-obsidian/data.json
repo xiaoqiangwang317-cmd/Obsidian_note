@@ -5,6 +5,10 @@
       "path": "+/Redis-List(列表).md"
     },
     {
+      "basename": "BRPOPLPUSH",
+      "path": "+/BRPOPLPUSH.md"
+    },
+    {
       "basename": "BRPOP",
       "path": "+/BRPOP.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Redis-单个实例模式",
       "path": "+/Redis-单个实例模式.md"
-    },
-    {
-      "basename": "Library",
-      "path": "Atlas/Notes/Library.md"
     }
   ],
   "omittedPaths": [],
