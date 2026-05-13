@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "quicklist",
-      "path": "+/quicklist.md"
+      "basename": "listpack",
+      "path": "+/listpack.md"
     },
     {
       "basename": "Redis-List(列表)",
       "path": "+/Redis-List(列表).md"
+    },
+    {
+      "basename": "quicklist",
+      "path": "+/quicklist.md"
     },
     {
       "basename": "压缩列表",
@@ -195,10 +199,6 @@
     {
       "basename": "计算机科学与技术",
       "path": "Atlas/Notes/计算机科学与技术.md"
-    },
-    {
-      "basename": "📚八股文",
-      "path": "Efforts/Projects/📚八股文.md"
     }
   ],
   "omittedPaths": [],
