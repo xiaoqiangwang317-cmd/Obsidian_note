@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "消费组",
-      "path": "+/消费组.md"
+      "basename": "Redis-Hash",
+      "path": "+/Redis-Hash.md"
+    },
+    {
+      "basename": "listpack",
+      "path": "+/listpack.md"
+    },
+    {
+      "basename": "Redis数据结构",
+      "path": "+/Redis数据结构.md"
     },
     {
       "basename": "Redis-List(列表)",
       "path": "+/Redis-List(列表).md"
+    },
+    {
+      "basename": "消费组",
+      "path": "+/消费组.md"
     },
     {
       "basename": "BRPOPLPUSH",
@@ -15,10 +27,6 @@
     {
       "basename": "BRPOP",
       "path": "+/BRPOP.md"
-    },
-    {
-      "basename": "listpack",
-      "path": "+/listpack.md"
     },
     {
       "basename": "压缩列表",
@@ -39,10 +47,6 @@
     {
       "basename": "双向链表",
       "path": "+/双向链表.md"
-    },
-    {
-      "basename": "Redis数据结构",
-      "path": "+/Redis数据结构.md"
     },
     {
       "basename": "Redis-String",
@@ -127,10 +131,6 @@
     {
       "basename": "Redis-Set",
       "path": "+/Redis-Set.md"
-    },
-    {
-      "basename": "Redis-Hash",
-      "path": "+/Redis-Hash.md"
     },
     {
       "basename": "分布式锁",
