@@ -5,6 +5,10 @@
       "path": "+/Redis-List(列表).md"
     },
     {
+      "basename": "BRPOP",
+      "path": "+/BRPOP.md"
+    },
+    {
       "basename": "listpack",
       "path": "+/listpack.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Library",
       "path": "Atlas/Notes/Library.md"
-    },
-    {
-      "basename": "计算机科学与技术",
-      "path": "Atlas/Notes/计算机科学与技术.md"
     }
   ],
   "omittedPaths": [],
