@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SDS",
+      "path": "+/SDS.md"
+    },
+    {
       "basename": "Redis-String",
       "path": "+/Redis-String.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Efforts",
       "path": "Atlas/Bases/Efforts.base"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "Atlas/Notes/计算机网络.md"
     }
   ],
   "omittedPaths": [],
