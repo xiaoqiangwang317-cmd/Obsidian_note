@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "fork()",
+      "path": "+/fork().md"
+    },
+    {
+      "basename": "RDB快照",
+      "path": "+/RDB快照.md"
+    },
+    {
+      "basename": "Redis的架构",
+      "path": "Atlas/Notes/Redis的架构.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "Atlas/Notes/Redis.md"
+    },
+    {
+      "basename": "内存数据库",
+      "path": "Atlas/Notes/内存数据库.md"
+    },
+    {
+      "basename": "Redies主从复制模式",
+      "path": "+/Redies主从复制模式.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
@@ -69,10 +93,6 @@
       "path": "+/SDS.md"
     },
     {
-      "basename": "Redis",
-      "path": "Atlas/Notes/Redis.md"
-    },
-    {
       "basename": "image-1778509838204",
       "path": "x/Attachments/Redis数据结构/image-1778509838204.webp"
     },
@@ -117,10 +137,6 @@
       "path": "+/Redis-Zset.md"
     },
     {
-      "basename": "内存数据库",
-      "path": "Atlas/Notes/内存数据库.md"
-    },
-    {
       "basename": "Redis常常作为MySQL的缓存",
       "path": "+/Redis常常作为MySQL的缓存.md"
     },
@@ -135,14 +151,6 @@
     {
       "basename": "分布式锁",
       "path": "+/分布式锁.md"
-    },
-    {
-      "basename": "fork()",
-      "path": "+/fork().md"
-    },
-    {
-      "basename": "Redis的架构",
-      "path": "Atlas/Notes/Redis的架构.md"
     },
     {
       "basename": "Redis哨兵模式",
@@ -191,14 +199,6 @@
     {
       "basename": "发布订阅模式",
       "path": "+/发布订阅模式.md"
-    },
-    {
-      "basename": "Redies主从复制模式",
-      "path": "+/Redies主从复制模式.md"
-    },
-    {
-      "basename": "RDB快照",
-      "path": "+/RDB快照.md"
     }
   ],
   "omittedPaths": [],
