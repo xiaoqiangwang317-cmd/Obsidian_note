@@ -1,12 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "RDB快照",
-      "path": "+/RDB快照.md"
+      "basename": "分布式锁",
+      "path": "+/分布式锁.md"
     },
     {
-      "basename": "磁盘",
-      "path": "+/磁盘.md"
+      "basename": "进程",
+      "path": "+/进程.md"
+    },
+    {
+      "basename": "2026-05-13",
+      "path": "Calendar/Daily/2026-05-13.md"
+    },
+    {
+      "basename": "Redis-Cluster集群模式",
+      "path": "+/Redis-Cluster集群模式.md"
+    },
+    {
+      "basename": "Redis哨兵模式",
+      "path": "+/Redis哨兵模式.md"
+    },
+    {
+      "basename": "Redies主从复制模式",
+      "path": "+/Redies主从复制模式.md"
+    },
+    {
+      "basename": "Redis-单个实例模式",
+      "path": "+/Redis-单个实例模式.md"
+    },
+    {
+      "basename": "Redis的架构",
+      "path": "Atlas/Notes/Redis的架构.md"
+    },
+    {
+      "basename": "发布订阅模式",
+      "path": "+/发布订阅模式.md"
+    },
+    {
+      "basename": "AOF重写",
+      "path": "+/AOF重写.md"
+    },
+    {
+      "basename": "AOF",
+      "path": "+/AOF.md"
+    },
+    {
+      "basename": "RDB快照",
+      "path": "+/RDB快照.md"
     },
     {
       "basename": "fork()",
@@ -17,28 +57,12 @@
       "path": "+/物理内存页.md"
     },
     {
-      "basename": "2026-05-13",
-      "path": "Calendar/Daily/2026-05-13.md"
-    },
-    {
-      "basename": "进程",
-      "path": "+/进程.md"
-    },
-    {
-      "basename": "Redis的架构",
-      "path": "Atlas/Notes/Redis的架构.md"
-    },
-    {
       "basename": "Redis",
       "path": "Atlas/Notes/Redis.md"
     },
     {
       "basename": "内存数据库",
       "path": "Atlas/Notes/内存数据库.md"
-    },
-    {
-      "basename": "Redies主从复制模式",
-      "path": "+/Redies主从复制模式.md"
     },
     {
       "basename": "🏠 Home",
@@ -125,24 +149,12 @@
       "path": "Calendar/Daily/2026-05-11.md"
     },
     {
-      "basename": "AOF重写",
-      "path": "+/AOF重写.md"
-    },
-    {
-      "basename": "AOF",
-      "path": "+/AOF.md"
-    },
-    {
       "basename": "TCP",
       "path": "Atlas/Notes/TCP.md"
     },
     {
       "basename": "TCP连接与断开",
       "path": "Atlas/Notes/TCP连接与断开.md"
-    },
-    {
-      "basename": "Redis-Cluster集群模式",
-      "path": "+/Redis-Cluster集群模式.md"
     },
     {
       "basename": "Redis-Zset",
@@ -159,14 +171,6 @@
     {
       "basename": "Redis高性能",
       "path": "+/Redis高性能.md"
-    },
-    {
-      "basename": "分布式锁",
-      "path": "+/分布式锁.md"
-    },
-    {
-      "basename": "Redis哨兵模式",
-      "path": "+/Redis哨兵模式.md"
     },
     {
       "basename": "callout example",
@@ -191,14 +195,6 @@
     {
       "basename": "TEMPLATE-Daily",
       "path": "x/Templates/TEMPLATE-Daily.md"
-    },
-    {
-      "basename": "⚛️ Habits Tracker",
-      "path": "Atlas/Notes/⚛️ Habits Tracker.md"
-    },
-    {
-      "basename": "🔥hot100刷题",
-      "path": "Efforts/Projects/🔥hot100刷题.md"
     }
   ],
   "omittedPaths": [],
