@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "⚛️ Habits Tracker",
+      "path": "Atlas/Notes/⚛️ Habits Tracker.md"
+    },
+    {
+      "basename": "2026-05-16",
+      "path": "Calendar/Daily/2026-05-16.md"
+    },
+    {
+      "basename": "2026-05-15",
+      "path": "Calendar/Daily/2026-05-15.md"
+    },
+    {
       "basename": "2026-05-14",
       "path": "Calendar/Daily/2026-05-14.md"
+    },
+    {
+      "basename": "Redis高并发",
+      "path": "+/Redis高并发.md"
+    },
+    {
+      "basename": "Redis常常作为MySQL的缓存",
+      "path": "+/Redis常常作为MySQL的缓存.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "Atlas/Notes/Redis.md"
+    },
+    {
+      "basename": "Redis-Zset",
+      "path": "+/Redis-Zset.md"
+    },
+    {
+      "basename": "分布式锁",
+      "path": "+/分布式锁.md"
+    },
+    {
+      "basename": "Redis-Set",
+      "path": "+/Redis-Set.md"
+    },
+    {
+      "basename": "内存数据库",
+      "path": "Atlas/Notes/内存数据库.md"
     },
     {
       "basename": "2026-W20",
@@ -11,10 +51,6 @@
     {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
-    },
-    {
-      "basename": "2026-05-15",
-      "path": "Calendar/Daily/2026-05-15.md"
     },
     {
       "basename": "2026-W20",
@@ -43,10 +79,6 @@
     {
       "basename": "file-20260304104523483",
       "path": "x/Attachments/长尾效应/file-20260304104523483.png"
-    },
-    {
-      "basename": "分布式锁",
-      "path": "+/分布式锁.md"
     },
     {
       "basename": "进程",
@@ -95,18 +127,6 @@
     {
       "basename": "物理内存页",
       "path": "+/物理内存页.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Atlas/Notes/Redis.md"
-    },
-    {
-      "basename": "内存数据库",
-      "path": "Atlas/Notes/内存数据库.md"
-    },
-    {
-      "basename": "Redis-Set",
-      "path": "+/Redis-Set.md"
     },
     {
       "basename": "Redis数据结构",
@@ -179,26 +199,6 @@
     {
       "basename": "TCP连接与断开",
       "path": "Atlas/Notes/TCP连接与断开.md"
-    },
-    {
-      "basename": "Redis-Zset",
-      "path": "+/Redis-Zset.md"
-    },
-    {
-      "basename": "Redis常常作为MySQL的缓存",
-      "path": "+/Redis常常作为MySQL的缓存.md"
-    },
-    {
-      "basename": "Redis高并发",
-      "path": "+/Redis高并发.md"
-    },
-    {
-      "basename": "Redis高性能",
-      "path": "+/Redis高性能.md"
-    },
-    {
-      "basename": "Gossiping 协议",
-      "path": "+/Gossiping 协议.md"
     }
   ],
   "omittedPaths": [],
