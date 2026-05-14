@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-05-14",
+      "path": "Calendar/Daily/2026-05-14.md"
+    },
+    {
       "basename": "分布式锁",
       "path": "+/分布式锁.md"
     },
     {
       "basename": "进程",
       "path": "+/进程.md"
-    },
-    {
-      "basename": "2026-05-13",
-      "path": "Calendar/Daily/2026-05-13.md"
     },
     {
       "basename": "Redis-Cluster集群模式",
@@ -133,20 +133,8 @@
       "path": "x/Attachments/Redis数据结构/image-1778509838204.webp"
     },
     {
-      "basename": "2026-W20",
-      "path": "Calendar/Weekly/2026-W20.md"
-    },
-    {
-      "basename": "2026-05-12",
-      "path": "Calendar/Daily/2026-05-12.md"
-    },
-    {
       "basename": "🎧英语六级",
       "path": "Efforts/Projects/🎧英语六级.md"
-    },
-    {
-      "basename": "2026-05-11",
-      "path": "Calendar/Daily/2026-05-11.md"
     },
     {
       "basename": "TCP",
