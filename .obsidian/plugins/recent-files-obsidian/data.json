@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "RDB快照",
+      "path": "+/RDB快照.md"
+    },
+    {
+      "basename": "磁盘",
+      "path": "+/磁盘.md"
+    },
+    {
       "basename": "fork()",
       "path": "+/fork().md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "进程",
       "path": "+/进程.md"
-    },
-    {
-      "basename": "RDB快照",
-      "path": "+/RDB快照.md"
     },
     {
       "basename": "Redis的架构",
@@ -195,10 +199,6 @@
     {
       "basename": "🔥hot100刷题",
       "path": "Efforts/Projects/🔥hot100刷题.md"
-    },
-    {
-      "basename": "TEMPLATE-Weekly",
-      "path": "x/Templates/TEMPLATE-Weekly.md"
     }
   ],
   "omittedPaths": [],
