@@ -1,8 +1,92 @@
 {
   "recentFiles": [
     {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
+    },
+    {
+      "basename": "2026-05-25",
+      "path": "Calendar/Daily/2026-05-25.md"
+    },
+    {
+      "basename": "2026-05-19",
+      "path": "Calendar/Daily/2026-05-19.md"
+    },
+    {
+      "basename": "2026-05-21",
+      "path": "Calendar/Daily/2026-05-21.md"
+    },
+    {
+      "basename": "2026-05-28",
+      "path": "Calendar/Daily/2026-05-28.md"
+    },
+    {
+      "basename": "2026-05-20",
+      "path": "Calendar/Daily/2026-05-20.md"
+    },
+    {
+      "basename": "2026-05-18",
+      "path": "Calendar/Daily/2026-05-18.md"
+    },
+    {
+      "basename": "2026-05-13",
+      "path": "Calendar/Daily/2026-05-13.md"
+    },
+    {
+      "basename": "2026-05-12",
+      "path": "Calendar/Daily/2026-05-12.md"
+    },
+    {
+      "basename": "2026-05-11",
+      "path": "Calendar/Daily/2026-05-11.md"
+    },
+    {
+      "basename": "2026-05-27",
+      "path": "Calendar/Daily/2026-05-27.md"
+    },
+    {
+      "basename": "2026-05-17",
+      "path": "Calendar/Daily/2026-05-17.md"
+    },
+    {
+      "basename": "2026-05-31",
+      "path": "Calendar/Daily/2026-05-31.md"
+    },
+    {
+      "basename": "2026-05-24",
+      "path": "Calendar/Daily/2026-05-24.md"
+    },
+    {
+      "basename": "2026-06-06",
+      "path": "Calendar/Daily/2026-06-06.md"
+    },
+    {
+      "basename": "2026-05-30",
+      "path": "Calendar/Daily/2026-05-30.md"
+    },
+    {
+      "basename": "2026-05-23",
+      "path": "Calendar/Daily/2026-05-23.md"
+    },
+    {
+      "basename": "2026-05-29",
+      "path": "Calendar/Daily/2026-05-29.md"
+    },
+    {
+      "basename": "2026-06-05",
+      "path": "Calendar/Daily/2026-06-05.md"
+    },
+    {
+      "basename": "2026-05-22",
+      "path": "Calendar/Daily/2026-05-22.md"
+    },
+    {
       "basename": "⚛️ Habits Tracker",
       "path": "Atlas/Notes/⚛️ Habits Tracker.md"
+    },
+    {
+      "basename": "2026-05-14",
+      "path": "Calendar/Daily/2026-05-14.md"
     },
     {
       "basename": "2026-05-16",
@@ -11,10 +95,6 @@
     {
       "basename": "2026-05-15",
       "path": "Calendar/Daily/2026-05-15.md"
-    },
-    {
-      "basename": "2026-05-14",
-      "path": "Calendar/Daily/2026-05-14.md"
     },
     {
       "basename": "Redis高并发",
@@ -47,10 +127,6 @@
     {
       "basename": "2026-W20",
       "path": "Calendar/Weekly/2026-W20.md"
-    },
-    {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
     },
     {
       "basename": "2026-W20",
@@ -123,82 +199,6 @@
     {
       "basename": "fork()",
       "path": "+/fork().md"
-    },
-    {
-      "basename": "物理内存页",
-      "path": "+/物理内存页.md"
-    },
-    {
-      "basename": "Redis数据结构",
-      "path": "+/Redis数据结构.md"
-    },
-    {
-      "basename": "Redis-Hash",
-      "path": "+/Redis-Hash.md"
-    },
-    {
-      "basename": "listpack",
-      "path": "+/listpack.md"
-    },
-    {
-      "basename": "Redis-List(列表)",
-      "path": "+/Redis-List(列表).md"
-    },
-    {
-      "basename": "消费组",
-      "path": "+/消费组.md"
-    },
-    {
-      "basename": "BRPOPLPUSH",
-      "path": "+/BRPOPLPUSH.md"
-    },
-    {
-      "basename": "BRPOP",
-      "path": "+/BRPOP.md"
-    },
-    {
-      "basename": "压缩列表",
-      "path": "+/压缩列表.md"
-    },
-    {
-      "basename": "quicklist",
-      "path": "+/quicklist.md"
-    },
-    {
-      "basename": "连锁更新",
-      "path": "+/连锁更新.md"
-    },
-    {
-      "basename": "大语言模型",
-      "path": "Atlas/Notes/大语言模型.md"
-    },
-    {
-      "basename": "双向链表",
-      "path": "+/双向链表.md"
-    },
-    {
-      "basename": "Redis-String",
-      "path": "+/Redis-String.md"
-    },
-    {
-      "basename": "SDS",
-      "path": "+/SDS.md"
-    },
-    {
-      "basename": "image-1778509838204",
-      "path": "x/Attachments/Redis数据结构/image-1778509838204.webp"
-    },
-    {
-      "basename": "🎧英语六级",
-      "path": "Efforts/Projects/🎧英语六级.md"
-    },
-    {
-      "basename": "TCP",
-      "path": "Atlas/Notes/TCP.md"
-    },
-    {
-      "basename": "TCP连接与断开",
-      "path": "Atlas/Notes/TCP连接与断开.md"
     }
   ],
   "omittedPaths": [],
