@@ -5,6 +5,22 @@
       "path": "🏠 Home.md"
     },
     {
+      "basename": "Efforts",
+      "path": "Atlas/Bases/Efforts.base"
+    },
+    {
+      "basename": "🎧英语六级",
+      "path": "Efforts/Projects/🎧英语六级.md"
+    },
+    {
+      "basename": "💻编程",
+      "path": "Efforts/Areas/💻编程.md"
+    },
+    {
+      "basename": "📱 Home Mobile",
+      "path": "📱 Home Mobile.md"
+    },
+    {
       "basename": "2026-05-25",
       "path": "Calendar/Daily/2026-05-25.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "发布订阅模式",
       "path": "+/发布订阅模式.md"
-    },
-    {
-      "basename": "AOF重写",
-      "path": "+/AOF重写.md"
-    },
-    {
-      "basename": "AOF",
-      "path": "+/AOF.md"
-    },
-    {
-      "basename": "RDB快照",
-      "path": "+/RDB快照.md"
-    },
-    {
-      "basename": "fork()",
-      "path": "+/fork().md"
     }
   ],
   "omittedPaths": [],
