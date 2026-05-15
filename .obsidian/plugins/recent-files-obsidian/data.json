@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Transformer架构",
+      "path": "+/Transformer架构.md"
+    },
+    {
       "basename": "面试",
       "path": "Atlas/Notes/Resume/面试.md"
     },
     {
-      "basename": "Transformer架构",
-      "path": "+/Transformer架构.md"
+      "basename": "实习经历",
+      "path": "+/实习经历.md"
+    },
+    {
+      "basename": "项目经历",
+      "path": "+/项目经历.md"
     },
     {
       "basename": "Transformer",
@@ -191,14 +199,6 @@
     {
       "basename": "进程",
       "path": "+/进程.md"
-    },
-    {
-      "basename": "Redis-Cluster集群模式",
-      "path": "+/Redis-Cluster集群模式.md"
-    },
-    {
-      "basename": "Redis哨兵模式",
-      "path": "+/Redis哨兵模式.md"
     }
   ],
   "omittedPaths": [],
