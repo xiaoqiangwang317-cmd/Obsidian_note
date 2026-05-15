@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
+    },
+    {
+      "basename": "2026-05-15",
+      "path": "Calendar/Daily/2026-05-15.md"
+    },
+    {
       "basename": "面试",
       "path": "Atlas/Notes/2026-05/Resume/面试.md"
+    },
+    {
+      "basename": "SSH实操",
+      "path": "Atlas/Notes/2026-05/实操/SSH实操.md"
     },
     {
       "basename": "项目经历",
@@ -17,14 +29,6 @@
       "path": "+/语言表达.md"
     },
     {
-      "basename": "SSH实操",
-      "path": "Atlas/Notes/2026-05/实操/SSH实操.md"
-    },
-    {
-      "basename": "2026-05-15",
-      "path": "Calendar/Daily/2026-05-15.md"
-    },
-    {
       "basename": "Transformer架构",
       "path": "+/Transformer架构.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "“中科院软件所 - GraphRAG 项目”",
       "path": "+/“中科院软件所 - GraphRAG 项目”.md"
-    },
-    {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
     },
     {
       "basename": "Efforts",
