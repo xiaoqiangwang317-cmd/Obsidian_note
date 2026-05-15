@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "项目经历",
-      "path": "+/项目经历.md"
-    },
-    {
       "basename": "面试",
       "path": "Atlas/Notes/2026-05/Resume/面试.md"
+    },
+    {
+      "basename": "实习经历",
+      "path": "+/实习经历.md"
+    },
+    {
+      "basename": "项目经历",
+      "path": "+/项目经历.md"
     },
     {
       "basename": "SSH实操",
@@ -19,10 +23,6 @@
     {
       "basename": "Transformer架构",
       "path": "+/Transformer架构.md"
-    },
-    {
-      "basename": "实习经历",
-      "path": "+/实习经历.md"
     },
     {
       "basename": "Transformer",
