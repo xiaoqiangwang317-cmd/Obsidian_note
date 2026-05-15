@@ -5,12 +5,16 @@
       "path": "Atlas/Notes/2026-05/Resume/面试.md"
     },
     {
+      "basename": "项目经历",
+      "path": "+/项目经历.md"
+    },
+    {
       "basename": "实习经历",
       "path": "+/实习经历.md"
     },
     {
-      "basename": "项目经历",
-      "path": "+/项目经历.md"
+      "basename": "语言表达",
+      "path": "+/语言表达.md"
     },
     {
       "basename": "SSH实操",
@@ -195,10 +199,6 @@
     {
       "basename": "buttons",
       "path": "x/buttons.md"
-    },
-    {
-      "basename": "file-20260304104523483",
-      "path": "x/Attachments/长尾效应/file-20260304104523483.png"
     }
   ],
   "omittedPaths": [],
