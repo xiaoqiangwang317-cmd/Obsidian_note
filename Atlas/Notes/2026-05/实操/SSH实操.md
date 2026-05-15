@@ -3,7 +3,7 @@ up:
 related:
 date: 2026-05-15
 ---
-```
+```bash
 行走的面包树@LAPTOP-C2P12E8E MINGW64 /d/download/notes/Obsidian_note (main)
 $ git status
 On branch main
