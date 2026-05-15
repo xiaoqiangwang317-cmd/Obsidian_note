@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SSH实操",
+      "path": "Atlas/Notes/2026-05/实操/SSH实操.md"
+    },
+    {
       "basename": "面试",
       "path": "Atlas/Notes/2026-05/Resume/面试.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "file-20260304104523483",
       "path": "x/Attachments/长尾效应/file-20260304104523483.png"
-    },
-    {
-      "basename": "进程",
-      "path": "+/进程.md"
     }
   ],
   "omittedPaths": [],
