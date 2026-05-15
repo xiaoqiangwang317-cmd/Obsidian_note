@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "面试",
+      "path": "Atlas/Notes/Resume/面试.md"
+    },
+    {
+      "basename": "Transformer架构",
+      "path": "+/Transformer架构.md"
+    },
+    {
+      "basename": "Transformer",
+      "path": "+/Transformer.md"
+    },
+    {
+      "basename": "“中科院软件所 - GraphRAG 项目”",
+      "path": "+/“中科院软件所 - GraphRAG 项目”.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Redis哨兵模式",
       "path": "+/Redis哨兵模式.md"
-    },
-    {
-      "basename": "Redies主从复制模式",
-      "path": "+/Redies主从复制模式.md"
-    },
-    {
-      "basename": "Redis-单个实例模式",
-      "path": "+/Redis-单个实例模式.md"
-    },
-    {
-      "basename": "Redis的架构",
-      "path": "Atlas/Notes/Redis的架构.md"
-    },
-    {
-      "basename": "发布订阅模式",
-      "path": "+/发布订阅模式.md"
     }
   ],
   "omittedPaths": [],
