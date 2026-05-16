@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-05-16 Sync Test",
+      "path": "Atlas/Notes/2026-05/2026-05-16 Sync Test.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "callout example",
       "path": "x/callout example.md"
-    },
-    {
-      "basename": "buttons",
-      "path": "x/buttons.md"
     }
   ],
   "omittedPaths": [],
