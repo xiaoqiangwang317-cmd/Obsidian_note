@@ -5,16 +5,16 @@
       "path": "Atlas/Notes/2026-05/2026-05-16 Sync Test.md"
     },
     {
+      "basename": "面试",
+      "path": "Atlas/Notes/2026-05/Resume/面试.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
     {
       "basename": "2026-05-15",
       "path": "Calendar/Daily/2026-05-15.md"
-    },
-    {
-      "basename": "面试",
-      "path": "Atlas/Notes/2026-05/Resume/面试.md"
     },
     {
       "basename": "SSH实操",
@@ -195,10 +195,6 @@
     {
       "basename": "checkbox example",
       "path": "x/checkbox example.md"
-    },
-    {
-      "basename": "callout example",
-      "path": "x/callout example.md"
     }
   ],
   "omittedPaths": [],
