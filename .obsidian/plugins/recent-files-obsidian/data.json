@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-05-16 Sync Test",
+      "path": "Atlas/Notes/2026-05/2026-05-16 Sync Test.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
+    },
+    {
+      "basename": "resume_image_1",
+      "path": "_codex_tmp/resume_image_1.jpg"
     },
     {
       "basename": "2026-05-15",
@@ -191,14 +199,6 @@
     {
       "basename": "checkbox example",
       "path": "x/checkbox example.md"
-    },
-    {
-      "basename": "callout example",
-      "path": "x/callout example.md"
-    },
-    {
-      "basename": "buttons",
-      "path": "x/buttons.md"
     }
   ],
   "omittedPaths": [],
