@@ -1,69 +1,73 @@
 ---
 cssclasses:
   - hide-properties
-banner: "[[banner.png]]"
-banner_position: "22"
+banner: "[[吉卜力.jpg|0,110]]"
 ---
-～
 
-> [!yellow]
-> 这里是你的知识库首页。现有笔记已经按模板结构迁入，你可以继续在这个框架上扩展。
+# ~
 
-> 这几个按钮是用来创建日记、周记、月记，还有临时笔记的
+> [!abstract]
+> 一个安静的起点。
+> 今天从记录、推进和整理开始。
+
 ```columns
 id: home-buttons
 ===
 `button-daily-note` `button-weekly` `button-monthly` `button-unique`
 ```
 
-> 行动板块（项目板块）：你可以点开下面的 Areas，在里面创建自己的长期项目，点开 Projects，在里面创建短期项目
-> 日历板块：展示自己的全部日记
-> 笔记板块：带你通往每一条笔记
-> 资源板块（文献笔记）：记录自己看的书、看的视频、课程...
+## Focus
 
 ```columns
 id: home-nav
 ===
-## 💪 [[Efforts.base|行动]]
-
-[[Areas.base|Areas]]
-
-[[Projects.base|Projects]]
-
-===
-## 📅 [[Calendar.base|日历]]
-
-[[2026]]
-
-[[2026-W19|Journaling]]
-
-[[TEMPLATE-Daily|Template]]
-
-===
-## 📝 [[Notes.base|笔记]]
-
-[[Maps]]
-
-[[Library]]
+> [!note]
+> ### Efforts
+> 长期方向与短期项目
+>
+> [[Areas.base|Areas]]  
+> [[Projects.base|Projects]]  
+> [[Active.base|Active]]  
+> [[Simmering.base|Simmering]]
+>
+> ---
+>
+> ### Calendar
+> 日记、周记与节奏回顾
+>
+> [[2026]]  
+> [[2026-W19|Journaling]]  
+> [[TEMPLATE-Daily|Daily Template]]  
+> [[Calendar.base|All Calendar]]
 
 ===
-## 📖 [[Sources|资源]]
-
-[[Books]]
-
-[[Clippings.base|Clippings]]
-
-[[Courses.base|Courses]]
+> [!tip]
+> ### Notes
+> 地图、知识与草稿入口
+>
+> [[Maps]]  
+> [[Library]]  
+> [[草稿本 Draft]]  
+> [[草稿本 ex]]
+>
+> ---
+>
+> ### Sources
+> 书籍、剪藏与课程资料
+>
+> [[Books]]  
+> [[Clippings.base|Clippings]]  
+> [[Courses.base|Courses]]  
+> [[PDF.base|PDF Files]]
 ```
 
-> [!red] [[University Courses]]
+## Spaces
 
-> [!NOTE] [[草稿本 Draft]] | [[草稿本 ex]]
+> [!tip] Quick Access
+> [[Notes.base|Notes Hub]] · [[Efforts.base|Efforts Hub]] · [[+.base|Inbox]] · [[🏝️Islands.base|Islands]]
 
-> [!grey] [[+.base]] | [[🏝️Islands.base]]
+> [!info] Study
+> [[University Courses]] · [[⚛️ Habits Tracker]]
 
-> [!blue] FILES > [[PDF.base]] | [[IMAGES.base]]
-
-> [!tip] 习惯追踪
-> [[⚛️ Habits Tracker]]
-
+> [!example] Files
+> [[IMAGES.base|Images]] · [[PDF.base|PDF]]

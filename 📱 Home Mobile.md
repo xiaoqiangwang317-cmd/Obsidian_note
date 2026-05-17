@@ -1,13 +1,14 @@
 ---
 cssclasses:
   - hide-properties
-banner: "[[banner.png]]"
-banner_position: "22"
+banner: "[[吉卜力.jpg|0,110]]"
 ---
 
-～
-> [!info]
-> 这个页面是手机上的 Home，内容和普通的 Home 没区别，只是改成了更适合窄屏查看的块状排布。
+# Home
+
+> [!abstract]
+> 手机上的简洁入口。
+> 少一点拥挤，多一点专注。
 
 ```columns
 id: home-mobile-buttons
@@ -18,43 +19,40 @@ id: home-mobile-buttons
 ```columns
 id: home-mobile-top
 ===
-## 💪[[Efforts.base|项目]]
-
-[[Active.base|Active]]
-
-[[Simmering.base|Simmering]]
-
-[[Sleeping.base|Sleeping]]
+> [!blank-container]
+> ### Efforts
+> [[Areas.base|Areas]]
+> [[Projects.base|Projects]]
+> [[Active.base|Active]]
+> [[Simmering.base|Simmering]]
 
 ===
-## 📅[[Calendar.base|日历]]
-
-[[2026]]
-
-[[2026-W19|Journaling]]
+> [!blank-container]
+> ### Calendar
+> [[2026]]
+> [[2026-W19|Journaling]]
+> [[Calendar.base|All Calendar]]
 ```
 
 ```columns
 id: home-mobile-bottom
 ===
-## 📝[[Notes.base|笔记]]
-
-[[Maps]]
-
-[[Library]]
+> [!blank-container]
+> ### Notes
+> [[Maps]]
+> [[Library]]
+> [[草稿本 Draft]]
 
 ===
-## 📖[[Sources|资源]]
-
-[[Books]]
-
-[[Clippings.base|Clippings]]
-
-[[Games]]
-
-[[Courses.base|Courses]]
+> [!blank-container]
+> ### Sources
+> [[Books]]
+> [[Clippings.base|Clippings]]
+> [[Courses.base|Courses]]
 ```
 
-> [!grey] [[+.base]] | [[🏝️Islands.base]]
+> [!tip] Quick Access
+> [[+.base|Inbox]] · [[🏝️Islands.base|Islands]] · [[⚛️ Habits Tracker]]
 
-> [!blue] FILES > [[PDF.base]] | [[IMAGES.base]]
+> [!example] Files
+> [[IMAGES.base|Images]] · [[PDF.base|PDF]]
