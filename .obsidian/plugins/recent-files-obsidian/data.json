@@ -1,160 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "📱 Home Mobile",
-      "path": "📱 Home Mobile.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名/未命名.md"
-    },
-    {
-      "basename": "backlinks",
-      "path": "Atlas/Bases/backlinks.base"
-    },
-    {
-      "basename": "🏝️Islands",
-      "path": "Atlas/Bases/🏝️Islands.base"
-    },
-    {
-      "basename": "🤝暑期实习",
-      "path": "Efforts/Projects/🤝暑期实习.md"
-    },
-    {
-      "basename": "草稿本 Draft",
-      "path": "Atlas/Notes/草稿本 Draft.md"
-    },
-    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
     {
-      "basename": "🔥hot100刷题",
-      "path": "Efforts/Projects/🔥hot100刷题.md"
+      "basename": "📱 Home Mobile",
+      "path": "📱 Home Mobile.md"
     },
     {
-      "basename": "草稿本 ex",
-      "path": "Atlas/Notes/草稿本 ex.md"
+      "basename": "Transformer",
+      "path": "+/Transformer.md"
     },
     {
-      "basename": "Maps",
-      "path": "Atlas/Notes/Maps.md"
+      "basename": "Efforts",
+      "path": "Atlas/Bases/Efforts.base"
     },
     {
-      "basename": "Habits Map",
-      "path": "+/Habits Map.md"
+      "basename": "🎧英语六级",
+      "path": "Efforts/Projects/🎧英语六级.md"
     },
     {
-      "basename": "🍂Life Map",
-      "path": "+/🍂Life Map.md"
-    },
-    {
-      "basename": "checkbox example",
-      "path": "x/checkbox example.md"
-    },
-    {
-      "basename": "callout example",
-      "path": "x/callout example.md"
-    },
-    {
-      "basename": "buttons",
-      "path": "x/buttons.md"
-    },
-    {
-      "basename": "TEMPLATE-Monthly",
-      "path": "x/Templates/TEMPLATE-Monthly.md"
-    },
-    {
-      "basename": "TEMPLATE-Weekly",
-      "path": "x/Templates/TEMPLATE-Weekly.md"
-    },
-    {
-      "basename": "TEMPLATE-Notes",
-      "path": "x/Templates/TEMPLATE-Notes.md"
-    },
-    {
-      "basename": "TEMPLATE-Daily 1",
-      "path": "x/Templates/TEMPLATE-Daily 1.md"
-    },
-    {
-      "basename": "TEMPLATE-Daily",
-      "path": "x/Templates/TEMPLATE-Daily.md"
-    },
-    {
-      "basename": "(TEMPLATE) Daily",
-      "path": "x/Templates/(TEMPLATE) Daily.md"
-    },
-    {
-      "basename": "TEMPLATE-Book",
-      "path": "x/Templates/TEMPLATE-Book.md"
-    },
-    {
-      "basename": "TEMPLATE-Maps",
-      "path": "x/Hidden Templates/TEMPLATE-Maps.md"
-    },
-    {
-      "basename": "TEMPLATE-Goals",
-      "path": "x/Hidden Templates/TEMPLATE-Goals.md"
-    },
-    {
-      "basename": "TEMPLATE-Excalidraw",
-      "path": "x/Hidden Templates/TEMPLATE-Excalidraw.md"
+      "basename": "💻编程",
+      "path": "Efforts/Areas/💻编程.md"
     },
     {
       "basename": "2026-05-18",
       "path": "Calendar/Daily/2026-05-18.md"
     },
     {
-      "basename": "2026-05-07",
-      "path": "Calendar/Daily/2026-05-07.md"
+      "basename": "2026-05-13",
+      "path": "Calendar/Daily/2026-05-13.md"
     },
     {
-      "basename": "+",
-      "path": "Atlas/Bases/+.base"
+      "basename": "2026-05-12",
+      "path": "Calendar/Daily/2026-05-12.md"
     },
     {
-      "basename": "IMAGES",
-      "path": "Atlas/Bases/IMAGES.base"
-    },
-    {
-      "basename": "file-20260416102530912",
-      "path": "x/Attachments/TCP连接与断开/file-20260416102530912.png"
-    },
-    {
-      "basename": "Calendar",
-      "path": "Atlas/Bases/Calendar.base"
-    },
-    {
-      "basename": "2026-W19",
-      "path": "Calendar/Weekly/2026-W19.md"
-    },
-    {
-      "basename": "2026",
-      "path": "+/2026.md"
-    },
-    {
-      "basename": "Simmering",
-      "path": "Atlas/Bases/Simmering.base"
-    },
-    {
-      "basename": "Active",
-      "path": "Atlas/Bases/Active.base"
-    },
-    {
-      "basename": "Projects",
-      "path": "Atlas/Bases/Projects.base"
-    },
-    {
-      "basename": "Areas",
-      "path": "Atlas/Bases/Areas.base"
-    },
-    {
-      "basename": "2026-05",
-      "path": "Calendar/Monthly/2026-05.md"
-    },
-    {
-      "basename": "2026-W20",
-      "path": "Calendar/Weekly/2026-W20.md"
+      "basename": "2026-05-11",
+      "path": "Calendar/Daily/2026-05-11.md"
     },
     {
       "basename": "2026-05-17",
@@ -165,40 +49,40 @@
       "path": "Atlas/Notes/⚛️ Habits Tracker.md"
     },
     {
-      "basename": "发布订阅模式",
-      "path": "+/发布订阅模式.md"
+      "basename": "Redis高并发",
+      "path": "+/Redis高并发.md"
+    },
+    {
+      "basename": "Redis常常作为MySQL的缓存",
+      "path": "+/Redis常常作为MySQL的缓存.md"
+    },
+    {
+      "basename": "Redis-Zset",
+      "path": "+/Redis-Zset.md"
     },
     {
       "basename": "分布式锁",
       "path": "+/分布式锁.md"
     },
     {
-      "basename": "梯度消失（Gradient Vanishing",
-      "path": "+/梯度消失（Gradient Vanishing.md"
+      "basename": "Redis-Set",
+      "path": "+/Redis-Set.md"
     },
     {
-      "basename": "激活函数 (ReLU)",
-      "path": "+/激活函数 (ReLU).md"
+      "basename": "内存数据库",
+      "path": "Atlas/Notes/内存数据库.md"
     },
     {
-      "basename": "梯度消失（Gradient Vanishing）",
-      "path": "+/梯度消失（Gradient Vanishing）.md"
+      "basename": "2026-W20",
+      "path": "Calendar/Weekly/2026-W20.md"
     },
     {
-      "basename": "Transformer",
-      "path": "+/Transformer.md"
+      "basename": "计算机网络",
+      "path": "Atlas/Notes/计算机网络.md"
     },
     {
-      "basename": "AI简历",
-      "path": "Atlas/Notes/Resume/AI简历.md"
-    },
-    {
-      "basename": "基于大模型的代码智能体系统 (AI Coding Agent) 独立开发",
-      "path": "+/基于大模型的代码智能体系统 (AI Coding Agent) 独立开发.md"
-    },
-    {
-      "basename": "基于多 Agent 协同的智能客服系统",
-      "path": "+/基于多 Agent 协同的智能客服系统.md"
+      "basename": "checkbox example",
+      "path": "x/checkbox example.md"
     }
   ],
   "omittedPaths": [],
