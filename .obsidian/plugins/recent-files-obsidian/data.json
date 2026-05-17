@@ -5,6 +5,10 @@
       "path": "🏠 Home.md"
     },
     {
+      "basename": "📱 Home Mobile",
+      "path": "📱 Home Mobile.md"
+    },
+    {
       "basename": "2026-05-16 Sync Test",
       "path": "Atlas/Notes/2026-05/2026-05-16 Sync Test.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "💻编程",
       "path": "Efforts/Areas/💻编程.md"
-    },
-    {
-      "basename": "📱 Home Mobile",
-      "path": "📱 Home Mobile.md"
     },
     {
       "basename": "2026-05-25",
