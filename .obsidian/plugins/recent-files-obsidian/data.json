@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian 常用快捷键",
+      "path": "Atlas/Notes/Obsidian 常用快捷键.md"
+    },
+    {
+      "basename": "知识管理",
+      "path": "Atlas/Notes/知识管理.md"
+    },
+    {
+      "basename": "长尾效应",
+      "path": "Atlas/Notes/长尾效应.md"
+    },
+    {
+      "basename": "系统与硬件",
+      "path": "Atlas/Notes/系统与硬件.md"
+    },
+    {
+      "basename": "入侵检测系统",
+      "path": "Atlas/Notes/入侵检测系统.md"
+    },
+    {
+      "basename": "人工智能",
+      "path": "Atlas/Notes/人工智能.md"
+    },
+    {
+      "basename": "内存数据库",
+      "path": "Atlas/Notes/内存数据库.md"
+    },
+    {
+      "basename": "Redis",
+      "path": "Atlas/Notes/Redis/Redis.md"
+    },
+    {
+      "basename": "大语言模型",
+      "path": "Atlas/Notes/AI/大语言模型.md"
+    },
+    {
+      "basename": "TCP连接与断开",
+      "path": "Atlas/Notes/计网/TCP连接与断开.md"
+    },
+    {
+      "basename": "TCP",
+      "path": "Atlas/Notes/计网/TCP.md"
+    },
+    {
+      "basename": "RDMA",
+      "path": "Atlas/Notes/计网/RDMA.md"
+    },
+    {
       "basename": "2026-05-07",
       "path": "Calendar/Daily/2026-05-07.md"
     },
@@ -71,10 +119,6 @@
     {
       "basename": "Redis-Set",
       "path": "+/Redis-Set.md"
-    },
-    {
-      "basename": "内存数据库",
-      "path": "Atlas/Notes/内存数据库.md"
     },
     {
       "basename": "2026-W20",
