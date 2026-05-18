@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "📚八股文",
+      "path": "Efforts/Projects/📚八股文.md"
+    },
+    {
+      "basename": "🎧英语六级",
+      "path": "Efforts/Projects/🎧英语六级.md"
+    },
+    {
+      "basename": "🎸吉他",
+      "path": "Efforts/Areas/🎸吉他.md"
+    },
+    {
+      "basename": "2026-W19",
+      "path": "Calendar/Weekly/2026-W19.md"
+    },
+    {
+      "basename": "NCCL",
+      "path": "Atlas/Notes/NCCL.md"
+    },
+    {
+      "basename": "PCIE",
+      "path": "Atlas/Notes/PCIE.md"
+    },
+    {
       "basename": "Obsidian 常用快捷键",
       "path": "Atlas/Notes/Obsidian 常用快捷键.md"
     },
@@ -67,10 +91,6 @@
     {
       "basename": "Efforts",
       "path": "Atlas/Bases/Efforts.base"
-    },
-    {
-      "basename": "🎧英语六级",
-      "path": "Efforts/Projects/🎧英语六级.md"
     },
     {
       "basename": "💻编程",
