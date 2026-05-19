@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "华子简历",
       "path": "Atlas/Notes/Resume/华子简历.md"
+    },
+    {
+      "basename": "PCIE",
+      "path": "Atlas/Notes/AI/PCIE.md"
     },
     {
       "basename": "AI简历",
@@ -63,10 +71,6 @@
     {
       "basename": "内存数据库",
       "path": "Atlas/Notes/Redis/内存数据库.md"
-    },
-    {
-      "basename": "PCIE",
-      "path": "Atlas/Notes/AI/PCIE.md"
     },
     {
       "basename": "系统与硬件",
