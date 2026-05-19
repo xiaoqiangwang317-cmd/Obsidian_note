@@ -1,12 +1,104 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
+      "basename": "⚛️ Habits Tracker",
+      "path": "Atlas/Notes/⚛️ Habits Tracker.md"
+    },
+    {
+      "basename": "Obsidian 常用快捷键",
+      "path": "Atlas/Notes/Obsidian 常用快捷键.md"
+    },
+    {
+      "basename": "草稿本 Draft",
+      "path": "Atlas/Notes/草稿本 Draft.md"
+    },
+    {
+      "basename": "草稿本 ex",
+      "path": "Atlas/Notes/草稿本 ex.md"
+    },
+    {
+      "basename": "知识管理",
+      "path": "Atlas/Notes/知识管理.md"
+    },
+    {
+      "basename": "对抗网络",
+      "path": "Atlas/Notes/计组/对抗网络.md"
+    },
+    {
+      "basename": "长尾效应",
+      "path": "Atlas/Notes/计组/长尾效应.md"
+    },
+    {
+      "basename": "Books",
+      "path": "Atlas/Notes/Books.md"
+    },
+    {
+      "basename": "Library",
+      "path": "Atlas/Notes/Library.md"
+    },
+    {
+      "basename": "NVLink",
+      "path": "Atlas/Notes/AI/NVLink.md"
+    },
+    {
+      "basename": "NCCL",
+      "path": "Atlas/Notes/AI/NCCL.md"
+    },
+    {
+      "basename": "Maps",
+      "path": "Atlas/Notes/AI/Maps.md"
+    },
+    {
+      "basename": "AI Agent",
+      "path": "Atlas/Notes/AI/AI Agent.md"
+    },
+    {
+      "basename": "内存数据库",
+      "path": "Atlas/Notes/Redis/内存数据库.md"
+    },
+    {
+      "basename": "PCIE",
+      "path": "Atlas/Notes/AI/PCIE.md"
+    },
+    {
+      "basename": "系统与硬件",
+      "path": "Atlas/Notes/计组/系统与硬件.md"
+    },
+    {
+      "basename": "AI简历",
+      "path": "Atlas/Notes/Resume/AI简历.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
     {
+      "basename": "2026",
+      "path": "+/2026.md"
+    },
+    {
+      "basename": "Calendar",
+      "path": "Atlas/Bases/Calendar.base"
+    },
+    {
       "basename": "📱 Home Mobile",
       "path": "📱 Home Mobile.md"
+    },
+    {
+      "basename": "2026-W19",
+      "path": "Calendar/Weekly/2026-W19.md"
+    },
+    {
+      "basename": "🍂Life Map",
+      "path": "+/🍂Life Map.md"
+    },
+    {
+      "basename": "2026-05-07",
+      "path": "Calendar/Daily/2026-05-07.md"
     },
     {
       "basename": "未命名",
@@ -25,28 +117,12 @@
       "path": "Efforts/Projects/🤝暑期实习.md"
     },
     {
-      "basename": "草稿本 Draft",
-      "path": "Atlas/Notes/草稿本 Draft.md"
-    },
-    {
       "basename": "🔥hot100刷题",
       "path": "Efforts/Projects/🔥hot100刷题.md"
     },
     {
-      "basename": "草稿本 ex",
-      "path": "Atlas/Notes/草稿本 ex.md"
-    },
-    {
-      "basename": "Maps",
-      "path": "Atlas/Notes/Maps.md"
-    },
-    {
       "basename": "Habits Map",
       "path": "+/Habits Map.md"
-    },
-    {
-      "basename": "🍂Life Map",
-      "path": "+/🍂Life Map.md"
     },
     {
       "basename": "checkbox example",
@@ -105,10 +181,6 @@
       "path": "Calendar/Daily/2026-05-18.md"
     },
     {
-      "basename": "2026-05-07",
-      "path": "Calendar/Daily/2026-05-07.md"
-    },
-    {
       "basename": "+",
       "path": "Atlas/Bases/+.base"
     },
@@ -121,84 +193,12 @@
       "path": "x/Attachments/TCP连接与断开/file-20260416102530912.png"
     },
     {
-      "basename": "Calendar",
-      "path": "Atlas/Bases/Calendar.base"
-    },
-    {
-      "basename": "2026-W19",
-      "path": "Calendar/Weekly/2026-W19.md"
-    },
-    {
-      "basename": "2026",
-      "path": "+/2026.md"
-    },
-    {
       "basename": "Simmering",
       "path": "Atlas/Bases/Simmering.base"
     },
     {
       "basename": "Active",
       "path": "Atlas/Bases/Active.base"
-    },
-    {
-      "basename": "Projects",
-      "path": "Atlas/Bases/Projects.base"
-    },
-    {
-      "basename": "Areas",
-      "path": "Atlas/Bases/Areas.base"
-    },
-    {
-      "basename": "2026-05",
-      "path": "Calendar/Monthly/2026-05.md"
-    },
-    {
-      "basename": "2026-W20",
-      "path": "Calendar/Weekly/2026-W20.md"
-    },
-    {
-      "basename": "2026-05-17",
-      "path": "Calendar/Daily/2026-05-17.md"
-    },
-    {
-      "basename": "⚛️ Habits Tracker",
-      "path": "Atlas/Notes/⚛️ Habits Tracker.md"
-    },
-    {
-      "basename": "发布订阅模式",
-      "path": "+/发布订阅模式.md"
-    },
-    {
-      "basename": "分布式锁",
-      "path": "+/分布式锁.md"
-    },
-    {
-      "basename": "梯度消失（Gradient Vanishing",
-      "path": "+/梯度消失（Gradient Vanishing.md"
-    },
-    {
-      "basename": "激活函数 (ReLU)",
-      "path": "+/激活函数 (ReLU).md"
-    },
-    {
-      "basename": "梯度消失（Gradient Vanishing）",
-      "path": "+/梯度消失（Gradient Vanishing）.md"
-    },
-    {
-      "basename": "Transformer",
-      "path": "+/Transformer.md"
-    },
-    {
-      "basename": "AI简历",
-      "path": "Atlas/Notes/Resume/AI简历.md"
-    },
-    {
-      "basename": "基于大模型的代码智能体系统 (AI Coding Agent) 独立开发",
-      "path": "+/基于大模型的代码智能体系统 (AI Coding Agent) 独立开发.md"
-    },
-    {
-      "basename": "基于多 Agent 协同的智能客服系统",
-      "path": "+/基于多 Agent 协同的智能客服系统.md"
     }
   ],
   "omittedPaths": [],
