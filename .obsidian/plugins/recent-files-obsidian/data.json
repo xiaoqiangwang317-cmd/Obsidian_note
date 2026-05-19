@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
+      "basename": "华子简历",
+      "path": "Atlas/Notes/Resume/华子简历.md"
+    },
+    {
+      "basename": "AI简历",
+      "path": "Atlas/Notes/Resume/AI简历.md"
     },
     {
       "basename": "⚛️ Habits Tracker",
@@ -67,10 +71,6 @@
     {
       "basename": "系统与硬件",
       "path": "Atlas/Notes/计组/系统与硬件.md"
-    },
-    {
-      "basename": "AI简历",
-      "path": "Atlas/Notes/Resume/AI简历.md"
     },
     {
       "basename": "🏠 Home",
@@ -195,10 +195,6 @@
     {
       "basename": "Simmering",
       "path": "Atlas/Bases/Simmering.base"
-    },
-    {
-      "basename": "Active",
-      "path": "Atlas/Bases/Active.base"
     }
   ],
   "omittedPaths": [],
