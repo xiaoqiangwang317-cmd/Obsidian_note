@@ -1,4 +1,4 @@
-﻿# MCP 项目脑图
+# MCP 项目脑图
 
 ```mermaid
 mindmap
