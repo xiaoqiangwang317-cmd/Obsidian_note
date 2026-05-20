@@ -5,7 +5,7 @@ date: 2026-05-20
 ---
 看一万遍：[[https://www.bilibili.com/video/BV1fGeAz6Eie?spm_id_from=333.788.player.switch&vd_source=c77da83e28065a4088b34f45b8d1cc75&p=3]]
 
-符号主义                                    -》                                 联结主义
+符号主义                                    -》                                 [[联结主义]]
 （有明确的函数和指向）                                                  猜，差不多得了
 f(x) = wx+b
 
@@ -31,8 +31,8 @@ f(x) = wx+b
 常用的激活函数都很简单，但是就是能起到比较好的效果
 ![[image-1779285593668.webp|400x90]]
 
-
-
+好了，
+![[image-1779285719701.webp|400x218]]
 
 
 
