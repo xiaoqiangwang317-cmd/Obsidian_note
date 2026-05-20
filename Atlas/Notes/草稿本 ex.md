@@ -72,6 +72,29 @@ def run_agent(question: str) -> str:
 
         print("模型原始输出:", raw_reply)
         print("解析后的动作:", action)
+        if action["type"] == "final":
+            return action["answer"]
+
+        if action["type"] != "tool":
+            raise ValueError(f"Unknown action: {action}")
+
+        tool_name = action["tool_name"]
+        tool_input = action.get("tool_input", "")
+        if tool_name not in TOOLS:
+            raise ValueError(f"Unknown tool requested: {tool_name}")
+
+        observation = TOOLS[tool_name]["func"](tool_input)
+        print("调用工具:", tool_name)
+        print("工具返回:", observation)
+        
+        scratchpad = (
+            f"Step {step + 1}\n"
+            f"Tool used: {tool_name}\n"
+            f"Tool input: {tool_input}\n"
+            f"Observation: {observation}\n"
+            "Now decide whether you should use another tool or give the final answer."
+        )
+    return "Agent stopped because it reached the max step limit."
 ```
 
 
