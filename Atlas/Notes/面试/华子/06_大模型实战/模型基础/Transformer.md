@@ -5,7 +5,7 @@ date: 2026-05-20
 ---
 看一万遍：[[https://www.bilibili.com/video/BV1fGeAz6Eie?spm_id_from=333.788.player.switch&vd_source=c77da83e28065a4088b34f45b8d1cc75&p=3]]
 
-# 从函数
+# 从函数到神经网络
 万物之源->函数
 早期人工智能相信可以找到精确的函数表示一切
 but 世界太复杂
@@ -82,6 +82,8 @@ but 世界太复杂
 ![[image-1779286814297.webp|400x237]]
 
 这么多参数无法凭感觉猜
+流程通，剩下的所有都是为了算出来 w和b 而已
+# 计算神经网络的参数
 
 
 
