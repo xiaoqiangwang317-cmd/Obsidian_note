@@ -4,7 +4,10 @@ related:
 date: 2026-05-20
 ---
 看一万遍：[[https://www.bilibili.com/video/BV1fGeAz6Eie?spm_id_from=333.788.player.switch&vd_source=c77da83e28065a4088b34f45b8d1cc75&p=3]]
-万物之源-
+万物之源->函数
+早期人工智能相信可以找到精确的函数表示一切
+but 世界太复杂
+于是选择摆烂
 
 符号主义                                    -》                                 [[联结主义]]
 （有明确的函数和指向）                                                  猜，差不多得了
