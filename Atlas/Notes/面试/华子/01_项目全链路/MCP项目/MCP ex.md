@@ -1,3 +1,108 @@
+﻿# MCP 项目脑图
+
+```mermaid
+mindmap
+  root((MCP Agent Studio 项目))
+    项目定位
+      多 Agent 工程化演示台
+      展示 MCP / ReAct / Tool Calling / Worktree 隔离思路
+      重点是任务编排与执行链路演示
+      不是生产级 RAG 或 LangGraph 项目
+    前端层 Vue
+      页面入口 /mcp-studio
+      输入 prompt
+      生成规划
+      开始运行
+      展示 Agent 状态 时间线 结果
+      关键文件
+        src/views/dashboard/index.vue
+        src/api/mcp.ts
+    MCP Server 层 Node
+      总控台 Orchestrator
+      接收前端请求
+      参数校验
+      生成 plan
+      执行 run
+      推送 SSE 流式事件
+      关键文件
+        server/mcp-server.mjs
+    场景与 Agent 配置
+      scenarios
+        coding
+        rag
+        ops
+      agents
+        Planner Agent
+        Retriever Agent
+        Executor Agent
+        Guardrail Agent
+      关键文件
+        server/mcp-data.mjs
+    ReAct / 规划层
+      Think
+        根据 prompt 和 scenario 规划下一步
+      Act
+        选择并调用工具
+      Observe
+        收集 output evidence result
+      关键文件
+        server/tool-plan.mjs
+        server/mcp-server.mjs
+      说明
+        是轻量执行范式
+        不是正式 LangGraph 状态机
+    Tool Router / 工具注册层
+      注册工具
+      选择工具
+      参数校验
+      调用 handler
+      统一返回结果
+      当前工具
+        search-docs
+        graph-query
+        codebase
+        shell
+      关键文件
+        server/tool-registry.mjs
+    工具实现层
+      server/tools/
+      search-docs 文档检索模拟
+      graph-query 图查询模拟
+      codebase-inspector 代码检查
+      shell-runner Shell 执行
+      现状
+        以 Demo / Mock 为主
+    参数校验与安全层
+      校验前端请求
+      校验工具入参
+      统一错误返回
+      guardrail 思路
+      关键文件
+        server/request-validation.mjs
+        server/tools/schema.mjs
+        server/errors.mjs
+    Executor / Git Worktree
+      负责真正执行动作
+      isolateWorkspace 是关键 flag
+      目标
+        多任务互不污染
+        多 Agent 隔离执行
+        独立工作区修改代码
+      现阶段
+        更偏演示设计
+    今日主链路
+      打开 /mcp-studio
+      Frontend 请求 /bootstrap
+      用户输入复杂修改指令
+      Frontend 请求 /plan
+      MCP Server 生成工具计划
+      Frontend 请求 /run
+      Tool Router 按计划调用工具
+      Executor 执行动作
+      收集 output / evidence
+      SSE 推送状态
+      Frontend 展示最终结果
+```
 ---
 excalidraw-plugin: parsed
 tags:
@@ -70,8 +175,8 @@ def run_agent(question: str) -> str:
         raw_reply = client.generate(prompt)
         action = extract_json(raw_reply)
 
-        print("模型原始输出:", raw_reply)
-        print("解析后的动作:", action)
+        print("妯″瀷鍘熷杈撳嚭:", raw_reply)
+        print("瑙ｆ瀽鍚庣殑鍔ㄤ綔:", action)
         if action["type"] == "final":
             return action["answer"]
 
@@ -84,8 +189,8 @@ def run_agent(question: str) -> str:
             raise ValueError(f"Unknown tool requested: {tool_name}")
 
         observation = TOOLS[tool_name]["func"](tool_input)
-        print("调用工具:", tool_name)
-        print("工具返回:", observation)
+        print("璋冪敤宸ュ叿:", tool_name)
+        print("宸ュ叿杩斿洖:", observation)
         
         scratchpad = (
             f"Step {step + 1}\n"
@@ -110,8 +215,8 @@ def run_agent(question: str) -> str:
         raw_reply = client.generate(prompt)
         action = extract_json(raw_reply)
 
-        print("模型原始输出:", raw_reply)
-        print("解析后的动作:", action)
+        print("妯″瀷鍘熷杈撳嚭:", raw_reply)
+        print("瑙ｆ瀽鍚庣殑鍔ㄤ綔:", action)
 ```
 
 
