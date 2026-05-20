@@ -4,6 +4,7 @@ related:
 date: 2026-05-20
 ---
 看一万遍：[[https://www.bilibili.com/video/BV1fGeAz6Eie?spm_id_from=333.788.player.switch&vd_source=c77da83e28065a4088b34f45b8d1cc75&p=3]]
+万物之源-
 
 符号主义                                    -》                                 [[联结主义]]
 （有明确的函数和指向）                                                  猜，差不多得了
@@ -72,9 +73,10 @@ f(x) = wx+b
 函数看起来很复杂
 但是目标非常简单和明确
 **就是根据已知的一组x和y的值**
-猜出所有这里的w和b是多少
+**猜出所有这里的w和b是多少**
 ![[image-1779286814297.webp|400x237]]
 
+这么多参数无法凭感觉猜
 
 
 
