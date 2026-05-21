@@ -140,3 +140,4 @@ Amazing！！！！
 这些词向量的维度非常高，所以他所在的空间维度也非常高
 这个空间就叫做[[潜空间]]
 ![[image-1779375975273.webp|400x396]]
+神奇世界：[Embedding projector - visualization of high-dimensional data](https://projector.tensorflow.org/)
