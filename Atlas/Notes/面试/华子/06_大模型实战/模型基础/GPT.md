@@ -7,14 +7,14 @@ date: 2026-05-22
 
 首先，我们用一张表看清 GPT 系列从“概念验证”到“智能体”的完整进化路径：
 
-|模型|发布时间|核心贡献|关键参数规模|
-|---|---|---|---|
-|**GPT-1**|2018年6月|**奠基之作**：验证了“预训练+微调”范式|1.17亿[](https://baike.baidu.com/item/OpenAI%20GPT%E7%B3%BB%E5%88%97/67686554)[](https://developer.aliyun.com/article/1683975)|
-|**GPT-2**|2019年2月|**规模扩展**：涌现零样本学习能力|15亿[](https://baike.baidu.com/item/OpenAI%20GPT%E7%B3%BB%E5%88%97/67686554)[](https://www.dtinsight.com.cn/nd.jsp?id=3477)|
-|**GPT-3**|2020年6月|**能力涌现**：发现**上下文学习**[](https://pattern.swarma.org/wechat_article/5794)[](https://developer.aliyun.com/article/1683975)|1750亿[](https://baike.baidu.com/item/OpenAI%20GPT%E7%B3%BB%E5%88%97/67686554)[](https://developer.aliyun.com/article/1683975)|
-|**InstructGPT / ChatGPT**|2022年初/11月|**与人类对齐**：引入**RLHF**[](https://pattern.swarma.org/wechat_article/5794)[](https://www.dtinsight.com.cn/nd.jsp?id=3477)，走向产品化|-|
-|**GPT-4**|2023年3月|**多模态融合**：支持图像输入，推理能力质变[](https://baike.baidu.com/item/OpenAI%20GPT%E7%B3%BB%E5%88%97/67686554)|未公开（万亿级）|
-|**GPT-5 系列**|2025年8月起|**系统化与智能体**：整合工具、长上下文、自我迭代[](https://baike.baidu.com/item/OpenAI%20GPT%E7%B3%BB%E5%88%97/67686554)[](https://news.qiniu.com/archives/1777013812549)|未公开|
+| 模型                        | 发布时间       | 核心贡献                                                                                                                                                | 关键参数规模                                                                                                                        |
+| ------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **GPT-1**                 | 2018年6月    | **奠基之作**：验证了“预训练+[[微调]]”范式                                                                                                                          | 1.17亿[](https://baike.baidu.com/item/OpenAI%20GPT%E7%B3%BB%E5%88%97/67686554)[](https://developer.aliyun.com/article/1683975) |
+| **GPT-2**                 | 2019年2月    | **规模扩展**：涌现零样本学习能力                                                                                                                                  | 15亿[](https://baike.baidu.com/item/OpenAI%20GPT%E7%B3%BB%E5%88%97/67686554)[](https://www.dtinsight.com.cn/nd.jsp?id=3477)    |
+| **GPT-3**                 | 2020年6月    | **能力涌现**：发现**上下文学习**[](https://pattern.swarma.org/wechat_article/5794)[](https://developer.aliyun.com/article/1683975)                              | 1750亿[](https://baike.baidu.com/item/OpenAI%20GPT%E7%B3%BB%E5%88%97/67686554)[](https://developer.aliyun.com/article/1683975) |
+| **InstructGPT / ChatGPT** | 2022年初/11月 | **与人类对齐**：引入**RLHF**[](https://pattern.swarma.org/wechat_article/5794)[](https://www.dtinsight.com.cn/nd.jsp?id=3477)，走向产品化                         | -                                                                                                                             |
+| **GPT-4**                 | 2023年3月    | **多模态融合**：支持图像输入，推理能力质变[](https://baike.baidu.com/item/OpenAI%20GPT%E7%B3%BB%E5%88%97/67686554)                                                     | 未公开（万亿级）                                                                                                                      |
+| **GPT-5 系列**              | 2025年8月起   | **系统化与智能体**：整合工具、长上下文、自我迭代[](https://baike.baidu.com/item/OpenAI%20GPT%E7%B3%BB%E5%88%97/67686554)[](https://news.qiniu.com/archives/1777013812549) | 未公开                                                                                                                           |
 
 这个演化过程，可以拆解成三个关键的“为什么”，特别是从我们熟悉的“大模型”到 GPT 的“智能涌现”，这背后有几层重要的跨越。
 
