@@ -210,3 +210,6 @@ CNN是加卷积核
 让我们大声地喊出他的名字！
 **Transformer**
 ![[image-1779378330468.webp|400x186]]
+# 简单而强大的Transformer
+
+
