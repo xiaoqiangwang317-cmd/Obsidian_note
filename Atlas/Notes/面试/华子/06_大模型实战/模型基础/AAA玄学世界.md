@@ -331,3 +331,7 @@ I love you baby
 但是同样的一个模型，同样的一个对话框
 你也发消息，我也发消息
 为什么有的人他拿到的输出的结果直来那个就更好呢
+
+[[Prompt Engineering]]
+这个就涉及到[[提示词工程]]的艺术
+推荐链接：[提示工程学习笔记 - aneasystone's blog](https://www.aneasystone.com/archives/2024/01/prompt-engineering-notes.html)
