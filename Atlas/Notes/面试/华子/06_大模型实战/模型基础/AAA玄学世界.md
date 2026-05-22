@@ -326,6 +326,13 @@ I love you baby
 咱们全程根据这个架构图顺一遍
 ![[image-1779440168455.webp|697]]见[[Transformer架构图.png]]
 
+宗门老祖已封山
+下面由各路神仙各显神通
+
+
+这里单铃出来一个GPT，其他见[[各路神仙]]
+
+
 [[AAAGPT]] 的底层其实就是transformer的一半，即只有[[解码器]]的部分，也不翻译谁，只管看前面的词猜下一个词，别看他来回的猜词猜词,猜着猜着就变成聊天、写代码、解数学题的全能选手了
 
 但是同样的一个模型，同样的一个对话框
@@ -334,4 +341,6 @@ I love you baby
 
 [[Prompt Engineering]]
 这个就涉及到[[提示词工程]]的艺术
+
+这篇文章**读一万遍**
 推荐链接：[提示工程学习笔记 - aneasystone's blog](https://www.aneasystone.com/archives/2024/01/prompt-engineering-notes.html)
