@@ -344,3 +344,7 @@ I love you baby
 
 这篇文章**读一万遍**
 推荐链接：[提示工程学习笔记 - aneasystone's blog](https://www.aneasystone.com/archives/2024/01/prompt-engineering-notes.html)
+
+这个过完咱们简单的过一下AI技术近几年的发展历程按时间线和主线顺一遍，
+直接过一下AI应用技术的发展流程，[[你要能讲好一个故事]]
+详见：[[AA近几年AI应用技术串讲与优质文档分享]]
