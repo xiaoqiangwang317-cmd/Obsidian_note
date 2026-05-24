@@ -28,8 +28,8 @@ Transformer包含编码器和解码器的部分
 你也发消息，我也发消息
 为什么有的人他拿到的输出的结果直来那个就更好呢
 
-[[AA提示词工程|Prompt Engineering]]
-这个就涉及到[[AA提示词工程]]的艺术
+[[AAA提示词工程|Prompt Engineering]]
+这个就涉及到[[AAA提示词工程]]的艺术
 
 这篇文章**读一万遍**
 推荐链接：[提示工程学习笔记 - aneasystone's blog](https://www.aneasystone.com/archives/2024/01/prompt-engineering-notes.html)
@@ -128,6 +128,8 @@ agent其实就是模拟的这个过程
 [[思想的重要性]]
 他能通过你给的上下文信息与外部环境进行交互 非常神奇啊！！！
 ![[image-1779607057864.webp|400x329]]
+很有意思！！！
+![[image-1779607882662.webp|400x327]]
 - https://arxiv.org/abs/2210.03629?utm_source=chatgpt.com
     
 - https://x.com/HiTw93/status/2034627967926825175
