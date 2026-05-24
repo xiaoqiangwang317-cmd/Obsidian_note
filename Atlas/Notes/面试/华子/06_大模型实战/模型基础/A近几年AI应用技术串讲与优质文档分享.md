@@ -218,7 +218,19 @@ _[Context engineering is the] ”…delicate art and science of filling the cont
 langchain认为：当人类完成任务时，我们会做笔记并记住各种信息，以便将来处理相关任务时使用。智能体也在逐渐获得这种能力！通过“临时存储区”来记录信息，是让智能体在完成任务时能够保留相关数据的一种方法。其核心思路是将信息存储在当前任务上下文之外，这样智能体就能随时访问这些信息了。
 引用：聪明的王文慧
     ![[image-1779622154648.webp|400x159]]
-    
+
+- [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)（Anthropic）
+Context engineering is becoming a craft that agents builders should aim to master. Here, we covered a few common patterns seen across many popular agents today:  
+上下文工程正逐渐成为智能体开发人员必须掌握的技能。在这里，我们介绍了当今许多流行智能体中常见的几种处理上下文的模式：
+
+- _Writing context - saving it outside the context window to help an agent perform a task.  
+    写作上下文——将其保存在上下文窗口之外，以帮助智能体完成任务。_
+- _Selecting context - pulling it into the context window to help an agent perform a task.  
+    选择上下文——将相关内容调入上下文窗口中，以帮助智能体完成任务。_
+- _Compressing context - retaining only the tokens required to perform a task.  
+    压缩上下文——仅保留完成任务所必需的元素。_
+- _Isolating context - splitting it up to help an agent perform a task.  
+    将上下文分离出来——将其拆分成若干部分，从而帮助智能体更好地完成任务。_
 - [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)（Anthropic）
     
 - https://mp.weixin.qq.com/s/KbviOJ6q-K4ik_wzsUs2dw?open_in_browser=true
