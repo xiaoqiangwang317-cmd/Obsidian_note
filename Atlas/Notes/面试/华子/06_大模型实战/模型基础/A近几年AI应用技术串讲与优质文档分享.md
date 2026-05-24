@@ -260,5 +260,7 @@ Context engineering is becoming a craft that agents builders should aim to maste
 ----------------------------------------
 ## AgentSkill
 
+skill是什么？
+
 AgentSkills是一种轻量级的开放格式，用于将一整套Agent能力（prompt、工具脚本、知识文件等） 封装为可复用模块，从而实现低门槛分享与复用 AgentSkill本质上约等于一个子Agent
 AgentSkill特别适合SOP的沉淀和复用（离职的同事终将化作温暖的Skill) Agent会在运行过程中按需激活不同Skills、按需读取和使用Skills文件包里的内容（渐进式披露）
