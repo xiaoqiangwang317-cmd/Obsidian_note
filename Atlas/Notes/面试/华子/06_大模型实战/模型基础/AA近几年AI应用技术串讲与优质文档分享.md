@@ -44,6 +44,6 @@ Transformer包含编码器和解码器的部分
 我们怎么做呢？
 
 这就涉及到[[Fine Tuning微调]]的概念
-重点关注：
+重点关注：LoRA[[LoRA：Low-Rank adaptation of large language models.pdf]]
 
 
