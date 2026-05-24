@@ -281,15 +281,15 @@ SandBox:一个真正的工位
 像之前的工具tool一样 大家都复用太冗余 agent呢
 和光同尘呢
 这个时候可以走一下扣子 dify 快速过一下流程
-就是约定俗成怎么写skill
+**就是约定俗成怎么写skill**
 
 my-skill/
 |---SKILL.md      #Required:instructions +metadata
 |---scripts/          #Optional:executable code
 |---references/    #Optional :documentation
-|---assets/           #Optional :templates,resou
+|---assets/           #Optional :templates,resources
 ![[image-1779625106875.webp|400x124]]
 
 主脑 看相关性匹配技能（刚开始只是加载skill的名称和描述）
-如果觉得相关性特别强 激活 （就是把skill文件夹下的所有信息，全部都加载到Agent的上下文当中 接着他在任务运行中可能发现 你在skill.md的某个部分说了 如果我要执行某某某操作 你要去看一下reference里面的某某某文件 那么Agent他又会读取这里面对应的文件 可能你的Agent跑着跑着他又会发现skill.md里面说 这个时候我好像应该执行）
+如果觉得相关性特别强 激活 （就是把skill文件夹下的所有信息，全部都加载到Agent的上下文当中 接着他在任务运行中可能发现 你在skill.md的某个部分说了 如果我要执行某某某操作 你要去看一下reference里面的某某某文件 那么Agent他又会读取这里面对应的文件 可能你的Agent跑着跑着他又会发现skill.md里面说 这个时候我好像应该执行scripts里面的某一个脚本了 那么他就会启动一个SandBox去执行脚本 拿到返回的数据 ）
 也就是按需加载
