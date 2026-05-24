@@ -220,7 +220,7 @@ langchain认为：当人类完成任务时，我们会做笔记并记住各种�
     ![[image-1779622154648.webp|400x159]]
 
 - [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)（Anthropic）
-- 文章通俗易懂
+- **文章通俗易懂**
 Context engineering is becoming a craft that agents builders should aim to master. Here, we covered a few common patterns seen across many popular agents today:  
 上下文工程正逐渐成为智能体开发人员必须掌握的技能。在这里，我们介绍了当今许多流行智能体中常见的几种处理上下文的模式：
 
