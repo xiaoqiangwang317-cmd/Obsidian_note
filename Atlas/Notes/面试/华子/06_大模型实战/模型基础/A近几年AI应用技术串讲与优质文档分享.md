@@ -319,5 +319,36 @@ https://github.com/HKUDS/nanobot
 
 驾驭工程 
 ## Harness Engineering
-应运而生
-驾驭AI
+应运而生   驾驭AI
+- https://openai.com/zh-Hans-CN/index/harness-engineering/
+锐评：防止聪明的AI反向操作笨人类，笨人类实现自救的一段手段
+但是真能自救吗
+进步 or = 自毁？
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## TO Continue
+
+
+**To be or not To be，This is an question**
+
+
