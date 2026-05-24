@@ -196,6 +196,23 @@ OK，讲到这又要讲一下为什么会有Muti Agent
 
 ## Context Engineering上下文工程
 
+正如安德烈·卡尔帕西所说，大型语言模型就像是一种新型的操作系统。
+其中，大型语言模型相当于 CPU，而其“上下文窗口”则相当于 RAM，充当着模型的工作内存。
+与 RAM 一样，大型语言模型的上下文窗口也具有有限的处理能力，无法同时处理来自各种来源的上下文信息。
+就像操作系统负责决定哪些数据可以存储在 CPU 的 RAM 中一样，我们可以把“上下文工程”视为发挥类似作用的机制。
+
+_[Context engineering is the] ”…delicate art and science of filling the context window with just the right information for the next step.”  
+[上下文工程是一门] “……精妙的艺术与科学，其目的在于为下一步操作提供恰到好处的信息。”_
+
+在构建大语言模型应用时，我们需要管理哪些类型的上下文呢？所谓“上下文工程”，其实是一种适用于多种不同上下文类型的通用方法。
+
+- **Instructions** – prompts, memories, few‑shot examples, tool descriptions, etc  
+    使用说明——提示信息、相关记忆、少量示例、工具说明等
+- **Knowledge** – facts, memories, etc  
+    知识——各种事实、记忆等内容
+- **Tools** – feedback from tool calls  
+    工具——与工具调用相关的反馈信息
+    
 - [【Lanchain】Context Engineering](https://blog.langchain.com/context-engineering-for-agents/)（lanchain）
     
 - [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)（Anthropic）
