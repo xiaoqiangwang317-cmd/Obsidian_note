@@ -214,12 +214,11 @@ _[Context engineering is the] ”…delicate art and science of filling the cont
     工具——与工具调用相关的反馈信息
     
 - [【Lanchain】Context Engineering](https://blog.langchain.com/context-engineering-for-agents/)（lanchain）
-文慧认为：我觉得就是草稿纸的内容,上下文工程就是 草稿的内容你得到的有效信息 作为下一个草稿开始用的东西 然后再草稿 直至算出正确答案
-langchain认为：当人类完成任务时，我们会做笔记并记住各种信息，以便将来处理相关任务时使用。智能体也在逐渐获得这种能力！通过“临时存储区”来记录信息，是让智能体在完成任务时能够保留相关数据的一种方法。其核心思路是将信息存储在当前任务上下文之外，这样智能体就能随时访问这些信息了。
-引用：聪明的王文慧
+	文慧认为：我觉得就是草稿纸的内容,上下文工程就是 草稿的内容你得到的有效信息 作为下一个草稿开始用的东西 然后再草稿 直至算出正确答案
+	langchain认为：当人类完成任务时，我们会做笔记并记住各种信息，以便将来处理相关任务时使用。智能体也在逐渐获得这种能力！通过“临时存储区”来记录信息，是让智能体在完成任务时能够保留相关数据的一种方法。其核心思路是将信息存储在当前任务上下文之外，这样智能体就能随时访问这些信息了。
+	引用：聪明的王文慧
     ![[image-1779622154648.webp|400x159]]
 
-- [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)（Anthropic）
 - **文章通俗易懂**
 Context engineering is becoming a craft that agents builders should aim to master. Here, we covered a few common patterns seen across many popular agents today:  
 上下文工程正逐渐成为智能体开发人员必须掌握的技能。在这里，我们介绍了当今许多流行智能体中常见的几种处理上下文的模式：
@@ -231,7 +230,24 @@ Context engineering is becoming a craft that agents builders should aim to maste
 - _Compressing context - retaining only the tokens required to perform a task.  
     压缩上下文——仅保留完成任务所必需的元素。_
 - _Isolating context - splitting it up to help an agent perform a task.  
-    将上下文分离出来——将其拆分成若干部分，从而帮助智能体更好地完成任务。_
-
-    
+    将上下文分离出来——将其拆分成若干部分，从而帮助智能体更好地完成任务。
+    _
+-  [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)（Anthropic）
 - https://mp.weixin.qq.com/s/KbviOJ6q-K4ik_wzsUs2dw?open_in_browser=true
+
+因为：全量超费token
+所以这个工程非常有做的必要
+一 上下文窗口有限
+二 效果（重要）
+因为 万物归源的transformer
+是基于自注意力机制的 他的token要求 他必须和其他所有token都建立连接
+所以你每多给一个token本质上都是消耗模型
+
+**所以玄学又来了**
+最好的 使用大模型优化token的方式 就是 不使用大模型
+因为用了token 就要 用模型
+最好的方式就是用自己的脑子
+（乐）
+完美闭环
+但是书归正题
+学还是要学的
