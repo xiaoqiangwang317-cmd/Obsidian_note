@@ -391,8 +391,38 @@ https://github.com/HKUDS/nanobot
 因此，我们不再将 `AGENTS.md` 视为百科全书，而是将其视为**内容目录**。
 
 代码仓库的知识库位于一个结构化了的 `docs/` 目录中，此目录被当作记录系统来使用。一份简短的 `AGENTS.md`（大约 100 行）被注入到情境中，主要用作地图，并指向其他地方更深层次的真实信息来源。
+```text
+AGENTS.md
+ARCHITECTURE.md
+docs/
+├── design-docs/
+│   ├── index.md
+│   ├── core-beliefs.md
+│   └── ...
+├── exec-plans/
+│   ├── active/
+│   ├── completed/
+│   └── tech-debt-tracker.md
+├── generated/
+│   └── db-schema.md
+├── product-specs/
+│   ├── index.md
+│   ├── new-user-onboarding.md
+│   └── ...
+├── references/
+│   ├── design-system-reference-llms.txt
+│   ├── nixpacks-llms.txt
+│   ├── uv-llms.txt
+│   └── ...
+├── DESIGN.md
+├── FRONTEND.md
+├── PLANS.md
+├── PRODUCT_SENSE.md
+├── QUALITY_SCORE.md
+├── RELIABILITY.md
+└── SECURITY.md
+```
 
-#### 纯文本
 
 
 
