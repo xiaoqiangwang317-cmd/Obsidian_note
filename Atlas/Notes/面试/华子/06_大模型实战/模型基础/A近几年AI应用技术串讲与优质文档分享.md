@@ -134,6 +134,7 @@ agent其实就是模拟的这个过程
 
 **这篇文章特别好，看一万遍！！！**
 **真的很好，强推！**
+看Agent看他背下来！！
 
 - https://x.com/HiTw93/status/2034627967926825175
 
@@ -151,3 +152,12 @@ Agent落地 参考
     - https://medium.com/binome/ai-agent-workflow-design-patterns-an-overview-cf9e1f609696
         
     - https://mp.weixin.qq.com/s/7CZ6cHWQ-T9bmaWoJFwdwA
+
+OK，讲到这又要讲一下为什么会有Muti Agent
+多Agent的架构的概念 一个Agent他不能解决所有的问题吗？
+
+这是因为至少前几年 模型的能力还是非常有限的
+而且你给他的东西太多太杂他也会陷入混乱 会有模型注意力分散和稀释的问题
+再比如说 你给同一个Agent注册两三个工具的时候还好
+注册50 100个工具的时候他基本上肯定会调不准
+为了实现一个复杂的系统 以前会通过多Agent架构来解决这些问题
