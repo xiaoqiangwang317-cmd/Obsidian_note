@@ -286,7 +286,8 @@ SandBox:一个真正的工位
 my-skill/
 |---SKILL.md      #Required:instructions +metadata
 |---scripts/          #Optional:executable code
-|---
+|---references/    #Optional :documentation
+|---assets/           #Optional :templates,resou
 ![[image-1779625106875.webp|400x124]]
 
 主脑 看相关性匹配技能（刚开始只是加载skill的名称和描述）
