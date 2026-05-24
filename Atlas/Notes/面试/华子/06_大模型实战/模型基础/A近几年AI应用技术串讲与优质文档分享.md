@@ -309,6 +309,8 @@ my-skill/
 但是回到技术上，可以看一下上下文管理 记忆管理这块代码
 openclaw 代码太长了
 可以看精简版 
+
+【技术向重点】
 nanobot： **（这个真可以走一遍看一遍技术实现流程）**
 https://github.com/HKUDS/nanobot
 ------------------------------------------
@@ -317,3 +319,5 @@ https://github.com/HKUDS/nanobot
 
 驾驭工程 
 ## Harness Engineering
+应运而生
+驾驭AI
