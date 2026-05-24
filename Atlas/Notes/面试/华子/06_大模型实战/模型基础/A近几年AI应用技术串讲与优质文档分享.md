@@ -214,7 +214,7 @@ _[Context engineering is the] ”…delicate art and science of filling the cont
     工具——与工具调用相关的反馈信息
     
 - [【Lanchain】Context Engineering](https://blog.langchain.com/context-engineering-for-agents/)（lanchain）
-    
+    ![[image-1779622154648.webp|400x159]]
 - [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)（Anthropic）
     
 - https://mp.weixin.qq.com/s/KbviOJ6q-K4ik_wzsUs2dw?open_in_browser=true
