@@ -91,3 +91,4 @@ Function call 和 MCP
 [[Function call]]
 看图[[Function时序图.png]] 可以理解成模型还是只负责说 我们的服务端负责去做
 ![[image-1779599697102.webp|400x265]]
+有了
