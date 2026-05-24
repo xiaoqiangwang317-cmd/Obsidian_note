@@ -9,4 +9,5 @@ date: 2026-05-23
 咱们跟着视频来顺一下线
 不仅要[[知其然还要知其所以然]]
 真正的去想清楚这个脉络
-既然
+既然要讲AI,那么绕不过去的宗门老祖 Attention is All you need[[Transformer架构图.png]]
+
