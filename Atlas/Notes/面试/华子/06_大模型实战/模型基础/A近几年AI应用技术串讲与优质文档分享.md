@@ -256,7 +256,8 @@ Context engineering is becoming a craft that agents builders should aim to maste
 
 站在这个时间节点，目前我们还有哪些问题没有被解决
 比如说，最经典的上下文爆炸的问题
-再比如说，MCP协议实现了工具的可复用性
+再比如说，MCP协议实现了工具的可复用性，但是有没有什么办法可以实现整一个Agent的可移植可复用呢
+
 
 ----------------------------------------
 ## AgentSkill
