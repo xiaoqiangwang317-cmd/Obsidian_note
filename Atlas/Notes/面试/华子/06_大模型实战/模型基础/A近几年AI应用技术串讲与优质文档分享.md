@@ -131,6 +131,8 @@ agent其实就是模拟的这个过程
 ![[image-1779607057864.webp|400x329]]
 很有意思！！！
 ![[image-1779607882662.webp|400x327]]
+
+**这篇文章特别好，看一万遍！！！**
 - https://x.com/HiTw93/status/2034627967926825175
     
 - https://x.com/HiTw93/status/2034627967926825175（https://tw93.fun/2026-03-21/agent.html）
