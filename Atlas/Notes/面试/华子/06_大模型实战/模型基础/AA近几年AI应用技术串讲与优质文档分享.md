@@ -27,12 +27,23 @@ Transformer包含编码器和解码器的部分
 你也发消息，我也发消息
 为什么有的人他拿到的输出的结果直来那个就更好呢
 
-[[Prompt Engineering]]
+[[AA提示词工程|Prompt Engineering]]
 这个就涉及到[[AA提示词工程]]的艺术
 
 这篇文章**读一万遍**
 推荐链接：[提示工程学习笔记 - aneasystone's blog](https://www.aneasystone.com/archives/2024/01/prompt-engineering-notes.html)
 
+当然提示词工程只能说是帮你优化一下输出的质量
+但是他仍然是非常局限的
+
+因为大语言模型的这个输入窗口是非常有限的
+我们不可能
+把整个领域的一些垂类的知识 都交给大模型
+当我们想 让他理解在训练阶段 没有作为训练数据炼进去的知识
+或者 我们想要提升模型在某一些方面的性能的时候
+我们怎么做呢？
+
+这就涉及到[[Fine Tuning微调]]的概念
 
 
 
