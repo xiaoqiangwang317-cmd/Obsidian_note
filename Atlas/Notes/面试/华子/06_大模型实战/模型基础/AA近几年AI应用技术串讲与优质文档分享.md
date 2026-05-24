@@ -109,4 +109,6 @@ Function call 和 MCP
 **MCP**
 官方文档[Understanding Model Context Protocol (MCP) – Model Context Protocol （MCP）](https://modelcontextprotocol.info/docs/introduction/)
 2024年11月 这个是 Anthropic 也就是Claude 的母公司 提出的协议规范
+所谓协议就是说 只要大家都遵循这个规范
+都按这个来 那我们这个生态就会非常的其乐融融 
 
