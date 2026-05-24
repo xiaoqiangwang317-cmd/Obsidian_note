@@ -161,3 +161,43 @@ OK，讲到这又要讲一下为什么会有Muti Agent
 再比如说 你给同一个Agent注册两三个工具的时候还好
 注册50 100个工具的时候他基本上肯定会调不准
 为了实现一个复杂的系统 以前会通过多Agent架构来解决这些问题
+ 
+ -------------------------------
+
+## Multi-Agent
+
+
+在构建了多智能体系统并协助团队将其投入实际应用之后
+我们发现有三种情况下，多个智能体的表现始终优于单个智能体：
+当上下文干扰会降低性能时、
+当任务可以并行处理时，
+以及当专业化分工有助于提升工具选择或任务执行效率时。
+在其他情况下，协调成本通常会高于所带来的好处。
+
+ 
+ 参考文章：- https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them
+
+**今日最佳**
+以问题中心 
+第一个子agent专门读代码 
+第二个专门写代码 
+第三个专门review代码 
+这种模式下agent之间大量tokens都消耗在解释上下文 解释彼此工作上 
+所以提出正确的姿势就是 
+按照上下文隔离的边界进行划分 
+也就是说谁掌握信息 
+谁就把这一块负责到底 
+只有当这个任务需要的背景上下午信息完全不同的时候 可能我们才考虑把他拆分成不同的子agent来做更好
+
+**说白了就是团队合作有时候拉通对齐比干活要费劲的多**
+
+-----------------------------
+然后是回文档一些比较重要的概念
+
+## Context Engineering上下文工程
+
+- [【Lanchain】Context Engineering](https://blog.langchain.com/context-engineering-for-agents/)（lanchain）
+    
+- [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)（Anthropic）
+    
+- https://mp.weixin.qq.com/s/KbviOJ6q-K4ik_wzsUs2dw?open_in_browser=true
