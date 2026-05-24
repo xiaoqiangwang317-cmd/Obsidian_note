@@ -54,6 +54,6 @@ Transformer包含编码器和解码器的部分
 
 所以假设我想要我的模型拥有一些我私有的知识 那有没有什么平替的方案呢？
 
-RAG: 检索-增强-生成技术
-
+RAG:[[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf]] 
+检索-增强-生成技术  RAG一开始是为了解决大语言模型的幻觉的问题                 
 
