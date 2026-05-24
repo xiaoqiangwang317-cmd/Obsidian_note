@@ -88,7 +88,9 @@ Function call 和 MCP
 
 **所以，当初人们是怎么解决让模型有动手能力，能做操作工具的这样一个需求呢？**
 
-[[Function call]]
+**[[Function call]]**
+官方文档读一万遍！！！
+[函数调用 | OpenAI API --- Function calling | OpenAI API](https://developers.openai.com/api/docs/guides/function-calling)
 看图[[Function时序图.png]] 可以理解成模型还是只负责说 我们的服务端负责去做
 ![[image-1779599697102.webp|400x265]]
 有了function call之后大家纷纷去给自己的AI应用程序去接入了一些外部能力
