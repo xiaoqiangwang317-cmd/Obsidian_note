@@ -101,4 +101,7 @@ Function call 和 MCP
 返回结果后再把日志塞给模型
 
 **那么为了减少这种功能的重复开发**
-为了实现这种通用的
+为了实现这种通用的function call能力的共享
+就出现了这种通用的模型上下文协议 **Model Context Protocol**
+
+
