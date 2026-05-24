@@ -106,4 +106,5 @@ Function call 和 MCP
 为了实现这种通用的function call能力的共享
 就出现了这种通用的模型上下文协议 **Model Context Protocol**
 
-
+**MCP**
+2024年11月 提出的协议规范
