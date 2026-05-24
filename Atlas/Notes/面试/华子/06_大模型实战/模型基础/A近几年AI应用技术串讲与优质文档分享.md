@@ -133,8 +133,14 @@ agent其实就是模拟的这个过程
 ![[image-1779607882662.webp|400x327]]
 
 **这篇文章特别好，看一万遍！！！**
+**真的很好，强推！**
 - https://x.com/HiTw93/status/2034627967926825175
-    
+
+Agent落地 参考
+![[image-1779616588981.webp|294x400]]
+![[image-1779616683943.webp|400x251]]
+
+
 - https://x.com/HiTw93/status/2034627967926825175（https://tw93.fun/2026-03-21/agent.html）
     
 - **Agent Loop：思考 → 行动 → 观察**
