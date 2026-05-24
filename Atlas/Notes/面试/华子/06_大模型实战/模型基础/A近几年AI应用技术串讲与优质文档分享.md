@@ -256,6 +256,7 @@ Context engineering is becoming a craft that agents builders should aim to maste
 
 站在这个时间节点，目前我们还有哪些问题没有被解决
 比如说，最经典的上下文爆炸的问题
+再比如说，MCP协议实现了工具的可复用性
 
 ----------------------------------------
 ## AgentSkill
@@ -267,7 +268,7 @@ AgentSkills是一种轻量级的开放格式，用于将一整套Agent能力（p
 AgentSkill特别适合SOP的沉淀和复用（离职的同事终将化作温暖的Skill) Agent会在运行过程中按需激活不同Skills、按需读取和使用Skills文件包里的内容（渐进式披露）
 
 **Skill核心亮点**
-基于文件系统的渐进式披露（最经典的上下文爆炸的问题）
+基于文件系统的渐进式披露（最经典的上下文爆炸的问题 解决：自己去选择我要一层层的翻找哪一部分的提示词）
 经验与SOP沉淀
 可移植性
 SandBox:一个真正的工位
