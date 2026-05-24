@@ -252,7 +252,7 @@ Context engineering is becoming a craft that agents builders should aim to maste
 但是书归正题
 学还是要学的
 
-好了，接下来要和现代接轨了
+**好了，接下来要和现代接轨了**
 
 站在这个时间节点，目前我们还有哪些问题没有被解决
 比如说，最经典的上下文爆炸的问题
@@ -260,7 +260,12 @@ Context engineering is becoming a craft that agents builders should aim to maste
 ----------------------------------------
 ## AgentSkill
 
-skill是什么？
+**Skill是什么？**
+[代理技能概览——代理技能介绍 --- Agent Skills Overview - Agent Skills](https://agentskills.io/home)
 
 AgentSkills是一种轻量级的开放格式，用于将一整套Agent能力（prompt、工具脚本、知识文件等） 封装为可复用模块，从而实现低门槛分享与复用 AgentSkill本质上约等于一个子Agent
 AgentSkill特别适合SOP的沉淀和复用（离职的同事终将化作温暖的Skill) Agent会在运行过程中按需激活不同Skills、按需读取和使用Skills文件包里的内容（渐进式披露）
+
+**Skill核心亮点**
+基于文件系统的渐进式披露
+经验与
