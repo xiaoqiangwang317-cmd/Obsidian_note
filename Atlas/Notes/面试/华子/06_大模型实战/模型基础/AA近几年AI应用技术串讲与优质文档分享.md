@@ -23,6 +23,7 @@ Transformer包含编码器和解码器的部分
 在奠定了大语言模型的技术基础后开始涌现了很多chatbot 就是聊天机器人
 这就是一开始人们和大语言模型交互的基本形式
 
+## 只会说话
 但是同样的一个模型，同样的一个对话框
 你也发消息，我也发消息
 为什么有的人他拿到的输出的结果直来那个就更好呢
@@ -73,9 +74,8 @@ RAG从头到尾的过程都有非常多的门道：
 5. 如果用户的请求和这个数据的回答相似度比较低，你要去做一些什么处理
 **等**
 
-只会说话
 --------------
-会调用工具
+## 会调用工具
 
 **下一条线**
 
@@ -112,3 +112,20 @@ Function call 和 MCP
 所谓协议就是说 只要大家都遵循这个规范
 都按这个来 那我们这个生态就会非常的其乐融融 
 
+## 
+接着就到了这两年特别火的这个Agent的概念
+
+**Agent**
+- https://arxiv.org/abs/2210.03629?utm_source=chatgpt.com
+    
+- https://x.com/HiTw93/status/2034627967926825175
+    
+- https://x.com/HiTw93/status/2034627967926825175（https://tw93.fun/2026-03-21/agent.html）
+    
+- Agent Loop：思考 → 行动 → 观察
+    
+- Agent 设计模式
+    
+    - https://medium.com/binome/ai-agent-workflow-design-patterns-an-overview-cf9e1f609696
+        
+    - https://mp.weixin.qq.com/s/7CZ6cHWQ-T9bmaWoJFwdwA
