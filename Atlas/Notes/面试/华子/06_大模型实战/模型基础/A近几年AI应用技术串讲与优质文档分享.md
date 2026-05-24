@@ -284,7 +284,9 @@ SandBox:一个真正的工位
 就是约定俗成怎么写skill
 
 my-skill/
-|-SKILL.md      
+|---SKILL.md      #Required:instructions +metadata
+|---scripts/          #Optional:executable code
+|---
 ![[image-1779625106875.webp|400x124]]
 
 主脑 看相关性匹配技能（刚开始只是加载skill的名称和描述）
