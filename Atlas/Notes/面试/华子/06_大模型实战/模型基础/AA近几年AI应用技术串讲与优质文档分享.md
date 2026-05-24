@@ -125,6 +125,9 @@ agent其实就是模拟的这个过程
 
 **Agent**
 推荐论文：[[ReAct.pdf]]
+[[思想的重要性]]
+他能通过你给的上下文信息与外部环境进行交互 非常神奇啊！！！
+![[image-1779607057864.webp|400x329]]
 - https://arxiv.org/abs/2210.03629?utm_source=chatgpt.com
     
 - https://x.com/HiTw93/status/2034627967926825175
