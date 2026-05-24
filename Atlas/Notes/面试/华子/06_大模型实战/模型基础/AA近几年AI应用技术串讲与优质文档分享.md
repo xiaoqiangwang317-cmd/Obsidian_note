@@ -112,8 +112,8 @@ Function call 和 MCP
 所谓协议就是说 只要大家都遵循这个规范
 都按这个来 那我们这个生态就会非常的其乐融融 
 
+接着就到了这两年特别火的这个Agent的概念，确实是思想的改革
 ## 
-接着就到了这两年特别火的这个Agent的概念
 
 **Agent**
 - https://arxiv.org/abs/2210.03629?utm_source=chatgpt.com
