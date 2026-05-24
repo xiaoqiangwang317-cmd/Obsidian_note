@@ -215,7 +215,7 @@ _[Context engineering is the] ”…delicate art and science of filling the cont
     
 - [【Lanchain】Context Engineering](https://blog.langchain.com/context-engineering-for-agents/)（lanchain）
 文慧认为：我觉得就是草稿纸的内容
-langchain认为：
+langchain认为：当人类完成任务时，我们会做笔记并记住各种信息，以便将来处理相关任务时使用。智能体也在逐渐获得这种能力！通过“临时存储区”来记录信息，是让智能体在完成任务时能够保留相关数据的一种方法。其核心思路是将信息存储在当前任务上下文之外，这样智能体就能随时访问这些信息了。
 
 引用：聪明的王文慧
     ![[image-1779622154648.webp|400x159]]
