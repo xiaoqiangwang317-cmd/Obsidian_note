@@ -124,6 +124,7 @@ Function call 和 MCP
 agent其实就是模拟的这个过程
 
 **Agent**
+推荐论文：[[ReAct.pdf]]
 - https://arxiv.org/abs/2210.03629?utm_source=chatgpt.com
     
 - https://x.com/HiTw93/status/2034627967926825175
