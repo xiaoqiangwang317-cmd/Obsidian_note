@@ -7,19 +7,19 @@ Skill 是：
 
 text
 
-`SKILL.md -> system prompt -> 影响模型怎么想、怎么做`
+SKILL.md -> system prompt -> 影响模型怎么想、怎么做
 
 MCP 是：
 
 text
 
-`外部 server -> list_tools -> ToolRegistry -> 模型可调用工具 -> call_tool`
+外部 server -> list_tools -> ToolRegistry -> 模型可调用工具 -> call_tool
 
 更直观：
 
 text
 
-`Skill = 给模型一份操作说明 MCP = 给模型挂一组可执行外部能力`
+Skill = 给模型一份操作说明 MCP = 给模型挂一组可执行外部能力
 
 ## 正常 MCP 全流程总结
 
@@ -27,7 +27,7 @@ text
 
 text
 
-`config.json 配置 playwright -> gateway 启动 -> AgentLoop._connect_mcp -> connect_mcp_servers -> 启动 npx @playwright/mcp 子进程 -> ClientSession.initialize() -> ClientSession.list_tools() -> MCPToolWrapper 包装 browser_* 工具 -> ToolRegistry 注册 mcp_playwright_* -> 用户输入“打开 example.com” -> AgentLoop BUILD 组上下文 -> AgentRunner RUN 请求模型 -> 模型返回 mcp_playwright_browser_navigate -> Runner 执行工具 -> MCPToolWrapper.call_tool("browser_navigate", {"url": ...}) -> Playwright MCP server 执行 -> 工具结果回到 Runner -> Runner 再请求模型总结 -> AgentLoop 保存并响应`
+config.json 配置 playwright -> gateway 启动 -> AgentLoop._connect_mcp -> connect_mcp_servers -> 启动 npx @playwright/mcp 子进程 -> ClientSession.initialize() -> ClientSession.list_tools() -> MCPToolWrapper 包装 browser_* 工具 -> ToolRegistry 注册 mcp_playwright_* -> 用户输入“打开 example.com” -> AgentLoop BUILD 组上下文 -> AgentRunner RUN 请求模型 -> 模型返回 mcp_playwright_browser_navigate -> Runner 执行工具 -> MCPToolWrapper.call_tool("browser_navigate", {"url": ...}) -> Playwright MCP server 执行 -> 工具结果回到 Runner -> Runner 再请求模型总结 -> AgentLoop 保存并响应
 
 ## 你调试时应该看哪些点
 
