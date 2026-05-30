@@ -35,7 +35,7 @@ date: 2026-05-19
 	* **剪枝 (Pruning)**：去掉不重要的神经元。 
 	* **蒸馏 (Distillation)**：大模型教小模型。 
 * **推理加速**： 
-	* **KV Cache**：存储过去生成的 Key/Value，避免重复计算。 
+	* **[[KV Cache]]**：存储过去生成的 Key/Value，避免重复计算。 
 	* **Speculative Decoding (投机采样)**：用小模型兜底，大模型验证，提速。 
 	* **vLLM / TGI / TensorRT-LLM**：专门的高性能推理框架。 
 * **解码策略**：
