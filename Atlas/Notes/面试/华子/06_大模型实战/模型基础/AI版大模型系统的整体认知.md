@@ -18,7 +18,7 @@ date: 2026-05-19
 * **核心法则**：**Scaling Law（尺度定律）** —— 数据质量与规模的胜利。
 #### 第 2 层：模型算法层（大脑的“结构”） 
 * **架构选择**：纯文本 LLM：Transformer 架构（自回归）。 
-* 多模态 LLM：CLIP（视觉编码器）+ LLM 组合（如 LLaVA），或原生多模态（如 Gemini）。 
+* 多模态 LLM：[[CLIP]]（视觉编码器）+ LLM 组合（如 LLaVA），或原生多模态（如 Gemini）。 
 * **核心设计**： 
 	* Attention 机制
 	* MoE (Mix of Experts) 
