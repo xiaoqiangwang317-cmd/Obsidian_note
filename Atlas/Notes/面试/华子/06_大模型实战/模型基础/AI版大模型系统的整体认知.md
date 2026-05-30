@@ -38,6 +38,9 @@ date: 2026-05-19
 	* **KV Cache**：存储过去生成的 Key/Value，避免重复计算。 
 	* **Speculative Decoding (投机采样)**：用小模型兜底，大模型验证，提速。 
 	* **vLLM / TGI / TensorRT-LLM**：专门的高性能推理框架。 
+* **解码策略**：
+	* **确定性策略**：[[贪婪搜索]]、束搜索
+	* **随机性策略**：温度采样、Top‑k、Top‑p、混合采样
 * **部署形态**： 
 	* 云端 API（如 OpenAI, DeepSeek）。 
 	* 本地私有化部署（如 Ollama, vLLM 本地服务）。 
