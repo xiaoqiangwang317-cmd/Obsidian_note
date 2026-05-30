@@ -7,25 +7,22 @@ date: 2026-05-30
 
 text
 
-`读取 nanobot/agent/runner.py 前20行`
+读取 nanobot/agent/runner.py 前20行
 
 这里最可能会触发的是文件读取类工具，比如：
 
 text
 
-`read_file`
-
+`read_file
 ## 全局流程
 
 整体还是这条 Agent 主线：
 
 text
 
-`用户输入 -> InboundMessage -> MessageBus -> AgentLoop._dispatch -> AgentLoop._process_message -> RESTORE -> COMPACT -> COMMAND -> BUILD -> RUN -> SAVE -> RESPOND -> OutboundMessage -> 用户看到结果`
+用户输入 -> InboundMessage -> MessageBus -> AgentLoop._dispatch -> AgentLoop._process_message -> RESTORE -> COMPACT -> COMMAND -> BUILD -> RUN -> SAVE -> RESPOND -> OutboundMessage -> 用户看到结果
 
 Tool 主要发生在：
-
-text
 
 `RUN 阶段`
 
@@ -33,9 +30,8 @@ text
 
 完整展开是：
 
-text
 
-`用户输入“读取 nanobot/agent/runner.py 前20行” -> AgentLoop BUILD 组装上下文 -> AgentLoop RUN 调用 AgentRunner -> AgentRunner 请求模型 -> 模型看到 tool schema -> 模型选择 read_file 工具 -> AgentRunner 解析 tool_call -> ToolRegistry 找到 read_file 工具 -> 执行 ReadFileTool.execute(...) -> 读取 runner.py 前20行 -> 工具结果作为 tool message 回填 -> AgentRunner 再请求模型 -> 模型总结/原样返回文件内容 -> AgentLoop SAVE -> AgentLoop RESPOND -> 用户看到前20行`
+用户输入“读取 nanobot/agent/runner.py 前20行” -> AgentLoop BUILD 组装上下文 -> AgentLoop RUN 调用 AgentRunner -> AgentRunner 请求模型 -> 模型看到 tool schema -> 模型选择 read_file 工具 -> AgentRunner 解析 tool_call -> ToolRegistry 找到 read_file 工具 -> 执行 ReadFileTool.execute(...) -> 读取 runner.py 前20行 -> 工具结果作为 tool message 回填 -> AgentRunner 再请求模型 -> 模型总结/原样返回文件内容 -> AgentLoop SAVE -> AgentLoop RESPOND -> 用户看到前20行
 
 ## Tool 注册流程
 
