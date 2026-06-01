@@ -24,7 +24,9 @@ date: 2026-05-19
 	* MoE (Mix of Experts) 
 	* Positional Embeddings (RoPE, ALiBi) 
 	* Tokenization (分词器)
-	* 
+	* Embedding
+	* MLP（前馈网络）
+	* Activation Function（[[激活函数]]）
 * **训练范式**：**自监督学习**（Next Token Prediction）。 
  #### 第 3 层：训练工程层（把矿炼成金） 分为三大关键阶段： 
 1. **预训练 (Pre-training)**：从零训练基础模型。 * 耗时最长、算力最大、最昂贵。 * 解决通用“理解与生成”能力。 * 问题：**显存爆炸** → 使用 **ZeRO-3**，模型并行。 
