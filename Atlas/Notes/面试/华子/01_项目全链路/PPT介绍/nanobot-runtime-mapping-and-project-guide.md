@@ -47,17 +47,17 @@ flowchart TD
 
 ## 2. Nanobot 到本项目的代码映射
 
-| Nanobot / OpenClaw 概念 | 我项目里的 Runtime 骨架 | 我项目里的业务系统落点 | 答辩讲法 |
-| --- | --- | --- | --- |
-| loop / 状态机入口 | `CodingAgentRuntime.execute()`、`TaskScheduler` | `CustomerServiceAgentStateMachine`、`AgentState` | 用状态机控制任务生命周期和 Agent 流转 |
-| runner / 执行引擎 | `AgentPolicy`、`RuleBasedAgentPolicy`、`ToolRouter.call()` | `KnowledgeCustomerService.chat()` 串起完整业务链路 | 不是单次请求，而是多阶段执行闭环 |
-| registry / 能力网关 | `ToolRouter`、`ToolRegistryFactory`、`ToolSpec` | `KnowledgeRepository`、`VectorStore`、`PromptAnswerGenerator`、`ConversationMemoryStore`、`KnowledgeAuditRepository` | 把模型背后的业务能力抽象成可替换接口 |
-| local tool | `create_workspace`、`read_file`、`run_command` 等本地工具 | 知识检索、问答日志、会话记忆等业务能力 | 本地 Tool 思想在 Runtime 层已完整体现 |
-| built-in skill | 当前 Runtime 层未做 `SKILL.md` 动态加载 | `PromptTemplateBuilder`、`GroundedPrompt`、`enterprise-kb-grounded-v1` | 将 Skill 的“内置策略注入”迁移为版本化 Prompt 策略 |
-| remote MCP | 当前未做 MCP 协议级接入 | `MilvusSdkVectorStore`、`OpenAiCompatibleAnswerGenerator`、`RedisConversationMemoryStore`、`MyBatisPlusKnowledgeAuditRepository` | 将 MCP 的“外部能力接入”迁移为接口适配器，后续可包装成 MCP 工具 |
-| Observation | `AgentObservation`、`TaskContext.observations()` | `AgentContext.trace()`、`ChatResponse.trace()` | 每一步执行结果都回填上下文，便于下一步决策和排查 |
-| Memory | `TaskContext` 保存文件缓存、工具调用、决策日志 | `ConversationSessionState`、`ConversationMemoryService`、Redis Store | 支持多轮追问、摘要记忆和状态延续 |
-| Governance | `TaskScheduler.finalize()`、校验命令 | `Prompt` 证据约束、置信度阈值、QA 日志、用户反馈 | 让答案有依据、可追踪、可复盘 |
+| Nanobot / OpenClaw 概念 | 我项目里的 Runtime 骨架                                         | 我项目里的业务系统落点                                                                                                                   | 答辩讲法                                  |
+| --------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| loop / 状态机入口          | `CodingAgentRuntime.execute()`、`TaskScheduler`           | `CustomerServiceAgentStateMachine`、`AgentState`                                                                               | 用状态机控制任务生命周期和 Agent 流转                |
+| runner / 执行引擎         | `AgentPolicy`、`RuleBasedAgentPolicy`、`ToolRouter.call()` | `KnowledgeCustomerService.chat()` 串起完整业务链路                                                                                    | 不是单次请求，而是多阶段执行闭环                      |
+| registry / 能力网关       | `ToolRouter`、`ToolRegistryFactory`、`ToolSpec`            | `KnowledgeRepository`、`VectorStore`、`PromptAnswerGenerator`、`ConversationMemoryStore`、`KnowledgeAuditRepository`              | 把模型背后的业务能力抽象成可替换接口                    |
+| local tool            | `create_workspace`、`read_file`、`run_command` 等本地工具       | 知识检索、问答日志、会话记忆等业务能力                                                                                                           | 本地 Tool 思想在 Runtime 层已完整体现            |
+| built-in skill        | 当前 Runtime 层未做 `SKILL.md` 动态加载                           | `PromptTemplateBuilder`、`GroundedPrompt`、`enterprise-kb-grounded-v1`                                                          | 将 Skill 的“内置策略注入”迁移为版本化 Prompt 策略     |
+| remote MCP            | 当前未做 MCP 协议级接入                                           | `MilvusSdkVectorStore`、`OpenAiCompatibleAnswerGenerator`、`RedisConversationMemoryStore`、`MyBatisPlusKnowledgeAuditRepository` | 将 MCP 的“外部能力接入”迁移为接口适配器，后续可包装成 MCP 工具 |
+| Observation           | `AgentObservation`、`TaskContext.observations()`          | `AgentContext.trace()`、`ChatResponse.trace()`                                                                                 | 每一步执行结果都回填上下文，便于下一步决策和排查              |
+| Memory                | `TaskContext` 保存文件缓存、工具调用、决策日志                           | `ConversationSessionState`、`ConversationMemoryService`、Redis Store                                                            | 支持多轮追问、摘要记忆和状态延续                      |
+| Governance            | `TaskScheduler.finalize()`、校验命令                          | `Prompt` 证据约束、置信度阈值、QA 日志、用户反馈                                                                                                | 让答案有依据、可追踪、可复盘                        |
 
 ## 3. Tool、Skill、MCP 在本项目里的体现
 
