@@ -83,3 +83,47 @@ VectorStore 是向量库接口，我实现了两个版本：LocalVectorStore �
 记忆和审计这块，我也做了抽象。ConversationMemoryStore 是会话存储接口，本地可以走 InMemoryConversationMemoryStore，生产可以走 RedisConversationMemoryStore。它会按 sessionId 保存 ConversationSessionState，里面包括会话摘要、当前意图和历史轮次，用来支持连续追问。
 
 MySQL 侧我定义了 KnowledgeAuditRepository 接口，具体实现是 MyBatisPlusKnowledgeAuditRepository，里面通过 KnowledgeDocumentMapper、QaLogMapper、UserFeedbackMapper 分别管理知识文档元数据、问答日志和用户反馈。
+
+第六页
+
+这一页可以更聚焦代码实现，讲“多 Agent 不是概念，是我用状态机和接口拆出来的”。你可以这样说：
+
+这一页我具体讲多 Agent 状态机是怎么实现的。
+
+在代码里，我先定义了一个统一的 `Agent` 接口，核心方法是：
+
+```java
+void execute(AgentContext context);
+```
+
+也就是说，不管是意图识别、知识检索，还是答案生成，本质上都实现同一个执行接口。这样状态机不需要关心每个 Agent 内部怎么做，只需要按状态取出对应 Agent 并调用 `execute()`。
+
+状态枚举我定义在 `AgentState` 里，包括 `RECEIVED`、`INTENT_RECOGNIZED`、`KNOWLEDGE_RETRIEVED`、`ANSWER_GENERATED`、`COMPLETED` 和 `FAILED`。PPT 上为了简洁写成了 `INTENT_OK`、`RETRIEVED`、`GENERATED`，但代码里对应的就是这几个完整状态。
+
+真正的编排类是 `CustomerServiceAgentStateMachine`。它内部用一个 `EnumMap<AgentState, Agent>` 维护状态和 Agent 的映射关系：
+
+```java
+RECEIVED -> IntentRecognitionAgent
+INTENT_RECOGNIZED -> KnowledgeRetrievalAgent
+KNOWLEDGE_RETRIEVED -> AnswerGenerationAgent
+```
+
+执行时，`run()` 方法会创建一个 `AgentContext`，然后进入 while 循环。只要状态不是 `COMPLETED` 或 `FAILED`，就根据当前状态取出对应 Agent，执行 `agent.execute(context)`。每个 Agent 执行完之后，会通过 `context.moveTo()` 推进到下一个状态。
+
+三个 Agent 的职责是这样拆的。
+
+`IntentRecognitionAgent` 负责意图识别。它会读取 `context.resolvedQuestion()`，结合当前会话状态判断是售后问题、知识问答，还是连续追问，然后生成 `IntentResult`，写回 `context.intent()`，最后把状态推进到 `INTENT_RECOGNIZED`。
+
+`KnowledgeRetrievalAgent` 负责知识检索。它内部依赖的是 `KnowledgeRepository` 接口，而不是直接依赖 Milvus。执行时调用：
+
+```java
+repository.search(context.resolvedQuestion(), context.intent().name(), 3)
+```
+
+然后把 TopK 召回结果放进 `context.retrievedChunks()`，再把状态推进到 `KNOWLEDGE_RETRIEVED`。
+
+`AnswerGenerationAgent` 负责受控生成。它会先根据召回的 `KnowledgeChunk` 计算最大置信度，然后用 `PromptTemplateBuilder` 构建 `GroundedPrompt`，再调用 `PromptConstrainedAnswerGenerator` 生成答案。如果证据不足或者置信度低于阈值，就不会直接回答，而是返回转人工策略。最终它会构造 `ChatResponse`，里面包含 answer、confidence、sourceDocumentIds 和 trace。
+
+这里最关键的是 `AgentContext`。它贯穿整个流程，保存了 `request`、`conversation`、`resolvedQuestion`、`intent`、`retrievedChunks`、`prompt`、`response` 和 `trace`。也就是说，状态机负责流程流转，Agent 负责单步能力，AgentContext 负责在多个 Agent 之间传递状态和中间结果。
+
+所以这一页我想表达的是：我的多 Agent 实现不是简单把几个类命名成 Agent，而是用 `Agent` 接口统一执行协议，用 `AgentState` 管理生命周期，用 `CustomerServiceAgentStateMachine` 做编排，用 `AgentContext` 贯穿上下文。这样每个 Agent 职责清晰，后续如果要替换意图识别模型、检索策略或者答案生成模型，都可以单独替换，不影响整体流程。
