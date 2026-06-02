@@ -195,3 +195,16 @@ POST /api/customer-service/feedback
 用户反馈会绑定 `logId`，再通过 `KnowledgeAuditService.recordFeedback()` 写入 `user_feedback`。这样日志、来源、置信度和用户反馈可以串起来，后续就能分析哪些问题是知识缺口，哪些是召回策略问题，哪些是 Prompt 约束需要优化。
 
 所以这一页我想表达的是：我做的不只是一次性问答，而是把多轮记忆、回答依据、日志审计、Prompt 策略和用户反馈做成了闭环。这样系统才具备可追踪、可解释、可迭代的工程能力。
+
+第九页
+最后这一页，我想把前面的内容收束到我对 AI 应用开发岗位的理解上。
+
+我今天的介绍是从 Agent Runtime 开始的。前面我先讲了一个 Agent 系统为什么不能只是一次模型调用，而应该是一个“输入、状态调度、推理决策、能力调用、结果观察、上下文更新”的执行闭环。然后我通过 Nanobot 这个轻量级开源项目去拆它的主路径，理解它是怎么用比较小的核心，把 Runner、Registry、Memory 和 Observation 串起来的。
+
+在这个基础上，我没有停留在源码阅读，而是进一步做了 Java 侧的自研验证。比如用状态机验证任务流转，用 Agent 接口统一执行协议，用上下文对象承载中间状态，用工具路由和验证机制去模拟一个 Agent Runtime 的核心闭环。这个过程让我理解到，Agent 的难点不是把类命名成 Agent，而是能不能把决策、执行、观察和反馈稳定组织起来。
+
+最后我把这套思想落到了“基于多 Agent 与 RAG 的企业知识库智能问答系统”里。这个系统里，Spring Boot 接口负责承接请求，CustomerServiceAgentStateMachine 负责多 Agent 编排，IntentRecognitionAgent、KnowledgeRetrievalAgent、AnswerGenerationAgent 分别处理意图识别、知识检索和证据生成。RAG 链路通过 RagPipeline 串起文档切分、Embedding、VectorStore 和 Milvus TopK 召回；Redis 负责多轮会话记忆；MySQL 和 MyBatis-Plus 负责 QA 日志、文档元数据和用户反馈；Prompt 约束则保证答案尽量基于证据，而不是让模型自由发挥。
+
+所以这套项目对我来说形成了一个闭环：前面是 Runtime 架构理解，中间是 Nanobot 源码拆解和 Java 原型验证，后面是企业知识库智能问答系统的工程落地。它不是单纯展示“我会调用大模型接口”，而是说明我理解 AI 应用真正落地时，需要把模型能力、工具系统、知识库、业务接口、状态管理和反馈机制组织成一个可靠系统。
+
+面向华为 AI 应用开发岗位，我的理解是，工程价值不止在于模型调用，而在于把模型放进一个可上线、可追踪、可迭代的业务系统里。面向后续的 AI 应用落地，我认为重点不是追求单点模型能力，而是持续提升系统对业务知识的理解、对执行过程的控制，以及对结果质量的反馈优化能力。
