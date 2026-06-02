@@ -47,4 +47,18 @@ Nanobot 给我的启发是，它的代码规模并不大，但主路径很清楚
 
 第四步是工程落地。最后我把这套 Runtime 思想迁移到 AI 应用开发场景里，也就是后面要展开的企业知识库智能客服系统。在这个系统里，状态机对应多 Agent 协同，RAG 对应知识证据获取，Redis 对应上下文记忆，Prompt 约束和日志反馈对应回答质量控制与持续优化。
 
+第四页
+
 所以这一页想表达的是：Nanobot 的价值在于用轻量代码呈现了 Agent Runtime 的核心闭环，而我的实践路径是从架构观察，到源码拆解，再到本地验证，最后落到具体 AI 应用工程里。
+
+**这一页是从 Runtime 思想到我自己项目的映射关系。前面我讲了 Nanobot / OpenClaw 这类 Agent Runtime 的核心闭环，它的重点不是某一个模型调用，而是状态调度、工具调用、上下文回填和结果治理。那我自己的项目，就是把这套思想迁移到企业知识库智能问答场景里。
+
+第一层是状态机调度。在 Runtime 里，AgentLoop 负责生命周期控制；对应到我的系统里，就是用状态机串联意图识别、知识检索和答案生成。这样一次用户问题进入后，不是让模型自由发挥，而是按固定流程完成任务。
+
+第二层是执行引擎。Runtime 里 Runner 负责推理、行动和观察；对应到我的系统里，我把问答流程拆成 Intent Agent、Retrieval Agent 和 Answer Agent。Intent Agent 判断用户意图和追问关系，Retrieval Agent 负责 RAG 检索，Answer Agent 基于证据生成答案。
+
+第三层是能力网关。Nanobot 里通过 ToolRegistry 和 MCP 扩展外部能力；我的系统里对应 KnowledgeRepository 和 VectorStore。这样检索 Agent 不直接依赖 Milvus，而是面向抽象接口，后续可以从本地向量库切到 Milvus，也可以替换不同 Embedding 模型。
+
+第四层是上下文记忆。Runtime 里通过 history、memory、skills 维持任务上下文；我的系统里通过 Redis 管理多轮会话摘要、当前意图和会话状态，用来支持连续追问。
+
+第五层是结果治理。Runtime 里的 Observation 会回填上下文，驱动下一轮决策；我的系统里则通过 MySQL 记录 QA 日志、用户反馈和 Prompt trace，用来分析召回效果、回答质量和后续优化方向。**
