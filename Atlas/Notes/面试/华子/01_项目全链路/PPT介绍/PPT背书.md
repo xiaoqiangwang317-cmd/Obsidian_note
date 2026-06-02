@@ -62,3 +62,24 @@ Nanobot 给我的启发是，它的代码规模并不大，但主路径很清楚
 第四层是上下文记忆。Runtime 里通过 history、memory、skills 维持任务上下文；我的系统里通过 Redis 管理多轮会话摘要、当前意图和会话状态，用来支持连续追问。
 
 第五层是结果治理。Runtime 里的 Observation 会回填上下文，驱动下一轮决策；我的系统里则通过 MySQL 记录 QA 日志、用户反馈和 Prompt trace，用来分析召回效果、回答质量和后续优化方向。**
+
+第五页
+
+这一页我从一次请求的代码链路来讲。用户问题进入系统后，首先到接口层，也就是 CustomerServiceController。我在这里提供了两个接口：POST /api/customer-service/chat 负责接收用户问题，入参是 ChatRequest，返回 ChatResponse；另一个是 POST /api/customer-service/feedback，用于记录用户反馈。
+
+接口层不会直接调用模型，而是把请求交给业务编排类 KnowledgeCustomerService。在 KnowledgeCustomerService.chat() 里，我做了三件事：第一，通过 ConversationMemoryService.load() 加载当前 session 的上下文；第二，调用 CustomerServiceAgentStateMachine.run() 执行多 Agent 流程；第三，在回答结束后，通过 ConversationMemoryService.recordTurn() 记录本轮对话，并通过 KnowledgeAuditService.recordQaLog() 写入问答日志，最后把 logId 返回给前端，方便后续反馈追踪。
+
+中间最核心的是状态机 CustomerServiceAgentStateMachine。我定义了一个通用接口 Agent，里面只有一个方法 execute(AgentContext context)。然后用 AgentState 枚举管理状态流转，包括 RECEIVED、INTENT_RECOGNIZED、KNOWLEDGE_RETRIEVED、ANSWER_GENERATED、COMPLETED 和 FAILED。状态机内部用 EnumMap<AgentState, Agent> 维护每个状态对应执行哪个 Agent。
+
+具体到三个 Agent：  
+IntentRecognitionAgent 负责识别意图，会生成 IntentResult，比如知识问答、售后问题或者连续追问；  
+KnowledgeRetrievalAgent 负责检索，它会调用 KnowledgeRepository.search()，根据 resolvedQuestion、intentName 和 topK 获取知识片段；  
+AnswerGenerationAgent 负责答案生成，它会计算召回置信度，调用 PromptTemplateBuilder 构建 GroundedPrompt，再通过 PromptConstrainedAnswerGenerator 做证据约束生成。
+
+RAG 这块我也做了接口抽象。KnowledgeRepository 是知识检索接口，具体实现是 RagKnowledgeRepository。底层有一个 RagPipeline，它分成两个流程：离线入库走 ingest()，里面用 DocumentChunker 做文档切分，用 EmbeddingModel 做向量化，再写入 VectorStore；在线召回走 retrieve()，对用户问题向量化后调用 VectorStore.search() 做 TopK 检索。
+
+VectorStore 是向量库接口，我实现了两个版本：LocalVectorStore 用来本地验证召回逻辑，MilvusSdkVectorStore 用来对接外部 Milvus。创建逻辑放在 VectorStoreFactory 里，通过配置决定走本地还是 Milvus。这里的好处是 Retrieval Agent 不依赖具体向量库，后续替换 Milvus 或 Embedding 模型不会影响上层 Agent 流程。
+
+记忆和审计这块，我也做了抽象。ConversationMemoryStore 是会话存储接口，本地可以走 InMemoryConversationMemoryStore，生产可以走 RedisConversationMemoryStore。它会按 sessionId 保存 ConversationSessionState，里面包括会话摘要、当前意图和历史轮次，用来支持连续追问。
+
+MySQL 侧我定义了 KnowledgeAuditRepository 接口，具体实现是 MyBatisPlusKnowledgeAuditRepository，里面通过 KnowledgeDocumentMapper、QaLogMapper、UserFeedbackMapper 分别管理知识文档元数据、问答日志和用户反馈。
