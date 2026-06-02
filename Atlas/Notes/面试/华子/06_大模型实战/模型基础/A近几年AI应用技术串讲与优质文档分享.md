@@ -161,7 +161,7 @@ OK，讲到这又要讲一下为什么会有Muti Agent
 再比如说 你给同一个Agent注册两三个工具的时候还好
 注册50 100个工具的时候他基本上肯定会调不准
 为了实现一个复杂的系统 以前会通过多Agent架构来解决这些问题
- 
+
  -------------------------------
 
 ## Multi-Agent
@@ -174,7 +174,6 @@ OK，讲到这又要讲一下为什么会有Muti Agent
 以及当专业化分工有助于提升工具选择或任务执行效率时。
 在其他情况下，协调成本通常会高于所带来的好处。
 
- 
  参考文章：- https://claude.com/blog/building-multi-agent-systems-when-and-how-to-use-them
 
 **今日最佳**
@@ -216,7 +215,6 @@ _[Context engineering is the] ”…delicate art and science of filling the cont
 - [【Lanchain】Context Engineering](https://blog.langchain.com/context-engineering-for-agents/)（lanchain）
 	文慧认为：我觉得就是草稿纸的内容,上下文工程就是 草稿的内容你得到的有效信息 作为下一个草稿开始用的东西 然后再草稿 直至算出正确答案
 	langchain认为：当人类完成任务时，我们会做笔记并记住各种信息，以便将来处理相关任务时使用。智能体也在逐渐获得这种能力！通过“临时存储区”来记录信息，是让智能体在完成任务时能够保留相关数据的一种方法。其核心思路是将信息存储在当前任务上下文之外，这样智能体就能随时访问这些信息了。
-	引用：聪明的王文慧
     ![[image-1779622154648.webp|400x159]]
 
 - **文章通俗易懂**
