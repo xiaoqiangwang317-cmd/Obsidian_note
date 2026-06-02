@@ -127,3 +127,25 @@ repository.search(context.resolvedQuestion(), context.intent().name(), 3)
 这里最关键的是 `AgentContext`。它贯穿整个流程，保存了 `request`、`conversation`、`resolvedQuestion`、`intent`、`retrievedChunks`、`prompt`、`response` 和 `trace`。也就是说，状态机负责流程流转，Agent 负责单步能力，AgentContext 负责在多个 Agent 之间传递状态和中间结果。
 
 所以这一页我想表达的是：我的多 Agent 实现不是简单把几个类命名成 Agent，而是用 `Agent` 接口统一执行协议，用 `AgentState` 管理生命周期，用 `CustomerServiceAgentStateMachine` 做编排，用 `AgentContext` 贯穿上下文。这样每个 Agent 职责清晰，后续如果要替换意图识别模型、检索策略或者答案生成模型，都可以单独替换，不影响整体流程。
+
+第七页
+
+这一页我讲 RAG 检索增强链路的代码实现。整个 RAG 我拆成两部分：离线入库和在线召回，对应代码里主要是 RagPipeline 这个类。
+
+离线入库对应 RagPipeline.ingest() 方法。入参是一组 KnowledgeDocument，也就是企业知识文档对象。每个文档里包含 documentId、title、intentName 和 content。入库时，系统会先调用 DocumentChunker.chunk() 做文档切分，把长文档切成多个 DocumentChunk，每个 Chunk 会保留原始文档编号、标题、意图类型和 chunkId。
+
+切分完成后，RagPipeline 会调用 EmbeddingModel.embed() 对每个 Chunk 做向量化。我这里把 Embedding 抽象成接口 EmbeddingModel，当前本地实现是 HashingEmbeddingModel，主要用于验证向量化和召回流程。后续如果接真实 Embedding 服务，只需要替换这个接口实现，不影响 RAG 主流程。
+
+向量化之后，我会把 DocumentChunk 和对应的 EmbeddingVector 封装成 VectorDocument，然后调用 VectorStore.upsert() 写入向量库。这里 VectorStore 也是接口，我实现了两个版本：LocalVectorStore 和 MilvusSdkVectorStore。本地验证时用 LocalVectorStore，它会在内存里做 cosine 相似度排序；生产环境可以通过 VectorStoreFactory 创建 MilvusSdkVectorStore，真正连接 Milvus，把向量写入 collection。
+
+在线召回对应 RagPipeline.retrieve() 方法。用户问题进入后，系统会先调用 EmbeddingModel.embed(query) 把问题向量化，然后调用：
+
+`vectorStore.search(queryVector, intentName, topK)`
+
+这里会带上 intentName，比如售后问题就优先检索售后相关知识。LocalVectorStore 里做了一个 intentBoost，如果 Chunk 的 intentName 和问题意图一致，会给召回分数加权；MilvusSdkVectorStore 里则是通过 filter 条件按 intent_name 过滤，再做 TopK 向量检索。
+
+召回结果返回的是 VectorSearchHit，里面包含命中的 DocumentChunk 和 score。然后 RagPipeline.retrieve() 会把它转换成业务层使用的 KnowledgeChunk，包含 documentId、title、content 和 score。这些 KnowledgeChunk 后面会进入 AnswerGenerationAgent，作为 Grounded Prompt 的证据块。
+
+所以这一页我想表达的是：RAG 链路不是一句“接了向量库”，而是在代码里拆成了清晰的接口和流程。DocumentChunker 负责切分，EmbeddingModel 负责向量化，VectorStore 负责向量存储和检索，RagPipeline 负责把这些步骤串起来，RagKnowledgeRepository 再把它封装成上层 Agent 可调用的 KnowledgeRepository.search()。
+
+这里还有一个设计取舍：KnowledgeRetrievalAgent 不直接依赖 Milvus，而是依赖 KnowledgeRepository。底层是否使用 LocalVectorStore、MilvusSdkVectorStore，甚至以后换成 Elasticsearch 向量检索或其他向量数据库，都不会影响上层多 Agent 流程。这就是我在这个 RAG 模块里做的工程抽象。
