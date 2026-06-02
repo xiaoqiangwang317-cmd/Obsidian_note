@@ -149,3 +149,49 @@ repository.search(context.resolvedQuestion(), context.intent().name(), 3)
 所以这一页我想表达的是：RAG 链路不是一句“接了向量库”，而是在代码里拆成了清晰的接口和流程。DocumentChunker 负责切分，EmbeddingModel 负责向量化，VectorStore 负责向量存储和检索，RagPipeline 负责把这些步骤串起来，RagKnowledgeRepository 再把它封装成上层 Agent 可调用的 KnowledgeRepository.search()。
 
 这里还有一个设计取舍：KnowledgeRetrievalAgent 不直接依赖 Milvus，而是依赖 KnowledgeRepository。底层是否使用 LocalVectorStore、MilvusSdkVectorStore，甚至以后换成 Elasticsearch 向量检索或其他向量数据库，都不会影响上层多 Agent 流程。这就是我在这个 RAG 模块里做的工程抽象。
+
+第八页
+
+这一页你可以从“系统不是跑完一次回答就结束，而是要能记住、能追踪、能优化”这个角度讲。技术实现可以这样说：
+
+这一页我讲的是工程闭环部分，也就是 Redis 记忆、MySQL 审计、Prompt 约束和反馈闭环在代码里是怎么实现的。
+
+在主流程里，这部分主要发生在 `KnowledgeCustomerService.chat()` 方法里。一次请求进来后，我不是直接跑 Agent 状态机，而是先调用：
+
+```java
+ConversationMemoryService.load(request)
+```
+
+加载当前 `sessionId` 对应的会话状态。这里我抽象了一个 `ConversationMemoryStore` 接口，本地验证可以用 `InMemoryConversationMemoryStore`，生产环境可以切换到 `RedisConversationMemoryStore`。
+
+`RedisConversationMemoryStore` 里面用 `StringRedisTemplate` 按 `sessionId` 读写会话状态，key 的前缀是：
+
+```java
+customer-service:conversation:
+```
+
+保存的对象是 `ConversationSessionState`，里面包含会话摘要、历史轮次、当前意图等信息。每一轮对话结束后，会通过 `ConversationMemoryService.recordTurn()` 把本轮问题、改写后的问题、答案、意图、来源文档和置信度封装成 `ConversationTurn`，再写回 Redis。这样系统就能支持连续追问，比如用户问“退款需要什么材料”之后，再问“那多久能处理”，系统可以结合上一轮上下文理解这个“那”指的是什么。
+
+第二块是 MySQL 审计。我定义了 `KnowledgeAuditRepository` 接口，具体 MySQL 实现是 `MyBatisPlusKnowledgeAuditRepository`。它内部有三个 Mapper：
+
+```java
+KnowledgeDocumentMapper
+QaLogMapper
+UserFeedbackMapper
+```
+
+分别对应知识文档元数据、问答日志和用户反馈。每次回答结束后，`KnowledgeAuditService.recordQaLog()` 会记录 `logId`、`sessionId`、用户问题、resolvedQuestion、intentName、answer、confidence、sourceDocumentIds、sessionSummary、promptVersion 和 promptPolicyDecision。这样后续如果回答效果不好，可以反查到底是检索没召回、Prompt 策略拒答，还是知识库本身缺失。
+
+第三块是 Prompt 约束。这个不是简单写一段提示词，而是我在 `AnswerGenerationAgent` 里专门做了策略控制。它会先根据召回到的 `KnowledgeChunk` 计算最大置信度，然后调用 `PromptTemplateBuilder.build()` 构建 `GroundedPrompt`。这个 Prompt 里包含 system prompt、用户问题、resolvedQuestion、intent、evidence block 和 output policy。
+
+真正执行约束的是 `PromptConstrainedAnswerGenerator`。它会检查三件事：有没有召回证据、有没有来源文档 ID、置信度是否低于阈值。代码里阈值是 `MIN_CONFIDENCE = 0.45`。如果证据不足，就返回转人工策略，而不是让模型自由编答案。如果证据足够，就按 evidence-only 策略生成，并保留 source document ids。
+
+最后是反馈闭环。`CustomerServiceController` 里除了 `/chat` 接口，还有一个：
+
+```java
+POST /api/customer-service/feedback
+```
+
+用户反馈会绑定 `logId`，再通过 `KnowledgeAuditService.recordFeedback()` 写入 `user_feedback`。这样日志、来源、置信度和用户反馈可以串起来，后续就能分析哪些问题是知识缺口，哪些是召回策略问题，哪些是 Prompt 约束需要优化。
+
+所以这一页我想表达的是：我做的不只是一次性问答，而是把多轮记忆、回答依据、日志审计、Prompt 策略和用户反馈做成了闭环。这样系统才具备可追踪、可解释、可迭代的工程能力。
