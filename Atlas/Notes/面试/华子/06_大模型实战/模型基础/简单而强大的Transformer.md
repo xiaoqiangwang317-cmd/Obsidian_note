@@ -3,8 +3,6 @@ up:
 related:
 date: 2026-06-02
 ---
-# 简单而强大的Transformer
-
 引：用神经网络做个翻译任务
 I love you baby
 我爱你宝贝
