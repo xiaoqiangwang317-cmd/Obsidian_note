@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2026-06-05",
+      "path": "Calendar/Daily/2026-06-05.md"
+    },
+    {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
+    },
+    {
+      "basename": "部署流程",
+      "path": "Atlas/Notes/面试/华子/大模型实战/模型部署/部署流程.md"
+    },
+    {
       "basename": "2026-05-18",
       "path": "Calendar/Daily/2026-05-18.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "2026-W21",
       "path": "+/2026-W21.md"
-    },
-    {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
     },
     {
       "basename": "2026-05-11",
@@ -65,40 +73,12 @@
       "path": "Calendar/Weekly/2026-W19.md"
     },
     {
-      "basename": "NCCL",
-      "path": "Atlas/Notes/NCCL.md"
-    },
-    {
-      "basename": "PCIE",
-      "path": "Atlas/Notes/PCIE.md"
-    },
-    {
       "basename": "Obsidian 常用快捷键",
       "path": "Atlas/Notes/Obsidian 常用快捷键.md"
     },
     {
       "basename": "知识管理",
       "path": "Atlas/Notes/知识管理.md"
-    },
-    {
-      "basename": "长尾效应",
-      "path": "Atlas/Notes/长尾效应.md"
-    },
-    {
-      "basename": "系统与硬件",
-      "path": "Atlas/Notes/系统与硬件.md"
-    },
-    {
-      "basename": "入侵检测系统",
-      "path": "Atlas/Notes/入侵检测系统.md"
-    },
-    {
-      "basename": "人工智能",
-      "path": "Atlas/Notes/人工智能.md"
-    },
-    {
-      "basename": "内存数据库",
-      "path": "Atlas/Notes/内存数据库.md"
     },
     {
       "basename": "Redis",
@@ -167,10 +147,6 @@
     {
       "basename": "2026-W20",
       "path": "Calendar/Weekly/2026-W20.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "Atlas/Notes/计算机网络.md"
     },
     {
       "basename": "checkbox example",
