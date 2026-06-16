@@ -251,9 +251,9 @@ WEEhk66L: [[草稿本 ex#python 3]]
 
 lGFgd0fM: [[草稿本 ex#python 5]]
 
-dP2amDRf: [[Atlas/Notes/Agent ex.md#python 6]]
+dP2amDRf: [[Atlas/Notes/Agent ex#python 6]]
 
-Tk7aR6Ph: [[Atlas/Notes/Agent ex.md#python 8]]
+Tk7aR6Ph: [[Atlas/Notes/Agent ex#python 8]]
 
 ## Embedded Files
 5961a57d4dcb4111029293b6135e6e679284bf11: [[Pasted Image 20260520113152_963.png]]
