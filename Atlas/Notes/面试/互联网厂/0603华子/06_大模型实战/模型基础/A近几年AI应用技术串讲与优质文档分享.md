@@ -10,13 +10,13 @@ date: 2026-05-23
 不仅要[[知其然还要知其所以然]]
 真正的去想清楚这个脉络
 既然要讲AI,那么绕不过去的宗门老祖 2017 [[Attention Is All You Need.pdf]]
-提炼[[Transformer架构图.png]]
+提炼[[Atlas/Notes/论文/大模型基础/重要的图/Transformer架构图.png]]
 Transformer包含编码器和解码器的部分
 简单理解：
 编码器只管阅读（把用户输入的这些内容转换成机器能够理解的一些数学表示）
 解码器负责写作（根据理解生成最终的输出）
 按时间线顺脉络结构
-再次引入图，详见[[LLM发展树.png]]
+再次引入图，详见[[Atlas/Notes/论文/大模型基础/重要的图/LLM发展树.png]]
 ![[image-1779592307290.webp|400x303]]
 2018 [[GPT1]]   只保留Transformer的解码器部分 模型在创作生成的这些任务上的表现会更强
 后来市面上的绝大模型 沿用了GPT的思路 既仅解码器的架构
@@ -28,8 +28,8 @@ Transformer包含编码器和解码器的部分
 你也发消息，我也发消息
 为什么有的人他拿到的输出的结果直来那个就更好呢
 
-[[AA提示词工程|Prompt Engineering]]
-这个就涉及到[[AA提示词工程]]的艺术
+[[Atlas/Notes/论文/大模型基础/AA提示词工程|Prompt Engineering]]
+这个就涉及到[[Atlas/Notes/论文/大模型基础/AA提示词工程]]的艺术
 
 这篇文章**读一万遍**
 推荐链接：[提示工程学习笔记 - aneasystone's blog](https://www.aneasystone.com/archives/2024/01/prompt-engineering-notes.html)
@@ -56,7 +56,7 @@ Transformer包含编码器和解码器的部分
 所以假设我想要我的模型拥有一些我私有的知识 那有没有什么平替的方案呢？
 
 RAG:[[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf]] 
-检索-增强-生成技术  RAG一开始是为了解决大语言模型的幻觉的问题                看一万遍图：[[RAG时序图.png]]
+检索-增强-生成技术  RAG一开始是为了解决大语言模型的幻觉的问题                看一万遍图：[[Atlas/Notes/论文/大模型基础/重要的图/RAG时序图.png]]
 ![[image-1779595783520.webp|400x284]]
 有了RAG之后模型在回答你问题的时候就可以带上很多真实可靠的参考信息
 甚至还能标志来自哪里，这样就大幅减少了幻觉现象
@@ -91,7 +91,7 @@ Function call 和 MCP
 **[[Function call]]**
 官方文档读一万遍！！！
 [函数调用 | OpenAI API --- Function calling | OpenAI API](https://developers.openai.com/api/docs/guides/function-calling)
-看图[[Function时序图.png]] 可以理解成模型还是只负责说 我们的服务端负责去做
+看图[[Atlas/Notes/论文/大模型基础/重要的图/Function时序图.png]] 可以理解成模型还是只负责说 我们的服务端负责去做
 ![[image-1779599697102.webp|400x265]]
 有了function call之后大家纷纷去给自己的AI应用程序去接入了一些外部能力
 但是实际上大家会发现很多外部能力 他其实是可以复用的重复性工作
