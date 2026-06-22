@@ -231,7 +231,7 @@ print(80)
 > 一旦新的变量出现，就必须立即与某个值建立绑定关系
 
 **代码**
-
+```python
 name = '张三'  
 age = 18  
 weight = 64.2  
@@ -247,6 +247,7 @@ print('张三的体重是', weight)
 print('对于', weight, '这个体重，张三不是很满意')  
 print('张三决定开始减肥，希望体重比', weight, '还要小')
 
+```
 **结果**
 
 ![image-20260121105508563](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121105508563.png?lastModify=1782109450)
@@ -275,7 +276,7 @@ print('张三决定开始减肥，希望体重比', weight, '还要小')
 ![image-20260121141833022](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121141833022.png?lastModify=1782109450)
 
 **代码**
-
+```python
 # 只能包含：数字、字母、下划线，且不能以数字开头，不能包含空格  
 name2 = '张三'  
 age_2 = 18  
@@ -285,8 +286,7 @@ _weight_ = 59.4
 name = '熊大'  
 Name = '熊二'  
 print(name, Name)  
-​
-
+```
 结果
 
 ![image-20260121142012657](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121142012657.png?lastModify=1782109450)
@@ -302,13 +302,14 @@ print(name, Name)
 > 没有强制的常量机制，所谓常量，本质还是变量，只是约定好不去修改
 
 代码
-
+```python
 AGE = 18  
 ADULT_AGE = 18  
 MAX_USERS = 1000  
 PASSING_SCORE = 60  
 ​  
 print(AGE, ADULT_AGE, MAX_USERS, PASSING_SCORE)
+```
 
 结果
 
@@ -334,11 +335,11 @@ print(AGE, ADULT_AGE, MAX_USERS, PASSING_SCORE)
 >         
 
 代码
-
+```python
 #coding=utf-8 (万国码 python3默认 不再写)
 
 #coding=iso8859-1
-
+```
 结果
 
 ![image-20260121213635814](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121213635814.png?lastModify=1782109450)
@@ -362,7 +363,7 @@ print(AGE, ADULT_AGE, MAX_USERS, PASSING_SCORE)
 > 字符串 整型 浮点型 ...
 
 代码
-
+```python
 print(type('张三'))  
 print(type(18))  
 print(type(65.2))  
@@ -370,6 +371,7 @@ print(type(65.2))
 name = '张三'  
 print(type(name))
 
+```
 结果
 
 ![image-20260126161720871](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126161720871.png?lastModify=1782109450)
@@ -385,7 +387,7 @@ print(type(name))
 > Python中整数的上限值，取决于执行代码的计算机的内存和处理能力
 
 代码
-
+```python
 所谓整型，就是没有小数点的数字，可以是正数，也可以是负数，也可以是0  
 age = 18  
 temp = -15  
@@ -398,18 +400,19 @@ print(salary, house_price, graduates)
 # Python中整数的上限值，取决于执行代码的计算机的内存和处理能力  
 a = 9 ** 9999  
 print(a)
-
+```
 结果
 
 ![image-20260126162115245](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126162115245.png?lastModify=1782109450)
 
 > 注意：Python中整数的上限值，取决于执行代码的计算机的内存和处理能力
-
+```python
 # Python中整数的上限值，取决于执行代码的计算机的内存和处理能力  
 a = 9 ** 9999  
 b = a + 100  
 sys.set_int_max_str_digits(0)  
 print(a)
+```
 
 结果 执行成功
 
@@ -425,6 +428,7 @@ print(a)
 
 代码
 
+```python
 # 浮点型就是带有小数点的数字  
 weight = 65.2  
 balance = 1425.58  
@@ -449,7 +453,7 @@ one_mg = 1E-3  # 1乘以10的-3次方
   
 print(one_ml)  
 print(one_mg)
-
+```
 结果
 
 ![image-20260126163616619](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126163616619.png?lastModify=1782109450)
@@ -467,7 +471,7 @@ print(one_mg)
 > 三个双引号的写法，可以直接换行，也可以作为多行注释使用，还能作为文档字符串使用。
 
 代码
-
+```python
 # 单引号和双引号的写法是等价的，二者都不能直接换行（要用圆括号才能换行），单引号用的多  
 message1 = '尚硅谷，让天下没有难学的技术！'  
 message2 = "尚硅谷，让天下没有难学的技术！"  
@@ -482,7 +486,7 @@ message4 = """尚硅谷，让天下没有
   
 print(message3)  
 print(message4)
-
+```
 结果
 
 ![image-20260126165833939](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126165833939.png?lastModify=1782109450)
@@ -501,6 +505,7 @@ print(message4)
 
 代码
 
+```python
 # 按照预先定义的格式，将变量或计算结果，插入到字符串中并输出  
 name = '张三'  
 gender = '男'  
@@ -520,7 +525,7 @@ print(info3)
 # 写法三: 使用f-string,是目前python官方最推荐的方式  
 info4 = f'我叫{name},我是{gender}生,我体重是{weight},年龄是{age}'  
 print(info4)
-
+```
 结果
 
 ![image-20260126172449643](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126172449643.png?lastModify=1782109450)
@@ -550,7 +555,7 @@ print(info4)
 **字符串占位：**
 
 代码
-
+```python
 # 按照预先定义的格式，将变量或计算结果，插入到字符串中并输出  
 name = '张三'  
 gender = '男'  
@@ -559,7 +564,7 @@ age = 12
   
 info = '我叫%4s,性别是%s,体重是%f,年龄是%d' % (name, gender, weight, age)  
 print(info)
-
+```
 结果
 
 ![image-20260126211844016](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126211844016.png?lastModify=1782109450)
@@ -574,6 +579,7 @@ print(info)
 
 代码
 
+```python
 # 按照预先定义的格式，将变量或计算结果，插入到字符串中并输出  
 name = '张三'  
 gender = '男'  
@@ -582,7 +588,7 @@ age = 12
   
 info = '我叫%.1s,性别是%s,体重是%f,年龄是%d' % (name, gender, weight, age)  
 print(info)
-
+```
 结果
 
 ![image-20260126212422015](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126212422015.png?lastModify=1782109450)
@@ -649,6 +655,7 @@ print(info)
 
 m: 1.最小宽度，位数不够会自动使用空格补全，位数小于字符串长度则不起作用 2.正数是右对齐，负数是左对齐
 
+```python
 # 按照预先定义的格式，将变量或计算结果，插入到字符串中并输出  
 name = '张三'  
 gender = '男'  
@@ -658,6 +665,7 @@ age = 12
 info = '我叫%-4.1s,性别是%3.2s,体重是%-9.3f,年龄是%4d' % (name, gender, weight, age)  
 print(info)
 
+```
 ![image-20260126215251828](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126215251828.png?lastModify=1782109450)
 
 ![image-20260126215330020](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126215330020.png?lastModify=1782109450)
