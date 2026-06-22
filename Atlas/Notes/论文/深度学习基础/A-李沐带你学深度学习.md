@@ -118,3 +118,5 @@ type(A),type(B)
 输出：（numpy.ndarray， torch.Tensor）
 18. 将大小为1的张量转换成Python标量
 ![[image-1782134149762.webp|400x155]]
+## 4.数据预处理
+ 
