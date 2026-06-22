@@ -4379,10 +4379,17 @@ make_sound(p1)  # 此行代码如果在其它语言中会报错，Python不会�
 
 学习
 > 抽象类是一种不能直接实例化的类，它通常作为“规范”，让子类去继承，并实现其中定义的抽象方法
-
-
+> MustRun类一旦继承了ABC类，那么MustRun类就是抽象类了
 
 代码
+```python
+from abc import ABC,abstractmethod
+class MustRun(ABC):
+	@abstractmethod
+	def run(self):
+		#不用具体的实现
+		pass
+```
 
 ​
 
