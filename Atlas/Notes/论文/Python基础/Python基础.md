@@ -601,15 +601,17 @@ print(info)
 ![image-20260126212626781](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126212626781.png?lastModify=1782109450)
 
 两个一起使用
-
+```python
 info = '我叫%4.1s,性别是%s,体重是%f,年龄是%d' % (name, gender, weight, age)  
 print(info)
+```
 
 ![image-20260126212744740](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126212744740.png?lastModify=1782109450)
 
+```python
 info = '我叫%-4.1s,性别是%3.2s,体重是%f,年龄是%d' % (name, gender, weight, age)  
 print(info)
-
+```
 ![image-20260126213137685](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126213137685.png?lastModify=1782109450)
 
 [*]**浮点数占位：**
