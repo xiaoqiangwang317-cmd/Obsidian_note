@@ -4187,6 +4187,7 @@ print(p1._Person__idcard)
 **结果**
 
 私有属性不能访问
+![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Ori\0c30d2a489f11fbfb3972635fa2d53ec.png)
 
 ![image-20260615213023640](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615213023640.png?lastModify=1782109450)
 
@@ -4229,6 +4230,7 @@ print(p1.age)
 #### 9.15魔法方法
 
 学习
+![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Ori\4d14e590425d8fcb634557e9f4e24f0a.png)
 
 代码
 ```python
@@ -4371,7 +4373,7 @@ make_sound(p1)  # 此行代码如果在其它语言中会报错，Python不会�
 ```
 
 方法
-
+![img](file:///C:\Users\行走的~1\AppData\Local\Temp\QQ_1781599332428.png)
 #### 9.18鸭子多态
 
 学习
