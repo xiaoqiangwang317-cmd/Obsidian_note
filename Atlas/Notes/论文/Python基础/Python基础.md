@@ -3,13 +3,13 @@ up:
 related:
 date: 2026-06-22
 ---
-## Python
-
 ### 1.前言
 
 **Python是解释型语言**
 
 解释型vs**编译型**
+
+![image-20260121100907526](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121100907526.png?lastModify=1782109450)
 
 编译型语言要根据不同平台生成不同的可执行文件
 
@@ -18,6 +18,8 @@ date: 2026-06-22
 缺点：跨平台性差，大型项目编译时间较长，开发效率略低
 
 **解释型**vs编译型
+
+![image-20260121101555025](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121101555025.png?lastModify=1782109450)
 
 优点：跨平台性好 无需编译 开发调试灵活高效
 
@@ -208,17 +210,19 @@ Settings → Keymap
 '张三'  
 18  
 65.2  
-  
+​  
 "李四"  
 22  
 74.6  
-  
+​  
 '''王五'''  
 25  
 80  
-  
+​  
 print(25)  
 print(80)
+
+![image-20260121105531971](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121105531971.png?lastModify=1782109450)
 
 #### 2.2变量
 
@@ -237,13 +241,15 @@ weight = 59
 print('今天是1月2日，体重是', weight)  
 weight = 58  
 print('今天是1月3日，体重是', weight)  
-  
+​  
 # 最后一次修改的结果  
 print('张三的体重是', weight)  
 print('对于', weight, '这个体重，张三不是很满意')  
 print('张三决定开始减肥，希望体重比', weight, '还要小')
 
 **结果**
+
+![image-20260121105508563](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121105508563.png?lastModify=1782109450)
 
 #### 2.3标识符命名规则
 
@@ -262,7 +268,11 @@ print('张三决定开始减肥，希望体重比', weight, '还要小')
 >     - 标识符虽然没有长度限制，但应追求：简洁清晰，具有描述性
 >         
 
+![image-20260121111310396](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121111310396.png?lastModify=1782109450)
+
 官方推荐
+
+![image-20260121141833022](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121141833022.png?lastModify=1782109450)
 
 **代码**
 
@@ -270,13 +280,16 @@ print('张三决定开始减肥，希望体重比', weight, '还要小')
 name2 = '张三'  
 age_2 = 18  
 _weight_ = 59.4  
-  
+​  
 # 标识符区分大小写，例如Name和name是两个不同的标识符  
 name = '熊大'  
 Name = '熊二'  
 print(name, Name)  
+​
 
 结果
+
+![image-20260121142012657](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121142012657.png?lastModify=1782109450)
 
 #### 2.4常量
 
@@ -294,12 +307,16 @@ AGE = 18
 ADULT_AGE = 18  
 MAX_USERS = 1000  
 PASSING_SCORE = 60  
-  
+​  
 print(AGE, ADULT_AGE, MAX_USERS, PASSING_SCORE)
 
 结果
 
+![image-20260121163455555](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121163455555.png?lastModify=1782109450)
+
 注意：
+
+![image-20260121163702013](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121163702013.png?lastModify=1782109450)
 
 #### 2.5注释
 
@@ -324,6 +341,10 @@ print(AGE, ADULT_AGE, MAX_USERS, PASSING_SCORE)
 
 结果
 
+![image-20260121213635814](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121213635814.png?lastModify=1782109450)
+
+![image-20260121213819158](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121213819158.png?lastModify=1782109450)
+
 #### 2.6字符编码
 
 学习
@@ -331,6 +352,8 @@ print(AGE, ADULT_AGE, MAX_USERS, PASSING_SCORE)
 > 存储时，务必采用合适的字符编码
 > 
 > 存储时，采用哪种方式编码，读取时就必须采用相同方式解码
+
+![image-20260121214604011](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121214604011.png?lastModify=1782109450)
 
 #### 2.7数据类型
 
@@ -348,6 +371,8 @@ name = '张三'
 print(type(name))
 
 结果
+
+![image-20260126161720871](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126161720871.png?lastModify=1782109450)
 
 #### 2.7.1整型
 
@@ -376,6 +401,8 @@ print(a)
 
 结果
 
+![image-20260126162115245](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126162115245.png?lastModify=1782109450)
+
 > 注意：Python中整数的上限值，取决于执行代码的计算机的内存和处理能力
 
 # Python中整数的上限值，取决于执行代码的计算机的内存和处理能力  
@@ -385,6 +412,8 @@ sys.set_int_max_str_digits(0)
 print(a)
 
 结果 执行成功
+
+![image-20260126162324463](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126162324463.png?lastModify=1782109450)
 
 #### 2.7.2浮点型
 
@@ -423,6 +452,8 @@ print(one_mg)
 
 结果
 
+![image-20260126163616619](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126163616619.png?lastModify=1782109450)
+
 #### 2.7.3字符串
 
 ##### 2.7.3.1字符串四种定义方式
@@ -453,6 +484,8 @@ print(message3)
 print(message4)
 
 结果
+
+![image-20260126165833939](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126165833939.png?lastModify=1782109450)
 
 ##### 2.7.3.2 字符串格式化输出
 
@@ -489,6 +522,8 @@ info4 = f'我叫{name},我是{gender}生,我体重是{weight},年龄是{age}'
 print(info4)
 
 结果
+
+![image-20260126172449643](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126172449643.png?lastModify=1782109450)
 
 ##### 2.7.3.3 字符串占位符精度控制
 
@@ -527,9 +562,15 @@ print(info)
 
 结果
 
+![image-20260126211844016](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126211844016.png?lastModify=1782109450)
+
 注意1：字符串的最小宽度，位数不够会自动使用空格补全，位数小于字符串长度则不起作用
 
+![image-20260126212037568](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126212037568.png?lastModify=1782109450)
+
 注意2：正数是右对齐，负数是左对齐
+
+![image-20260126212159468](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126212159468.png?lastModify=1782109450)
 
 代码
 
@@ -544,15 +585,25 @@ print(info)
 
 结果
 
+![image-20260126212422015](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126212422015.png?lastModify=1782109450)
+
 注意1：若n大于实际字符串长度，则不起作用
+
+![image-20260126212530721](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126212530721.png?lastModify=1782109450)
+
+![image-20260126212626781](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126212626781.png?lastModify=1782109450)
 
 两个一起使用
 
 info = '我叫%4.1s,性别是%s,体重是%f,年龄是%d' % (name, gender, weight, age)  
 print(info)
 
+![image-20260126212744740](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126212744740.png?lastModify=1782109450)
+
 info = '我叫%-4.1s,性别是%3.2s,体重是%f,年龄是%d' % (name, gender, weight, age)  
 print(info)
+
+![image-20260126213137685](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126213137685.png?lastModify=1782109450)
 
 [*]**浮点数占位：**
 
@@ -564,21 +615,35 @@ age = 12
 info = '我叫%-4.1s,性别是%3.2s,体重是%.3f,年龄是%d' % (name, gender, weight, age)  
 print(info)
 
+![image-20260126213531761](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126213531761.png?lastModify=1782109450)
+
 info = '我叫%-4.1s,性别是%3.2s,体重是%.1f,年龄是%d' % (name, gender, weight, age)  
 print(info)
 
+![image-20260126213627146](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126213627146.png?lastModify=1782109450)
+
 补充例子
+
+![image-20260126213827325](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126213827325.png?lastModify=1782109450)
+
+![image-20260126213905592](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126213905592.png?lastModify=1782109450)
 
 m: 1. 控制整体宽度（整体宽度 = 整数宽度+小数点+小数宽度） 2.位数不够空格来补，位数小于整体宽度，则自动失效 3. 正数是右对齐，负数是左对齐
 
 info = '我叫%-4.1s,性别是%3.2s,体重是%9.3f,年龄是%d' % (name, gender, weight, age)  
 print(info)
 
+![image-20260126214649801](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126214649801.png?lastModify=1782109450)
+
 2. 位数不够空格来补，位数小于整体宽度，则自动失效
     
 
+![image-20260126214832907](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126214832907.png?lastModify=1782109450)
+
 3. 正数是右对齐，负数是左对齐
     
+
+![image-20260126214923183](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126214923183.png?lastModify=1782109450)
 
 **整数占位：**
 
@@ -593,7 +658,17 @@ age = 12
 info = '我叫%-4.1s,性别是%3.2s,体重是%-9.3f,年龄是%4d' % (name, gender, weight, age)  
 print(info)
 
+![image-20260126215251828](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126215251828.png?lastModify=1782109450)
+
+![image-20260126215330020](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126215330020.png?lastModify=1782109450)
+
+![image-20260126215414493](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126215414493.png?lastModify=1782109450)
+
 n: 精度控制，含义：最少用n位显示数字，位数不够用0来补，位数小于整数位，则自动失效
+
+![image-20260126215720764](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126215720764.png?lastModify=1782109450)
+
+![image-20260126215756568](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126215756568.png?lastModify=1782109450)
 
 两个一起用
 
@@ -605,6 +680,8 @@ age = 12
   
 info = '我叫%-4.1s,性别是%3.2s,体重是%-9.3f,年龄是%6.4d' % (name, gender, weight, age)  
 print(info)
+
+![image-20260126215921481](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260126215921481.png?lastModify=1782109450)
 
 ##### 2.7.3.4 字符串转义字符
 
@@ -658,6 +735,12 @@ print('ab\tcd')
 print('abc\td')  
 print('abcd\ta')
 
+![image-20260127094317054](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260127094317054.png?lastModify=1782109450)
+
+![image-20260127101615880](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260127101615880.png?lastModify=1782109450)
+
+![image-20260127101659569](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260127101659569.png?lastModify=1782109450)
+
 解决
 
 print('1234123412341234')  
@@ -665,7 +748,11 @@ print('ab\tcd'.expandtabs(4))
 print('abc\td'.expandtabs(4))  
 print('abcd\ta'.expandtabs(4))
 
+![image-20260127101915144](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260127101915144.png?lastModify=1782109450)
+
 结果
+
+![image-20260127102742007](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260127102742007.png?lastModify=1782109450)
 
 #### 2.8数据类型转换
 
@@ -691,6 +778,8 @@ print(type(result4), result4)
 
 结果
 
+![image-20260129100742141](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260129100742141.png?lastModify=1782109450)
+
 代码
 
 # 使用int()将指定数据转换为整型  
@@ -703,11 +792,15 @@ print(type(result2), result2)
 print(type(result3), result3)  
 print(type(result4), result4)  
 # 以下是错误示例  
-int('   7   9   ')  
+int('   7   9   ')  
 int('79个')  
 int('15.6')
 
 结果
+
+![image-20260129100813568](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260129100813568.png?lastModify=1782109450)
+
+![image-20260129100854905](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260129100854905.png?lastModify=1782109450)
 
 代码
 
@@ -731,7 +824,11 @@ float('5.23.12')
 
 结果
 
+![image-20260129101027533](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260129101027533.png?lastModify=1782109450)
+
 #### 2.9运算符
+
+![image-20260129101401733](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260129101401733.png?lastModify=1782109450)
 
 ##### 2.9.1算数运算符
 
@@ -757,6 +854,8 @@ print(9 % 6)
 print(2 ** 3)
 
 结果
+
+![image-20260129102007810](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260129102007810.png?lastModify=1782109450)
 
 ##### 2.9.2赋值_复合赋值运算符
 
@@ -814,6 +913,8 @@ print(a)
 
 结果
 
+![image-20260129160457806](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260129160457806.png?lastModify=1782109450)
+
 ##### 2.9.3比较运算符
 
 学习
@@ -841,7 +942,7 @@ print(a)
 # result = a == c  
 # print(a)  
 # print(c)  
-  
+​  
 # 使用!=判断左右两侧是否相等  
 # a = 5  
 # b = 7  
@@ -850,50 +951,50 @@ print(a)
 # print(a)  
 # print(c)  
 # print(result)  
-  
+​  
 # 使用 > 判断左侧是否大于右侧  
 a = 9  
 b = 7  
 c = '5'  
 result = a > b  
 print(result)  
-  
+​  
 # 使用 < 判断左侧是否大于右侧  
 a = 3  
 b = 7  
 c = '5'  
 result = a < b  
 print(result)  
-  
+​  
 # 使用 >= 判断左侧是否大于等于右侧  
 a = 6  
 b = 7  
 c = '5'  
 result = a >= b  
 print(result)  
-  
+​  
 # 使用 <= 判断左侧是否小于等于右侧  
 a = 9  
 b = 7  
 c = '5'  
 result = a <= b  
 print(result)  
-  
+​  
 # 以上这些比较运算符，同样适用于字符串  
 # python中字符串进行比较时，是依次比较每个字符的unicode编码  
 msg1 = 'abc'  
 msg2 = 'abc2'  
 print(msg1 != msg2)  
-  
+​  
 # 使用ord()查看指定字符的unicode编码  
 print(ord('a'))  
 print(ord('我'))  
-  
+​  
 # 使用chr()将unicode编码转为字符  
 # 先比较长度后比较内容  
 print(chr(97))  
 print(chr(25105))  
-  
+​  
 msg1 = 'abc'  
 msg2 = 'xyz'  
 msg3 = '我爱你'  
@@ -903,6 +1004,8 @@ msg6 = 'abcdef'
 print(msg1 >= msg5)
 
 结果
+
+![image-20260604195855439](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260604195855439.png?lastModify=1782109450)
 
 ##### 2.9.4布尔类型
 
@@ -918,6 +1021,8 @@ print(type(a), a)
 print(type(b), b)
 
 结果
+
+![image-20260604200214874](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260604200214874.png?lastModify=1782109450)
 
 ##### 2.9.5逻辑运算符
 
@@ -982,9 +1087,23 @@ print(not 'abc')
 
 结果
 
+![image-20260606224450068](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260606224450068.png?lastModify=1782109450)
+
+![image-20260606224159931](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260606224159931.png?lastModify=1782109450)
+
+![image-20260606224738100](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260606224738100.png?lastModify=1782109450)
+
 #### 2.10进制
 
 学习
+
+![image-20260606225328551](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260606225328551.png?lastModify=1782109450)
+
+![image-20260606225307560](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260606225307560.png?lastModify=1782109450)
+
+![image-20260606225702236](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260606225702236.png?lastModify=1782109450)
+
+![image-20260606225827463](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260606225827463.png?lastModify=1782109450)
 
 代码
 
@@ -1021,6 +1140,8 @@ print(res1, res2, res3)
 
 结果
 
+![image-20260607190900402](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607190900402.png?lastModify=1782109450)
+
 #### 2.11输入语句
 
 学习
@@ -1038,6 +1159,8 @@ print(f'你今年的年龄是{age}')
 
 结果
 
+![image-20260607192137190](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607192137190.png?lastModify=1782109450)
+
 #### 4.1单分支
 
 学习
@@ -1052,6 +1175,10 @@ if age >= 18:
 print('欢迎你来学习Python')
 
 结果
+
+![image-20260607193721687](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607193721687.png?lastModify=1782109450)
+
+![image-20260607193742425](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607193742425.png?lastModify=1782109450)
 
 #### 4.2双分支
 
@@ -1068,6 +1195,10 @@ else:
     print("好好加油，努力学习，未来可期！")
 
 结果
+
+![image-20260607194123554](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607194123554.png?lastModify=1782109450)
+
+![image-20260607194109204](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607194109204.png?lastModify=1782109450)
 
 #### 4.3多分支
 
@@ -1090,6 +1221,8 @@ else:
     print('你是老年')
 
 结果
+
+![image-20260607194900591](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607194900591.png?lastModify=1782109450)
 
 #### 4.4嵌套分支
 
@@ -1122,6 +1255,8 @@ else:
 
 结果
 
+![image-20260607200420026](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607200420026.png?lastModify=1782109450)
+
 #### 4.5while循环
 
 学习
@@ -1135,6 +1270,8 @@ while n <= 10:
 print(f'我是while循环以外的代码，执行到这里的时候，循环已经结束了，此时n是：{n}')
 
 结果
+
+![image-20260607202250971](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607202250971.png?lastModify=1782109450)
 
 #### 4.6while循环案例
 
@@ -1157,6 +1294,8 @@ while guess != answer:
         print('回答错误，请再想想！')
 
 结果
+
+![image-20260607202151136](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607202151136.png?lastModify=1782109450)
 
 #### 4.7for循环
 
@@ -1184,6 +1323,8 @@ for i in nums:
 
 结果
 
+![image-20260607204205408](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607204205408.png?lastModify=1782109450)
+
 #### 4.8for循环案例
 
 学习
@@ -1205,6 +1346,8 @@ for s in secret:
 print(f'经过解密后的内容为：{text}')
 
 结果
+
+![image-20260607205522383](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607205522383.png?lastModify=1782109450)
 
 #### 4.9对比while与for
 
@@ -1235,6 +1378,8 @@ print(f'为期{day - 1}天的健身计划完成，我的腹肌在闪闪发光！
 
 结果
 
+![image-20260607211145761](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607211145761.png?lastModify=1782109450)
+
 #### 4.10 九九乘法表
 
 代码
@@ -1254,6 +1399,8 @@ for i in range(1, 10):
 
 结果
 
+![image-20260607213024639](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607213024639.png?lastModify=1782109450)
+
 #### 4.11 continue与break
 
 学习
@@ -1262,47 +1409,49 @@ for i in range(1, 10):
 
 # 测试 continue  
 # for day in range(1, 5):  
-#     print(f'*********第{day}天**********')  
-#     print('吃饭')  
-#     continue  
-#     print('睡觉')  
-  
+#     print(f'*********第{day}天**********')  
+#     print('吃饭')  
+#     continue  
+#     print('睡觉')  
+​  
 # for day in range(1, 5):  
-#     print(f'*********第{day}天**********')  
-#     print('吃饭')  
-#     if day == 2:  
-#         continue  
-#     print('睡觉')  
-  
+#     print(f'*********第{day}天**********')  
+#     print('吃饭')  
+#     if day == 2:  
+#         continue  
+#     print('睡觉')  
+​  
 # for day in range(1, 5):  
-#     if day == 2:  
-#         continue  
-#     print(f'*********第{day}天**********')  
-#     print('吃饭')  
-#     print('睡觉')  
-  
+#     if day == 2:  
+#         continue  
+#     print(f'*********第{day}天**********')  
+#     print('吃饭')  
+#     print('睡觉')  
+​  
 # for day in range(1, 5):  
-#     print(f'*********第{day}天**********')  
-#     print('吃饭')  
-#     for item in range(1, 3):  
-#         print(f'面包{item}')  
-#         if day == 4 and item == 2:  
-#             continue  
-#         print(f'牛奶{item}')  
-#     print('睡觉')  
-  
+#     print(f'*********第{day}天**********')  
+#     print('吃饭')  
+#     for item in range(1, 3):  
+#         print(f'面包{item}')  
+#         if day == 4 and item == 2:  
+#             continue  
+#         print(f'牛奶{item}')  
+#     print('睡觉')  
+​  
 # 测试 break  
 for day in range(1, 5):  
-    print(f'*********第{day}天**********')  
-    print('吃饭')  
-    for item in range(1, 3):  
-        print(f'面包{item}')  
-        if item == 2:  
-            break  
-        print(f'牛奶{item}')  
-    print('睡觉')
+    print(f'*********第{day}天**********')  
+    print('吃饭')  
+    for item in range(1, 3):  
+        print(f'面包{item}')  
+        if item == 2:  
+            break  
+        print(f'牛奶{item}')  
+    print('睡觉')
 
 结果
+
+![image-20260607215318905](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607215318905.png?lastModify=1782109450)
 
 #### 4.12综合案例
 
@@ -1311,12 +1460,12 @@ for day in range(1, 5):
 print('欢迎来到：答案闯关挑战赛（输入q可随时退出）', end='\n')  
 count = 0  
 flag = False  
-  
+​  
 # 题目与答案  
 ques1, ans1 = 'Python中用于输出的函数是?', 'print'  
 ques2, ans2 = 'Python中用于表示逻辑“并且”的关键字是?', 'and'  
 ques3, ans3 = 'Python属于编译型还是解释型?', '解释型'  
-  
+​  
 # 依旧定义变量  
 # 最多可尝试次数  
 max_tries = 3  
@@ -1324,54 +1473,56 @@ max_tries = 3
 total_levels = 3  
 # 是否处于可游戏状态  
 is_playing = True  
-  
+​  
 # 根据题目数量开始循环  
 for level in range(1, total_levels + 1):  
-    # 打印当前是第几关  
-    print(f'*********第{level}关*********')  
-    # 取出当前关卡所对应的题目和答案  
-    if level == 1:  
-        question, answer = ques1, ans1  
-    elif level == 2:  
-        question, answer = ques2, ans2  
-    else:  
-        question, answer = ques3, ans3  
-  
-    tries = 1  
-    while tries <= max_tries:  
-        # 向用户提问  
-        user_input = input(question)  
-        # 根据用户的输入，来决定做什么  
-        if user_input == answer:  
-            print('回答正确！ \n')  
-            break  
-        elif user_input == '':  
-            print('您的输入为空，请重新作答！\n')  
-            continue  
-        elif user_input == 'q':  
-            is_playing = False  
-            print('您已退出游戏！ \n')  
-            break  
-        else:  
-            # 计算剩余次数  
-            leave = max_tries - tries  
-            # 判断是否还有剩余次数  
-            if leave > 0:  
-                tries += 1  
-                print(f'回答错误，您还剩{leave}次机会！ \n')  
-                continue  
-            else:  
-                print(f'挑战失败，本题的正确答案是：{answer},游戏结束！')  
-                is_playing = False  
-                break  
-  
-    if not is_playing:  
-        break  
+    # 打印当前是第几关  
+    print(f'*********第{level}关*********')  
+    # 取出当前关卡所对应的题目和答案  
+    if level == 1:  
+        question, answer = ques1, ans1  
+    elif level == 2:  
+        question, answer = ques2, ans2  
+    else:  
+        question, answer = ques3, ans3  
+​  
+    tries = 1  
+    while tries <= max_tries:  
+        # 向用户提问  
+        user_input = input(question)  
+        # 根据用户的输入，来决定做什么  
+        if user_input == answer:  
+            print('回答正确！ \n')  
+            break  
+        elif user_input == '':  
+            print('您的输入为空，请重新作答！\n')  
+            continue  
+        elif user_input == 'q':  
+            is_playing = False  
+            print('您已退出游戏！ \n')  
+            break  
+        else:  
+            # 计算剩余次数  
+            leave = max_tries - tries  
+            # 判断是否还有剩余次数  
+            if leave > 0:  
+                tries += 1  
+                print(f'回答错误，您还剩{leave}次机会！ \n')  
+                continue  
+            else:  
+                print(f'挑战失败，本题的正确答案是：{answer},游戏结束！')  
+                is_playing = False  
+                break  
+​  
+    if not is_playing:  
+        break  
 # 通关逻辑  
 if is_playing:  
-    print('恭喜您！全部通关！')
+    print('恭喜您！全部通关！')
 
 结果
+
+![image-20260607224151967](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260607224151967.png?lastModify=1782109450)
 
 #### 5.1函数-基本使用
 
@@ -1392,6 +1543,8 @@ def welcome():
 welcome()
 
 结果
+
+![image-20260609103228844](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260609103228844.png?lastModify=1782109450)
 
 #### 5.2参数使用（位置参数，关键字参数）
 
@@ -1416,6 +1569,8 @@ order(2, '辣子鸡')
 
 结果
 
+![image-20260609103721083](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260609103721083.png?lastModify=1782109450)
+
 #### 5.6限制传参
 
 # 定义函数（使用/和*限制传参方式）  
@@ -1433,6 +1588,8 @@ greet(name='张三', gender='男', age=18, height=172)
 # 错误示例  
 # def greet1(name, *, gender, /, age, height):  
 #     print(f'我叫{name},性别{gender},年龄是{age},身高是{height}cm')
+
+![image-20260610193432544](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260610193432544.png?lastModify=1782109450)
 
 #### 5.7参数默认值
 
@@ -1461,6 +1618,8 @@ print('尚硅谷')
 # 写了其他的会覆写  
 print('尚硅谷', end='!!!')
 
+![image-20260610204033723](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260610204033723.png?lastModify=1782109450)
+
 #### 5.8可变参数
 
 可变位置参数
@@ -1477,40 +1636,42 @@ print('尚硅谷', end='!!!')
 
 # 定义函数（使用*args去接收：可变位置参数）  
 def test1(*args):  
-    # 此处args的值，是一种新的数据类型，叫：元组  
-    print(args)  
-  
-  
+    # 此处args的值，是一种新的数据类型，叫：元组  
+    print(args)  
+​  
+​  
 # 调用函数  
 test1('张三', '男', 18, 172)  
-  
-  
+​  
+​  
 # 只能把位置参数交给args，关键字参数不行  
 # test1('张三', '男', age=18, height=172)  
-  
-  
+​  
+​  
 # 定义函数（使用 **kwargs去接收：可变关键字参数）  
 def test2(**kwargs):  
-    # 此处kwargs的值，是一种新的数据类型，叫：字典  
-    print(kwargs)  
-  
-  
+    # 此处kwargs的值，是一种新的数据类型，叫：字典  
+    print(kwargs)  
+​  
+​  
 # 调用函数  
 test2(name='张三', gender='男', age=18, height=172)  
-  
-  
+​  
+​  
 # 定义函数（同时使用：可变位置参数、可变关键字参数）  
 def test3(a, b, *args, c='尚硅谷', **kwargs):  
-    print('@@@@@@@@@@@@@@@@@@@@@')  
-    print(a)  
-    print(b)  
-    print(c)  
-    print(args)  
-    print(kwargs)  
-  
-  
+    print('@@@@@@@@@@@@@@@@@@@@@')  
+    print(a)  
+    print(b)  
+    print(c)  
+    print(args)  
+    print(kwargs)  
+​  
+​  
 # 调用函数  
 test3('抽烟', '喝酒', '张三', '男', c='atguigu', age=18, height=172)
+
+![image-20260610213804350](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260610213804350.png?lastModify=1782109450)
 
 #### 5.9特殊的字面量none
 
@@ -1520,20 +1681,22 @@ test3('抽烟', '喝酒', '张三', '男', c='atguigu', age=18, height=172)
 
 # None是一个特殊的字面量，他表示：空值/无值/无意义  
 msg = None  
-  
+​  
 # None的类型是 NoneType  
 print(type(msg))  
-  
+​  
 # Node转为布尔值是False  
 print(bool(msg))  
 if not msg:  
-    print('你好')  
-  
+    print('你好')  
+​  
 # 不能参与数学运算，也不能与字符串拼接  
 result1 = msg + 'hello'  
 print(result1)
 
 结果
+
+![image-20260610221355740](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260610221355740.png?lastModify=1782109450)
 
 #### 5.10函数返回值
 
@@ -1561,6 +1724,8 @@ print(res)
 print(type(res))
 
 结果
+
+![image-20260610223802786](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260610223802786.png?lastModify=1782109450)
 
 #### 5.11全局/局部作用域
 
@@ -1602,58 +1767,65 @@ print('全局打印b', b)
 
 **结果**
 
+![image-20260610225250059](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260610225250059.png?lastModify=1782109450)
+
 加上global
+
+![image-20260610225337756](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260610225337756.png?lastModify=1782109450)
 
 全局作用域和全局变量，会在程序开始时创建，在程序结束后销毁
 
 # 全局作用域 与 局部作用域，以及global的使用  
 a = 100  
 b = 200  
-  
-  
+​  
+​  
 def test():  
-    # 局部转全局  
-    global a  
-    a = 300  
-    c = '尚硅谷'  
-    d = '你好啊'  
-    print('函数打印a', a)  
-    print('函数打印b', b)  
-    print('函数打印c', c)  
-    print('函数打印d', d)  
-  
-  
+    # 局部转全局  
+    global a  
+    a = 300  
+    c = '尚硅谷'  
+    d = '你好啊'  
+    print('函数打印a', a)  
+    print('函数打印b', b)  
+    print('函数打印c', c)  
+    print('函数打印d', d)  
+​  
+​  
 test()  
 print("*************************")  
 print('全局打印a', a)  
 print('全局打印b', b)  
-  
+​  
 # 局部报错  
 # print(c)  
 # print(d)  
-  
+​  
 # 局部作用域和局部变量，会在函数调用时创建，在函数执行结束后自动销毁  
 # def test2():  
-#     m = 100  
-#     m += 1  
-#     print(f'我是test2函数中打印的m:{m}')  
+#     m = 100  
+#     m += 1  
+#     print(f'我是test2函数中打印的m:{m}')  
 #  
 # test2()  
 # test2()  
-  
+​  
 n = 100  
-  
-  
+​  
+​  
 def test3():  
-    global n  
-    n += 1  
-    print(f'我是test3函数中打印的n:{n}')  
-  
-  
+    global n  
+    n += 1  
+    print(f'我是test3函数中打印的n:{n}')  
+​  
+​  
 test3()  
 test3()  
 test3()  
 print(n)  
+​
+
+![image-20260610231541635](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260610231541635.png?lastModify=1782109450)
 
 #### 5.12函数_嵌套调用
 
@@ -1716,6 +1888,10 @@ test1()
 
 结果
 
+![image-20260611093930829](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611093930829.png?lastModify=1782109450)
+
+![image-20260611094939864](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611094939864.png?lastModify=1782109450)
+
 #### 5.13函数_递归调用
 
 学习
@@ -1746,6 +1922,8 @@ welcome(5)
 
 结果
 
+![image-20260611100557264](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611100557264.png?lastModify=1782109450)
+
 #### 5.14函数_递归的应用
 
 学习
@@ -1764,6 +1942,8 @@ result = factorial(5)
 print(result)
 
 结果
+
+![image-20260611101943769](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611101943769.png?lastModify=1782109450)
 
 #### 5.15函数_说明文档
 
@@ -1833,6 +2013,8 @@ main('仰卧起坐', 7)
 
 结果
 
+![image-20260611155455875](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611155455875.png?lastModify=1782109450)
+
 #### 5.17何为数据容器
 
 学习
@@ -1858,6 +2040,8 @@ print(list3, type(list3))
 print(list4, type(list4))
 
 结果
+
+![image-20260611163640623](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611163640623.png?lastModify=1782109450)
 
 #### 6.2列表下标
 
@@ -1892,6 +2076,8 @@ print(nums2[2][1])
 
 结果
 
+![image-20260611165649014](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611165649014.png?lastModify=1782109450)
+
 #### 6.3列表增删改查
 
 **新增**
@@ -1918,6 +2104,8 @@ nums.extend([70, 80, 90])
 print(nums)
 
 结果
+
+![image-20260611193207547](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611193207547.png?lastModify=1782109450)
 
 **删除**
 
@@ -1949,6 +2137,8 @@ print(nums)
 
 结果
 
+![image-20260611194638616](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611194638616.png?lastModify=1782109450)
+
 **修改**
 
 学习
@@ -1962,6 +2152,8 @@ print(nums)
 
 结果
 
+![image-20260611195122701](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611195122701.png?lastModify=1782109450)
+
 **查询**
 
 学习
@@ -1973,6 +2165,8 @@ nums = [10, 20, 10, 40, 50]
 print(nums[3])
 
 结果
+
+![image-20260611195757633](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611195757633.png?lastModify=1782109450)
 
 #### 6.4列表常用方法
 
@@ -2015,6 +2209,8 @@ print(ord('京'), ord('好'), ord('硅'))
 # 所有的列表方法，都只作用于当前层的元素（浅层）不会自动进入嵌套的里层结构中
 
 结果
+
+![image-20260611202816570](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611202816570.png?lastModify=1782109450)
 
 总结
 
@@ -2082,6 +2278,8 @@ print(result)
 
 结果
 
+![image-20260611211149652](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611211149652.png?lastModify=1782109450)
+
 #### 6.6列表循环遍历
 
 学习
@@ -2120,6 +2318,8 @@ for index, item in enumerate(score_list, start=5):
 print('最后的打印', score_list[0])
 
 结果
+
+![image-20260611213611017](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611213611017.png?lastModify=1782109450)
 
 #### 6.7列表小练习
 
@@ -2170,6 +2370,8 @@ else:
     print('你没有输入任何成绩！')
 
 结果
+
+![image-20260611215534254](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611215534254.png?lastModify=1782109450)
 
 #### 6.8列表总结
 
@@ -2268,6 +2470,8 @@ print(res)
 
 结果
 
+![image-20260612101306446](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612101306446.png?lastModify=1782109450)
+
 #### 7.0函数_解包列表或元素传参
 
 学习
@@ -2291,6 +2495,8 @@ test(*list1)  # 此种写法相当于：test(100, 200, 300, 400)
 test(*tuple1)  # 此种写法相当于：test('你好', '北京', '尚硅谷')
 
 结果
+
+![image-20260612105308462](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612105308462.png?lastModify=1782109450)
 
 #### 7.1元组
 
@@ -2406,6 +2612,8 @@ for item in t1:
 
 结果
 
+![image-20260612105420569](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612105420569.png?lastModify=1782109450)
+
 #### 7.2字符串
 
 学习
@@ -2501,6 +2709,8 @@ for item in msg:
 
 结果
 
+![image-20260612151303523](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612151303523.png?lastModify=1782109450)
+
 #### 7.3序列的切片操作
 
 学习
@@ -2556,6 +2766,10 @@ print(msg2)
 
 结果
 
+![image-20260612154458783](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612154458783.png?lastModify=1782109450)
+
+![image-20260612155427146](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612155427146.png?lastModify=1782109450)
+
 #### 7.4序列的其他操作
 
 学习
@@ -2585,6 +2799,8 @@ print(str3)
 
 结果
 
+![image-20260612161146815](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612161146815.png?lastModify=1782109450)
+
 #### 7.5集合_定义集合
 
 学习
@@ -2604,7 +2820,7 @@ print(type(s2), s2)
 print(type(s3), s3)  
 s2.add('尚硅谷')  
 print(s2)  
-  
+​  
 # 定义有内容的【不可变集合】  
 s1 = frozenset({10, 20, 30, 40, 50, 60, 70, 80, 90, 100})  
 s2 = frozenset({'你好', 'hello', '你好', 'atguigu', '北京'})  
@@ -2612,7 +2828,7 @@ s3 = frozenset({10, '你好', True, 1, 12.4})
 print(type(s1), s1)  
 print(type(s2), s2)  
 print(type(s3), s3)  
-  
+​  
 # frozenset 接收的参数，可以是任意可迭代对象，但最终返回的一定是【不可变集合】  
 s1 = frozenset([10, 20, 30, 40, 50])  
 s2 = frozenset((10, 20, 30, 40, 50))  
@@ -2620,26 +2836,26 @@ s3 = frozenset('hello')
 print(type(s1), s1)  
 print(type(s2), s2)  
 print(type(s3), s3)  
-  
+​  
 # 定义空集合（可变集合）  
 s1 = set()  
 print(type(s1), s1)  
-  
+​  
 # 不能直接写{}来定义空集合，因为直接写{}定义的是：空字典  
 s2 = {}  
 print(type(s2), s2)  
-  
+​  
 # 定义空集合（不可变集合）  
 s3 = frozenset()  
 print(type(s3), s3)  
-  
+​  
 # 集合中不能嵌套【可变集合】，但可以嵌套【不可变集合】  
 # 通俗理解：只有“不可变”的东西，才能安全的放进集合里  
 s1 = {10, 20, 30, 40, 50}  
 s2 = frozenset({100, 200, 300, 400, 500})  
 l1 = [666, 777, 888]  
 t1 = ('hello', 'atguigu', '北京')  
-  
+​  
 # s1是可变的 只有不可变的东西，才能安全的放进集合里  
 # s3 = {11, 22, 33, s1} # 报错  
 # s3 = {11, 22, 33, s2}  
@@ -2648,6 +2864,10 @@ s3 = {11, 22, 33, t1}
 print(s3)
 
 结果
+
+![image-20260612184048486](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612184048486.png?lastModify=1782109450)
+
+![image-20260612190020853](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612190020853.png?lastModify=1782109450)
 
 #### 7.6集合_增删改查
 
@@ -2699,6 +2919,10 @@ s4.add(66)
 print(s4)
 
 结果
+
+![image-20260612192450290](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612192450290.png?lastModify=1782109450)
+
+![image-20260612193015343](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612193015343.png?lastModify=1782109450)
 
 总结
 
@@ -2763,6 +2987,8 @@ print(result)
 
 结果
 
+![image-20260612202815817](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612202815817.png?lastModify=1782109450)
+
 #### 7.8集合_数学运算
 
 学习
@@ -2790,6 +3016,8 @@ print(result)
 
 结果
 
+![image-20260615092320983](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615092320983.png?lastModify=1782109450)
+
 #### 7.9集合_循环遍历
 
 学习
@@ -2809,6 +3037,10 @@ for item in s1:
     print(item)
 
 结果
+
+![image-20260615092903324](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615092903324.png?lastModify=1782109450)
+
+![image-20260615093107685](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615093107685.png?lastModify=1782109450)
 
 #### 7.10集合_总结
 
@@ -2856,6 +3088,8 @@ student_dict = {
 }
 
 结果
+
+![image-20260615102549328](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615102549328.png?lastModify=1782109450)
 
 #### 8.2字典_增删改查
 
@@ -2911,6 +3145,8 @@ print(d1)
 
 结果
 
+![image-20260615102637856](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615102637856.png?lastModify=1782109450)
+
 #### 8.3字典_常用方法
 
 学习
@@ -2953,6 +3189,8 @@ print(type(result))
 
 结果
 
+![image-20260615104839885](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615104839885.png?lastModify=1782109450)
+
 #### 8.4字典_循环遍历
 
 学习
@@ -2973,6 +3211,8 @@ for key in d1.keys():
     print(f'{key}的成绩是{d1[key]}')
 
 结果
+
+![image-20260615105444169](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615105444169.png?lastModify=1782109450)
 
 #### 8.5字典_总结
 
@@ -3062,6 +3302,8 @@ print('李华' not in score)
 
 结果
 
+![image-20260615114811652](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615114811652.png?lastModify=1782109450)
+
 #### 8.7数据容器小练习
 
 学习
@@ -3085,6 +3327,8 @@ for key in fruits:
 print(fruits.get('苹果'))
 
 结果
+
+![image-20260616103440382](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260616103440382.png?lastModify=1782109450)
 
 #### 8.8数据容器总结
 
@@ -3112,6 +3356,8 @@ class Person:
         self.age = age
 
 结果
+
+![image-20260615153945054](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615153945054.png?lastModify=1782109450)
 
 #### 9.3创建实例
 
@@ -3155,6 +3401,8 @@ p1.address = '北京昌平洪福科技园'
 print(p1.__dict__)
 
 结果
+
+![image-20260615154108806](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615154108806.png?lastModify=1782109450)
 
 #### 9.4自定义方法
 
@@ -3228,6 +3476,8 @@ p1.speak()
 
 结果
 
+![image-20260615154519349](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615154519349.png?lastModify=1782109450)
+
 #### 9.5实例属性
 
 代码
@@ -3274,6 +3524,8 @@ print(p2.__dict__)
 
 结果
 
+![image-20260615154630469](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615154630469.png?lastModify=1782109450)
+
 #### 9.6实例方法
 
 学习
@@ -3314,6 +3566,8 @@ Person.run(p2, 100)
 p2.run(100)
 
 结果
+
+![image-20260615183221230](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615183221230.png?lastModify=1782109450)
 
 #### 9.7类方法
 
@@ -3385,6 +3639,8 @@ print(p4.__dict__)
 
 结果
 
+![image-20260615183534718](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615183534718.png?lastModify=1782109450)
+
 #### 9.8静态方法
 
 学习
@@ -3393,51 +3649,53 @@ print(p4.__dict__)
 
 # 定义一个Person类（类名通常使用：大驼峰写法）  
 from datetime import datetime  
-  
-  
+​  
+​  
 class Person:  
-    # 初始化方法（给实例添加属性）  
-    def __init__(self, name, age, gender):  
-        # 语法：self.属性名 = 值  
-        self.name = name  
-        self.age = age  
-        self.gender = gender  
-  
-    # 静态方法  
-    # 使用 @staticmethod 装饰过的方法，就叫：静态方法，静态方法也是保存在类身上的  
-    # 静态方法只是单纯的定义在类中，它不会收到：self、cls参数，它收到的参数都是自定义参数  
-    # 由于静态方法没有收到：self、cls参数，所以其内部不会访问任何：类和实例相关的内容  
-    # 静态方法通常用于定义：与类相关的工具方法  
-    @staticmethod  
-    def is_adult(year):  
-        # 获取当前的年份  
-        current_year = datetime.now().year  
-        # 计算年龄  
-        age = current_year - year  
-        # 返回结果（成年True，未成年False）  
-        return age >= 18  
-  
-    @staticmethod  
-    def mask_idcard(idcard):  
-        return idcard[:6] + '**********' + idcard[-4:]  
-  
-  
+    # 初始化方法（给实例添加属性）  
+    def __init__(self, name, age, gender):  
+        # 语法：self.属性名 = 值  
+        self.name = name  
+        self.age = age  
+        self.gender = gender  
+​  
+    # 静态方法  
+    # 使用 @staticmethod 装饰过的方法，就叫：静态方法，静态方法也是保存在类身上的  
+    # 静态方法只是单纯的定义在类中，它不会收到：self、cls参数，它收到的参数都是自定义参数  
+    # 由于静态方法没有收到：self、cls参数，所以其内部不会访问任何：类和实例相关的内容  
+    # 静态方法通常用于定义：与类相关的工具方法  
+    @staticmethod  
+    def is_adult(year):  
+        # 获取当前的年份  
+        current_year = datetime.now().year  
+        # 计算年龄  
+        age = current_year - year  
+        # 返回结果（成年True，未成年False）  
+        return age >= 18  
+​  
+    @staticmethod  
+    def mask_idcard(idcard):  
+        return idcard[:6] + '**********' + idcard[-4:]  
+​  
+​  
 # 验证一下：静态方法，静态方法也是保存在类身上的  
 print(Person.__dict__)  
-  
+​  
 # 静态方法需要通过类去调用  
 result1 = Person.is_adult(2015)  
 print(result1)  
-  
+​  
 result2 = Person.mask_idcard('212101198802030028')  
 print(result2)  
-  
+​  
 # 注意点：通过实例也能调用到静态方法，但非常不推荐  
 p1 = Person('张三', 18, '男')  
 res = p1.mask_idcard('212101198802030028')  
 print(res)
 
 结果
+
+![image-20260615191249679](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615191249679.png?lastModify=1782109450)
 
 #### 9.9继承
 
@@ -3449,51 +3707,53 @@ print(res)
 
 # 定义一个Person类  
 class Person:  
-    # 初始化方法（给实例添加属性）  
-    def __init__(self, name, age, gender):  
-        # 语法：self.属性名 = 值  
-        self.name = name  
-        self.age = age  
-        self.gender = gender  
-  
-    def speak(self, msg):  
-        print(f'{self.name} is {self.age} years old')  
-  
-  
+    # 初始化方法（给实例添加属性）  
+    def __init__(self, name, age, gender):  
+        # 语法：self.属性名 = 值  
+        self.name = name  
+        self.age = age  
+        self.gender = gender  
+​  
+    def speak(self, msg):  
+        print(f'{self.name} is {self.age} years old')  
+​  
+​  
 # 定义一个Student类（子类、派生类） 继承自Person类（父类、超类、基类）  
 class Student(Person):  
-    def __init__(self, name, age, gender, stu_id, grade):  
-        # 在子类中，有两种方式去调用父类的初始化方法，来实现对继承属性：name,age,gender的初始化操作  
-        # 方式1(更推荐)  
-        super().__init__(name, age, gender)  
-        # 方式2  
-        Person.__init__(self, name, age, gender)  
-  
-        # 子类独有的属性，需要自己手动完成初始化  
-        self.stu_id = stu_id  
-        self.grade = grade  
-  
-    def study(self):  
-        print(f'我叫{self.name},我在努力的学习，争取做到{self.grade}年级的第一名')  
-  
-  
+    def __init__(self, name, age, gender, stu_id, grade):  
+        # 在子类中，有两种方式去调用父类的初始化方法，来实现对继承属性：name,age,gender的初始化操作  
+        # 方式1(更推荐)  
+        super().__init__(name, age, gender)  
+        # 方式2  
+        Person.__init__(self, name, age, gender)  
+​  
+        # 子类独有的属性，需要自己手动完成初始化  
+        self.stu_id = stu_id  
+        self.grade = grade  
+​  
+    def study(self):  
+        print(f'我叫{self.name},我在努力的学习，争取做到{self.grade}年级的第一名')  
+​  
+​  
 # 创建Student类的实例对象  
 s1 = Student('李华', 16, '男', '2025001', '初二')  
 print(s1.__dict__)  
 print(type(s1))  
-  
-  
+​  
+​  
 def speak(data):  
-    print('我是s1自身的speak方法', data)  
-  
-  
+    print('我是s1自身的speak方法', data)  
+​  
+​  
 s1.speak = speak  
-  
+​  
 # 查找speak方法的过程：1.实例自身（s1）=> 2.Student类 => 3.Person类  
 s1.speak('你好')  
 s1.study()
 
 结果
+
+![image-20260615200508412](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615200508412.png?lastModify=1782109450)
 
 #### 9.10方法重写
 
@@ -3503,34 +3763,36 @@ s1.study()
 
 # 定义一个Person类  
 class Person:  
-    # 初始化方法（给实例添加属性）  
-    def __init__(self, name, age, gender):  
-        # 语法：self.属性名 = 值  
-        self.name = name  
-        self.age = age  
-        self.gender = gender  
-  
-    def speak(self, msg):  
-        print(f'{self.name} is {self.age} years old')  
-  
-  
+    # 初始化方法（给实例添加属性）  
+    def __init__(self, name, age, gender):  
+        # 语法：self.属性名 = 值  
+        self.name = name  
+        self.age = age  
+        self.gender = gender  
+​  
+    def speak(self, msg):  
+        print(f'{self.name} is {self.age} years old')  
+​  
+​  
 # 定义一个Student类，继承自Person类  
 class Student(Person):  
-    def __init__(self, name, age, gender, stu_id, grade):  
-        super().__init__(name, age, gender)  
-        self.stu_id = stu_id  
-        self.grade = grade  
-  
-    # 方法重写：当子类中定义了一个与父类中相同的方法，那么子类中的方法就会‘覆盖’父类的方法  
-    def speak(self, msg):  
-        super().speak(msg)  
-        print(f'我是学生，我的学号是{self.stu_id},我正在读{self.grade},我想说{msg}')  
-  
-  
+    def __init__(self, name, age, gender, stu_id, grade):  
+        super().__init__(name, age, gender)  
+        self.stu_id = stu_id  
+        self.grade = grade  
+​  
+    # 方法重写：当子类中定义了一个与父类中相同的方法，那么子类中的方法就会‘覆盖’父类的方法  
+    def speak(self, msg):  
+        super().speak(msg)  
+        print(f'我是学生，我的学号是{self.stu_id},我正在读{self.grade},我想说{msg}')  
+​  
+​  
 s1 = Student('李华', 12, '男', '2025001', '初二')  
 s1.speak('好好学习')
 
 结果
+
+![image-20260615205208128](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615205208128.png?lastModify=1782109450)
 
 #### 9.11两个常用方法
 
@@ -3540,20 +3802,20 @@ s1.speak('好好学习')
 
 # 定义一个Person类  
 class Person:  
-    # 初始化方法（给实例添加属性）  
-    def __init__(self, name, age, gender):  
-        # 语法：self.属性名 = 值  
-        self.name = name  
-        self.age = age  
-        self.gender = gender  
-  
+    # 初始化方法（给实例添加属性）  
+    def __init__(self, name, age, gender):  
+        # 语法：self.属性名 = 值  
+        self.name = name  
+        self.age = age  
+        self.gender = gender  
+​  
 # 定义一个Student类，继承自Person类  
 class Student(Person):  
-    def __init__(self, name, age, gender, stu_id, grade):  
-        super().__init__(name, age, gender)  
-        self.stu_id = stu_id  
-        self.grade = grade  
-  
+    def __init__(self, name, age, gender, stu_id, grade):  
+        super().__init__(name, age, gender)  
+        self.stu_id = stu_id  
+        self.grade = grade  
+​  
 p1 = Person('张三', 18, '男')  
 s1 = Student('李华', 12, '男', '2025001', '初二')  
 # 方法一：isinstance(instance,Class),作用：判断某个对象是否为指定类或其子类的实例  
@@ -3561,12 +3823,14 @@ print(isinstance(s1, Student))
 print(isinstance(p1, Person))  
 print(isinstance(s1, Person))  
 print(isinstance(p1, Student))  
-  
+​  
 # 方法二：issubclass(Class1,Class2),作用：判断某个类是否是另一个类的子类  
 print(issubclass(Student, Person))  
 print(issubclass(Person, Student))
 
 结果
+
+![image-20260615205308416](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615205308416.png?lastModify=1782109450)
 
 #### 9.12多重继承
 
@@ -3619,9 +3883,15 @@ print(Student.__mro__)
 
 结果
 
+![image-20260615211700691](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615211700691.png?lastModify=1782109450)
+
 #### 9.13三种访问权限
 
 学习
+
+![image-20260615212825428](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615212825428.png?lastModify=1782109450)
+
+![image-20260615214101651](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615214101651.png?lastModify=1782109450)
 
 代码
 
@@ -3663,28 +3933,32 @@ print(p1._Person__idcard)
 
 私有属性不能访问
 
+![image-20260615213023640](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615213023640.png?lastModify=1782109450)
+
 #### 9.14 getter和setter
 
 学习
 
+![image-20260615221527671](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615221527671.png?lastModify=1782109450)
+
 代码
 
 class Person:  
-    def __init__(self, name, age, idcard):  
-        self.name = name  # 公有属性：当前类中、子类中、类外部、都可以访问  
-        self._age = age  # 受保护的属性：当前类中、子类中、都可以访问  
-        self.__idcard = idcard  # 私有属性：仅能在当前类中访问  
-  
-    # 注册age属性getter方法，当访问Person实例的age属性时，下面的age方法就会被自动调用  
-    @property  
-    def age(self):  
-        return self._age  
-  
-    @age.setter  
-    def age(self, value):  
-        self._age = value  
-  
-  
+    def __init__(self, name, age, idcard):  
+        self.name = name  # 公有属性：当前类中、子类中、类外部、都可以访问  
+        self._age = age  # 受保护的属性：当前类中、子类中、都可以访问  
+        self.__idcard = idcard  # 私有属性：仅能在当前类中访问  
+​  
+    # 注册age属性getter方法，当访问Person实例的age属性时，下面的age方法就会被自动调用  
+    @property  
+    def age(self):  
+        return self._age  
+​  
+    @age.setter  
+    def age(self, value):  
+        self._age = value  
+​  
+​  
 p1 = Person('John', 21, '123')  
 print(p1.name)  
 print(p1.age)  
@@ -3692,6 +3966,8 @@ p1.age = 99
 print(p1.age)
 
 结果
+
+![image-20260616103551959](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260616103551959.png?lastModify=1782109450)
 
 #### 9.15魔法方法
 
@@ -3747,6 +4023,8 @@ print(p1.address)
 
 结果
 
+![image-20260616151804290](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260616151804290.png?lastModify=1782109450)
+
 #### 9.16object类
 
 学习
@@ -3786,6 +4064,8 @@ print(p1.__dict__)  # 对象身上自己的东西
 print(dir(p1))  # 对象可以访问到的东西（自己的、继承过来的）
 
 方法
+
+![image-20260616163748071]D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\image-20260616163748071.png)
 
 #### 9.17标准多态
 
