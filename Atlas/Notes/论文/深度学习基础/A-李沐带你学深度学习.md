@@ -90,4 +90,4 @@ a = torch.arange(3).reshape((3,1))
 b = torch.arange(2).resahpe((1,2))
 a,b
 ```
-输出：(tensor([0],[1],[2])),tensor([[0,1]]))
+输出：(tensor([0],[1],[2])),tensor([[0,1]]))  
