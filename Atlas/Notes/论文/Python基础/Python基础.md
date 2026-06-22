@@ -4187,7 +4187,7 @@ print(p1._Person__idcard)
 **结果**
 
 私有属性不能访问
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Ori\0c30d2a489f11fbfb3972635fa2d53ec.png)
+![img](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/0c30d2a489f11fbfb3972635fa2d53ec.png)
 
 ![image-20260615213023640](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260615213023640.png?lastModify=1782109450)
 
