@@ -4229,8 +4229,7 @@ print(p1.age)
 #### 9.15魔法方法
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Ori\4d14e590425d8fcb634557e9f4e24f0a.png)
-
+![[image-1782128411301.webp|400x210]]
 代码
 ```python
 # 概念：以__XXX__命名的特殊方法（双下划线开头和结尾）  
