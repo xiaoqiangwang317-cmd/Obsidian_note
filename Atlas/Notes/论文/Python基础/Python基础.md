@@ -4323,7 +4323,7 @@ print(dir(p1))  # 对象可以访问到的东西（自己的、继承过来的�
 ```
 方法
 
-![image-20260616163748071]D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\image-20260616163748071.png)
+![[image-1782128520011.webp|400x356]]
 
 #### 9.17标准多态
 
