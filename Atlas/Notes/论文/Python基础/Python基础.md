@@ -206,7 +206,7 @@ Settings → Keymap
 > 字面量就是直接写在代码中的具体值
 
 **代码**
-
+```python
 '张三'  
 18  
 65.2  
@@ -221,6 +221,7 @@ Settings → Keymap
 ​  
 print(25)  
 print(80)
+```
 
 ![image-20260121105531971](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260121105531971.png?lastModify=1782109450)
 
