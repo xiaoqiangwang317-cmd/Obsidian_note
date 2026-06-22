@@ -1185,13 +1185,13 @@ print(f'你今年的年龄是{age}')
 #### 4.1单分支
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\062de213ff7387e1c67322dff5effd43_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\062de213ff7387e1c67322dff5effd43_720.png)
 
 ![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Ori\c1a0923d9fff813bc15a3bf4d19f668a.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\631a37ecca04632d8277da969f98fadf_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\631a37ecca04632d8277da969f98fadf_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\d4bc9b5353dbba89a08fb9a4524f14e7_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\d4bc9b5353dbba89a08fb9a4524f14e7_720.png)
 
 代码
 ```python
@@ -1213,9 +1213,9 @@ print('欢迎你来学习Python')
 #### 4.2双分支
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\bf17673dd619c40501aa25736d4e41bd_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\bf17673dd619c40501aa25736d4e41bd_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\d4a417d7df181f4c36bd8cdfbf4f5a45_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\d4a417d7df181f4c36bd8cdfbf4f5a45_720.png)
 
 代码
 ```python
@@ -1237,9 +1237,9 @@ else:
 #### 4.3多分支
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\5f49ef7757abd392f429fb6fd1651d64_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\5f49ef7757abd392f429fb6fd1651d64_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\650c5f2ac568358954c719083f218cf6_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\650c5f2ac568358954c719083f218cf6_720.png)
 
 代码
 ```python
@@ -1264,7 +1264,7 @@ else:
 #### 4.4嵌套分支
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\0ef7aa4d938213400b7595808d627724_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\0ef7aa4d938213400b7595808d627724_720.png)
 
 代码
 ```python
@@ -1301,7 +1301,7 @@ else:
 学习
 ![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Ori\24418342f9ee6c7c8198976ee79e5fff.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\e7793a0cf77006e0b6aad01f79a1c9fe_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\e7793a0cf77006e0b6aad01f79a1c9fe_720.png)
 
 代码
 ```python
@@ -1344,12 +1344,12 @@ while guess != answer:
 #### 4.7for循环
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\197fc371f8c1f8c456852a0868bef903_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\197fc371f8c1f8c456852a0868bef903_720.png)
 
 重点：range的这个范围，区间**左闭右开**
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\e6141853025abf3f273f9ba2a87b0e2b_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\e6141853025abf3f273f9ba2a87b0e2b_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\dd93df19146441ffb676f9cd3460620b_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\dd93df19146441ffb676f9cd3460620b_720.png)
 
 代码
 
@@ -1378,7 +1378,7 @@ for i in nums:
 #### 4.8for循环案例
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\79caee677385531927cda7b8ed7d1379_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\79caee677385531927cda7b8ed7d1379_720.png)
 
 代码
 
@@ -1404,9 +1404,9 @@ print(f'经过解密后的内容为：{text}')
 #### 4.9对比while与for
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\32cb296a35b203488e2df81714c640c1_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\32cb296a35b203488e2df81714c640c1_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\7ed64025d535f20e49314edae80db3d7_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\7ed64025d535f20e49314edae80db3d7_720.png)
 
 代码
 
@@ -1460,9 +1460,9 @@ for i in range(1, 10):
 #### 4.11 continue与break
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\701f6dad6266a99cf96c7acfe00c7b10_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\701f6dad6266a99cf96c7acfe00c7b10_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\abb0c700f77882ddaacd380948af759f_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\abb0c700f77882ddaacd380948af759f_720.png)
 
 代码
 ```python
@@ -1587,16 +1587,16 @@ if is_playing:
 #### 5.1函数-基本使用
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\03fb2946afd6f9fe3200e8ef2a9bb295_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\03fb2946afd6f9fe3200e8ef2a9bb295_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\ce962fc95269337e552278307377b173_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\ce962fc95269337e552278307377b173_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\4455cc567a06d488335b1724cb5d5a7c_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\4455cc567a06d488335b1724cb5d5a7c_720.png)
 
 内置函数：[https://docs.python.org/zh-cn/3.13/library/functions.html](https://docs.python.org/zh-cn/3.13/library/functions.html)
 
 模块：[https://docs.python.org/zh-cn/3.13/py-modindex.html](https://docs.python.org/zh-cn/3.13/py-modindex.html)
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\7dc840160b99146acf04281d503016d2_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\7dc840160b99146acf04281d503016d2_720.png)
 
 代码
 ```python
@@ -1618,10 +1618,10 @@ welcome()
 学习
 
 位置参数
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\ee3bff91467c5d97ea677d1dabe049fc_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\ee3bff91467c5d97ea677d1dabe049fc_720.png)
 
 关键字参数
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\57e8436f19036bb3d74bcda912783fb0_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\57e8436f19036bb3d74bcda912783fb0_720.png)
 
 代码
 
@@ -1643,7 +1643,7 @@ order(2, '辣子鸡')
 ![image-20260609103721083](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260609103721083.png?lastModify=1782109450)
 
 #### 5.6限制传参
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\bbd512eb163ce4fe616cb9b6727b0863_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\bbd512eb163ce4fe616cb9b6727b0863_720.png)
 
 ```python
 # 定义函数（使用/和*限制传参方式）  
@@ -1666,7 +1666,7 @@ greet(name='张三', gender='男', age=18, height=172)
 ![image-20260610193432544](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260610193432544.png?lastModify=1782109450)
 
 #### 5.7参数默认值
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\a35dd99e9b0b7772f93539f39fff30dd_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\a35dd99e9b0b7772f93539f39fff30dd_720.png)
 
 **注意：默认参数必须要放在必选参数的后面，或者说：某个形参，一旦设置了默认值，那他后面的所有形参，也必须要写默认值！**
 ```python
@@ -1699,24 +1699,24 @@ print('尚硅谷', end='!!!')
 #### 5.8可变参数
 
 可变位置参数
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\5546faf9618b86d366e0e57cbb984935_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\5546faf9618b86d366e0e57cbb984935_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\95f7d269579eef93082225efb03bf807_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\95f7d269579eef93082225efb03bf807_720.png)
 
 可变关键字参数
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\7a92cc82ce664f786a7bb7e165259678_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\7a92cc82ce664f786a7bb7e165259678_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\8c540fff10b1f956e039f79e4326c3eb_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\8c540fff10b1f956e039f79e4326c3eb_720.png)
 
 **注意点1：**
 
 可变位置参数、可变关键字参数，可以同时使用，但必须先写可变位置参数
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\3d062f02127c245019bd1de05f4fcb86_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\3d062f02127c245019bd1de05f4fcb86_720.png)
 
 **注意点2：**
 
 可变位置参数、可变关键字参数，也能与其他类型的参数一起使用
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\c36a5554143cf50009f7df04599867b8_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\c36a5554143cf50009f7df04599867b8_720.png)
 ```python
 # 定义函数（使用*args去接收：可变位置参数）  
 def test1(*args):  
@@ -1761,9 +1761,9 @@ test3('抽烟', '喝酒', '张三', '男', c='atguigu', age=18, height=172)
 #### 5.9特殊的字面量none
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\a2b1b51132cd43f25c313e1c28a15007_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\a2b1b51132cd43f25c313e1c28a15007_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\b4aef574aeb04b75128b97c506de885e_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\b4aef574aeb04b75128b97c506de885e_720.png)
 
 代码
 
@@ -1791,13 +1791,13 @@ print(result1)
 #### 5.10函数返回值
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\b172afd09aa056d375eded31771df8a7_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\b172afd09aa056d375eded31771df8a7_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\7a11930911c1c5ba87a43bbaeed6f193_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\7a11930911c1c5ba87a43bbaeed6f193_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\479a97553edf49c00c05b546943c341a_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\479a97553edf49c00c05b546943c341a_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\8ce35bf3d0ef57786e7908ee3f70b946_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\8ce35bf3d0ef57786e7908ee3f70b946_720.png)
 
 就算不写return的返回值，最后函数也会含有return值
 
@@ -1827,11 +1827,11 @@ print(type(res))
 #### 5.11全局/局部作用域
 
 **学习**
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\9ec4e79c8e98de6c891796b8bcd58e8e_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\9ec4e79c8e98de6c891796b8bcd58e8e_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\ff620e2550e861061f92402a18ce19d9_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\ff620e2550e861061f92402a18ce19d9_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\c6fb3e9b4b89433d2b9775c3976b9b77_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\c6fb3e9b4b89433d2b9775c3976b9b77_720.png)
 
 #声明a是全局变量
 
@@ -1878,7 +1878,7 @@ print('全局打印b', b)
 ![image-20260610225337756](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260610225337756.png?lastModify=1782109450)
 
 全局作用域和全局变量，会在程序开始时创建，在程序结束后销毁
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\c2fe511e154203933a16293671decc22_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\c2fe511e154203933a16293671decc22_720.png)
 ```python
 # 全局作用域 与 局部作用域，以及global的使用  
 a = 100  
@@ -1935,12 +1935,12 @@ print(n)
 #### 5.12函数_嵌套调用
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\0ab6c80112bb747f99ad9131566c63a8_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\0ab6c80112bb747f99ad9131566c63a8_720.png)
 
 主要看压栈的过程
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\d0f64ce58550eacf2e02347616551926_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\d0f64ce58550eacf2e02347616551926_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\7e8751b1b3afd02b917f8b37bb23203a_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\7e8751b1b3afd02b917f8b37bb23203a_720.png)
 
 代码
 ```python
@@ -2005,11 +2005,11 @@ test1()
 #### 5.13函数_递归调用
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\b55f0c266ce85935354378f7ef402fd5_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\b55f0c266ce85935354378f7ef402fd5_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\cbd63fd07ffdce17a16b0f9ef9863d16_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\cbd63fd07ffdce17a16b0f9ef9863d16_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\0b5ae47320cd9525396ae01f90ce4191_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\0b5ae47320cd9525396ae01f90ce4191_720.png)
 
 代码
 ```python
@@ -2043,15 +2043,15 @@ welcome(5)
 #### 5.14函数_递归的应用
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\4c35375f97d74ca0f504e2471032e3da_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\4c35375f97d74ca0f504e2471032e3da_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\e66fcbe4e16c59fa57ac2804be64729c_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\e66fcbe4e16c59fa57ac2804be64729c_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\f12ed42681a8bcfbe5796cce93e69146_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\f12ed42681a8bcfbe5796cce93e69146_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\e22e30dd17c7138cfd86b2d4d96a3662_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\e22e30dd17c7138cfd86b2d4d96a3662_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\f7d3fb6f894a3f4b38a28ed4356b1e60_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\f7d3fb6f894a3f4b38a28ed4356b1e60_720.png)
 
 代码
 ```python
@@ -2074,7 +2074,7 @@ print(result)
 #### 5.15函数_说明文档
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\f01c9f28ae1a0abe91a8a0c4e31073d0_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\f01c9f28ae1a0abe91a8a0c4e31073d0_720.png)
 
 代码
 ```python
@@ -2097,7 +2097,7 @@ print(result)
 #### 5.16函数_综合案例
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\38b423679e22211c804d4a23f6a775c0_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\38b423679e22211c804d4a23f6a775c0_720.png)
 
 代码
 ```python
@@ -2148,12 +2148,12 @@ main('仰卧起坐', 7)
 #### 5.17何为数据容器
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\d113be6a25bdd245a91f2937faa931d3_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\d113be6a25bdd245a91f2937faa931d3_720.png)
 
 #### 6.1定义列表
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\7fd1b06d887931d7cb5e48f5817c8d37_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\7fd1b06d887931d7cb5e48f5817c8d37_720.png)
 
 代码
 ```python
@@ -2180,7 +2180,7 @@ print(list4, type(list4))
 #### 6.2列表下标
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\75e629c170cc926506699eba231d27cb_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\75e629c170cc926506699eba231d27cb_720.png)
 
 代码
 
@@ -2219,9 +2219,9 @@ print(nums2[2][1])
 **新增**
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\7c6b5919d0bff04335d201e8db51b94f_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\7c6b5919d0bff04335d201e8db51b94f_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\8944782629a33dd74e0a24ef73a5c8aa_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\8944782629a33dd74e0a24ef73a5c8aa_720.png)
 
 代码
 ```python
@@ -2250,7 +2250,7 @@ print(nums)
 **删除**
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\5fa95a828c253bd7503d71ef479ac1bf_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\5fa95a828c253bd7503d71ef479ac1bf_720.png)
 
 代码
 ```python
@@ -2303,7 +2303,7 @@ print(nums)
 **查询**
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\d5d8eae9aaac0f3c25983400e0ed7e88_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\d5d8eae9aaac0f3c25983400e0ed7e88_720.png)
 
 代码
 
@@ -2320,7 +2320,7 @@ print(nums[3])
 #### 6.4列表常用方法
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\5ac5fe72576f63ad117bb2754a5960ef_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\5ac5fe72576f63ad117bb2754a5960ef_720.png)
 
 代码
 ```python
@@ -2364,12 +2364,12 @@ print(ord('京'), ord('好'), ord('硅'))
 ![image-20260611202816570](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260611202816570.png?lastModify=1782109450)
 
 总结
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\aaf78c33939a7039f6a2968f96c1978e_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\aaf78c33939a7039f6a2968f96c1978e_720.png)
 
 #### 6.5列表常用内置函数
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\518f29c3b3e076375345b73d5d06bdda_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\518f29c3b3e076375345b73d5d06bdda_720.png)
 
 代码
 ```python
@@ -2437,7 +2437,7 @@ print(result)
 #### 6.6列表循环遍历
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\d2c7e55fa8876e0ebfb39fcc806b944a_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\d2c7e55fa8876e0ebfb39fcc806b944a_720.png)
 
 代码
 ```python
@@ -2481,7 +2481,7 @@ print('最后的打印', score_list[0])
 #### 6.7列表小练习
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\35d63a26d24ef84a525df7f662c94ff0_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\35d63a26d24ef84a525df7f662c94ff0_720.png)
 
 代码
 ```python
@@ -2535,21 +2535,21 @@ else:
 #### 6.8列表总结
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\a3cc59bdff8fb9cdf9c09019d15ab21c_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\a3cc59bdff8fb9cdf9c09019d15ab21c_720.png)
 
 #### 6.9元组
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\e186b6d305d43da79145a55d0fe23e85_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\e186b6d305d43da79145a55d0fe23e85_720.png)
 
 注意1：**元组中的元素不可修改**
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\5f6fe718cead3e49d40c8b15bc7470bb_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\5f6fe718cead3e49d40c8b15bc7470bb_720.png)
 
 <img src="file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Ori\e11411e767c826ee49dd721bd9b633a7.png" alt="img" style="zoom:67%;" />
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\2c75aa23d46d437f89c0e736bc051738_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\2c75aa23d46d437f89c0e736bc051738_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\d30eba63621b8f7a1d85e6cd9fc9eaba_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\d30eba63621b8f7a1d85e6cd9fc9eaba_720.png)
 
 代码
 ```python
@@ -2644,7 +2644,7 @@ print(res)
 #### 7.0函数_解包列表或元素传参
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\1a43e04a6abcb5411b2d38c026738481_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\1a43e04a6abcb5411b2d38c026738481_720.png)
 
 代码
 ```python
@@ -2789,9 +2789,9 @@ for item in t1:
 #### 7.2字符串
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\26009b7fd34b3f544d3629893b8eaa26_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\26009b7fd34b3f544d3629893b8eaa26_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\9b0daa01456b655ba39d8bd2340e1485_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\9b0daa01456b655ba39d8bd2340e1485_720.png)
 
 代码
 ```python
@@ -2858,7 +2858,7 @@ result = msg4.strip()
 print(msg4)  
 print(result)
 ```
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\fb377f5098c50e4ec47a98ca9ad77965_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\fb377f5098c50e4ec47a98ca9ad77965_720.png)
 ```
 msg6 = 'welcome to atguigu'  
 result = len(msg6)  
@@ -2892,13 +2892,13 @@ for item in msg:
 #### 7.3序列的切片操作
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\e56548d8fa271522a3dace3120b5b4d9_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\e56548d8fa271522a3dace3120b5b4d9_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\85989cb7bb7c3d6ad03005df6bb942f9_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\85989cb7bb7c3d6ad03005df6bb942f9_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\da758fac93c9ade353dd6d16f7676e53_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\da758fac93c9ade353dd6d16f7676e53_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\ea084334788d8375e30fdacdb84a1322_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\ea084334788d8375e30fdacdb84a1322_720.png)
 
 代码
 ```python
@@ -2961,10 +2961,10 @@ print(msg2)
 学习
 
 相加
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\0b2f6761297ad0f3ce507928f70075bb_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\0b2f6761297ad0f3ce507928f70075bb_720.png)
 
 相乘
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\c223275c0619e72893d3d5202811b6ac_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\c223275c0619e72893d3d5202811b6ac_720.png)
 
 代码
 ```python
@@ -2993,16 +2993,16 @@ print(str3)
 #### 7.5集合_定义集合
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\df5e8da4405e49e8918024cf9c05d51c_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\df5e8da4405e49e8918024cf9c05d51c_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\e0a4821cec7741914f27f56a99884b46_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\e0a4821cec7741914f27f56a99884b46_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\0798a47d9dcaab289f11add06170ec52_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\0798a47d9dcaab289f11add06170ec52_720.png)
 
 注意：集合中不能嵌套**可变集合**，但可以嵌套**不可变集合**
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\218339268d5172bcea4fdf44cf57dd43_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\218339268d5172bcea4fdf44cf57dd43_720.png)
 
-哈希值：是根据内容计算出来的![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\3e5832a30ac1a58e49bd7f1bbb877b31_720.png)
+哈希值：是根据内容计算出来的![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\3e5832a30ac1a58e49bd7f1bbb877b31_720.png)
 
 代码
 ```python
@@ -3068,13 +3068,13 @@ print(s3)
 #### 7.6集合_增删改查
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\0e5b9b0ab923a47eade94b5326551b45_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\0e5b9b0ab923a47eade94b5326551b45_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\a19d2bdd12fc900ad7a6eb98069029e0_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\a19d2bdd12fc900ad7a6eb98069029e0_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\a817585159a5ee66f6a257b7e078a074_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\a817585159a5ee66f6a257b7e078a074_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\24b9468d3f7301db1f1961a945fb29a3_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\24b9468d3f7301db1f1961a945fb29a3_720.png)
 代码
 ```python
 # 增  
@@ -3128,24 +3128,24 @@ print(s4)
 ![image-20260612193015343](file:///D:/ObsidianVaults/Obsidian_note/Atlas/Notes/%E8%AE%BA%E6%96%87/Python%E5%9F%BA%E7%A1%80/Assets/image-20260612193015343.png?lastModify=1782109450)
 
 总结
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\739f2d7db64423a2111496d055dbdbbd_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\739f2d7db64423a2111496d055dbdbbd_720.png)
 
 #### 7.7集合_常用方法
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\3a2a12bb53468c778f51fe43cfaa317e_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\3a2a12bb53468c778f51fe43cfaa317e_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\ffb239f2b15fc850781ce387fbd28669_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\ffb239f2b15fc850781ce387fbd28669_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\11ad8675e8cca0650a7778d9250c78f3_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\11ad8675e8cca0650a7778d9250c78f3_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\eb74dee465ad5a9da069c6c6f2cc2559_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\eb74dee465ad5a9da069c6c6f2cc2559_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\4d7d7b458b927c403baef064a0823acd_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\4d7d7b458b927c403baef064a0823acd_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\1b6a656478e2bdb5151ce03aa5c09b54_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\1b6a656478e2bdb5151ce03aa5c09b54_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\1dfc0d638a51ca5f4266a2c07202269f_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\1dfc0d638a51ca5f4266a2c07202269f_720.png)
 
 代码
 ```python
@@ -3210,7 +3210,7 @@ print(result)
 #### 7.8集合_数学运算
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\afbb3bf6a5ed898afbc553615472554c_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\afbb3bf6a5ed898afbc553615472554c_720.png)
 
 代码
 ```python
@@ -3241,7 +3241,7 @@ print(result)
 #### 7.9集合_循环遍历
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\3ecb24464e9a8e185c8462806e2ac066_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\3ecb24464e9a8e185c8462806e2ac066_720.png)
 
 代码
 ```python
@@ -3267,12 +3267,12 @@ for item in s1:
 #### 7.10集合_总结
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\02a960b50415e5d30e2d38d7da97db6a_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\02a960b50415e5d30e2d38d7da97db6a_720.png)
 
 #### 8.1字典_定义字典
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\f9efa12aa8b3ece2d7f1958aa62aa5e1_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\f9efa12aa8b3ece2d7f1958aa62aa5e1_720.png)
 
 代码
 ```python
@@ -3319,7 +3319,7 @@ student_dict = {
 #### 8.2字典_增删改查
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\2fef6facb9599f181aa7f6d2413e5175_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\2fef6facb9599f181aa7f6d2413e5175_720.png)
 
 代码
 ```python
@@ -3377,7 +3377,7 @@ print(d1)
 #### 8.3字典_常用方法
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\123ada5b9c74669b3aa6c9942dbc5e7d_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\123ada5b9c74669b3aa6c9942dbc5e7d_720.png)
 
 代码
 ```python
@@ -3447,7 +3447,7 @@ for key in d1.keys():
 #### 8.5字典_总结
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\be82e15e04f2b4621a4f08b486da5a86_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\be82e15e04f2b4621a4f08b486da5a86_720.png)
 
 #### 8.6数据容器通用操作
 
@@ -3566,19 +3566,19 @@ print(fruits.get('苹果'))
 #### 8.8数据容器总结
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\ba766fd2515e9fc1c3a97d2787fcad42_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\ba766fd2515e9fc1c3a97d2787fcad42_720.png)
 
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\562820e2e88f076f7c0f449fc9208d79_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\562820e2e88f076f7c0f449fc9208d79_720.png)
 
 #### 9.1面向对象
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\a57b1ccadf825f37c439938b01324598_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\a57b1ccadf825f37c439938b01324598_720.png)
 
 **这一章重点看代码**
 
 #### 9.2类的定义
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\54433af0f1a1d7b180dae12e64c9ed77_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\54433af0f1a1d7b180dae12e64c9ed77_720.png)
 代码
 ```python
 # 定义一个Person类（类名通常使用：大驼峰写法）  
@@ -3600,7 +3600,7 @@ class Person:
 #### 9.3创建实例
 
 学习
-![img](file:///C:\Users\行走的面包树\Documents\Tencent Files\1955976653\nt_qq\nt_data\Pic\2026-06\Thumb\1bf1cbe2d1a0bae89e7d90340eabdd44_720.png)
+![img](file:///D:\ObsidianVaults\Obsidian_note\Atlas\Notes\论文\Python基础\Assets\1bf1cbe2d1a0bae89e7d90340eabdd44_720.png)
 代码
 ```python
 # 定义一个Person类（类名通常使用：大驼峰写法）  
