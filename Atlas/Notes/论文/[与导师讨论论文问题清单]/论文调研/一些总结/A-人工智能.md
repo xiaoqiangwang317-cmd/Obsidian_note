@@ -33,25 +33,62 @@ date: 2026-06-24
 
 ```
 人工智能（AI）
-│├──知识主义（Symbolic AI）
-│├──机器学习（Machine Learning）
-││   ├──监督学习│   
-	 ├──无监督学习│   
-	 ├──半监督学习│   
-	 ├──自监督学习│   
-	 └──强化学习
-│├──深度学习（Deep Learning）
-│├──计算机视觉（CV）
-│├──自然语言处理（NLP）
-│├──语音处理（Speech）
-│├──推荐系统（RecSys）
-│├──机器人（Robotics）
-│├──多模态（Multimodal）
-││└──大模型（LLM）     
-│   ├──Agent     
-	├──RAG   
-	├──Tool Calling     
-	└──AI Application
+│
+├── 1. 学习范式（Learning Paradigm）
+│   │
+│   ├──[[监督学习]]
+│   ├──[[无监督学习]]
+│   ├──半监督学习
+│   ├──自监督学习
+│   └──强化学习
+│
+├── 2. 模型架构（Model Architecture）
+│   │
+│   ├──传统机器学习
+│   │   ├──线性回归
+│   │   ├──逻辑回归
+│   │   ├──决策树
+│   │   ├──随机森林
+│   │   ├──XGBoost
+│   │   └──SVM
+│   │
+│   └──深度学习
+│       │
+│       ├──MLP
+│       ├──CNN
+│       ├──RNN
+│       ├──LSTM
+│       ├──GRU
+│       ├──Transformer
+│       ├──GNN
+│       └──Diffusion
+│
+├── 3. 研究领域（Research Area）
+│   │
+│   ├──计算机视觉（CV）
+│   ├──自然语言处理（NLP）
+│   ├──语音处理（Speech）
+│   ├──推荐系统（RecSys）
+│   ├──机器人（Robotics）
+│   ├──时间序列分析
+│   ├──网络智能
+│   └──多模态（Multimodal）
+│
+└── 4. 大模型生态（LLM Ecosystem）
+    │
+    ├──Foundation Model
+    │   ├──GPT
+    │   ├──Claude
+    │   ├──Gemini
+    │   ├──Qwen
+    │   └──DeepSeek
+    │
+    ├──RAG
+    ├──Agent
+    ├──Tool Calling
+    ├──MCP
+    ├──Function Calling
+    └──AI Application
 ```
 
 ---
