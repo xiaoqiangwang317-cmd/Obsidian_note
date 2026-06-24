@@ -152,7 +152,9 @@ Symbolic AI符号主义AI
 核心思想：
 
 ```
-数据↓自动学习规则
+数据
+↓
+自动学习规则
 ```
 
 替代：
@@ -231,7 +233,9 @@ Self-Attention
 统一：
 
 ```
-NLPCV推荐时间序列
+NLP
+CV
+推荐时间序列
 ```
 
 ---
@@ -275,7 +279,12 @@ AI的粮食。
 例如：
 
 ```
-图片文本视频语音日志网络流量
+图片
+文本
+视频
+语音
+日志
+网络流量
 ```
 
 ---
@@ -297,7 +306,9 @@ RTTHop Count丢包率
 例如：
 
 ```
-线性回归CNNTransformer
+线性回归
+CNN
+Transformer
 ```
 
 ---
@@ -353,7 +364,9 @@ RTTHop Count丢包率
 例如：
 
 ```
-BERTGPTMAE
+BERT
+GPT
+MAE
 ```
 
 ---
@@ -365,7 +378,8 @@ BERTGPTMAE
 例如：
 
 ```
-AlphaGo机器人控制
+AlphaGo
+机器人控制
 ```
 
 ---
