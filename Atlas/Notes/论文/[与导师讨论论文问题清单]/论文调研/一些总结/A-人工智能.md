@@ -52,16 +52,20 @@ date: 2026-06-24
 │   │   ├──XGBoost
 │   │   └──SVM
 │   │
-│   └──深度学习
-│       │
-│       ├──MLP
-│       ├──CNN
-│       ├──RNN
-│       ├──LSTM
-│       ├──GRU
-│       ├──Transformer
-│       ├──GNN
-│       └──Diffusion
+	└──神经网络（Neural Network）  
+│     │  
+│     ├──单层感知机（Perceptron）  
+│     ├──多层感知机（MLP）  
+│     │  
+│     └──深度学习（Deep Learning）  
+│     │  
+│     ├──CNN  
+│     ├──RNN  
+│     ├──LSTM  
+│     ├──GRU  
+│     ├──Transformer  
+│     ├──GNN  
+│     └──Diffusion
 │
 ├── 3. 研究领域（Research Area）
 │   │
