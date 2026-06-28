@@ -134,7 +134,52 @@ date: 2026-06-24
 |	    ├── Classification Head
 |	    └── Decoder Head
 |
-├── 4. 研究领域（Research Area）
+├── 4. 训练方法（Training）
+│   │
+|	├── 01 损失函数（Loss）
+|	│   ├── 交叉熵损失（Cross Entropy）
+|	│   ├── InfoNCE
+|	│   ├── 均方误差（MSE）
+|	│   ├── 三元组损失（Triplet Loss）
+|	│   ├── KL散度（KL Divergence）
+|	│   └── ...
+|	│
+|	├── 02 优化器（Optimizer）
+|	│   ├── SGD（随机梯度下降）
+|	│   ├── Momentum（动量）
+|	│   ├── AdaGrad
+|	│   ├── RMSProp
+|	│   ├── Adam
+|	│   ├── AdamW
+|	│   ├── LARS
+|	│   └── ...
+|	│
+|	├── 03 学习率策略（Learning Rate Scheduler）
+|	│   ├── 固定学习率
+|	│   ├── StepLR
+|	│   ├── MultiStepLR
+|	│   ├── Cosine Annealing
+|	│   ├── Warmup
+|	│   └── ...
+|	│
+|	├── 04 数据增强（Data Augmentation）
+|	│   ├── Random Crop（随机裁剪）
+|	│   ├── Random Flip（随机翻转）
+|	│   ├── Color Jitter（颜色扰动）
+|	│   ├── Gaussian Blur（高斯模糊）
+|	│   ├── Mixup
+|	│   ├── CutMix
+|	│   └── ...
+|	│
+|	└── 05 正则化策略（Regularization）
+|	    ├── Dropout
+|	    ├── DropPath
+|	    ├── Label Smoothing（标签平滑）
+|	    ├── Weight Decay（权重衰减）
+|	    ├── Early Stopping（提前停止）
+|	    └── ...
+|	    
+├── 5. 研究领域（Research Area）
 │   │
 │   ├──计算机视觉（CV）
 │   ├──自然语言处理（NLP）
@@ -145,7 +190,7 @@ date: 2026-06-24
 │   ├──网络智能
 │   └──多模态（Multimodal）
 │
-└── 5. 大模型生态（LLM Ecosystem）
+└── 6. 大模型生态（LLM Ecosystem）
     │
     ├──Foundation Model
     │   ├──GPT
