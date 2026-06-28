@@ -59,11 +59,22 @@ date: 2026-06-24
 │     │  
 │     └──深度学习（Deep Learning）  
 │     │  
-│     ├──CNN  
+│     ├──CNN
+|     |   |- AlexNet
+|     |   |- VGG
+|     |   |- GoogleNet
+|     |   |- ResNet
+|     |   └──DenseNet
 │     ├──RNN  
-│     ├──LSTM  
-│     ├──GRU  
+│     |   |- LSTM  
+│     |   └──GRU  
 │     ├──Transformer  
+|     |   |- Transformer
+|     |   |- ViT
+|     |   |- BERT
+|     |   |- GPT
+|     |   |- Informer
+|     |   └──DenseNet
 │     ├──GNN  
 │     └──Diffusion
 │
