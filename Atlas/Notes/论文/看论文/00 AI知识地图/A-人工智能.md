@@ -63,18 +63,29 @@ date: 2026-06-24
 |     |   |- AlexNet
 |     |   |- VGG
 |     |   |- GoogleNet
-|     |   |- ResNet
+|     |   ├──ResNet
+|     |   |    ├── ResNet-18
+|     |   |    ├── ResNet-34
+|     |   |    ├── ResNet-50
+|     |   |    ├── ResNet-101
+|     |   |    └── ResNet-152
 |     |   └──DenseNet
+|     | 
 │     ├──RNN  
 │     |   |- LSTM  
 │     |   └──GRU  
+|     | 
 │     ├──Transformer  
 |     |   |- Transformer
 |     |   |- ViT
+|     |   |    ├── ViT-B/16
+|     |   |    ├── ViT-L/16
+|     |   |    ├── ViT-H/14
 |     |   |- BERT
 |     |   |- GPT
 |     |   |- Informer
 |     |   └──DenseNet
+|     | 
 │     ├──GNN  
 │     └──Diffusion
 |
