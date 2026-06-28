@@ -171,7 +171,7 @@ date: 2026-06-24
 |	│   ├── CutMix
 |	│   └── ...
 |	│
-|	└── 05 正则化策略（Regularization）
+	└── 05 正则化策略（Regularization）
 |	    ├── Dropout
 |	    ├── DropPath
 |	    ├── Label Smoothing（标签平滑）

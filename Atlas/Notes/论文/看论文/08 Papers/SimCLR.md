@@ -43,7 +43,7 @@ ICML 2020
 
 [[CNN]]
 
-└── [[ResNet]]
+└── [[+/ResNet]]
 
 ---
 
