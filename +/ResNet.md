@@ -129,7 +129,9 @@ H(x)
 即：
 
 ```
-输入↓输出
+输入
+↓
+输出
 ```
 
 ---
@@ -151,7 +153,9 @@ H(x)=F(x)+x
 图示：
 
 ```
-      x      │      │──────────┐      ↓          │    卷积         │      ↓          │    卷积         │      ↓          │      F(x)       │      │          │      └────+─────┘           ↓       F(x)+x
+      x      
+      │      
+      │──────────┐      ↓          │    卷积         │      ↓          │    卷积         │      ↓          │      F(x)       │      │          │      └────+─────┘           ↓       F(x)+x
 ```
 
 这条直接连过去的线：
@@ -181,7 +185,7 @@ F(x)=H(x)-x
 即：
 
 ```
-目标值减输入值
+目标值 减 输入值
 ```
 
 剩下的部分。
@@ -207,7 +211,22 @@ Residual Network↓ResNet
 ResNet最小组成单位：
 
 ```
-输入 ↓Conv ↓BN ↓ReLU ↓Conv ↓BN ↓+ ↑输入直接跳过来 ↓ReLU ↓输出
+输入 
+↓
+Conv 
+↓
+BN 
+↓
+ReLU 
+↓
+Conv 
+↓
+BN 
+↓
++ 
+↑输入
+直接跳过来 
+↓ReLU ↓输出
 ```
 
 简化图：
@@ -261,7 +280,7 @@ ResNet：
 ResNet：
 
 ```
-50层101层152层
+50层 101层 152层
 ```
 
 都能训练。
@@ -339,7 +358,8 @@ from torchvision.models import resnet50model = resnet50()
 加载预训练模型：
 
 ```
-from torchvision.models import resnet50model = resnet50(weights="DEFAULT")
+from torch vision.models import resnet50
+model = resnet50(weights="DEFAULT")
 ```
 
 这就是很多图像任务的起点。
@@ -351,7 +371,12 @@ from torchvision.models import resnet50model = resnet50(weights="DEFAULT")
 很多人容易搞混。
 
 ```
-CNN时代│├── LeNet├── AlexNet├── VGG└── ResNet
+CNN时代
+│
+├── LeNet
+├── AlexNet
+├── VGG
+└── ResNet
 ```
 
 ---
@@ -399,7 +424,17 @@ ResNet=CNN代表作Transformer=新一代架构
 记住 CNN 的发展史：
 
 ```
-LeNet ↓AlexNet ↓VGG ↓ResNet ↓DenseNet ↓Transformer(ViT)
+LeNet 
+↓
+AlexNet 
+↓
+VGG 
+↓
+ResNet 
+↓
+DenseNet 
+↓
+Transformer(ViT)
 ```
 
 面试官问：
