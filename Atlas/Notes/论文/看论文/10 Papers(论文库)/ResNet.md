@@ -45,7 +45,7 @@ CVPR 2016
 
 [[CNN]]
 
-└── [[Atlas/Notes/论文/看论文/09 Papers/ResNet]]
+└── [[Atlas/Notes/论文/看论文/10 Papers(论文库)/ResNet]]
 
 ---
 
