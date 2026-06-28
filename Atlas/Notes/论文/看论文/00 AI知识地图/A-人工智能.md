@@ -52,7 +52,7 @@ date: 2026-06-24
 │   │   ├──XGBoost
 │   │   └──SVM
 │   │
-	└──神经网络（Neural Network）  
+|	└──神经网络（Neural Network）  
 │     │  
 │     ├──单层感知机（Perceptron）  
 │     ├──多层感知机（MLP）  
@@ -77,8 +77,64 @@ date: 2026-06-24
 |     |   └──DenseNet
 │     ├──GNN  
 │     └──Diffusion
+|
+├── 3. 网络组件
 │
-├── 3. 研究领域（Research Area）
+|	├── 01 基础计算层
+|	│   ├── Linear
+|	│   ├── Conv
+|	│   ├── Embedding
+|	│   ├── Pooling
+|	│   └── ...
+|	│
+|	├── 02 激活函数
+|	│   ├── Sigmoid
+|	│   ├── Tanh
+|	│   ├── ReLU
+|	│   ├── GELU
+|	│   ├── SiLU
+|	│   └── Softmax
+|	│
+|	├── 03 注意力机制
+|	│   ├── Self-Attention
+|	│   ├── Multi-Head Attention
+|	│   ├── Cross Attention
+|	│   └── ...
+|	│
+|	├── 04 归一化
+|	│   ├── BatchNorm
+|	│   ├── LayerNorm
+|	│   ├── RMSNorm
+|	│   └── ...
+|	│
+|	├── 05 网络连接
+|	│   ├── Residual
+|	│   ├── Skip Connection
+|	│   └── Dense Connection
+|	│
+|	├── 06 位置表示
+|	│   ├── Positional Encoding
+|	│   ├── RoPE
+|	│   └── ...
+|	│
+|	├── 07 前馈模块
+|	│   ├── MLP
+|	│   ├── FFN
+|	│   ├── GLU
+|	│   ├── SwiGLU
+|	│   └── MoE
+|	│
+|	├── 08 正则化
+|	│   ├── Dropout
+|	│   ├── DropPath
+|	│   └── ...
+|	│
+|	└── 09 输出头
+|	    ├── Projection Head
+|	    ├── Classification Head
+|	    └── Decoder Head
+|
+├── 4. 研究领域（Research Area）
 │   │
 │   ├──计算机视觉（CV）
 │   ├──自然语言处理（NLP）
@@ -89,7 +145,7 @@ date: 2026-06-24
 │   ├──网络智能
 │   └──多模态（Multimodal）
 │
-└── 4. 大模型生态（LLM Ecosystem）
+└── 5. 大模型生态（LLM Ecosystem）
     │
     ├──Foundation Model
     │   ├──GPT
