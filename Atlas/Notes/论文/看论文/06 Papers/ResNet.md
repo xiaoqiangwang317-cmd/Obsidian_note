@@ -3,7 +3,7 @@ up:
 related:
 date: 2026-06-26
 ---
-# 论文
+ # 论文
 
 Deep Residual Learning for Image Recognition
 
@@ -27,7 +27,7 @@ CVPR 2016
 
 ---
 
-# 领域
+# 领域   
 
 计算机视觉（CV）
 
