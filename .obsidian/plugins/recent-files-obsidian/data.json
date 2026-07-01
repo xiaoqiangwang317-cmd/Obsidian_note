@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "计算机网络",
+      "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
@@ -9,16 +13,8 @@
       "path": "Calendar/Daily/2026-06-05.md"
     },
     {
-      "basename": "2026-05-18",
-      "path": "Calendar/Daily/2026-05-18.md"
-    },
-    {
       "basename": "2026-05-20",
       "path": "Calendar/Daily/2026-05-20.md"
-    },
-    {
-      "basename": "2026-05-19",
-      "path": "Calendar/Daily/2026-05-19.md"
     },
     {
       "basename": "2026-05",
@@ -27,14 +23,6 @@
     {
       "basename": "2026-W21",
       "path": "+/2026-W21.md"
-    },
-    {
-      "basename": "2026-05-11",
-      "path": "Calendar/Daily/2026-05-11.md"
-    },
-    {
-      "basename": "2026-05-07",
-      "path": "Calendar/Daily/2026-05-07.md"
     },
     {
       "basename": "⚛️ Habits Tracker",
@@ -81,22 +69,6 @@
       "path": "Atlas/Notes/Redis/Redis.md"
     },
     {
-      "basename": "大语言模型",
-      "path": "Atlas/Notes/AI/大语言模型.md"
-    },
-    {
-      "basename": "TCP连接与断开",
-      "path": "Atlas/Notes/计网/TCP连接与断开.md"
-    },
-    {
-      "basename": "TCP",
-      "path": "Atlas/Notes/计网/TCP.md"
-    },
-    {
-      "basename": "RDMA",
-      "path": "Atlas/Notes/计网/RDMA.md"
-    },
-    {
       "basename": "📱 Home Mobile",
       "path": "📱 Home Mobile.md"
     },
@@ -107,18 +79,6 @@
     {
       "basename": "Efforts",
       "path": "Atlas/Bases/Efforts.base"
-    },
-    {
-      "basename": "2026-05-13",
-      "path": "Calendar/Daily/2026-05-13.md"
-    },
-    {
-      "basename": "2026-05-12",
-      "path": "Calendar/Daily/2026-05-12.md"
-    },
-    {
-      "basename": "2026-05-17",
-      "path": "Calendar/Daily/2026-05-17.md"
     },
     {
       "basename": "Redis高并发",
