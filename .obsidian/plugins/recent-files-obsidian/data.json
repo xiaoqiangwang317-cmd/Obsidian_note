@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "半监督学习",
+      "path": "+/半监督学习.md"
+    },
+    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "自监督学习",
+      "path": "+/自监督学习.md"
     },
     {
       "basename": "监督学习",
@@ -83,10 +91,6 @@
     {
       "basename": "01-大纲",
       "path": "Atlas/Notes/面试/央国企/行测基础/01-大纲.md"
-    },
-    {
-      "basename": "自监督学习",
-      "path": "+/自监督学习.md"
     },
     {
       "basename": "分组题",
@@ -195,10 +199,6 @@
     {
       "basename": "Transformer",
       "path": "+/Transformer.md"
-    },
-    {
-      "basename": "Efforts",
-      "path": "Atlas/Bases/Efforts.base"
     }
   ],
   "omittedPaths": [],
