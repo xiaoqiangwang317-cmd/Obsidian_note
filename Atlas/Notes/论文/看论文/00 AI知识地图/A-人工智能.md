@@ -69,10 +69,10 @@ date: 2026-06-24
  |     |         |    ├── ResNet-101
  |     |         |    └── ResNet-152
  |     |        └──DenseNet
-│     |     ├──RNN  
-│     |            |- LSTM  
-│     |           └──GRU  
-│           ├──Transformer  
+ |     |     ├──RNN  
+|     |            |- LSTM  
+|     |           └──GRU  
+|           ├──Transformer  
 |       |           |- Transformer
 |       |           |- ViT
 |       |           |    ├── ViT-B/16
