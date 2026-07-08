@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SVM",
+      "path": "+/SVM.md"
+    },
+    {
+      "basename": "学习范式",
+      "path": "Atlas/Notes/论文/看论文/01 学习范式(为什么这样学习)/学习范式.md"
+    },
+    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "自监督学习",
       "path": "+/自监督学习.md"
-    },
-    {
-      "basename": "学习范式",
-      "path": "Atlas/Notes/论文/看论文/01 学习范式(为什么这样学习)/学习范式.md"
     },
     {
       "basename": "监督学习",
@@ -195,10 +199,6 @@
     {
       "basename": "Redis-Zset",
       "path": "+/Redis-Zset.md"
-    },
-    {
-      "basename": "分布式锁",
-      "path": "+/分布式锁.md"
     }
   ],
   "omittedPaths": [],
