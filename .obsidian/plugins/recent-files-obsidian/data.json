@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "线性回归",
+      "path": "+/线性回归.md"
+    },
+    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "MSE",
+      "path": "+/MSE.md"
+    },
+    {
+      "basename": "L1正则化",
+      "path": "+/L1正则化.md"
+    },
+    {
+      "basename": "A神经网络-点这就对了！",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A神经网络-点这就对了！.md"
     },
     {
       "basename": "强化学习",
@@ -27,10 +43,6 @@
     {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
-    },
-    {
-      "basename": "MSE",
-      "path": "+/MSE.md"
     },
     {
       "basename": "MAE",
@@ -187,18 +199,6 @@
     {
       "basename": "2026-W19",
       "path": "Calendar/Weekly/2026-W19.md"
-    },
-    {
-      "basename": "知识管理",
-      "path": "Atlas/Notes/知识管理.md"
-    },
-    {
-      "basename": "Redis",
-      "path": "Atlas/Notes/Redis/Redis.md"
-    },
-    {
-      "basename": "📱 Home Mobile",
-      "path": "📱 Home Mobile.md"
     }
   ],
   "omittedPaths": [],
