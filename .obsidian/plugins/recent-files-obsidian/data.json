@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "RMSE",
+      "path": "+/RMSE.md"
+    },
+    {
       "basename": "线性回归",
       "path": "+/线性回归.md"
     },
     {
-      "basename": "A-人工智能",
-      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+      "basename": "MAE",
+      "path": "+/MAE.md"
     },
     {
       "basename": "MSE",
       "path": "+/MSE.md"
+    },
+    {
+      "basename": "A-人工智能",
+      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
     {
       "basename": "L1正则化",
@@ -43,10 +51,6 @@
     {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
-    },
-    {
-      "basename": "MAE",
-      "path": "+/MAE.md"
     },
     {
       "basename": "实验设计",
@@ -195,10 +199,6 @@
     {
       "basename": "📚八股文",
       "path": "Efforts/Projects/📚八股文.md"
-    },
-    {
-      "basename": "2026-W19",
-      "path": "Calendar/Weekly/2026-W19.md"
     }
   ],
   "omittedPaths": [],
