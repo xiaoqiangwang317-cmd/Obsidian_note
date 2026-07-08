@@ -478,12 +478,10 @@ Transformer
 自己造标签。
 
 例如：
+* BERT
+* GPT
+* MAE
 
-```
-BERT
-GPT
-MAE
-```
 
 ---
 
