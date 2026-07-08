@@ -53,41 +53,38 @@ date: 2026-06-24
 │   │   └──SVM
 │   │
  |	 └──神经网络（Neural Network）  
-│     │  
-│     ├──单层感知机（Perceptron）  
-│     ├──多层感知机（MLP）  
-│     │  
-│     └──深度学习（Deep Learning）  
-│     │  
-│     ├──CNN
-|       |   |- AlexNet
-|       |   |- VGG
-|       |   |- GoogleNet
-|       |  ├──ResNet
-|       |   |    ├── ResNet-18
-|       |   |    ├── ResNet-34
-|       |   |    ├── ResNet-50
-|       |   |    ├── ResNet-101
-|       |   |    └── ResNet-152
-|       |   └──DenseNet
+│    |   │  
+│    |   ├──单层感知机（Perceptron）  
+│    |   ├──多层感知机（MLP）  
+│    |   │  
+│    |   └──深度学习（Deep Learning）  
+│    |      ├──CNN
+ |     |         |- AlexNet
+ |     |         |- VGG
+ |     |         |- GoogleNet
+ |     |        ├──ResNet
+ |     |         |    ├── ResNet-18
+ |     |         |    ├── ResNet-34
+ |     |         |    ├── ResNet-50
+ |     |         |    ├── ResNet-101
+ |     |         |    └── ResNet-152
+ |     |        └──DenseNet
+│     |     ├──RNN  
+│     |            |- LSTM  
+│     |           └──GRU  
+│           ├──Transformer  
+|       |           |- Transformer
+|       |           |- ViT
+|       |           |    ├── ViT-B/16
+|       |           |    ├── ViT-L/16
+|       |           |    ├── ViT-H/14
+|       |           |- BERT
+|       |           |- GPT
+|       |           |- Informer
+|       |          └──DenseNet
 |       | 
-│     ├──RNN  
-│     |    |- LSTM  
-│     |   └──GRU  
-|       | 
-│     ├──Transformer  
-|       |   |- Transformer
-|       |   |- ViT
-|       |   |    ├── ViT-B/16
-|       |   |    ├── ViT-L/16
-|       |   |    ├── ViT-H/14
-|       |   |- BERT
-|       |   |- GPT
-|       |   |- Informer
-|       |   └──DenseNet
-|       | 
-│     ├──GNN  
-│     └──Diffusion
+|            ├──GNN  
+|            └──Diffusion
 |
 ### 3. 网络组件
 │
