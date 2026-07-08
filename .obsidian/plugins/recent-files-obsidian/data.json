@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "MAE",
+      "path": "+/MAE.md"
+    },
+    {
       "basename": "MSE",
       "path": "+/MSE.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Redis高并发",
       "path": "+/Redis高并发.md"
-    },
-    {
-      "basename": "Redis常常作为MySQL的缓存",
-      "path": "+/Redis常常作为MySQL的缓存.md"
     }
   ],
   "omittedPaths": [],
