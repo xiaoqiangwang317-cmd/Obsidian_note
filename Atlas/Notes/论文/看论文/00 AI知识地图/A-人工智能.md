@@ -69,24 +69,24 @@ date: 2026-06-24
  |     |      |   |    ├── ResNet-101
  |     |      |   |    └── ResNet-152
  |     |      |  └──DenseNet
-|     |
-|     |      ├──RNN  
-|     |       |    ├──LSTM  
-|     |       |    └──GRU  
-|     |      ├──Transformer  
-|       |     |       ├── Transformer
-|       |     |       ├── ViT
-|       |     |        |    ├── ViT-B/16
-|       |     |        |    ├── ViT-L/16
-|       |     |        |    ├── ViT-H/14
-|       |     |       ├── BERT
-|       |     |       ├── GPT
-|       |     |       ├── Informer
-|       |     |      └──DenseNet
-|       |     |
-|            ├──GNN  
-|            └──Diffusion
-|
+ |     |
+ |     |      ├──RNN  
+ |     |       |    ├──LSTM  
+ |     |       |    └──GRU  
+ |     |      ├──Transformer  
+ |       |     |       ├── Transformer
+ |       |     |       ├── ViT
+ |       |     |        |    ├── ViT-B/16
+ |        |     |        |    ├── ViT-L/16
+ |       |     |        |    ├── ViT-H/14
+ |       |     |       ├── BERT
+ |       |     |       ├── GPT
+ |       |     |       ├── Informer
+ |       |     |       └──DenseNet
+ |       |     |
+ |            ├──GNN  
+ |             └──Diffusion
+ |
 ### 3. 网络组件
 │
 |	├── 01 基础计算层
