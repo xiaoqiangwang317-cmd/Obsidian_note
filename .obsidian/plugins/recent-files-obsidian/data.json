@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "MAE",
-      "path": "+/MAE.md"
+      "basename": "A-人工智能",
+      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
     },
     {
       "basename": "MSE",
       "path": "+/MSE.md"
+    },
+    {
+      "basename": "MAE",
+      "path": "+/MAE.md"
     },
     {
       "basename": "实验设计",
@@ -19,10 +27,6 @@
     {
       "basename": "学习范式",
       "path": "Atlas/Notes/论文/看论文/01 学习范式(为什么这样学习)/学习范式.md"
-    },
-    {
-      "basename": "A-人工智能",
-      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
     {
       "basename": "A近几年AI应用技术串讲与优质文档分享",
@@ -107,10 +111,6 @@
     {
       "basename": "经典QA",
       "path": "Atlas/Notes/计算机基础/计网/经典QA.md"
-    },
-    {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
     },
     {
       "basename": "计算机网络",
