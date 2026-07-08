@@ -71,19 +71,19 @@ date: 2026-06-24
  |     |      |  └──DenseNet
 |     |
 |     |      ├──RNN  
-|     |       |     |- LSTM  
+|     |       |    ├──LSTM  
 |     |       |    └──GRU  
 |     |      ├──Transformer  
-|       |     |       |- Transformer
-|       |     |       |- ViT
+|       |     |       ├── Transformer
+|       |     |       ├── ViT
 |       |     |        |    ├── ViT-B/16
-|       |           |    ├── ViT-L/16
-|       |           |    ├── ViT-H/14
-|       |           |- BERT
-|       |           |- GPT
-|       |           |- Informer
-|       |          └──DenseNet
-|       | 
+|       |     |        |    ├── ViT-L/16
+|       |     |        |    ├── ViT-H/14
+|       |     |       ├── BERT
+|       |     |       ├── GPT
+|       |     |       ├── Informer
+|       |     |      └──DenseNet
+|       |     |
 |            ├──GNN  
 |            └──Diffusion
 |
