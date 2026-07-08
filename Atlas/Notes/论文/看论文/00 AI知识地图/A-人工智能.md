@@ -31,10 +31,10 @@ date: 2026-06-24
 
 # 二、人工智能学科全景图
 
-```
-人工智能（AI）
+
+## 人工智能（AI）
 │
-├── 1. 学习范式（Learning Paradigm）
+### 1. 学习范式（Learning Paradigm）
 │   │
 │   ├──[[监督学习]]
 │   ├──[[无监督学习]]
@@ -42,7 +42,7 @@ date: 2026-06-24
 │   ├──[[自监督学习]]
 │   └──[[强化学习]]
 │
-├── 2. 模型架构（Model Architecture）
+### 2. 模型架构（Model Architecture）
 │   │
 │   ├──传统机器学习
 │   │   ├──线性回归
@@ -52,7 +52,7 @@ date: 2026-06-24
 │   │   ├──XGBoost
 │   │   └──SVM
 │   │
-|	└──神经网络（Neural Network）  
+ |	 └──神经网络（Neural Network）  
 │     │  
 │     ├──单层感知机（Perceptron）  
 │     ├──多层感知机（MLP）  
@@ -60,36 +60,36 @@ date: 2026-06-24
 │     └──深度学习（Deep Learning）  
 │     │  
 │     ├──CNN
-|     |   |- AlexNet
-|     |   |- VGG
-|     |   |- GoogleNet
-|     |   ├──ResNet
-|     |   |    ├── ResNet-18
-|     |   |    ├── ResNet-34
-|     |   |    ├── ResNet-50
-|     |   |    ├── ResNet-101
-|     |   |    └── ResNet-152
-|     |   └──DenseNet
-|     | 
+|       |   |- AlexNet
+|       |   |- VGG
+|       |   |- GoogleNet
+|       |  ├──ResNet
+|       |   |    ├── ResNet-18
+|       |   |    ├── ResNet-34
+|       |   |    ├── ResNet-50
+|       |   |    ├── ResNet-101
+|       |   |    └── ResNet-152
+|       |   └──DenseNet
+|       | 
 │     ├──RNN  
-│     |   |- LSTM  
+│     |    |- LSTM  
 │     |   └──GRU  
-|     | 
+|       | 
 │     ├──Transformer  
-|     |   |- Transformer
-|     |   |- ViT
-|     |   |    ├── ViT-B/16
-|     |   |    ├── ViT-L/16
-|     |   |    ├── ViT-H/14
-|     |   |- BERT
-|     |   |- GPT
-|     |   |- Informer
-|     |   └──DenseNet
-|     | 
+|       |   |- Transformer
+|       |   |- ViT
+|       |   |    ├── ViT-B/16
+|       |   |    ├── ViT-L/16
+|       |   |    ├── ViT-H/14
+|       |   |- BERT
+|       |   |- GPT
+|       |   |- Informer
+|       |   └──DenseNet
+|       | 
 │     ├──GNN  
 │     └──Diffusion
 |
-├── 3. 网络组件
+### 3. 网络组件
 │
 |	├── 01 基础计算层
 |	│   ├── Linear
@@ -145,8 +145,8 @@ date: 2026-06-24
 |	    ├── Classification Head
 |	    └── Decoder Head
 |
-├── 4. 训练方法（Training）
-│   │
+### 4. 训练方法（Training）
+
 |	├── 01 损失函数（Loss）
 |	│   ├── 交叉熵损失（Cross Entropy）
 |	│   ├── InfoNCE
@@ -182,7 +182,7 @@ date: 2026-06-24
 |	│   ├── CutMix
 |	│   └── ...
 |	│
-	└── 05 正则化策略（Regularization）
+|   ├──  05 正则化策略（Regularization）
 |	    ├── Dropout
 |	    ├── DropPath
 |	    ├── Label Smoothing（标签平滑）
@@ -190,7 +190,7 @@ date: 2026-06-24
 |	    ├── Early Stopping（提前停止）
 |	    └── ...
 |	    
-├── 5. 研究领域（Research Area）
+### 5. 研究领域（Research Area）
 │   │
 │   ├──计算机视觉（CV）
 │   ├──自然语言处理（NLP）
@@ -201,22 +201,18 @@ date: 2026-06-24
 │   ├──网络智能
 │   └──多模态（Multimodal）
 │
-└── 6. 大模型生态（LLM Ecosystem）
-    │
-    ├──Foundation Model
-    │   ├──GPT
-    │   ├──Claude
-    │   ├──Gemini
-    │   ├──Qwen
-    │   └──DeepSeek
-    │
-    ├──RAG
-    ├──Agent
-    ├──Tool Calling
-    ├──MCP
-    ├──Function Calling
-    └──AI Application
-```
+### 6. 大模型生态（LLM Ecosystem）
+ │
+ │    │   ├──Claude
+ │    │   ├──Qwen
+ │    │   └──DeepSeek
+ │    │
+ │    ├──RAG
+ │    ├──Agent
+ │    ├──Tool Calling
+ │    ├──MCP
+ │    ├──Function Calling
+ │    └──AI Application
 
 ---
 
@@ -233,7 +229,7 @@ date: 2026-06-24
 核心思想：
 
 ```
-人写规则机器执行规则
+人写规则--机器执行规则
 ```
 
 例如：
@@ -263,7 +259,7 @@ if 发烧 and 咳嗽:    感冒
 这被称为：
 
 ```
-Symbolic AI符号主义AI
+Symbolic AI 符号主义AI
 ```
 
 ---
