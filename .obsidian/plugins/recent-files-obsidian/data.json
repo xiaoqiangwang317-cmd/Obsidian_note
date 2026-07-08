@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "A-人工智能",
+      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "A近几年AI应用技术串讲与优质文档分享",
+      "path": "Atlas/Notes/论文/大模型基础/A近几年AI应用技术串讲与优质文档分享.md"
+    },
+    {
+      "basename": "SimCLR",
+      "path": "Atlas/Notes/论文/看论文/10 Papers(论文库)/SimCLR.md"
+    },
+    {
+      "basename": "ResNet",
+      "path": "Atlas/Notes/论文/看论文/10 Papers(论文库)/ResNet.md"
+    },
+    {
+      "basename": "AAA-深度学习框架发展史",
+      "path": "Atlas/Notes/论文/看论文/09 演化路线(历史发展)/AAA-深度学习框架发展史.md"
+    },
+    {
+      "basename": "研究领域总体",
+      "path": "Atlas/Notes/论文/看论文/08 研究领域(应用到哪里)/研究领域总体.md"
+    },
+    {
+      "basename": "网络测量",
+      "path": "Atlas/Notes/论文/看论文/08 研究领域(应用到哪里)/网络测量.md"
+    },
+    {
+      "basename": "科研创新",
+      "path": "Atlas/Notes/论文/看论文/07 科研创新(创新从哪里来、如何设计、如何验证)/科研创新.md"
+    },
+    {
+      "basename": "实验设计",
+      "path": "Atlas/Notes/论文/看论文/06 实验设计(如何证明有效)/实验设计.md"
+    },
+    {
+      "basename": "任务",
+      "path": "Atlas/Notes/论文/看论文/05 研究任务(模型解决什么问题)/任务.md"
+    },
+    {
+      "basename": "训练方法",
+      "path": "Atlas/Notes/论文/看论文/04 训练方法(模型如何训练)/训练方法.md"
+    },
+    {
+      "basename": "网络组件",
+      "path": "Atlas/Notes/论文/看论文/03 网络组件(模型由什么组成)/网络组件.md"
+    },
+    {
       "basename": "模型架构",
       "path": "Atlas/Notes/论文/看论文/02 模型架构(用什么模型)/模型架构.md"
     },
@@ -15,10 +63,6 @@
     {
       "basename": "学习范式",
       "path": "Atlas/Notes/论文/看论文/01 学习范式(为什么这样学习)/学习范式.md"
-    },
-    {
-      "basename": "A-人工智能",
-      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
     {
       "basename": "监督学习",
@@ -155,18 +199,6 @@
     {
       "basename": "分布式锁",
       "path": "+/分布式锁.md"
-    },
-    {
-      "basename": "Redis-Set",
-      "path": "+/Redis-Set.md"
-    },
-    {
-      "basename": "2026-W20",
-      "path": "Calendar/Weekly/2026-W20.md"
-    },
-    {
-      "basename": "checkbox example",
-      "path": "x/checkbox example.md"
     }
   ],
   "omittedPaths": [],
