@@ -74,18 +74,18 @@ date: 2026-06-24
  |     |      |    ├──LSTM  
  |     |      |    └──GRU  
  |     |     ├──Transformer  
- |     |     |       ├── Transformer
- |     |     |       ├── ViT
- |     |     |        |    ├── ViT-B/16
- |     |     |        |    ├── ViT-L/16
- |     |     |        |    ├── ViT-H/14
- |     |     |       ├── BERT
- |     |     |       ├── GPT
- |     |     |       ├── Informer
- |     |     |       └──DenseNet
- |     |     |
- |          ├──GNN  
- |          └──Diffusion
+ |     |      |       ├── Transformer
+ |     |      |       ├── ViT
+ |     |      |        |    ├── ViT-B/16
+ |     |      |        |    ├── ViT-L/16
+ |     |      |        |    ├── ViT-H/14
+ |     |      |       ├── BERT
+ |     |      |       ├── GPT
+ |     |      |       ├── Informer
+ |     |      |       └──DenseNet
+ |     |      |
+ |           ├──GNN  
+ |           └──Diffusion
  |
 ### 3. 网络组件
 │
