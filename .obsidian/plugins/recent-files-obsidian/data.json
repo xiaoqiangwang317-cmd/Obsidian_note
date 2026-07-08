@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "MSE",
+      "path": "+/MSE.md"
+    },
+    {
+      "basename": "实验设计",
+      "path": "Atlas/Notes/论文/看论文/06 实验设计(如何证明有效)/实验设计.md"
+    },
+    {
       "basename": "SVM",
       "path": "+/SVM.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "科研创新",
       "path": "Atlas/Notes/论文/看论文/07 科研创新(创新从哪里来、如何设计、如何验证)/科研创新.md"
-    },
-    {
-      "basename": "实验设计",
-      "path": "Atlas/Notes/论文/看论文/06 实验设计(如何证明有效)/实验设计.md"
     },
     {
       "basename": "任务",
@@ -195,10 +199,6 @@
     {
       "basename": "Redis常常作为MySQL的缓存",
       "path": "+/Redis常常作为MySQL的缓存.md"
-    },
-    {
-      "basename": "Redis-Zset",
-      "path": "+/Redis-Zset.md"
     }
   ],
   "omittedPaths": [],
