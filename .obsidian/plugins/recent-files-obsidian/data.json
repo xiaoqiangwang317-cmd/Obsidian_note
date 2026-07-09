@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "单层感知机",
+      "path": "+/单层感知机.md"
+    },
+    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Obsidian 常用快捷键",
       "path": "Atlas/Notes/Obsidian 常用快捷键.md"
-    },
-    {
-      "basename": "A玄学世界-第2个点这！",
-      "path": "Atlas/Notes/论文/大模型基础/A玄学世界-第2个点这！.md"
     }
   ],
   "omittedPaths": [],
