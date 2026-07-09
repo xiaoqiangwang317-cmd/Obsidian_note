@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "A神经网络-点这就对了！",
+      "path": "Atlas/Notes/论文/大模型基础/A神经网络-点这就对了！.md"
+    },
+    {
+      "basename": "批量梯度下降 (BGD)",
+      "path": "+/批量梯度下降 (BGD).md"
+    },
+    {
+      "basename": "梯度下降",
+      "path": "+/梯度下降.md"
+    },
+    {
       "basename": "线性回归",
       "path": "+/线性回归.md"
     },
@@ -11,6 +23,14 @@
     {
       "basename": "逻辑回归",
       "path": "+/逻辑回归.md"
+    },
+    {
+      "basename": "决策树",
+      "path": "+/决策树.md"
+    },
+    {
+      "basename": "A神经网络-点这就对了！",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A神经网络-点这就对了！.md"
     },
     {
       "basename": "RMSE",
@@ -27,10 +47,6 @@
     {
       "basename": "L1正则化",
       "path": "+/L1正则化.md"
-    },
-    {
-      "basename": "A神经网络-点这就对了！",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A神经网络-点这就对了！.md"
     },
     {
       "basename": "强化学习",
@@ -183,22 +199,6 @@
     {
       "basename": "🎸吉他",
       "path": "Efforts/Areas/🎸吉他.md"
-    },
-    {
-      "basename": "💻编程",
-      "path": "Efforts/Areas/💻编程.md"
-    },
-    {
-      "basename": "🎧英语六级",
-      "path": "Efforts/Projects/🎧英语六级.md"
-    },
-    {
-      "basename": "🔥hot100刷题",
-      "path": "Efforts/Projects/🔥hot100刷题.md"
-    },
-    {
-      "basename": "🤝暑期实习",
-      "path": "Efforts/Projects/🤝暑期实习.md"
     }
   ],
   "omittedPaths": [],
