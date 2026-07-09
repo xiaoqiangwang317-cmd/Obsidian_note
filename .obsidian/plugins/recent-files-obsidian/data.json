@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "A-人工智能",
+      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
       "basename": "超参数",
       "path": "+/超参数.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "XGBoost",
       "path": "+/XGBoost.md"
-    },
-    {
-      "basename": "A-人工智能",
-      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
     {
       "basename": "随机森林",
