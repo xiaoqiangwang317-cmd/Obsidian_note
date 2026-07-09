@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "决策树",
-      "path": "+/决策树.md"
+      "basename": "随机森林",
+      "path": "+/随机森林.md"
     },
     {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "决策树",
+      "path": "+/决策树.md"
     },
     {
       "basename": "线性回归",
@@ -195,10 +199,6 @@
     {
       "basename": "⚛️ Habits Tracker",
       "path": "Atlas/Notes/⚛️ Habits Tracker.md"
-    },
-    {
-      "basename": "🎸吉他",
-      "path": "Efforts/Areas/🎸吉他.md"
     }
   ],
   "omittedPaths": [],
