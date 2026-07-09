@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "CNN",
-      "path": "+/CNN.md"
-    },
-    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "ResNet",
+      "path": "+/ResNet.md"
+    },
+    {
+      "basename": "CNN",
+      "path": "+/CNN.md"
     },
     {
       "basename": "A玄学世界-第2个点这！",
@@ -195,10 +199,6 @@
     {
       "basename": "基础信息汇总",
       "path": "Atlas/Notes/面试/央国企/简历/基础信息汇总.md"
-    },
-    {
-      "basename": "经典QA",
-      "path": "Atlas/Notes/计算机基础/计网/经典QA.md"
     }
   ],
   "omittedPaths": [],
