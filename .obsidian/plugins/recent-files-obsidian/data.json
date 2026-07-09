@@ -1,20 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "XGBoost",
-      "path": "+/XGBoost.md"
-    },
-    {
-      "basename": "A-人工智能",
-      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
-    },
-    {
-      "basename": "线性回归",
-      "path": "+/线性回归.md"
-    },
-    {
-      "basename": "逻辑回归",
-      "path": "+/逻辑回归.md"
+      "basename": "GBDT",
+      "path": "+/GBDT.md"
     },
     {
       "basename": "决策树",
@@ -23,6 +11,22 @@
     {
       "basename": "随机森林",
       "path": "+/随机森林.md"
+    },
+    {
+      "basename": "A-人工智能",
+      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "XGBoost",
+      "path": "+/XGBoost.md"
+    },
+    {
+      "basename": "线性回归",
+      "path": "+/线性回归.md"
+    },
+    {
+      "basename": "逻辑回归",
+      "path": "+/逻辑回归.md"
     },
     {
       "basename": "Bootstrap 抽样",
@@ -195,10 +199,6 @@
     {
       "basename": "2026-05-20",
       "path": "Calendar/Daily/2026-05-20.md"
-    },
-    {
-      "basename": "2026-05",
-      "path": "Calendar/Monthly/2026-05.md"
     }
   ],
   "omittedPaths": [],
