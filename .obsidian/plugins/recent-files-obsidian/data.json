@@ -13,16 +13,28 @@
       "path": "+/XGBoost.md"
     },
     {
-      "basename": "二阶泰勒展开",
-      "path": "+/二阶泰勒展开.md"
+      "basename": "决策树",
+      "path": "+/决策树.md"
     },
     {
       "basename": "随机森林",
       "path": "+/随机森林.md"
     },
     {
-      "basename": "决策树",
-      "path": "+/决策树.md"
+      "basename": "GBDT",
+      "path": "+/GBDT.md"
+    },
+    {
+      "basename": "逻辑回归",
+      "path": "+/逻辑回归.md"
+    },
+    {
+      "basename": "线性回归",
+      "path": "+/线性回归.md"
+    },
+    {
+      "basename": "二阶泰勒展开",
+      "path": "+/二阶泰勒展开.md"
     },
     {
       "basename": "超参数",
@@ -31,18 +43,6 @@
     {
       "basename": "A神经网络-点这就对了！",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A神经网络-点这就对了！.md"
-    },
-    {
-      "basename": "逻辑回归",
-      "path": "+/逻辑回归.md"
-    },
-    {
-      "basename": "GBDT",
-      "path": "+/GBDT.md"
-    },
-    {
-      "basename": "线性回归",
-      "path": "+/线性回归.md"
     },
     {
       "basename": "Bootstrap 抽样",
