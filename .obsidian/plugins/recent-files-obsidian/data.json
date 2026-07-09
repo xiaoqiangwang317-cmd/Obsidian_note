@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "二阶泰勒展开",
+      "path": "+/二阶泰勒展开.md"
+    },
+    {
+      "basename": "XGBoost",
+      "path": "+/XGBoost.md"
+    },
+    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "A神经网络-点这就对了！",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A神经网络-点这就对了！.md"
-    },
-    {
-      "basename": "XGBoost",
-      "path": "+/XGBoost.md"
     },
     {
       "basename": "逻辑回归",
@@ -195,10 +199,6 @@
     {
       "basename": "A玄学世界-第2个点这！",
       "path": "Atlas/Notes/论文/大模型基础/A玄学世界-第2个点这！.md"
-    },
-    {
-      "basename": "2026-06-05",
-      "path": "Calendar/Daily/2026-06-05.md"
     }
   ],
   "omittedPaths": [],
