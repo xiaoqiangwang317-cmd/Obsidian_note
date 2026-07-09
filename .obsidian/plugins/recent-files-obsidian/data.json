@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SVM",
+      "path": "+/SVM.md"
+    },
+    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
@@ -99,10 +103,6 @@
     {
       "basename": "实验设计",
       "path": "Atlas/Notes/论文/看论文/06 实验设计(如何证明有效)/实验设计.md"
-    },
-    {
-      "basename": "SVM",
-      "path": "+/SVM.md"
     },
     {
       "basename": "学习范式",
