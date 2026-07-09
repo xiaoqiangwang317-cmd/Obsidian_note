@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "多层感知机",
+      "path": "+/多层感知机.md"
+    },
+    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "交换机",
       "path": "+/交换机.md"
-    },
-    {
-      "basename": "Obsidian 常用快捷键",
-      "path": "Atlas/Notes/Obsidian 常用快捷键.md"
     }
   ],
   "omittedPaths": [],
