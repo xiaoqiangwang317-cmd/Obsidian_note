@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "CNN",
-      "path": "+/CNN.md"
+      "basename": "LSTM",
+      "path": "+/LSTM.md"
     },
     {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "CNN",
+      "path": "+/CNN.md"
     },
     {
       "basename": "ResNet",
@@ -195,10 +199,6 @@
     {
       "basename": "逻辑关系",
       "path": "+/逻辑关系.md"
-    },
-    {
-      "basename": "基础信息汇总",
-      "path": "Atlas/Notes/面试/央国企/简历/基础信息汇总.md"
     }
   ],
   "omittedPaths": [],
