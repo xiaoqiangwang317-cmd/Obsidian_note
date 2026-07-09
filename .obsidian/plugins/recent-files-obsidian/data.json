@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "SVM",
-      "path": "+/SVM.md"
+      "basename": "决策树",
+      "path": "+/决策树.md"
     },
     {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "SVM",
+      "path": "+/SVM.md"
     },
     {
       "basename": "超参数",
@@ -31,10 +35,6 @@
     {
       "basename": "逻辑回归",
       "path": "+/逻辑回归.md"
-    },
-    {
-      "basename": "决策树",
-      "path": "+/决策树.md"
     },
     {
       "basename": "GBDT",
