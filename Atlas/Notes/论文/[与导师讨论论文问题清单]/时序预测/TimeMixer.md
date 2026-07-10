@@ -22,8 +22,8 @@ python -u run.py \
 # 数据集加载器类型：指定使用自定义格式的 DataLoader
 --features M \                      
 # 变量类型：M 代表 Multivariate（多变量）预测
---seq_len 48 \                      
-# 输入窗口长度：输入过去 48 个时间步的观测值
+--seq_len 96 \                      
+# 输入窗口长度：输入过去 96 个时间步的观测值
 --label_len 0 \                     
 # 标签长度：Transformer 类架构中常用的参数，这里设为 0 表示不依赖 decoder 的前导序列
 --pred_len 720 \                    
