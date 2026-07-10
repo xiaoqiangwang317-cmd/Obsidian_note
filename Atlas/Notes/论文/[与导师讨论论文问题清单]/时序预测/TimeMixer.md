@@ -84,5 +84,3 @@ python -u run.py
 - **如果想加新的数据加载**：在 `data_provider/` 下新建 `ripe_loader.py`，专门读取处理好的 JSON/CSV。
     
 
-现在，你打算先从哪里开始“复现”？是要用 `scripts/` 下的某个脚本跑通一个基准实验，还是想直接在 `run.py` 里调用你目前的 `TimeMixer_final` 版本？
-
