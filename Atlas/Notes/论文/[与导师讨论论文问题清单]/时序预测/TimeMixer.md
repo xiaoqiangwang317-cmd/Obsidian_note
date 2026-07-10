@@ -3,7 +3,7 @@ up:
 related:
 date: 2026-07-10
 ---
-### 源码理解
+### 运行指令理解
 ```python
 python -u run.py 
 --task_name long_term_forecast 
@@ -37,4 +37,5 @@ python -u run.py
 
 ```
 ### 源码工程架构
+
 
