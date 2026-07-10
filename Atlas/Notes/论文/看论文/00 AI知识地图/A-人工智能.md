@@ -181,7 +181,7 @@ date: 2026-06-24
 |	│   └── ...
 |	│
 |   ├──  05 正则化策略（Regularization）
-|	    ├── Dropout
+|	    ├── [[Dropout]]
 |	    ├── DropPath
 |	    ├── Label Smoothing（标签平滑）
 |	    ├── Weight Decay（权重衰减）
