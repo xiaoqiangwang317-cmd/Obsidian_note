@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "TimeMixer",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
+    },
+    {
       "basename": "交叉熵损失",
       "path": "+/交叉熵损失.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Python基础",
       "path": "Atlas/Notes/论文/Python基础/Python基础.md"
-    },
-    {
-      "basename": "TimeMixer",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
     },
     {
       "basename": "Informer",
