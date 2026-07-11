@@ -158,7 +158,7 @@ date: 2026-06-24
 |	│   ├── Momentum（动量）
 |	│   ├── AdaGrad
 |	│   ├── RMSProp
-|	│   ├── Adam
+|	│   ├── [[Adam]]
 |	│   ├── AdamW
 |	│   ├── LARS
 |	│   └── ...

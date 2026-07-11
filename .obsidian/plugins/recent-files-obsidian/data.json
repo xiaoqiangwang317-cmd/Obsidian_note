@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "TimeMixer",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
+      "basename": "Adam",
+      "path": "+/Adam.md"
     },
     {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "TimeMixer",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
     },
     {
       "basename": "MLP",
@@ -195,10 +199,6 @@
     {
       "basename": "01-国考真题",
       "path": "Atlas/Notes/面试/央国企/国考真题/01-国考真题.md"
-    },
-    {
-      "basename": "2026国公行测",
-      "path": "Atlas/Notes/面试/央国企/国考真题/2026国公行测.md"
     }
   ],
   "omittedPaths": [],
