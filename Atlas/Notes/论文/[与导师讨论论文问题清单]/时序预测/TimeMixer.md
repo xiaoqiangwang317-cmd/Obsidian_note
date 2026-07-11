@@ -110,4 +110,7 @@ python -u run.py \
     
 - **如果想加新的数据加载**：在 `data_provider/` 下新建 `ripe_loader.py`，专门读取处理好的 JSON/CSV。
     
+run.py
+```python
 
+```
