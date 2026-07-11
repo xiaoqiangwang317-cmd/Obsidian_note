@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Linear",
-      "path": "+/Linear.md"
+      "basename": "交叉熵损失",
+      "path": "+/交叉熵损失.md"
     },
     {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
     {
+      "basename": "A玄学世界-第2个点这！",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A玄学世界-第2个点这！.md"
+    },
+    {
       "basename": "Embedding",
       "path": "+/Embedding.md"
+    },
+    {
+      "basename": "Linear",
+      "path": "+/Linear.md"
     },
     {
       "basename": "Python基础",
@@ -95,10 +103,6 @@
     {
       "basename": "MLP",
       "path": "+/MLP.md"
-    },
-    {
-      "basename": "A玄学世界-第2个点这！",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A玄学世界-第2个点这！.md"
     },
     {
       "basename": "LSTM",
@@ -195,10 +199,6 @@
     {
       "basename": "学习范式",
       "path": "Atlas/Notes/论文/看论文/01 学习范式(为什么这样学习)/学习范式.md"
-    },
-    {
-      "basename": "SimCLR",
-      "path": "Atlas/Notes/论文/看论文/10 Papers(论文库)/SimCLR.md"
     }
   ],
   "omittedPaths": [],

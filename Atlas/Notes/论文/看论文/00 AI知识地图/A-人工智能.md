@@ -154,7 +154,7 @@ date: 2026-06-24
 ### 4. 训练方法（Training）
 
 |	├── 01 损失函数（Loss）
-|	│   ├── 交叉熵损失（Cross Entropy）
+|	│   ├── [[交叉熵损失]]（Cross Entropy）
 |	│   ├── InfoNCE
 |	│   ├── 均方误差（MSE）
 |	│   ├── 三元组损失（Triplet Loss）
