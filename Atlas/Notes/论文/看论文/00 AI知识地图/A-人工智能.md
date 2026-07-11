@@ -100,7 +100,7 @@ date: 2026-06-24
 |	├── 01 基础计算层
 |	│   ├── Linear
 |	│   ├── Conv
-|	│   ├── Embedding
+|	│   ├── [[Embedding]]
 |	│   ├── Pooling
 |	│   └── ...
 |	│
