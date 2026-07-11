@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Linear",
+      "path": "+/Linear.md"
+    },
+    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "SimCLR",
       "path": "Atlas/Notes/论文/看论文/10 Papers(论文库)/SimCLR.md"
-    },
-    {
-      "basename": "ResNet",
-      "path": "Atlas/Notes/论文/看论文/10 Papers(论文库)/ResNet.md"
     }
   ],
   "omittedPaths": [],

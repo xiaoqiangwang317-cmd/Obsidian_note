@@ -98,7 +98,7 @@ date: 2026-06-24
 ### 3. 网络组件
 │
 |	├── 01 基础计算层
-|	│   ├── Linear
+|	│   ├── [[Linear]]
 |	│   ├── Conv
 |	│   ├── [[Embedding]]
 |	│   ├── Pooling
