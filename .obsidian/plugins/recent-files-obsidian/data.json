@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "A-人工智能",
+      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "Informer",
+      "path": "+/Informer.md"
+    },
+    {
+      "basename": "GPT",
+      "path": "+/GPT.md"
+    },
+    {
+      "basename": "TimeMixer",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "Atlas/Notes/论文/Python基础/Python基础.md"
+    },
+    {
       "basename": "线性回归",
       "path": "+/线性回归.md"
     },
@@ -11,10 +31,6 @@
     {
       "basename": "BGD",
       "path": "+/BGD.md"
-    },
-    {
-      "basename": "A-人工智能",
-      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
     {
       "basename": "自监督学习",
@@ -67,10 +83,6 @@
     {
       "basename": "Adam",
       "path": "+/Adam.md"
-    },
-    {
-      "basename": "TimeMixer",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
     },
     {
       "basename": "MLP",
@@ -187,18 +199,6 @@
     {
       "basename": "AAA-深度学习框架发展史",
       "path": "Atlas/Notes/论文/看论文/09 演化路线(历史发展)/AAA-深度学习框架发展史.md"
-    },
-    {
-      "basename": "研究领域总体",
-      "path": "Atlas/Notes/论文/看论文/08 研究领域(应用到哪里)/研究领域总体.md"
-    },
-    {
-      "basename": "网络测量",
-      "path": "Atlas/Notes/论文/看论文/08 研究领域(应用到哪里)/网络测量.md"
-    },
-    {
-      "basename": "科研创新",
-      "path": "Atlas/Notes/论文/看论文/07 科研创新(创新从哪里来、如何设计、如何验证)/科研创新.md"
     }
   ],
   "omittedPaths": [],
