@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "命令",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/命令.md"
+    },
+    {
       "basename": "TimeMixer",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "实验设计",
       "path": "Atlas/Notes/论文/看论文/06 实验设计(如何证明有效)/实验设计.md"
-    },
-    {
-      "basename": "学习范式",
-      "path": "Atlas/Notes/论文/看论文/01 学习范式(为什么这样学习)/学习范式.md"
     }
   ],
   "omittedPaths": [],
