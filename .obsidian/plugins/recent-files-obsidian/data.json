@@ -1,12 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Adam",
-      "path": "+/Adam.md"
+      "basename": "线性回归",
+      "path": "+/线性回归.md"
+    },
+    {
+      "basename": "批量梯度下降 (BGD)",
+      "path": "+/批量梯度下降 (BGD).md"
+    },
+    {
+      "basename": "BGD",
+      "path": "+/BGD.md"
     },
     {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "自监督学习",
+      "path": "+/自监督学习.md"
+    },
+    {
+      "basename": "SimCLR",
+      "path": "+/SimCLR.md"
+    },
+    {
+      "basename": "BERT",
+      "path": "+/BERT.md"
+    },
+    {
+      "basename": "半监督学习",
+      "path": "+/半监督学习.md"
+    },
+    {
+      "basename": "无监督学习",
+      "path": "+/无监督学习.md"
+    },
+    {
+      "basename": "监督学习",
+      "path": "+/监督学习.md"
+    },
+    {
+      "basename": "F1分数",
+      "path": "+/F1分数.md"
+    },
+    {
+      "basename": "Transformer",
+      "path": "+/Transformer.md"
+    },
+    {
+      "basename": "RNN",
+      "path": "+/RNN.md"
+    },
+    {
+      "basename": "CNN",
+      "path": "+/CNN.md"
+    },
+    {
+      "basename": "XGBoost",
+      "path": "+/XGBoost.md"
+    },
+    {
+      "basename": "SGD",
+      "path": "+/SGD.md"
+    },
+    {
+      "basename": "Adam",
+      "path": "+/Adam.md"
     },
     {
       "basename": "TimeMixer",
@@ -15,10 +75,6 @@
     {
       "basename": "MLP",
       "path": "+/MLP.md"
-    },
-    {
-      "basename": "CNN",
-      "path": "+/CNN.md"
     },
     {
       "basename": "A玄学世界-第2个点这！",
@@ -57,10 +113,6 @@
       "path": "+/SVM.md"
     },
     {
-      "basename": "XGBoost",
-      "path": "+/XGBoost.md"
-    },
-    {
       "basename": "决策树",
       "path": "+/决策树.md"
     },
@@ -77,10 +129,6 @@
       "path": "+/逻辑回归.md"
     },
     {
-      "basename": "线性回归",
-      "path": "+/线性回归.md"
-    },
-    {
       "basename": "二阶泰勒展开",
       "path": "+/二阶泰勒展开.md"
     },
@@ -91,10 +139,6 @@
     {
       "basename": "Bootstrap 抽样",
       "path": "+/Bootstrap 抽样.md"
-    },
-    {
-      "basename": "批量梯度下降 (BGD)",
-      "path": "+/批量梯度下降 (BGD).md"
     },
     {
       "basename": "A神经网络-点这就对了！",
@@ -123,22 +167,6 @@
     {
       "basename": "强化学习",
       "path": "+/强化学习.md"
-    },
-    {
-      "basename": "半监督学习",
-      "path": "+/半监督学习.md"
-    },
-    {
-      "basename": "监督学习",
-      "path": "+/监督学习.md"
-    },
-    {
-      "basename": "自监督学习",
-      "path": "+/自监督学习.md"
-    },
-    {
-      "basename": "无监督学习",
-      "path": "+/无监督学习.md"
     },
     {
       "basename": "实验设计",
@@ -171,34 +199,6 @@
     {
       "basename": "科研创新",
       "path": "Atlas/Notes/论文/看论文/07 科研创新(创新从哪里来、如何设计、如何验证)/科研创新.md"
-    },
-    {
-      "basename": "任务",
-      "path": "Atlas/Notes/论文/看论文/05 研究任务(模型解决什么问题)/任务.md"
-    },
-    {
-      "basename": "训练方法",
-      "path": "Atlas/Notes/论文/看论文/04 训练方法(模型如何训练)/训练方法.md"
-    },
-    {
-      "basename": "网络组件",
-      "path": "Atlas/Notes/论文/看论文/03 网络组件(模型由什么组成)/网络组件.md"
-    },
-    {
-      "basename": "模型架构",
-      "path": "Atlas/Notes/论文/看论文/02 模型架构(用什么模型)/模型架构.md"
-    },
-    {
-      "basename": "01-大纲",
-      "path": "Atlas/Notes/面试/央国企/行测基础/01-大纲.md"
-    },
-    {
-      "basename": "分组题",
-      "path": "+/分组题.md"
-    },
-    {
-      "basename": "01-国考真题",
-      "path": "Atlas/Notes/面试/央国企/国考真题/01-国考真题.md"
     }
   ],
   "omittedPaths": [],
