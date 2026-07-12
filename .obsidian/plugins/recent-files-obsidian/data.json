@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Sigmoid",
+      "path": "+/Sigmoid.md"
+    },
+    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "MAE",
       "path": "+/MAE.md"
-    },
-    {
-      "basename": "MSE",
-      "path": "+/MSE.md"
     }
   ],
   "omittedPaths": [],
