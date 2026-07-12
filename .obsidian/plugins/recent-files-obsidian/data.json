@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "超参数",
-      "path": "+/超参数.md"
+      "basename": "命令",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/命令.md"
     },
     {
-      "basename": "A神经网络-点这就对了！",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A神经网络-点这就对了！.md"
+      "basename": "数据流转",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/数据流转.md"
     },
     {
       "basename": "Dropout",
@@ -17,16 +17,16 @@
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
     {
-      "basename": "数据流转",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/数据流转.md"
+      "basename": "A神经网络-点这就对了！",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A神经网络-点这就对了！.md"
+    },
+    {
+      "basename": "超参数",
+      "path": "+/超参数.md"
     },
     {
       "basename": "TimeMixer",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
-    },
-    {
-      "basename": "命令",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/命令.md"
     },
     {
       "basename": "多层感知机",
