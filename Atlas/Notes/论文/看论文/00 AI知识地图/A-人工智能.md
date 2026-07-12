@@ -120,7 +120,7 @@ date: 2026-06-24
 |	│
 |	├── 04 归一化
 |	│   ├── BatchNorm
-|	│   ├── LayerNorm
+|	│   ├── [[LayerNorm]]
 |	│   ├── RMSNorm
 |	│   └── ...
 |	│

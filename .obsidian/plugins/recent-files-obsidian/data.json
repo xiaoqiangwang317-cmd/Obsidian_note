@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "LayerNorm",
+      "path": "+/LayerNorm.md"
+    },
+    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "多层感知机",
+      "path": "+/多层感知机.md"
     },
     {
       "basename": "ViT",
@@ -59,10 +67,6 @@
     {
       "basename": "TimeMixer",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
-    },
-    {
-      "basename": "多层感知机",
-      "path": "+/多层感知机.md"
     },
     {
       "basename": "交叉熵损失",
@@ -195,10 +199,6 @@
     {
       "basename": "逻辑回归",
       "path": "+/逻辑回归.md"
-    },
-    {
-      "basename": "二阶泰勒展开",
-      "path": "+/二阶泰勒展开.md"
     }
   ],
   "omittedPaths": [],
