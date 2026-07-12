@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Sigmoid",
-      "path": "+/Sigmoid.md"
+      "basename": "GELU",
+      "path": "+/GELU.md"
     },
     {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "Linear",
+      "path": "+/Linear.md"
+    },
+    {
+      "basename": "ReLU",
+      "path": "+/ReLU.md"
+    },
+    {
+      "basename": "Sigmoid",
+      "path": "+/Sigmoid.md"
+    },
+    {
+      "basename": "Tanh",
+      "path": "+/Tanh.md"
+    },
+    {
+      "basename": "激活层",
+      "path": "+/激活层.md"
     },
     {
       "basename": "基于对比学习的网络延迟预测方法研究",
@@ -51,10 +71,6 @@
     {
       "basename": "Embedding",
       "path": "+/Embedding.md"
-    },
-    {
-      "basename": "Linear",
-      "path": "+/Linear.md"
     },
     {
       "basename": "Python基础",
@@ -183,22 +199,6 @@
     {
       "basename": "Bootstrap 抽样",
       "path": "+/Bootstrap 抽样.md"
-    },
-    {
-      "basename": "A神经网络-点这就对了！",
-      "path": "Atlas/Notes/论文/大模型基础/A神经网络-点这就对了！.md"
-    },
-    {
-      "basename": "梯度下降",
-      "path": "+/梯度下降.md"
-    },
-    {
-      "basename": "RMSE",
-      "path": "+/RMSE.md"
-    },
-    {
-      "basename": "MAE",
-      "path": "+/MAE.md"
     }
   ],
   "omittedPaths": [],

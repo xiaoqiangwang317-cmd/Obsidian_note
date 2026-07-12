@@ -9,12 +9,7 @@ date: 2026-06-28
 
 ReLU 的公式非常简单：
 
-ReLU(x)={0,x<0
-x,x≥0
-\text{ReLU}(x)= 
-\begin{cases} 0,&x<0\\ x,&x\ge0 
-\end{cases}
-ReLU(x)={0,x,​x<0x≥0​
+
 
 例如：
 
@@ -454,10 +449,9 @@ ReLU：
 
 GELU：
 
-```
-|      /    /__/ /
-```
+![[image-1783847957955.webp|400x58]]
 
+![[image-1783847965922.webp|400x280]]
 不是突然断掉。
 
 而是：
