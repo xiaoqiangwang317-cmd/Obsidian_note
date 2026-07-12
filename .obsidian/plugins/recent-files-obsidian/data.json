@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "GELU",
-      "path": "+/GELU.md"
-    },
-    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "ViT",
+      "path": "+/ViT.md"
+    },
+    {
+      "basename": "GELU",
+      "path": "+/GELU.md"
     },
     {
       "basename": "Linear",
@@ -195,10 +199,6 @@
     {
       "basename": "二阶泰勒展开",
       "path": "+/二阶泰勒展开.md"
-    },
-    {
-      "basename": "Bootstrap 抽样",
-      "path": "+/Bootstrap 抽样.md"
     }
   ],
   "omittedPaths": [],
