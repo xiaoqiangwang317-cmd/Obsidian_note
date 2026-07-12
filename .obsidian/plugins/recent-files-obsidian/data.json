@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "前馈模块",
-      "path": "+/前馈模块.md"
+      "basename": "命令",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/命令.md"
+    },
+    {
+      "basename": "实验记录",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/实验记录.md"
+    },
+    {
+      "basename": "TimeMixer",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
+    },
+    {
+      "basename": "数据流转",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/数据流转.md"
     },
     {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
+      "basename": "前馈模块",
+      "path": "+/前馈模块.md"
     },
     {
       "basename": "FFN",
@@ -53,14 +69,6 @@
       "path": "Atlas/Notes/论文/[我的论文]/基于对比学习的网络延迟预测方法研究.md"
     },
     {
-      "basename": "数据流转",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/数据流转.md"
-    },
-    {
-      "basename": "命令",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/命令.md"
-    },
-    {
       "basename": "Dropout",
       "path": "+/Dropout.md"
     },
@@ -71,10 +79,6 @@
     {
       "basename": "超参数",
       "path": "+/超参数.md"
-    },
-    {
-      "basename": "TimeMixer",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
     },
     {
       "basename": "交叉熵损失",
@@ -195,10 +199,6 @@
     {
       "basename": "决策树",
       "path": "+/决策树.md"
-    },
-    {
-      "basename": "随机森林",
-      "path": "+/随机森林.md"
     }
   ],
   "omittedPaths": [],
