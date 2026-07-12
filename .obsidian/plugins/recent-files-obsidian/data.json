@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "超参数",
+      "path": "+/超参数.md"
+    },
+    {
+      "basename": "A神经网络-点这就对了！",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A神经网络-点这就对了！.md"
+    },
+    {
+      "basename": "Dropout",
+      "path": "+/Dropout.md"
+    },
+    {
+      "basename": "A-人工智能",
+      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
+    },
+    {
       "basename": "数据流转",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/数据流转.md"
     },
@@ -11,10 +27,6 @@
     {
       "basename": "命令",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/命令.md"
-    },
-    {
-      "basename": "A-人工智能",
-      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
     {
       "basename": "多层感知机",
@@ -141,10 +153,6 @@
       "path": "+/单层感知机.md"
     },
     {
-      "basename": "A神经网络-点这就对了！",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A神经网络-点这就对了！.md"
-    },
-    {
       "basename": "SVM",
       "path": "+/SVM.md"
     },
@@ -169,10 +177,6 @@
       "path": "+/二阶泰勒展开.md"
     },
     {
-      "basename": "超参数",
-      "path": "+/超参数.md"
-    },
-    {
       "basename": "Bootstrap 抽样",
       "path": "+/Bootstrap 抽样.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "MSE",
       "path": "+/MSE.md"
-    },
-    {
-      "basename": "L1正则化",
-      "path": "+/L1正则化.md"
     }
   ],
   "omittedPaths": [],
