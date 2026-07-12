@@ -170,11 +170,7 @@ Sigmoid 出来了。
 来看图。
 
 Sigmoid 长这样：
-
-```
-1 |  |              *****  |          ****0.5|********  |    ***0 |____________________     -∞     0      +∞
-```
-
+![[image-1783846855116.webp|400x269]]
 注意三个位置。
 
 左边：
@@ -248,7 +244,11 @@ Sigmoid 长这样：
 最后都会这样：
 
 ```
-Linear↓Sigmoid↓Probability
+Linear
+↓
+Sigmoid
+↓
+Probability
 ```
 
 例如：
