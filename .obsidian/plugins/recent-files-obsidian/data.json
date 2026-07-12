@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "前馈模块",
+      "path": "+/前馈模块.md"
+    },
+    {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "随机森林",
       "path": "+/随机森林.md"
-    },
-    {
-      "basename": "GBDT",
-      "path": "+/GBDT.md"
     }
   ],
   "omittedPaths": [],
