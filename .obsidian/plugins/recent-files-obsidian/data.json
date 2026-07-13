@@ -5,6 +5,14 @@
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/实验记录.md"
     },
     {
+      "basename": "复现命令",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/复现命令.md"
+    },
+    {
+      "basename": "TimeMixer",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
+    },
+    {
       "basename": "权重分析",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/权重分析.md"
     },
@@ -13,20 +21,16 @@
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/命令备份.md"
     },
     {
-      "basename": "A-人工智能",
-      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
-    },
-    {
-      "basename": "TimeMixer",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
+      "basename": "流程复盘",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/创新点一/流程复盘.md"
     },
     {
       "basename": "数据流转",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/数据流转.md"
     },
     {
-      "basename": "流程复盘",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/创新点一/流程复盘.md"
+      "basename": "A-人工智能",
+      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     },
     {
       "basename": "前馈模块",
@@ -195,10 +199,6 @@
     {
       "basename": "ResNet",
       "path": "+/ResNet.md"
-    },
-    {
-      "basename": "单层感知机",
-      "path": "+/单层感知机.md"
     }
   ],
   "omittedPaths": [],
