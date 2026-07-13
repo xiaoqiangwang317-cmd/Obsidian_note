@@ -5,12 +5,16 @@
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/命令备份.md"
     },
     {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
-    },
-    {
       "basename": "复现命令",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/复现命令.md"
+    },
+    {
+      "basename": "权重分析",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/权重分析.md"
+    },
+    {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
     },
     {
       "basename": "实验记录",
@@ -19,10 +23,6 @@
     {
       "basename": "TimeMixer",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
-    },
-    {
-      "basename": "权重分析",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/权重分析.md"
     },
     {
       "basename": "流程复盘",
