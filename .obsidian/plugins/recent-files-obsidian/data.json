@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "权重分析",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/权重分析.md"
+    },
+    {
       "basename": "实验记录",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/实验记录.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "单层感知机",
       "path": "+/单层感知机.md"
-    },
-    {
-      "basename": "SVM",
-      "path": "+/SVM.md"
     }
   ],
   "omittedPaths": [],
