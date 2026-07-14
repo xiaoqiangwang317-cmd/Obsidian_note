@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "网络时延",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/网络时延.md"
+    },
+    {
       "basename": "适配",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/适配.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Transformer",
       "path": "+/Transformer.md"
-    },
-    {
-      "basename": "RNN",
-      "path": "+/RNN.md"
     }
   ],
   "omittedPaths": [],
