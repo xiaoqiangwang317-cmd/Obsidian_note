@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "相关问题",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/相关问题.md"
+    },
+    {
+      "basename": "复现命令",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/复现命令.md"
+    },
+    {
+      "basename": "命令备份",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/命令备份.md"
+    },
+    {
+      "basename": "实验记录",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/实验记录.md"
+    },
+    {
+      "basename": "TimeMixer",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
+    },
+    {
       "basename": "总体方向",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/总体方向.md"
     },
     {
       "basename": "备用文档",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/备用文档.md"
-    },
-    {
-      "basename": "相关问题",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/相关问题.md"
     },
     {
       "basename": "描述2",
@@ -21,28 +37,12 @@
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/创新点一/描述.md"
     },
     {
-      "basename": "实验记录",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/实验记录.md"
-    },
-    {
-      "basename": "命令备份",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/命令备份.md"
-    },
-    {
-      "basename": "复现命令",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/复现命令.md"
-    },
-    {
       "basename": "权重分析",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/权重分析.md"
     },
     {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
-    },
-    {
-      "basename": "TimeMixer",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
     },
     {
       "basename": "流程复盘",
