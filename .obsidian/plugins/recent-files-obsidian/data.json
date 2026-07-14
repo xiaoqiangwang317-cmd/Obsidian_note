@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "总体方向",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/总体方向.md"
+    },
+    {
       "basename": "备用文档",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/备用文档.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "SGD",
       "path": "+/SGD.md"
-    },
-    {
-      "basename": "Adam",
-      "path": "+/Adam.md"
     }
   ],
   "omittedPaths": [],
