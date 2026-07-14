@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "适配",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/适配.md"
+    },
+    {
       "basename": "创新点二",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/创新点二.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "RNN",
       "path": "+/RNN.md"
-    },
-    {
-      "basename": "CNN",
-      "path": "+/CNN.md"
     }
   ],
   "omittedPaths": [],
