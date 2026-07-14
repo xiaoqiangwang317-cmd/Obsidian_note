@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "相关问题",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/相关问题.md"
+    },
+    {
       "basename": "描述2",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/创新点一/描述2.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Adam",
       "path": "+/Adam.md"
-    },
-    {
-      "basename": "MLP",
-      "path": "+/MLP.md"
     }
   ],
   "omittedPaths": [],
