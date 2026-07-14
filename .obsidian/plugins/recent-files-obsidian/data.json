@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "创新点二",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/创新点二.md"
+    },
+    {
+      "basename": "创新点一",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/创新点一.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "CNN",
       "path": "+/CNN.md"
-    },
-    {
-      "basename": "XGBoost",
-      "path": "+/XGBoost.md"
-    },
-    {
-      "basename": "SGD",
-      "path": "+/SGD.md"
     }
   ],
   "omittedPaths": [],
