@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "论文也有规范",
+      "path": "Atlas/Notes/论文/[论文基础]/论文也有规范.md"
+    },
+    {
+      "basename": "BibTex语法",
+      "path": "Atlas/Notes/论文/[论文基础]/BibTex语法.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "无监督学习",
       "path": "+/无监督学习.md"
-    },
-    {
-      "basename": "监督学习",
-      "path": "+/监督学习.md"
-    },
-    {
-      "basename": "F1分数",
-      "path": "+/F1分数.md"
     }
   ],
   "omittedPaths": [],
