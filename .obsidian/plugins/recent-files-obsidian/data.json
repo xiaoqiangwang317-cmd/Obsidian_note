@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "论文也有规范",
-      "path": "Atlas/Notes/论文/[论文基础]/论文也有规范.md"
+      "basename": "论文相关工作",
+      "path": "Atlas/Notes/论文/[目前进展]/论文相关工作.md"
+    },
+    {
+      "basename": "组内开题方向",
+      "path": "Atlas/Notes/论文/[目前进展]/组内开题方向.jpg"
+    },
+    {
+      "basename": "如何找到一篇你想要的论文",
+      "path": "Atlas/Notes/论文/[论文基础]/如何找到一篇你想要的论文.md"
     },
     {
       "basename": "BibTex语法",
       "path": "Atlas/Notes/论文/[论文基础]/BibTex语法.md"
+    },
+    {
+      "basename": "如何看论文的参考文献引用格式",
+      "path": "Atlas/Notes/论文/[论文基础]/如何看论文的参考文献引用格式.md"
+    },
+    {
+      "basename": "论文也有规范",
+      "path": "Atlas/Notes/论文/[论文基础]/论文也有规范.md"
+    },
+    {
+      "basename": "读论文问题定位",
+      "path": "Atlas/Notes/论文/[论文基础]/读论文问题定位.md"
     },
     {
       "basename": "🏠 Home",
@@ -179,26 +199,6 @@
     {
       "basename": "BGD",
       "path": "+/BGD.md"
-    },
-    {
-      "basename": "自监督学习",
-      "path": "+/自监督学习.md"
-    },
-    {
-      "basename": "SimCLR",
-      "path": "+/SimCLR.md"
-    },
-    {
-      "basename": "BERT",
-      "path": "+/BERT.md"
-    },
-    {
-      "basename": "半监督学习",
-      "path": "+/半监督学习.md"
-    },
-    {
-      "basename": "无监督学习",
-      "path": "+/无监督学习.md"
     }
   ],
   "omittedPaths": [],
