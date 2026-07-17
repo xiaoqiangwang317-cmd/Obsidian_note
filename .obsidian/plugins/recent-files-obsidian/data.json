@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "PPT口述",
+      "path": "Atlas/Notes/论文/[目前进展]/中期/PPT口述.md"
+    },
+    {
       "basename": "论文相关工作",
       "path": "Atlas/Notes/论文/[目前进展]/论文相关工作.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "批量梯度下降 (BGD)",
       "path": "+/批量梯度下降 (BGD).md"
-    },
-    {
-      "basename": "BGD",
-      "path": "+/BGD.md"
     }
   ],
   "omittedPaths": [],
