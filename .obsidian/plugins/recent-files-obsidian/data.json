@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "网络时延",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/网络时延.md"
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
     },
     {
       "basename": "适配",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/适配.md"
     },
     {
-      "basename": "创新点二",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/创新点二.md"
+      "basename": "网络时延",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/网络时延.md"
+    },
+    {
+      "basename": "计算机网络",
+      "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
     },
     {
       "basename": "创新点一",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/创新点一.md"
     },
     {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
+      "basename": "创新点二",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/创新点二.md"
+    },
+    {
+      "basename": "流程复盘",
+      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/创新点一/流程复盘.md"
     },
     {
       "basename": "实验记录",
@@ -59,10 +67,6 @@
     {
       "basename": "权重分析",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/权重分析.md"
-    },
-    {
-      "basename": "流程复盘",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/创新点一/流程复盘.md"
     },
     {
       "basename": "数据流转",
@@ -195,10 +199,6 @@
     {
       "basename": "F1分数",
       "path": "+/F1分数.md"
-    },
-    {
-      "basename": "Transformer",
-      "path": "+/Transformer.md"
     }
   ],
   "omittedPaths": [],
