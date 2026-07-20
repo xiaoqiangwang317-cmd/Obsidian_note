@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
+    },
+    {
       "basename": "PPT口述",
       "path": "Atlas/Notes/论文/[目前进展]/中期/PPT口述.md"
+    },
+    {
+      "basename": "读论文问题定位",
+      "path": "Atlas/Notes/论文/[论文基础]/读论文问题定位.md"
     },
     {
       "basename": "论文相关工作",
@@ -27,14 +35,6 @@
     {
       "basename": "论文也有规范",
       "path": "Atlas/Notes/论文/[论文基础]/论文也有规范.md"
-    },
-    {
-      "basename": "读论文问题定位",
-      "path": "Atlas/Notes/论文/[论文基础]/读论文问题定位.md"
-    },
-    {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
     },
     {
       "basename": "适配",
