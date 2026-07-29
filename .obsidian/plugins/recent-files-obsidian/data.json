@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "nanobot-runtime-mapping-and-project-guide",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/PPT介绍/nanobot-runtime-mapping-and-project-guide.md"
+    },
+    {
+      "basename": "PPT背书",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/PPT介绍/PPT背书.md"
+    },
+    {
+      "basename": "Java Agent",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Java Agent.md"
+    },
+    {
+      "basename": "Nanobot MCP客户端与服务端时序图",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot MCP客户端与服务端时序图.md"
+    },
+    {
+      "basename": "Nanobot MCP客户端与服务端时序图-简版",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot MCP客户端与服务端时序图-简版.md"
+    },
+    {
+      "basename": "Nanobot 0602",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot 0602.md"
+    },
+    {
+      "basename": "Nanobot",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
+    },
+    {
+      "basename": "计算机网络",
+      "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
     },
     {
       "basename": "PPT口述",
@@ -43,10 +75,6 @@
     {
       "basename": "网络时延",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/网络时延.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
     },
     {
       "basename": "创新点一",
@@ -171,34 +199,6 @@
     {
       "basename": "交叉熵损失",
       "path": "+/交叉熵损失.md"
-    },
-    {
-      "basename": "A玄学世界-第2个点这！",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A玄学世界-第2个点这！.md"
-    },
-    {
-      "basename": "Embedding",
-      "path": "+/Embedding.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "Atlas/Notes/论文/Python基础/Python基础.md"
-    },
-    {
-      "basename": "Informer",
-      "path": "+/Informer.md"
-    },
-    {
-      "basename": "GPT",
-      "path": "+/GPT.md"
-    },
-    {
-      "basename": "线性回归",
-      "path": "+/线性回归.md"
-    },
-    {
-      "basename": "批量梯度下降 (BGD)",
-      "path": "+/批量梯度下降 (BGD).md"
     }
   ],
   "omittedPaths": [],
