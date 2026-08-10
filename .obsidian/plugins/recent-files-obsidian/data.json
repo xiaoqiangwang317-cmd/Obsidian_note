@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Nanobot 0602",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot 0602.md"
+    },
+    {
+      "basename": "Nanobot",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot.md"
+    },
+    {
+      "basename": "nanobot-runtime-mapping-and-project-guide",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/nanobot-runtime-mapping-and-project-guide.md"
+    },
+    {
       "basename": "Agent ex",
       "path": "Atlas/Notes/Agent ex.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "Python基础",
       "path": "Atlas/Notes/论文/Python基础/Python基础.md"
-    },
-    {
-      "basename": "Nanobot",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot.md"
     },
     {
       "basename": "A-李沐带你学深度学习",
@@ -43,10 +51,6 @@
     {
       "basename": "AA后端与AI应用开发",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/AA后端与AI应用开发.md"
-    },
-    {
-      "basename": "Nanobot 0602",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot 0602.md"
     },
     {
       "basename": "nanobot-runtime-mapping-and-project-guide",
@@ -195,10 +199,6 @@
     {
       "basename": "GELU",
       "path": "+/GELU.md"
-    },
-    {
-      "basename": "Linear",
-      "path": "+/Linear.md"
     }
   ],
   "omittedPaths": [],
