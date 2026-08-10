@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Agent ex",
+      "path": "Atlas/Notes/Agent ex.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "Atlas/Notes/论文/Python基础/Python基础.md"
     },
     {
       "basename": "Nanobot",
@@ -11,10 +19,6 @@
     {
       "basename": "A-李沐带你学深度学习",
       "path": "Atlas/Notes/论文/深度学习基础/A-李沐带你学深度学习.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "Atlas/Notes/论文/Python基础/Python基础.md"
     },
     {
       "basename": "网络组件",
@@ -195,10 +199,6 @@
     {
       "basename": "Linear",
       "path": "+/Linear.md"
-    },
-    {
-      "basename": "ReLU",
-      "path": "+/ReLU.md"
     }
   ],
   "omittedPaths": [],
