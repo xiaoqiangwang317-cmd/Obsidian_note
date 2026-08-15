@@ -3,5 +3,5 @@
   "minZoom": 0.3,
   "maxZoom": 5,
   "showStatusBar": false,
-  "zoomFactor": 0.500000000000001
+  "zoomFactor": 5
 }
