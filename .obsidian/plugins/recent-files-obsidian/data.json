@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "DeepAgents",
+      "path": "Atlas/Notes/项目/DeepAgents.md"
+    },
+    {
+      "basename": "Nanobot",
+      "path": "Atlas/Notes/项目/Nanobot.md"
+    },
+    {
+      "basename": "华子简历",
+      "path": "Atlas/Notes/Resume/华子简历.md"
+    },
+    {
+      "basename": "AI简历",
+      "path": "Atlas/Notes/Resume/AI简历.md"
+    },
+    {
+      "basename": "01-大纲",
+      "path": "Atlas/Notes/面试/央国企/行测基础/01-大纲.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "前馈模块",
       "path": "+/前馈模块.md"
-    },
-    {
-      "basename": "FFN",
-      "path": "+/FFN.md"
-    },
-    {
-      "basename": "LayerNorm",
-      "path": "+/LayerNorm.md"
-    },
-    {
-      "basename": "多层感知机",
-      "path": "+/多层感知机.md"
-    },
-    {
-      "basename": "ViT",
-      "path": "+/ViT.md"
-    },
-    {
-      "basename": "GELU",
-      "path": "+/GELU.md"
     }
   ],
   "omittedPaths": [],
