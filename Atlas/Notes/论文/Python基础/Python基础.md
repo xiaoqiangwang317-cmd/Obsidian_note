@@ -4534,8 +4534,95 @@ welcome()('尚硅谷')
 ![[image-1787039021907.webp|400x224]]
 代码
 ```python
-
+# 一、函数的多返回值  
+# def calculate(x, y):  
+#     res1 = x + y  
+#     res2 = x - y  
+#     # return res1, res2  
+#     return [res1, res2]  
+#  
+#  
+# result = calculate(30, 10)  
+# print(result)  
+# r1, r2 = calculate(30, 10)  
+# print(r1, r2)  
+#  
+  
+# 二、参数的打包与解包  
+  
+# 1.打包接收参数：  
+# *args 打包所有的位置参数（会形成一个元组）  
+# **kwargs 打包所有的关键字参数（会形成一个字典）  
+def show_info(*args, **kwargs):  
+    print(args)  
+    print(kwargs)  
+  
+  
+show_info(10, 20, 30, name='张三', age=18, gender='女')  
+  
+  
+# 2.解包传递参数  
+# *变量名：将元组拆解成一个一个独立的位置参数  
+# **变量名：将字典拆解成一个一个 key=value形式的关键字参数  
+def show_info(num1, num2, num3, name, age, gender):  
+    print(num1, num2, num3)  
+    print(name, age, gender)  
+  
+  
+# show_info(10, 20, 30, '张三', 18, "男")  
+nums = (10, 20, 30)  
+person = {'name': '张三', 'age': 18, 'gender': '男'}  
+  
+show_info(*nums, **person)  
+  
+  
+# 3.打包接收参数 和 解包传递参数 一起使用  
+def show_info(*args, **kwargs):  
+    print(args)  
+    print(kwargs)  
+  
+  
+nums = (10, 20, 30)  
+person = {'name': '张三', 'age': 18, 'gender': '男'}  
+show_info(*nums, **person)
 ```
 ​![[image-1787039158610.webp|393x400]]
 
-方法
+#### 9.24 高阶函数
+
+代码
+```python
+# 高阶函数：当一个函数的 参数是函数 或者 返回值是函数 那该函数就是 高阶函数  
+  
+  
+# 高阶函数的意义：  
+# 1.代码复用性高：可以把行为“独立出去”，传入不同函数实现不同逻辑  
+# 2.能让函数更灵活更通用  
+# 3.高阶函数是：装饰器、闭包的基础  
+  
+def info(msg):  
+    return '[提示]：' + msg  
+  
+  
+def warn(msg):  
+    return '[警告]：' + msg  
+  
+  
+def error(msg):  
+    return '[错误]：' + msg  
+  
+  
+def log(func, text):  
+    print(func(text))  
+  
+  
+log(info, '文件保存成功！')  
+log(warn, '磁盘空间不足！')  
+log(error, '该用户不存在！')
+```
+
+#### 9.25 条件表达式
+代码
+```python
+
+```
