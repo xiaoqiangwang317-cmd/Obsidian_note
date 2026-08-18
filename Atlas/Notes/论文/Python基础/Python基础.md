@@ -4624,5 +4624,57 @@ log(error, '该用户不存在！')
 #### 9.25 条件表达式
 代码
 ```python
-
+# 表达式：执行后能够得到值的代码，就是表达式（表达式最终会形成一个值,可以写在任何需要值的地方）  
+a1 = 3 + 5  
+a2 = 'abc' * 3  
+print(5 > 3)  
+int('y' in 'python')  
+a5 = len('hello')  
+  
+# 条件表达式：根据条件的真假,在两个值中二选一的表达式（又称：三元表达式，三目运算符）  
+age = 9  
+  
+# 传统的if-else去写  
+if age >= 18:  
+    text = '成年'  
+else:  
+    text = '未成年'  
+print(text)  
+  
+# 条件表达式去写：值1 if 条件 else 值2  
+text = '成年' if age >= 18 else '未成年'  
+print(text)  
+  
+# 条件表达式的使用场景：简单的二选一场景  
+rain = True  
+eat = '外卖' if rain else '出去吃'  
+  
+is_vip = True  
+disscount = 0.8 if is_vip else 1  
+  
+is_login = True  
+is_admin = True  
+is_superuser = True  
+is_staff = True  
+is_active = True
 ```
+
+#### 9.26 匿名函数
+
+#### 9.27 数据处理 map函数
+
+#### 9.28 数据处理 filter函数
+
+
+#### 9.29 数据处理 sorted函数
+
+
+#### 9.30 数据处理 reduce函数
+
+
+#### 9.31 列表推导式
+
+#### 9.32 常用内置函数
+
+#### 9.33 浅拷贝深拷贝
+![[image-1787058504707.webp|400x243]]
