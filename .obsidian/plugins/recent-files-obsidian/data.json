@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Python基础",
+      "path": "Atlas/Notes/论文/Python基础/Python基础.md"
+    },
+    {
+      "basename": "Python项目背书",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/AI Coding Agent/Python项目背书.md"
+    },
+    {
+      "basename": "计算机网络",
+      "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
+    },
+    {
       "basename": "Nanobot 0602",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot 0602.md"
     },
@@ -39,10 +51,6 @@
     {
       "basename": "Agent ex",
       "path": "Atlas/Notes/Agent ex.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "Atlas/Notes/论文/Python基础/Python基础.md"
     },
     {
       "basename": "A-李沐带你学深度学习",
@@ -91,10 +99,6 @@
     {
       "basename": "Nanobot MCP客户端与服务端时序图-简版",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot MCP客户端与服务端时序图-简版.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
     },
     {
       "basename": "PPT口述",
@@ -195,10 +199,6 @@
     {
       "basename": "A-人工智能",
       "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
-    },
-    {
-      "basename": "前馈模块",
-      "path": "+/前馈模块.md"
     }
   ],
   "omittedPaths": [],
