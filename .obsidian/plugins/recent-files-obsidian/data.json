@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "🏠 Home",
+      "path": "🏠 Home.md"
+    },
+    {
       "basename": "Python基础",
       "path": "Atlas/Notes/论文/Python基础/Python基础.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Nanobot 0602",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot 0602.md"
-    },
-    {
-      "basename": "🏠 Home",
-      "path": "🏠 Home.md"
     },
     {
       "basename": "DeepAgents",
