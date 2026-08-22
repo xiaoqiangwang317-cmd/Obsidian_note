@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "操作系统",
+      "path": "Atlas/Notes/计算机基础/操作系统/操作系统.md"
+    },
+    {
       "basename": "Python基础",
       "path": "Atlas/Notes/论文/Python基础/Python基础.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "数据流转",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/数据流转.md"
-    },
-    {
-      "basename": "A-人工智能",
-      "path": "Atlas/Notes/论文/看论文/00 AI知识地图/A-人工智能.md"
     }
   ],
   "omittedPaths": [],
