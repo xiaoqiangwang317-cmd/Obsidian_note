@@ -5,6 +5,18 @@
       "path": "🏠 Home.md"
     },
     {
+      "basename": "Nanobot 0602",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot 0602.md"
+    },
+    {
+      "basename": "Nanobot",
+      "path": "Atlas/Notes/项目/Nanobot.md"
+    },
+    {
+      "basename": "DeepAgents",
+      "path": "Atlas/Notes/项目/DeepAgents.md"
+    },
+    {
       "basename": "操作系统",
       "path": "Atlas/Notes/计算机基础/操作系统/操作系统.md"
     },
@@ -19,18 +31,6 @@
     {
       "basename": "计算机网络",
       "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
-    },
-    {
-      "basename": "Nanobot 0602",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot 0602.md"
-    },
-    {
-      "basename": "DeepAgents",
-      "path": "Atlas/Notes/项目/DeepAgents.md"
-    },
-    {
-      "basename": "Nanobot",
-      "path": "Atlas/Notes/项目/Nanobot.md"
     },
     {
       "basename": "华子简历",
