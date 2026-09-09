@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Nanobot 0602",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot 0602.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
     {
-      "basename": "Nanobot 0602",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot 0602.md"
+      "basename": "选择题",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/08_笔试复盘/选择题.md"
+    },
+    {
+      "basename": "算法题",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/08_笔试复盘/算法题.md"
     },
     {
       "basename": "Nanobot",
@@ -191,14 +199,6 @@
     {
       "basename": "描述",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/创新点一/描述.md"
-    },
-    {
-      "basename": "权重分析",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/权重分析.md"
-    },
-    {
-      "basename": "数据流转",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/数据流转.md"
     }
   ],
   "omittedPaths": [],
