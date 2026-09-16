@@ -5,6 +5,74 @@
       "path": "🏠 Home.md"
     },
     {
+      "basename": "Function时序图",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/重要的图/Function时序图.png"
+    },
+    {
+      "basename": "Transformer架构图",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/重要的图/Transformer架构图.png"
+    },
+    {
+      "basename": "ReAct思想图",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/重要的图/ReAct思想图.png"
+    },
+    {
+      "basename": "RAG时序图",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/重要的图/RAG时序图.png"
+    },
+    {
+      "basename": "Openclaw架构图",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/重要的图/Openclaw架构图.png"
+    },
+    {
+      "basename": "MCP时序图",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/重要的图/MCP时序图.png"
+    },
+    {
+      "basename": "LLM发展树",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/重要的图/LLM发展树.png"
+    },
+    {
+      "basename": "Java Agent",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Java Agent.md"
+    },
+    {
+      "basename": "Nanobot 0602",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot 0602.md"
+    },
+    {
+      "basename": "Nanobot",
+      "path": "Atlas/Notes/项目/Nanobot.md"
+    },
+    {
+      "basename": "AI简历",
+      "path": "Atlas/Notes/Resume/AI简历.md"
+    },
+    {
+      "basename": "华子简历",
+      "path": "Atlas/Notes/Resume/华子简历.md"
+    },
+    {
+      "basename": "nanobot-runtime-mapping-and-project-guide",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/PPT介绍/nanobot-runtime-mapping-and-project-guide.md"
+    },
+    {
+      "basename": "PPT背书",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/PPT介绍/PPT背书.md"
+    },
+    {
+      "basename": "📚八股文",
+      "path": "Efforts/Projects/📚八股文.md"
+    },
+    {
+      "basename": "2026-07-01",
+      "path": "Calendar/Daily/2026-07-01.md"
+    },
+    {
+      "basename": "基础信息汇总",
+      "path": "Atlas/Notes/面试/央国企/简历/基础信息汇总.md"
+    },
+    {
       "basename": "A玄学世界-第2个点这！",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A玄学世界-第2个点这！.md"
     },
@@ -17,20 +85,12 @@
       "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/AA后端与AI应用开发.md"
     },
     {
-      "basename": "Nanobot 0602",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Nanobot/Nanobot 0602.md"
-    },
-    {
       "basename": "选择题",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/08_笔试复盘/选择题.md"
     },
     {
       "basename": "算法题",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/08_笔试复盘/算法题.md"
-    },
-    {
-      "basename": "Nanobot",
-      "path": "Atlas/Notes/项目/Nanobot.md"
     },
     {
       "basename": "DeepAgents",
@@ -51,14 +111,6 @@
     {
       "basename": "计算机网络",
       "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
-    },
-    {
-      "basename": "华子简历",
-      "path": "Atlas/Notes/Resume/华子简历.md"
-    },
-    {
-      "basename": "AI简历",
-      "path": "Atlas/Notes/Resume/AI简历.md"
     },
     {
       "basename": "01-大纲",
@@ -99,18 +151,6 @@
     {
       "basename": "A近几年AI应用技术串讲与优质文档分享",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/模型基础/A近几年AI应用技术串讲与优质文档分享.md"
-    },
-    {
-      "basename": "nanobot-runtime-mapping-and-project-guide",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/PPT介绍/nanobot-runtime-mapping-and-project-guide.md"
-    },
-    {
-      "basename": "PPT背书",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/PPT介绍/PPT背书.md"
-    },
-    {
-      "basename": "Java Agent",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/Java Agent.md"
     },
     {
       "basename": "Nanobot MCP客户端与服务端时序图",
@@ -159,46 +199,6 @@
     {
       "basename": "网络时延",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/网络时延.md"
-    },
-    {
-      "basename": "创新点一",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/创新点一.md"
-    },
-    {
-      "basename": "创新点二",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/创新点二.md"
-    },
-    {
-      "basename": "流程复盘",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/创新点一/流程复盘.md"
-    },
-    {
-      "basename": "实验记录",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/实验记录.md"
-    },
-    {
-      "basename": "相关问题",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/相关问题.md"
-    },
-    {
-      "basename": "复现命令",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/复现命令.md"
-    },
-    {
-      "basename": "命令备份",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/命令备份.md"
-    },
-    {
-      "basename": "TimeMixer",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/TimeMixer.md"
-    },
-    {
-      "basename": "总体方向",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/总体方向.md"
-    },
-    {
-      "basename": "备用文档",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/时序预测/备用文档.md"
     }
   ],
   "omittedPaths": [],
