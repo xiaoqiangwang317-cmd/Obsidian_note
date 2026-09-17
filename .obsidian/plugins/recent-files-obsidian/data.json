@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "计算机网络",
+      "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
+    },
+    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
+    },
+    {
+      "basename": "经典QA",
+      "path": "Atlas/Notes/计算机基础/计网/经典QA.md"
+    },
+    {
+      "basename": "📚八股文",
+      "path": "Efforts/Projects/📚八股文.md"
     },
     {
       "basename": "Function时序图",
@@ -61,10 +73,6 @@
       "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/PPT介绍/PPT背书.md"
     },
     {
-      "basename": "📚八股文",
-      "path": "Efforts/Projects/📚八股文.md"
-    },
-    {
       "basename": "2026-07-01",
       "path": "Calendar/Daily/2026-07-01.md"
     },
@@ -107,10 +115,6 @@
     {
       "basename": "Python项目背书",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/01_项目全链路/AI Coding Agent/Python项目背书.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
     },
     {
       "basename": "01-大纲",
@@ -195,10 +199,6 @@
     {
       "basename": "适配",
       "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/适配.md"
-    },
-    {
-      "basename": "网络时延",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/网络时延.md"
     }
   ],
   "omittedPaths": [],
