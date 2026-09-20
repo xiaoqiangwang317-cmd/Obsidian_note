@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "计算机网络",
-      "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
-    },
-    {
       "basename": "🏠 Home",
       "path": "🏠 Home.md"
     },
     {
       "basename": "经典QA",
       "path": "Atlas/Notes/计算机基础/计网/经典QA.md"
+    },
+    {
+      "basename": "计算机网络",
+      "path": "Atlas/Notes/计算机基础/计网/计算机网络.md"
+    },
+    {
+      "basename": "操作系统",
+      "path": "Atlas/Notes/计算机基础/操作系统/操作系统.md"
     },
     {
       "basename": "📚八股文",
@@ -103,10 +107,6 @@
     {
       "basename": "DeepAgents",
       "path": "Atlas/Notes/项目/DeepAgents.md"
-    },
-    {
-      "basename": "操作系统",
-      "path": "Atlas/Notes/计算机基础/操作系统/操作系统.md"
     },
     {
       "basename": "Python基础",
