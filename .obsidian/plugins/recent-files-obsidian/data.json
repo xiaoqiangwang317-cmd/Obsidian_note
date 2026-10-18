@@ -5,6 +5,18 @@
       "path": "🏠 Home.md"
     },
     {
+      "basename": "各路神仙",
+      "path": "+/各路神仙.md"
+    },
+    {
+      "basename": "Attention Is All You Need",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/论文/Attention Is All You Need.pdf"
+    },
+    {
+      "basename": "Transformer架构图",
+      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/重要的图/Transformer架构图.png"
+    },
+    {
       "basename": "经典QA",
       "path": "Atlas/Notes/计算机基础/计网/经典QA.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "Function时序图",
       "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/重要的图/Function时序图.png"
-    },
-    {
-      "basename": "Transformer架构图",
-      "path": "Atlas/Notes/面试/互联网厂/0603华子/06_大模型实战/重要的图/Transformer架构图.png"
     },
     {
       "basename": "ReAct思想图",
@@ -191,14 +199,6 @@
     {
       "basename": "如何看论文的参考文献引用格式",
       "path": "Atlas/Notes/论文/[论文基础]/如何看论文的参考文献引用格式.md"
-    },
-    {
-      "basename": "论文也有规范",
-      "path": "Atlas/Notes/论文/[论文基础]/论文也有规范.md"
-    },
-    {
-      "basename": "适配",
-      "path": "Atlas/Notes/论文/[与导师讨论论文问题清单]/对比学习/适配.md"
     }
   ],
   "omittedPaths": [],
